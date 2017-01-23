@@ -16,3 +16,7 @@ require('laravel-elixir-vue-2');
 elixir(mix => {
     mix.sass('homepage.scss');
 });
+
+elixir(mix => {
+    mix.sass('adminpage.scss');
+});
