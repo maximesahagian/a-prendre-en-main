@@ -2,4 +2,16 @@
   color: blue;
 }
 
+@media (max-width: 767px) {
+  .home-page .para {
+    color: green;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home-page .para {
+    color: red;
+  }
+}
+
 /*# sourceMappingURL=homepage.css.map */

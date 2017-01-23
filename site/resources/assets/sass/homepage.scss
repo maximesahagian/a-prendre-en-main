@@ -1,5 +1,16 @@
+@import "sizes";
+
 .home-page{
     .para{
       color: blue;
+
+      @include phone(){
+        color: green;
+      }
+
+      @include tablet-only(){
+        color: red;
+      }
+
     }
 }
