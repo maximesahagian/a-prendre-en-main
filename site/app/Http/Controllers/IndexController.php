@@ -8,10 +8,16 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\DB;
 
 class IndexController extends BaseController
 {
     public function getIndex(){
-        return view('welcome');
+
+        $data = [
+            'message' =>  DB::table('news')->count()
+        ];
+
+        return view('welcome',$data);
     }
 }
