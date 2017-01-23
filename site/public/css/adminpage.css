@@ -1,9 +1,13 @@
-.admin-page {
-  color: blue;
+.admin-page .news .add-new-btn {
+  margin-bottom: 25px;
 }
 
-.admin-page div {
-  width: 100%;
+.admin-page .news .metric a button {
+  color: white;
+}
+
+.admin-page .news .metric .actions {
+  float: right;
 }
 
 /*# sourceMappingURL=adminpage.css.map */

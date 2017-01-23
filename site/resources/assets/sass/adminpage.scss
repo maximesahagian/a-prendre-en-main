@@ -1,6 +1,21 @@
 .admin-page{
-  color: blue;
-  div{
-    width: 100%;
+
+
+  //Début des actualités
+  .news{
+    .add-new-btn{
+      margin-bottom: 25px;
+    }
+    .metric{
+      a{
+        button{
+          color: white;
+        }
+      }
+      .actions{
+        float: right;
+      }
+    }
   }
+  // Fin des Actualités
 }

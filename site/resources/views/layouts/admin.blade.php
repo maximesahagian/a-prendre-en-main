@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/main.min.css">
     <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
     <link rel="stylesheet" href="/css/demo.css">
+    <link rel="stylesheet" href="/css/adminpage.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <!-- ICONS -->
@@ -19,19 +20,19 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
 </head>
 
-<body>
+<body class="admin-page">
 <!-- WRAPPER -->
 <div id="wrapper">
     <!-- SIDEBAR -->
     <div class="sidebar">
         <div class="brand">
-            <a href="index.html"><img src="/img/logo.png" alt="Klorofil Logo" class="img-responsive logo"></a>
+            <a href="index.html"><img src="/img/logo.png" alt="Logo" class="img-responsive logo"></a>
         </div>
         <div class="sidebar-scroll">
             <nav>
                 <ul class="nav">
-                    <li><a href="/admin" class="active"><i class="lnr lnr-home"></i> <span>Accueil</span></a></li>
-                    <li><a href="/admin/news" class=""><i class="lnr lnr-code"></i> <span>Actualités</span></a></li>
+                    <li><a href="/admin" class="<?=(isset($active) && $active === 'index') ? 'active' : ''?>"><i class="lnr lnr-home"></i> <span>Accueil</span></a></li>
+                    <li><a href="/admin/news" class="<?=(isset($active) && $active === 'news') ? 'active' : ''?>"><i class="lnr lnr-code"></i> <span>Actualités</span></a></li>
                     <li><a href="/admin/team" class=""><i class="lnr lnr-chart-bars"></i> <span>L'équipe</span></a></li>
                     <li><a href="panels.html" class=""><i class="lnr lnr-cog"></i> <span>Panels</span></a></li>
                     <li><a href="notifications.html" class=""><i class="lnr lnr-alarm"></i>
@@ -71,12 +72,14 @@
 </div>
 <!-- END WRAPPER -->
 <!-- Javascript -->
+<script src="/js/jquery.js"></script>
 <script src="/js/jquery/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap/bootstrap.min.js"></script>
 <script src="/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
 <script src="/js/plugins/chartist/chartist.min.js"></script>
 <script src="/js/klorofil.min.js"></script>
+<script src="/js/news.js"></script>
 </body>
 
 </html>
