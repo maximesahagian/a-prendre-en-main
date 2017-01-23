@@ -14,10 +14,12 @@ class IndexController extends BaseController
 {
     public function getIndex(){
 
+        $new = DB::table('news')->first();
+
         $data = [
-            'message' =>  DB::table('news')->count()
+            'message' => $new->title
         ];
 
-        return view('welcome',$data);
+        return view('pages.homepage',$data);
     }
 }
