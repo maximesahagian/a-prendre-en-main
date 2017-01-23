@@ -1,2 +1,7 @@
 # a-prendre-en-main
-Week intensive @Hetic
+Project week @Hetic
+Robin Belevedere
+Raphael Marquand
+Nino Mombrum
+Kévin Nabeth
+Maxime Sahagian
