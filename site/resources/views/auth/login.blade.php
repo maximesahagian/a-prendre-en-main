@@ -1,68 +1,104 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
 
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
-                <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
-                        {{ csrf_field() }}
+    <title>A Prendre En Main | Connexion</title>
 
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+    <meta name="author" content="pixelcave">
+    <meta name="robots" content="noindex, nofollow">
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/main.css">
 
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
+    <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
+    <link rel="stylesheet" href="css/themes.css">
+    <!-- END Stylesheets -->
 
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Password</label>
+    <!-- Modernizr (browser feature detection library) & Respond.js (Enable responsive CSS code on browsers that don't support it, eg IE8) -->
+    <script src="js/vendor/modernizr-2.7.1-respond-1.4.2.min.js"></script>
+</head>
+<body>
+<!-- Login Background -->
+<div id="login-background">
+    <!-- For best results use an image with a resolution of 2560x400 pixels (prefer a blurred image for smaller file size) -->
+    <img src="/img/placeholders/headers/login_header.jpg" alt="Login Background" class="animation-pulseSlow">
+</div>
+<!-- END Login Background -->
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password" required>
+<!-- Login Container -->
+<div id="login-container" class="animation-fadeIn">
+    <!-- Login Title -->
+    <div class="login-title text-center">
+        <h1> <strong>Pannel d'administration</strong><br><small>Merci de vous <strong>connecter</strong></small></h1>
+    </div>
+    <!-- END Login Title -->
 
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
+    <!-- Login Block -->
+    <div class="block push-bit">
+        <!-- Login Form -->
+        <form method="POST" action="{{ url('/login') }}" id="form-login" class="form-horizontal form-bordered form-control-borderless">
 
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : ''}}> Remember Me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+            {{csrf_field()}}
 
-                        <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Login
-                                </button>
-
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">
-                                    Forgot Your Password?
-                                </a>
-                            </div>
-                        </div>
-                    </form>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="gi gi-envelope"></i></span>
+                        <input type="email" id="login-email" name="email" class="form-control input-lg" placeholder="Email">
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="gi gi-asterisk"></i></span>
+                        <input type="password" id="login-password" name="password" class="form-control input-lg" placeholder="Mot de passe">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-actions">
+                <div class="col-xs-4">
+                    <label class="switch switch-primary" data-toggle="tooltip" title="Se souvenir ?">
+                        <input type="checkbox" id="login-remember-me" name="login-remember-me" checked>
+                        <span></span>
+                    </label>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-angle-right"></i> Connexion au pannel</button>
+                </div>
+            </div>
+            <div style="margin-bottom:20px;" class="margin">
+
+            </div>
+        </form>
+        <!-- END Login Form -->
     </div>
+    <!-- END Login Block -->
+
+    <!-- Footer -->
+    <footer class="text-muted text-center" style="padding-bottom:0px;">
+        <small><span id="year-copy"></span> &copy; <a href="/" target="_blank">A Prendre En Main</a></small>
+    </footer>
+    <!-- END Footer -->
 </div>
-@endsection
+<!-- END Login Container -->
+
+<!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
+
+<!-- Bootstrap.js, Jquery plugins and Custom JS code -->
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/app.js"></script>
+
+<!-- Load and execute javascript code used only in this page -->
+<script src="js/pages/login.js"></script>
+<script>$(function(){ Login.init(); });</script>
+</body>
+</html>
