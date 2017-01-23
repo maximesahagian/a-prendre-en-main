@@ -18,6 +18,6 @@ class IndexController extends BaseController
             'message' =>  DB::table('news')->count()
         ];
 
-        return view('welcome',$data);
+        return view('pages.home',$data);
     }
 }
