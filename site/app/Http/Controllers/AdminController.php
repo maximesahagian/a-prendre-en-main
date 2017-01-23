@@ -16,4 +16,13 @@ class AdminController extends BaseController
     public function getIndex(){
         return view('pages.admin');
     }
+
+    public function authLogout(){
+
+        if(!Auth::guest()) {
+            Auth::logout();
+        }
+
+        return redirect('/');
+    }
 }
