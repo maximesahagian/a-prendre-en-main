@@ -4,7 +4,7 @@
 </head>
 <body class="home">
     <div class="container">
-        <p class="para">Hey</p>
+        <p class="para">Hey ho</p>
     </div>
 </body>
 </html>
