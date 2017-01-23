@@ -20,3 +20,7 @@ Route::get('/', 'IndexController@getIndex');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['middleware' => ['check_auth']], function () {
+    Route::get('/admin', 'AdminController@getIndex');
+});
