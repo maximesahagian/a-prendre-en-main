@@ -1,1 +1,1 @@
-{"version":3,"sources":["homepage.scss"],"names":[],"mappings":"AAAA;EAGM,YAAY;CACb","file":"homepage.css","sourcesContent":[".home{\n  .container{\n    .para{\n      color: blue;\n    }\n  }\n}"]}
+{"version":3,"sources":["homepage.scss"],"names":[],"mappings":"AAAA;EAEM,YAAY;CACb","file":"homepage.css","sourcesContent":[".home-page{\n    .para{\n      color: blue;\n    }\n}"]}

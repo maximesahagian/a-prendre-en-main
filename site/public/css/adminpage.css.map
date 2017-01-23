@@ -1,0 +1,1 @@
+{"version":3,"sources":["adminpage.scss"],"names":[],"mappings":"AAAA;EACE,YAAY;CACb","file":"adminpage.css","sourcesContent":[".admin-page{\n  color: blue;\n}"]}

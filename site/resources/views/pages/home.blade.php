@@ -1,10 +1,7 @@
-<html>
-<head>
-    <link rel="stylesheet" href="/css/homepage.css">
-</head>
-<body class="home">
-    <div class="container">
+
+@extends('layouts.page')
+@section('content')
+    <div class="home">
         <p class="para">Page d'accueil</p>
     </div>
-</body>
-</html>
+@stop
