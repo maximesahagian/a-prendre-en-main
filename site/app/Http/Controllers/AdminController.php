@@ -18,11 +18,20 @@ class AdminController extends BaseController
     }
 
     public function authLogout(){
-
         if(!Auth::guest()) {
             Auth::logout();
         }
-
         return redirect('/');
+    }
+
+    public function getNews(){
+        $news = DB::table('news')->get();
+
+        $data = [
+            'news' => $news
+        ];
+
+        return view('pages.news',$data);
+
     }
 }

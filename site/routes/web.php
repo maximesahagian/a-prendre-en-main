@@ -27,4 +27,5 @@ Route::get('/logout', 'AdminController@authLogout');
 
 Route::group(['middleware' => ['check_auth']], function () {
     Route::get('/admin', 'AdminController@getIndex');
+    Route::get('/admin/news', 'AdminController@getNews');
 });
