@@ -30,9 +30,9 @@
         <div class="sidebar-scroll">
             <nav>
                 <ul class="nav">
-                    <li><a href="index.html" class="active"><i class="lnr lnr-home"></i> <span>Accueil</span></a></li>
+                    <li><a href="/admin" class="active"><i class="lnr lnr-home"></i> <span>Accueil</span></a></li>
                     <li><a href="/admin/news" class=""><i class="lnr lnr-code"></i> <span>Actualités</span></a></li>
-                    <li><a href="charts.html" class=""><i class="lnr lnr-chart-bars"></i> <span>L'équipe</span></a></li>
+                    <li><a href="/admin/team" class=""><i class="lnr lnr-chart-bars"></i> <span>L'équipe</span></a></li>
                     <li><a href="panels.html" class=""><i class="lnr lnr-cog"></i> <span>Panels</span></a></li>
                     <li><a href="notifications.html" class=""><i class="lnr lnr-alarm"></i>
                             <span>Notifications</span></a></li>
