@@ -111,16 +111,16 @@
 
   }
 
-    .para{
-      color: blue;
+  .para{
+    color: blue;
 
-      @include phone(){
-        color: green;
-      }
-
-      @include tablet-only(){
-        color: red;
-      }
-
+    @include phone(){
+      color: green;
     }
+
+    @include tablet-only(){
+      color: red;
+    }
+
+  }
 }
