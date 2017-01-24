@@ -18,7 +18,7 @@
                                     </a>
                                     <div class="actions">
                                         <a href="/admin/team/edit/{{$member->id}}"><button class="btn btn-alert">Editer</button></a>
-                                        <button to-delete="{{$member->id}}" class="btn btn-danger delete-new">Supprimer</button>
+                                        <button to-delete="{{$member->id}}" class="btn btn-danger delete-member">Supprimer</button>
                                     </div>
                                     <div class="image-team" style="background-image: url('/img/members/<?=$member->image?>')">
                                     </div>
