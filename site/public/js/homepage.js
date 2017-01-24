@@ -24,4 +24,5 @@ $(document).ready(function(){
          width: pourcentage+"%"
       }, 1500 );
    });
-})
+
+});
