@@ -48,4 +48,13 @@ Route::group(['middleware' => ['check_auth']], function () {
     Route::post('/admin/team/addteam', 'TeamController@addTeam');
     Route::post('/admin/team/editteam', 'TeamController@editTeam');
 
+    //Routing Admins
+    Route::get('/admin/admins', 'AdminsController@getAdmins');
+    Route::get('/admin/team/add', 'TeamController@getAddTeam');
+    Route::get('/admin/team/edit/{id}', 'TeamController@getEditTeam');
+    //Routing actions of team (add, edit, delete)
+    Route::get('/admin/team/delete/{id}', 'TeamController@deleteTeam');
+    Route::post('/admin/team/addteam', 'TeamController@addTeam');
+    Route::post('/admin/team/editteam', 'TeamController@editTeam');
+
 });

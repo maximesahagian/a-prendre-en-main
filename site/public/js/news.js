@@ -6,17 +6,13 @@ $('.delete-new').click(function(){
     });
 });
 
-
-/*$('.add-new .validate').click(function(){
+$('.delete-member').click(function(){
     $.ajax({
-        method: "GET",
-        url: "/admin/news/addnew",
-        data: { title: $('.title-input').val(), author: $('.author-input').val(), text: $('.text-input').val() }
-        })
-        .done(function( msg ) {
-            window.location.href = "/admin/news";
-        });
-});*/
+        url: "/admin/team/delete/"+$(this).attr('to-delete'),
+    }).done(function() {
+        window.location.reload();
+    });
+});
 
 $('.edit-new .validate').click(function(){
     $.ajax({

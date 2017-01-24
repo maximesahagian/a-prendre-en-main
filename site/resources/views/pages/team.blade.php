@@ -17,7 +17,6 @@
                                     <a href="/admin/team/edit/{{$member->id}}">
                                         {{$member->name}}
                                     </a>
-
                                     <div class="image-team" style="background-image: url('/img/members/<?=$member->image?>')">
                                     </div>
                                     <div class=" row">
@@ -25,7 +24,7 @@
                                             <a href="/admin/team/edit/{{$member->id}}"><button class="btn btn-alert">Editer</button></a>
                                         </div>
                                         <div class="col-xs-6">
-                                          <button to-delete="{{$member->id}}" class="btn btn-danger delete-new">Supprimer</button>
+                                          <button to-delete="{{$member->id}}" class="btn btn-danger delete-member">Supprimer</button>
                                         </div>
                                     </div>
                                 </div>
