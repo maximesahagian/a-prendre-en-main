@@ -1,2 +1,39 @@
+html {
+  height: 100%;
+}
+
+html .login-page {
+  height: 100%;
+}
+
+html .login-page #login-background {
+  height: 100%;
+}
+
+html .login-page #login-background .animation-pulseSlow {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-left: 0;
+}
+
+html .login-page .logo-img {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 2;
+  width: 70px;
+}
+
+html .login-page .animation-fadeIn .login-title {
+  background: rgba(85, 92, 95, 0.9) !important;
+}
+
+html .login-page .animation-fadeIn .login-title h1 {
+  font-weight: 300;
+}
 
 /*# sourceMappingURL=loginpage.css.map */
