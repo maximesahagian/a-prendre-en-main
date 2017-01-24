@@ -15,17 +15,16 @@
                     </h2>
                     <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum.</p>
                 </div>
-                <div class="col-sm-5 col-sm-offset-2">
-                    <h4><strong>9382€</strong> colléctés sur un objectif de <strong>23546€</strong></h4>
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h4><strong class="amount-raised"></strong> colléctés sur un objectif de <strong class="goal"></strong></h4>
                     <div class="goal-container">
                         <div class="goal-bar"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <p class="para">Page d'accueil</p>
-        <p class="amount-raised">Argent récolté : </p>
-        <p class="goal">Argent demandé : </p>
+
+
     </div>
 
 @stop

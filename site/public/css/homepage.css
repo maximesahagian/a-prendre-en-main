@@ -8,10 +8,24 @@
 
 .home-page .video-conainer .text-video {
   position: absolute;
-  top: 85%;
+  top: 10vw;
   padding: 0 8%;
   margin: 0 auto;
   color: white;
+}
+
+.home-page .video-conainer .goal-container {
+  width: 100%;
+  height: 15px;
+  border-radius: 15px;
+  border: solid 1px white;
+}
+
+.home-page .video-conainer .goal-container .goal-bar {
+  max-width: 100%;
+  background: white;
+  height: 100%;
+  border-radius: 15px;
 }
 
 .home-page .para {
