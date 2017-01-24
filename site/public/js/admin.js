@@ -35,3 +35,7 @@ var onresize = function(e) {
 
 }
 window.addEventListener("resize", onresize);
+
+$(".image-input").on("change", function () {
+    console.log($(this));
+});

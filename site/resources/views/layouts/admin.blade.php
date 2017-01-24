@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="/css/main.min.css">
     <!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
     <link rel="stylesheet" href="/css/demo.css">
-    <link rel="stylesheet" href="/css/adminpage.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <!-- ICONS -->
     <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/adminpage.css">
 </head>
 
 <body class="admin-page">
@@ -63,11 +63,6 @@
 <!-- Javascript -->
 <script src="/js/jquery.js"></script>
 <script src="/js/jquery/jquery-2.1.0.min.js"></script>
-<script src="/js/bootstrap/bootstrap.min.js"></script>
-<script src="/js/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-<script src="/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
-<script src="/js/plugins/chartist/chartist.min.js"></script>
-<script src="/js/klorofil.min.js"></script>
 <script src="/js/news.js"></script>
 <script src="/js/admin.js"></script>
 </body>

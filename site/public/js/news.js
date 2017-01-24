@@ -7,7 +7,7 @@ $('.delete-new').click(function(){
 });
 
 
-$('.add-new .validate').click(function(){
+/*$('.add-new .validate').click(function(){
     $.ajax({
         method: "GET",
         url: "/admin/news/addnew",
@@ -16,7 +16,7 @@ $('.add-new .validate').click(function(){
         .done(function( msg ) {
             window.location.href = "/admin/news";
         });
-});
+});*/
 
 $('.edit-new .validate').click(function(){
     $.ajax({

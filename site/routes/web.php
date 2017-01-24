@@ -34,7 +34,7 @@ Route::group(['middleware' => ['check_auth']], function () {
     Route::get('/admin/news/edit/{id}', 'AdminController@getEditNew');
         //Routing actions of news (add, edit, delete)
     Route::get('/admin/news/delete/{id}', 'AdminController@deleteNew');
-    Route::get('/admin/news/addnew', 'AdminController@addNew');
+    Route::post('/admin/news/addnew', 'AdminController@addNew');
     Route::get('/admin/news/editnew', 'AdminController@editNew');
     //End of routing news
 

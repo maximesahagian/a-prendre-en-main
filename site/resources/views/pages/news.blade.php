@@ -20,6 +20,9 @@
                                     <a href="/admin/news/edit/{{$new->id}}"><button class="btn btn-alert">Editer</button></a>
                                     <button to-delete="{{$new->id}}" class="btn btn-danger delete-new">Supprimer</button>
                                 </div>
+                                <div class="image-new" style="background-image: url('/img/actu/<?=$new->image?>')">
+
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -10,8 +10,22 @@
   float: right;
 }
 
+.admin-page .news .metric .image-new {
+  height: 50px;
+  width: 100px;
+  background-image: url("https://www.visoterra.com/images/original/un-puit-entre-teli-et-ende-visoterra-15463.jpg");
+  background-size: cover;
+}
+
 .admin-page #wrapper .sidebar {
+  left: -280px;
   z-index: 2;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .sidebar {
+    left: 0px;
+  }
 }
 
 .admin-page #wrapper .sidebar .brand a img {
@@ -54,6 +68,16 @@
 .admin-page #wrapper .burger-close span {
   font-size: 30px;
   color: #AEB7C2;
+}
+
+.admin-page .main {
+  width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .admin-page .main {
+    width: calc(100% - 260px) !important;
+  }
 }
 
 .admin-page .main .main-content .container-fluid .panel {

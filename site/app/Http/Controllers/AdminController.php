@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
 
 class AdminController extends BaseController
 {
@@ -48,18 +49,32 @@ class AdminController extends BaseController
     }
 
     public function addNew(\Illuminate\Support\Facades\Request $request){
+        $input = Input::all();
+        $title = $input['title-input'];
+        $text = $input['text-input'];
+        $author = $input['author-input'];
 
-        $title = $_GET['title'];
-        $text = $_GET['text'];
-        $author = $_GET['author'];
+        $image_name = "basic.jpg";
+        if(isset($_FILES['image-input'])){
+            $image = $_FILES["image-input"];
+            $ext = pathinfo($_FILES['image-input']['name']);
+            $ext = $ext['extension'];
+            $image_name = uniqid().'.'.$ext;
+            $target = "img/actu/".$image_name;
+            move_uploaded_file($image['tmp_name'],$target);
+        }
+
 
         DB::table('news')->insert(
             [
                 'title' => $title,
                 'message' => $text,
-                'author' => $author
+                'author' => $author,
+                'image' => $image_name
             ]
         );
+
+        return redirect("/admin/news");
     }
 
     public function getEditNew($id){
