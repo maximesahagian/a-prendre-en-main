@@ -13,12 +13,12 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="metric">
-                                    <a href="/admin/news/edit/{{$admin->id}}">
+                                    <a href="/admin/admins/edit/{{$admin->id}}">
                                         {{$admin->email}}
                                     </a>
                                     <div class="actions">
                                         <a href="/admin/admins/edit/{{$admin->id}}"><button class="btn btn-alert">Editer</button></a>
-                                        <button to-delete="{{$admin->id}}" class="btn btn-danger delete-new">Supprimer</button>
+                                        <button to-delete="{{$admin->id}}" class="btn btn-danger delete-admin">Supprimer</button>
                                     </div>
                                 </div>
                             </div>

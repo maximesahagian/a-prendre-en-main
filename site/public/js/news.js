@@ -14,6 +14,14 @@ $('.delete-member').click(function(){
     });
 });
 
+$('.delete-admin').click(function(){
+    $.ajax({
+        url: "/admin/admins/delete/"+$(this).attr('to-delete'),
+    }).done(function() {
+        window.location.reload();
+    });
+});
+
 $('.edit-new .validate').click(function(){
     $.ajax({
         method: "GET",

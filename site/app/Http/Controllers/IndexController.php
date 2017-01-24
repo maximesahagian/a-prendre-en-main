@@ -14,8 +14,11 @@ class IndexController extends BaseController
 {
     public function getIndex(){
 
+        $ulule = DB::table('settings')->where('key','=','ulule_id')->first();
+
         $data = [
-            'message' =>  DB::table('news')->count()
+            'message' =>  DB::table('news')->count(),
+            'ulule' => $ulule
         ];
 
         return view('pages.home',$data);

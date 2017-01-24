@@ -9,5 +9,6 @@
     @yield('content')
 
 <script src="/js/jquery.js"></script>
+    <script src="/js/homepage.js"></script>
 </body>
 </html>
