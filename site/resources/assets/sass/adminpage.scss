@@ -31,7 +31,27 @@
     }
   }
   // Fin des Actualités
+  // Debut de news
+  .news {
+    .container-fluid{
+      .panel-headline{
+        .panel-body{
+          .row{
+            .image-new{
+              margin: 0 auto 15px;
+              height: 90px;
+            }
+            .btn{
+              width: 100%;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
 
+  //Fin de news
   //Début de l'équipe
 
   .team {

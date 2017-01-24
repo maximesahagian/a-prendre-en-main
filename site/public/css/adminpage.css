@@ -24,6 +24,16 @@
   background-image: url("https://static.pratique.fr/images/unsized/fr/franchise-profil.jpg");
 }
 
+.admin-page .news .container-fluid .panel-headline .panel-body .row .image-new {
+  margin: 0 auto 15px;
+  height: 90px;
+}
+
+.admin-page .news .container-fluid .panel-headline .panel-body .row .btn {
+  width: 100%;
+  padding: 5px;
+}
+
 .admin-page .team .container-fluid .panel-headline .panel-body .row .image-team {
   margin: 0 auto 15px;
 }
