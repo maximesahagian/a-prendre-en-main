@@ -10,4 +10,15 @@
   float: right;
 }
 
+.admin-page #wrapper .sidebar .brand a img {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .burger {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=adminpage.css.map */
