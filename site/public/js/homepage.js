@@ -1,6 +1,5 @@
 $(document).ready(function(){
    $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), function(data){
-
       var options = {
          useEasing : false,
          useGrouping : false,
