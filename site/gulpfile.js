@@ -20,3 +20,7 @@ elixir(mix => {
 elixir(mix => {
     mix.sass('adminpage.scss');
 });
+
+elixir(mix => {
+    mix.sass('loginpage.scss');
+});
