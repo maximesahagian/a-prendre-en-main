@@ -24,15 +24,19 @@
 <!-- Login Background -->
 <div id="login-background">
     <!-- For best results use an image with a resolution of 2560x400 pixels (prefer a blurred image for smaller file size) -->
-    <img src="/img/placeholders/headers/login_header.jpg" alt="Login Background" class="animation-pulseSlow">
+    <img src="/img/backgrounds/login-background.jpg" alt="Login Background" class="animation-pulseSlow">
 </div>
 <!-- END Login Background -->
 
 <!-- Login Container -->
+
+<img class="logo-img" src="/img/logo-white.png" alt="">
+
 <div id="login-container" class="animation-fadeIn">
     <!-- Login Title -->
+
     <div class="login-title text-center">
-        <h1> <strong>Pannel d'administration</strong><br><small>Merci de vous <strong>connecter</strong></small></h1>
+        <h1> Pannel d'administration<br><small>Merci de vous connecter</small></h1>
     </div>
     <!-- END Login Title -->
 
@@ -80,7 +84,7 @@
 
     <!-- Footer -->
     <footer class="text-muted text-center" style="padding-bottom:0px;">
-        <small><span id="year-copy"></span> &copy; <a href="/" target="_blank">A Prendre En Main</a></small>
+      {{--  <small><span id="year-copy"></span> &copy; <a href="/" target="_blank">A Prendre En Main</a></small>--}}
     </footer>
     <!-- END Footer -->
 </div>
