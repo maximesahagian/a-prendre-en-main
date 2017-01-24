@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 @section('content')
-    <div class="main-content team-new">
+    <div class="main-content add-team">
         <div class="container-fluid">
             <!-- OVERVIEW -->
             <div class="panel panel-headline">

@@ -7,15 +7,18 @@
  */
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Hash;
 
 class AdminsController extends BaseController
 {
-    public function getAdmins(){
+    public function getAdmins()
+    {
         $admins = DB::table('users')->get();
 
         $data = [
@@ -23,94 +26,79 @@ class AdminsController extends BaseController
             'active' => 'admins'
         ];
 
-        return view('pages.admins',$data);
+        return view('pages.admins', $data);
     }
 
-    public function deleteNew($id){
-        DB::table('news')->where('id', '=', $id)->delete();
+    public function deleteAdmin($id)
+    {
+        DB::table('users')->where('id', '=', $id)->delete();
     }
 
-    public function getAddNew(){
+    public function getAddAdmin()
+    {
         $data = [
-            'active' => 'news'
+            'active' => 'admins'
         ];
 
-        return view('pages.news_add',$data);
+        return view('pages.admins_add', $data);
     }
 
-    public function addNew(\Illuminate\Support\Facades\Request $request){
+    public function addAdmin(\Illuminate\Support\Facades\Request $request)
+    {
         $input = Input::all();
-        $title = $input['title-input'];
-        $text = $input['text-input'];
-        $author = $input['author-input'];
+        $name = $input['name-input'];
+        $email = $input['email-input'];
+        $password = $input['password-input'];
+        $password = Hash::make($password);
 
-        $image_name = "basic.jpg";
-        if(isset($_FILES['image-input'])){
-            $image = $_FILES["image-input"];
-            $ext = pathinfo($_FILES['image-input']['name']);
-            $ext = $ext['extension'];
-            $image_name = uniqid().'.'.$ext;
-            $target = "img/actu/".$image_name;
-            move_uploaded_file($image['tmp_name'],$target);
-        }
-
-
-        DB::table('news')->insert(
+        DB::table('users')->insert(
             [
-                'title' => $title,
-                'message' => $text,
-                'author' => $author,
-                'image' => $image_name
+                'name' => $name,
+                'email' => $email,
+                'password' => $password
             ]
         );
 
-        return redirect("/admin/news");
+        return redirect("/admin/admins");
     }
 
-    public function getEditNew($id){
-        $new = DB::table('news')->where('id','=',$id)->first();
+    public function getEditAdmin($id)
+    {
+        $admin = DB::table('users')->where('id', '=', $id)->first();
 
         $data = [
-            'new' => $new,
-            'active' => 'news'
+            'admin' => $admin,
+            'active' => 'admins'
         ];
 
-        return view('pages.news_edit',$data);
+        return view('pages.admins_edit', $data);
     }
 
-    public function editNew(\Illuminate\Support\Facades\Request $request){
-
+    public function editAdmin(\Illuminate\Support\Facades\Request $request)
+    {
         $input = Input::all();
         $id = intval($input['id-input']);
-        $title = $input['title-input'];
-        $text = $input['text-input'];
-        $author = $input['author-input'];
-
-        if(isset($_FILES['image-input']) && $_FILES['image-input']['name'] != "" && $_FILES['image-input']['type'] != ""){
-            $image = $_FILES["image-input"];
-            $ext = pathinfo($_FILES['image-input']['name']);
-            $ext = $ext['extension'];
-            $image_name = uniqid().'.'.$ext;
-            $target = "img/actu/".$image_name;
-            move_uploaded_file($image['tmp_name'],$target);
-
-            DB::table('news')->where('id','=',$id)->update([
-                    'title' => $title,
-                    'message' => $text,
-                    'author' => $author,
-                    'image' => $image_name
+        $name = $input['name-input'];
+        $email = $input['email-input'];
+        $password = $input['password-input'];
+        if($password != ""){
+            $password = Hash::make($password);
+            DB::table('users')->where('id', '=', $id)->update([
+                    'name' => $name,
+                    'email' => $email,
+                    'password' => $password
                 ]
             );
         }
         else{
-            DB::table('news')->where('id','=',$id)->update([
-                    'title' => $title,
-                    'message' => $text,
-                    'author' => $author
+            DB::table('users')->where('id', '=', $id)->update([
+                    'name' => $name,
+                    'email' => $email
                 ]
             );
         }
-        return redirect("/admin/news");
+        return redirect("/admin/admins");
     }
 }
+
 ?>
