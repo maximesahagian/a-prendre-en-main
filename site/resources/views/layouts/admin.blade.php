@@ -32,7 +32,7 @@
             <div class="burger-close">
                 <span id="arrow-close" class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
             </div>
-            <a href="/admin"><img src="/img/logo.png" alt="Logo" class="img-responsive logo"></a>
+            <a href="/admin"><img src="/img/logo-white.png" alt="Logo" class="img-responsive logo"></a>
         </div>
         <div class="sidebar-scroll">
             <nav>
