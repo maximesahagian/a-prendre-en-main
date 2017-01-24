@@ -1,27 +1,36 @@
-.admin-page .news .add-new-btn, .admin-page .team .add-new-btn {
+.admin-page .news .add-new-btn, .admin-page .team .add-new-btn, .admin-page .admins .add-new-btn {
   margin-bottom: 25px;
 }
 
-.admin-page .news .metric a button, .admin-page .team .metric a button {
+.admin-page .news .metric a button, .admin-page .team .metric a button, .admin-page .admins .metric a button {
   color: white;
 }
 
-.admin-page .news .metric .actions, .admin-page .team .metric .actions {
+.admin-page .news .metric .actions, .admin-page .team .metric .actions, .admin-page .admins .metric .actions {
   float: right;
 }
 
-.admin-page .news .metric .image-new, .admin-page .team .metric .image-new {
+.admin-page .news .metric .image-new, .admin-page .team .metric .image-new, .admin-page .admins .metric .image-new {
   height: 50px;
   width: 100px;
   background-size: cover;
 }
 
-.admin-page .news .metric .image-team, .admin-page .team .metric .image-team {
+.admin-page .news .metric .image-team, .admin-page .team .metric .image-team, .admin-page .admins .metric .image-team {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-size: cover;
   background-image: url("https://static.pratique.fr/images/unsized/fr/franchise-profil.jpg");
+}
+
+.admin-page .team .container-fluid .panel-headline .panel-body .row .image-team {
+  margin: 0 auto 15px;
+}
+
+.admin-page .team .container-fluid .panel-headline .panel-body .row .btn {
+  width: 100%;
+  padding: 5px;
 }
 
 .admin-page #wrapper .sidebar {

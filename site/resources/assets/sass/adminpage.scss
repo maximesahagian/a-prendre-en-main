@@ -3,7 +3,7 @@
 .admin-page {
 
   //Début des actualités
-  .news, .team {
+  .news, .team, .admins{
     .add-new-btn {
       margin-bottom: 25px;
     }
@@ -31,6 +31,28 @@
     }
   }
   // Fin des Actualités
+
+  //Début de l'équipe
+
+  .team {
+    .container-fluid{
+      .panel-headline{
+        .panel-body{
+          .row{
+            .image-team{
+              margin: 0 auto 15px;
+            }
+            .btn{
+              width: 100%;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Fin de l'équipe
 
   #wrapper {
     .sidebar {

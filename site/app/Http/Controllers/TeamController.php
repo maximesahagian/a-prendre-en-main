@@ -103,5 +103,9 @@ class TeamController extends BaseController
         return redirect("/admin/team");
     }
 
+    public function deleteTeam($id){
+        DB::table('members')->where('id', '=', $id)->delete();
+    }
+
 }
 ?>
