@@ -7,6 +7,6 @@ $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), func
    pourcentage = Math.round(pourcentage);
 
    $('.goal-bar').css({
-      width: pourcentage
+      width: pourcentage+"%"
    })
 });
