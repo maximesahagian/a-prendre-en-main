@@ -1,3 +1,7 @@
+.home-page {
+  font-family: lato;
+}
+
 .home-page .video-conainer {
   width: 100%;
 }
@@ -7,26 +11,66 @@
 }
 
 .home-page .video-conainer .text-video {
-  position: absolute;
-  top: 10vw;
+  position: relative;
+  top: -45vw;
   padding: 0 8%;
   margin: 0 auto;
   color: white;
 }
 
-.home-page .video-conainer .goal-container {
+@media (max-width: 767px) {
+  .home-page .video-conainer .text-video {
+    position: absolute;
+    top: 10vw;
+  }
+}
+
+.home-page .video-conainer .text-video .right-text-video {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+@media (max-width: 767px) {
+  .home-page .video-conainer .text-video .right-text-video {
+    position: relative;
+  }
+}
+
+.home-page .video-conainer .text-video .right-text-video .goal-container {
   width: 100%;
   height: 15px;
   border-radius: 15px;
   border: solid 1px white;
 }
 
-.home-page .video-conainer .goal-container .goal-bar {
+.home-page .video-conainer .text-video .right-text-video .goal-container .goal-bar {
   max-width: 100%;
   width: 0%;
   background: white;
   height: 100%;
   border-radius: 15px;
+}
+
+.home-page .video-conainer .text-video .right-text-video .goal-container .goal-button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  float: right;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .home-page .video-conainer .text-video .right-text-video .goal-container .goal-button {
+    float: none;
+    margin: 20px auto;
+    width: 60%;
+    display: block;
+  }
+}
+
+.home-page .video-conainer .text-video .right-text-video .goal-container .goal-button:hover {
+  background: rgba(173, 173, 173, 0.6);
 }
 
 .home-page .para {
