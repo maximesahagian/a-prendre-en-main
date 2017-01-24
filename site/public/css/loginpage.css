@@ -49,4 +49,10 @@ html .login-page .animation-fadeIn .remember-me {
   }
 }
 
+html #login-background {
+  background-image: url("/img/backgrounds/login-background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
 /*# sourceMappingURL=loginpage.css.map */
