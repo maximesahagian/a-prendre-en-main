@@ -33,12 +33,56 @@
       }
     }
 
-    .burger {
+    .burger-open {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
 
       @include desktop() {
         display: none;
       }
+
+      span {
+        font-size: 30px;
+        top: 14px;
+        left: 30px;
+        cursor: pointer;
+      }
     }
 
+    .burger-close {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+
+      @include desktop() {
+        display: none;
+      }
+
+      span {
+        font-size: 30px;
+        color: #AEB7C2;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  .main {
+    .main-content {
+      .container-fluid {
+        .panel {
+          margin-top: 30px;
+
+          @include desktop() {
+            margin-top: 0;
+          }
+        }
+      }
+    }
   }
 }
