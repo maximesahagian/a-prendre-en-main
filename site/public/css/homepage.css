@@ -58,6 +58,11 @@
   display: block;
   width: 50%;
   position: relative;
+<<<<<<< HEAD
+=======
+  top: 230px;
+  background-color: blue;
+>>>>>>> 6d9d0ef09d816324c25aa00fdb438807eb2cec40
 }
 
 .home-page .video-conainer {

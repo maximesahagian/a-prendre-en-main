@@ -8,10 +8,10 @@ $(document).ready(function(){
          prefix : '',
          suffix : ''
       };
-      var amount_raised = new CountUp("amount-raised", 0, data.amount_raised, 0, 1, options);
+      var amount_raised = new CountUp("amount-raised", 0, data.amount_raised, 0, 2, options);
       amount_raised.start();
 
-      var goal = new CountUp("goal", 0, data.goal, 0, 1, options);
+      var goal = new CountUp("goal", 0, data.goal, 0, 2, options);
       goal.start();
 
       $('.amount-raised').append('€');
@@ -22,7 +22,7 @@ $(document).ready(function(){
 
       $('.goal-bar').animate({
          width: pourcentage+"%"
-      }, 1500 );
+      }, 2000 );
    });
 
 });
