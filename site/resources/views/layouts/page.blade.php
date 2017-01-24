@@ -2,10 +2,11 @@
 <html>
 <head>
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/homepage.css">
 </head>
 <body>
-<div class="container">
+
 
     @yield('content')
 

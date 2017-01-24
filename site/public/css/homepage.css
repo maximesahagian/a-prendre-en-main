@@ -6,6 +6,14 @@
   width: 100%;
 }
 
+.home-page .video-conainer .text-video {
+  position: absolute;
+  top: 85%;
+  padding: 0 8%;
+  margin: 0 auto;
+  color: white;
+}
+
 .home-page .para {
   color: blue;
 }
