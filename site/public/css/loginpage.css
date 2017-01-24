@@ -36,4 +36,17 @@ html .login-page .animation-fadeIn .login-title h1 {
   font-weight: 300;
 }
 
+html .login-page .animation-fadeIn .remember-me {
+  position: absolute;
+  left: 80px;
+  top: 5px;
+  width: 125px;
+}
+
+@media (max-width: 767px) {
+  html .login-page .animation-fadeIn .remember-me {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=loginpage.css.map */
