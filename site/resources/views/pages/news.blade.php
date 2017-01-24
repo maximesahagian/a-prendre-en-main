@@ -13,7 +13,7 @@
                     @foreach($news as $new)
                         <div class="col-sm-4">
                             <div class="metric">
-                                    <a href="/admin/news/edit/{{$new->id}}">
+                                    <a class="title-new" href="/admin/news/edit/{{$new->id}}">
                                         {{$new->title}}
                                     </a>
 
