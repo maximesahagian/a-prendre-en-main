@@ -1,6 +1,56 @@
 @import "sizes";
 
 .home-page{
+  /*MAIN ANNIMATION SECTION*/
+  .main-annimation{
+    height:50vw;
+    padding: 25px 0;
+    display: table;
+    width: 100%;
+    .left{
+      display: table-cell;
+      width: 50vw;
+      height: 100%;
+      .maps-container{
+        position: relative;
+        img{
+        }
+        .africa-map{
+
+        }
+        .africa-shadow{
+          position: absolute;
+          top:30px;
+          left:30px;
+          z-index: -2;
+        }
+
+      }
+
+    }
+    .right{
+      display: table-cell;
+      width: 50vw;
+      height: 100%;
+      .annim{
+        height: 100%;
+        position: absolute;
+        right: 0;
+        background: url('/img/annimation/right-1.png')no-repeat;
+        background-size: contain;
+        background-position: right;
+        .anim-text{
+          background: white;
+          margin: 0 auto;
+          display: block;
+          width: 50%;
+          position: relative;
+          top: 230px;
+        }
+      }
+    }
+  }
+  /*END MAIN ANNIMATION SECTION*/
   font-family: lato;
   .video-conainer{
 
@@ -9,8 +59,8 @@
       width: 100%;
     }
     .text-video{
-      position: relative;
-      top: -45vw;
+      position: absolute;
+      top: 30vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
@@ -33,6 +83,7 @@
           border: solid 1px white;
           .goal-bar{
             max-width: 100%;
+            width:0%;
             background: white;
             height: 100%;
             border-radius: 15px;
