@@ -18,9 +18,6 @@
     <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
     <link rel="stylesheet" href="css/themes.css">
     <!-- END Stylesheets -->
-
-    <!-- Modernizr (browser feature detection library) & Respond.js (Enable responsive CSS code on browsers that don't support it, eg IE8) -->
-    <script src="js/vendor/modernizr-2.7.1-respond-1.4.2.min.js"></script>
 </head>
 <body>
 <!-- Login Background -->
@@ -93,12 +90,7 @@
 <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
 
 <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/app.js"></script>
 
 <!-- Load and execute javascript code used only in this page -->
-<script src="js/pages/login.js"></script>
-<script>$(function(){ Login.init(); });</script>
 </body>
 </html>
