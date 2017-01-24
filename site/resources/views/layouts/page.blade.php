@@ -11,6 +11,7 @@
     @yield('content')
 
 <script src="/js/jquery.js"></script>
+    <script src="/js/countup.js"></script>
     <script src="/js/homepage.js"></script>
 </body>
 </html>
