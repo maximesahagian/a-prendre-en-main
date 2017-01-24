@@ -1,3 +1,11 @@
+.home-page .video-conainer {
+  width: 100%;
+}
+
+.home-page .video-conainer video {
+  width: 100%;
+}
+
 .home-page .para {
   color: blue;
 }

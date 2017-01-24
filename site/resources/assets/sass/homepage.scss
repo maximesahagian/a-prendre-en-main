@@ -1,6 +1,12 @@
 @import "sizes";
 
 .home-page{
+  .video-conainer{
+    width: 100%;
+    video{
+      width: 100%;
+    }
+  }
     .para{
       color: blue;
 
