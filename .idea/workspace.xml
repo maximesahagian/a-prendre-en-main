@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/resources/assets/sass/loginpage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/gulpfile.js" afterPath="$PROJECT_DIR$/site/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/auth/login.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,9 +27,12 @@
       <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26950353">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.2245863">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -290,9 +292,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26950353">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.2245863">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

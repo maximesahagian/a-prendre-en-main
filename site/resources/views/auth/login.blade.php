@@ -17,9 +17,10 @@
 
     <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
     <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/loginpage.css">
     <!-- END Stylesheets -->
 </head>
-<body>
+<body class="login-page">
 <!-- Login Background -->
 <div id="login-background">
     <!-- For best results use an image with a resolution of 2560x400 pixels (prefer a blurred image for smaller file size) -->
