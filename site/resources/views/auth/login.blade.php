@@ -69,6 +69,7 @@
                         <input type="checkbox" id="login-remember-me" name="login-remember-me" checked>
                         <span></span>
                     </label>
+                    <p class="remember-me">Se souvenir de moi ?</p>
                 </div>
                 <div class="col-xs-8 text-right">
                     <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-angle-right"></i> Connexion au pannel</button>
