@@ -1,6 +1,7 @@
 @import "sizes";
 
 .home-page{
+  font-family: lato;
   .video-conainer{
 
     width: 100%;
@@ -8,24 +9,55 @@
       width: 100%;
     }
     .text-video{
-      position: absolute;
-      top: 10vw;
+      position: relative;
+      top: -45vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
-    }
-    .goal-container{
-      width: 100%;
-      height: 15px;
-      border-radius: 15px;
-      border: solid 1px white;
-      .goal-bar{
-        max-width: 100%;
-        background: white;
-        height: 100%;
-        border-radius: 15px;
+      @include phone(){
+        position: absolute;
+        top: 10vw;
+      }
+      .right-text-video{
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+        @include phone(){
+          position: relative;
+        }
+
+        .goal-container{
+          width: 100%;
+          height: 15px;
+          border-radius: 15px;
+          border: solid 1px white;
+          .goal-bar{
+            max-width: 100%;
+            background: white;
+            height: 100%;
+            border-radius: 15px;
+          }
+          .goal-button{
+            border: 1px solid white;
+            background: transparent;
+            color:white;
+            float: right;
+            margin-top: 20px;
+            @include phone(){
+              float: none;
+              margin: 20px auto;
+              width: 60%;
+              display: block;
+            }
+
+            &:hover{
+              background: rgba(173,173,173,0.60);
+            }
+          }
+        }
       }
     }
+
   }
 
     .para{
