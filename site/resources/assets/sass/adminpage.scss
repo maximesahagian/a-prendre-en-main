@@ -3,7 +3,7 @@
 .admin-page {
 
   //Début des actualités
-  .news {
+  .news, .team {
     .add-new-btn {
       margin-bottom: 25px;
     }
@@ -19,8 +19,14 @@
       .image-new{
         height: 50px;
         width: 100px;
-        background-image: url('https://www.visoterra.com/images/original/un-puit-entre-teli-et-ende-visoterra-15463.jpg');
         background-size: cover;
+      }
+      .image-team{
+        height:100px;
+        width: 100px;
+        border-radius: 50%;
+        background-size: cover;
+        background-image: url('https://static.pratique.fr/images/unsized/fr/franchise-profil.jpg');
       }
     }
   }

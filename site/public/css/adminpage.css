@@ -1,20 +1,27 @@
-.admin-page .news .add-new-btn {
+.admin-page .news .add-new-btn, .admin-page .team .add-new-btn {
   margin-bottom: 25px;
 }
 
-.admin-page .news .metric a button {
+.admin-page .news .metric a button, .admin-page .team .metric a button {
   color: white;
 }
 
-.admin-page .news .metric .actions {
+.admin-page .news .metric .actions, .admin-page .team .metric .actions {
   float: right;
 }
 
-.admin-page .news .metric .image-new {
+.admin-page .news .metric .image-new, .admin-page .team .metric .image-new {
   height: 50px;
   width: 100px;
-  background-image: url("https://www.visoterra.com/images/original/un-puit-entre-teli-et-ende-visoterra-15463.jpg");
   background-size: cover;
+}
+
+.admin-page .news .metric .image-team, .admin-page .team .metric .image-team {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url("https://static.pratique.fr/images/unsized/fr/franchise-profil.jpg");
 }
 
 .admin-page #wrapper .sidebar {
