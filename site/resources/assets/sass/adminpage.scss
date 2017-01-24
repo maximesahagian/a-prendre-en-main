@@ -1,21 +1,88 @@
-.admin-page{
+@import "sizes";
 
+.admin-page {
 
   //Début des actualités
-  .news{
-    .add-new-btn{
+  .news {
+    .add-new-btn {
       margin-bottom: 25px;
     }
-    .metric{
-      a{
-        button{
+    .metric {
+      a {
+        button {
           color: white;
         }
       }
-      .actions{
+      .actions {
         float: right;
       }
     }
   }
   // Fin des Actualités
+
+  #wrapper {
+    .sidebar {
+      .brand {
+        a {
+          img {
+            margin: 0 auto;
+            max-width: 50%;
+          }
+        }
+      }
+      z-index: 2;
+    }
+
+    .burger-open {
+      position: absolute;
+      top: 14px;
+      left: 30px;
+      z-index: 1;
+      cursor: pointer;
+
+      @include desktop() {
+        display: none;
+      }
+
+      span {
+        font-size: 30px;
+      }
+    }
+
+    .burger-close {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+      cursor: pointer;
+
+      @include desktop() {
+        display: none;
+      }
+
+      span {
+        font-size: 30px;
+        color: #AEB7C2;
+      }
+    }
+
+  }
+
+  .main {
+    .main-content {
+      .container-fluid {
+        .panel {
+          margin-top: 30px;
+
+          @include desktop() {
+            margin-top: 0;
+          }
+          .text-input {
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

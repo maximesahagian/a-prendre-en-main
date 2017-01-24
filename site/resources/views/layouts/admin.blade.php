@@ -24,8 +24,14 @@
 <!-- WRAPPER -->
 <div id="wrapper">
     <!-- SIDEBAR -->
+    <div class="burger-open">
+        <span id="arrow-open" class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+    </div>
     <div class="sidebar">
         <div class="brand">
+            <div class="burger-close">
+                <span id="arrow-close" class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+            </div>
             <a href="/admin"><img src="/img/logo.png" alt="Logo" class="img-responsive logo"></a>
         </div>
         <div class="sidebar-scroll">
@@ -35,6 +41,8 @@
                     <li><a href="/admin/news" class="<?=(isset($active) && $active === 'news') ? 'active' : ''?>"><i class="lnr lnr-code"></i> <span>Actualités</span></a></li>
                     <li><a href="/admin/team" class="<?=(isset($active) && $active === 'team') ? 'active' : ''?>"><i class="lnr lnr-chart-bars"></i> <span>L'équipe</span></a></li>
                     <li><a href="/admin/admins" class="<?=(isset($active) && $active === 'news') ? 'admins' : ''?>"><i class="lnr lnr-cog"></i> <span>Administrateurs</span></a></li>
+                    <li><a href="/logout" class="<?=(isset($active) && $active === 'logout') ? 'logout' : ''?>"><i class="lnr lnr-exit"></i> <span>Se déconnecter</span></a></li>
+
                 </ul>
             </nav>
         </div>
@@ -63,6 +71,7 @@
 <script src="/js/plugins/chartist/chartist.min.js"></script>
 <script src="/js/klorofil.min.js"></script>
 <script src="/js/news.js"></script>
+<script src="/js/admin.js"></script>
 </body>
 
 </html>

@@ -10,4 +10,65 @@
   float: right;
 }
 
+.admin-page #wrapper .sidebar {
+  z-index: 2;
+}
+
+.admin-page #wrapper .sidebar .brand a img {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.admin-page #wrapper .burger-open {
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .burger-open {
+    display: none;
+  }
+}
+
+.admin-page #wrapper .burger-open span {
+  font-size: 30px;
+}
+
+.admin-page #wrapper .burger-close {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .burger-close {
+    display: none;
+  }
+}
+
+.admin-page #wrapper .burger-close span {
+  font-size: 30px;
+  color: #AEB7C2;
+}
+
+.admin-page .main .main-content .container-fluid .panel {
+  margin-top: 30px;
+}
+
+@media (min-width: 1024px) {
+  .admin-page .main .main-content .container-fluid .panel {
+    margin-top: 0;
+  }
+}
+
+.admin-page .main .main-content .container-fluid .panel .text-input {
+  display: block;
+  width: 100%;
+}
+
 /*# sourceMappingURL=adminpage.css.map */
