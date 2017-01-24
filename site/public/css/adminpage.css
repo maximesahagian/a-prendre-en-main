@@ -10,6 +10,10 @@
   float: right;
 }
 
+.admin-page #wrapper .sidebar {
+  z-index: 2;
+}
+
 .admin-page #wrapper .sidebar .brand a img {
   margin: 0 auto;
   max-width: 50%;
@@ -20,6 +24,7 @@
   top: 0;
   left: 0;
   z-index: 1;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {
@@ -32,7 +37,6 @@
   font-size: 30px;
   top: 14px;
   left: 30px;
-  cursor: pointer;
 }
 
 .admin-page #wrapper .burger-close {
@@ -40,6 +44,7 @@
   top: 0;
   left: 0;
   z-index: 1;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {
@@ -53,7 +58,6 @@
   color: #AEB7C2;
   top: 10px;
   left: 10px;
-  cursor: pointer;
 }
 
 .admin-page .main .main-content .container-fluid .panel {
