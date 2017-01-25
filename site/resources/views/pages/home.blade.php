@@ -3,7 +3,6 @@
 
     <input type="text" class="ulule_value" ulule="{{$ulule->value}}" style="display: none">
     <div class="home-page">
-        <div class="fixed-indicator"></div>
         <img class="logo-home" src="img/simple-logo-white.png" alt="Logo A prendre en main">
         <div class="video-conainer">
             <video loop autoplay>
@@ -29,7 +28,7 @@
             </div>
         </div>
         <section class="main-annimation">
-
+            <div class="cover-video"></div>
             <div class="first-animation">
                 <div class="left">
                     <div class="maps-container">
@@ -38,10 +37,11 @@
                     </div>
                 </div>
                 <div class="right ">
+                    <div class="white-div"></div>
                     <div class="annim">
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
-                            <span>60%</span>
+                            <span><span id="pourcentage-population"></span>%</span>
                             <p>des populations de l’Afrique Subsaharienne
                                 n’ont pas accès à l’eau potable.</p>
                         </div>
@@ -82,6 +82,22 @@
                     </div>
                 </div>
 
+            </div>
+        </section>
+        <section class="news">
+            <h1>Les Actualités</h1>
+            <div class="main-new">
+                <div class="left-new">
+                    <h1>{{$first_new->title}}</h1>
+                    <?php
+                        $dateFirstNew = strtotime($first_new->date);
+                    ?>
+                    <h4><?= date('d/m/Y', $dateFirstNew) ?></h4>
+                    <p>{{$first_new->message}}</p>
+                </div>
+                <div class="right-new">
+                    <div class="main-image" style="background-image: url('/img/actu/{{$first_new->image}}')"></div>
+                </div>
             </div>
         </section>
     </div>
