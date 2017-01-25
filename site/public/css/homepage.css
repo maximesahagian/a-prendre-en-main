@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
 .home-page {
   /*MAIN ANNIMATION SECTION*/
+  font-family: 'Lato';
   /*END MAIN ANNIMATION SECTION*/
   font-family: lato;
 }
@@ -87,6 +89,11 @@
   padding: 0 8%;
   margin: 0 auto;
   color: white;
+}
+
+.home-page .video-conainer .text-video h2 {
+  font-family: 'Merriweather';
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
