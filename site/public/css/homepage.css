@@ -4,6 +4,15 @@
   font-family: lato;
 }
 
+.home-page .fixed-indicator {
+  position: fixed;
+  top: 100px;
+  height: 1px;
+  width: 3px;
+  background: black;
+  z-index: 3;
+}
+
 .home-page .main-annimation {
   height: 50vw;
   padding: 25px 0;
@@ -24,6 +33,10 @@
 
 .home-page .main-annimation .left .maps-container img {
   width: 60%;
+}
+
+.home-page .main-annimation .left .maps-container .africa-map {
+  position: absolute;
 }
 
 .home-page .main-annimation .left .maps-container .africa-shadow {
@@ -58,11 +71,6 @@
   display: block;
   width: 50%;
   position: relative;
-<<<<<<< HEAD
-=======
-  top: 230px;
-  background-color: blue;
->>>>>>> 6d9d0ef09d816324c25aa00fdb438807eb2cec40
 }
 
 .home-page .video-conainer {

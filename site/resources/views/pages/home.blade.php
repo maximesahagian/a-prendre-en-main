@@ -3,6 +3,7 @@
 
     <input type="text" class="ulule_value" ulule="{{$ulule->value}}" style="display: none">
     <div class="home-page">
+        <div class="fixed-indicator"></div>
         <div class="video-conainer">
             <video loop autoplay>
                 <source src="/film/filmcompress.mp4" type="video/mp4">
