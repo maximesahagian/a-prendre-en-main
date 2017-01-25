@@ -109,6 +109,14 @@
   position: relative;
 }
 
+.home-page .main-annimation .first-animation .right .annim .anim-text #pourcentage-population {
+  font-family: 'Merriweather';
+}
+
+.home-page .main-annimation .first-animation .right .annim .anim-text sup {
+  font-size: 5vw;
+}
+
 .home-page .main-annimation .first-animation .right .annim .anim-text p {
   font-size: 2vw;
 }
