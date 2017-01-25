@@ -1,2 +1,176 @@
+.explications-section {
+  margin-top: 150px;
+}
+
+.explications-section .in-some-word {
+  margin-bottom: 100px;
+  position: relative;
+  display: table;
+}
+
+.explications-section .in-some-word .yellow-background {
+  z-index: -1;
+  background-color: #FFF0D5;
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+}
+
+.explications-section .in-some-word .left-some-word, .explications-section .in-some-word .right-some-word {
+  z-index: 3;
+  display: table-cell;
+  width: 50%;
+}
+
+.explications-section .in-some-word .left-some-word {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.explications-section .in-some-word .left-some-word .title {
+  font-family: 'Merriweather';
+  font-size: 30px;
+  color: #5C5953;
+}
+
+.explications-section .in-some-word .left-some-word .first-paragraph {
+  margin-top: 30px;
+  font-size: 13px;
+  font-family: 'Lato';
+  color: #4A4A4A;
+}
+
+.explications-section .in-some-word .left-some-word .second-paragraph {
+  color: #605B52;
+  font-family: 'Lato';
+  font-size: 19px;
+  word-spacing: 3px;
+  line-height: 32px;
+  margin-top: 30px;
+}
+
+.explications-section .in-some-word .left-some-word .second-paragraph .sign {
+  margin-top: 15px;
+  display: block;
+}
+
+.explications-section .in-some-word .right-some-word {
+  position: relative;
+}
+
+.explications-section .in-some-word .right-some-word .image-right {
+  position: absolute;
+  position: absolute;
+  right: 0;
+  width: 65%;
+  background-image: url(/img/some_words.jpg);
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10%;
+}
+
+.explications-section .our-view {
+  height: 25vw;
+  position: relative;
+}
+
+.explications-section .our-view .title {
+  margin-left: 7vw;
+  font-family: 'Merriweather';
+  font-size: 2.1vw;
+  position: absolute;
+  top: -2vw;
+}
+
+.explications-section .our-view .block-view {
+  padding: 25px;
+  text-align: center;
+}
+
+.explications-section .our-view .block-view .title-div {
+  font-family: 'Merriweather';
+  font-size: 2vw;
+}
+
+.explications-section .our-view .block-view .description {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 1.2vw;
+  font-family: 'Lato';
+  padding-right: 3vw;
+  padding-left: 2vw;
+}
+
+.explications-section .our-view .first {
+  width: 30vw;
+  bottom: 0px;
+  left: 0px;
+  background-color: #E0FBF3;
+  height: 24vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.explications-section .our-view .first .title-div {
+  color: #A6B9B3;
+}
+
+.explications-section .our-view .first .description {
+  color: #84908C;
+}
+
+.explications-section .our-view .second {
+  margin-left: 27vw;
+  height: 25vw;
+  bottom: -3vw;
+  width: 32vw;
+  background-color: #E0F2F7;
+  position: absolute;
+}
+
+.explications-section .our-view .second .title-div {
+  color: #7E949A;
+}
+
+.explications-section .our-view .second .description {
+  color: #718285;
+}
+
+.explications-section .our-view .third {
+  height: 23vw;
+  bottom: -6vw;
+  width: 24vw;
+  background-color: #FFF0D5;
+  margin-left: 56vw;
+  position: absolute;
+}
+
+.explications-section .our-view .third .title-div {
+  color: #B0A592;
+}
+
+.explications-section .our-view .third .description {
+  padding-right: 1vw;
+  color: #958B78;
+}
+
+.explications-section .bottom-our-view {
+  height: 8.5vw;
+  width: 100%;
+  background-image: url("/img/bottom_our_view.jpg");
+}
+
+.explications-section .to-take hr {
+  width: 5vw;
+  height: 2px;
+  background-color: #5C5953;
+}
+
+.explications-section .to-take .title {
+  color: #5C5953;
+}
 
 /*# sourceMappingURL=explications.css.map */
