@@ -221,13 +221,13 @@
   position: absolute;
   text-align: center;
   top: 4vw;
-  font-size: 4vw;
+  font-size: 0vw;
   font-weight: bold;
 }
 
 .home-page .second-animation .right .map-zoom {
   position: absolute;
-  width: 28vw;
+  width: 0vw;
   left: 2.7vw;
   top: 2.3vw;
   margin: 0px auto;
