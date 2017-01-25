@@ -35,16 +35,16 @@ $(function() {
    // Init ScrollMagic Controller
    var controller = new ScrollMagic.Controller();
 
-   var tween = new TimelineLite();
+   var first_anim = new TimelineLite();
        /*.add(TweenMax.to(".africa-map", 1, {top: "0px"},0))
        .add(TweenMax.to(".annim", 1, {right: "0px"}, 0))*/
 
-       tween.to(".africa-map", 1, {top: "0px"})
+   first_anim.to(".africa-map", 1, {top: "0px"})
            .to(".annim", 1, {right: "0px"}, 0)
 
    // build scene
-   var scene = new ScrollMagic.Scene({triggerElement: ".main-annimation", duration: 300,tweenChanges: true, offset: 0})
-       .setTween(tween)
+   var scene = new ScrollMagic.Scene({triggerElement: ".first-animation", duration: 300,tweenChanges: true, offset: 0})
+       .setTween(first_anim)
        .addTo(controller);
 
    scene.addIndicators();
