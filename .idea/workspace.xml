@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/img/annimation/first-pipe.png" afterPath="$PROJECT_DIR$/site/public/img/annimation/first-pipe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888c20be1922.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888c231da1cd.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888c23e6fb2d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888c68c2ca87.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888c6b04397e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/app/Http/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/site/app/Http/Controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/news.css" afterPath="$PROJECT_DIR$/site/public/css/news.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/news.css.map" afterPath="$PROJECT_DIR$/site/public/css/news.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/js/homepage.js" afterPath="$PROJECT_DIR$/site/public/js/homepage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/layouts/admin.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
@@ -54,17 +63,13 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1594533">
-                  <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.476082">
+                  <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
                   <folding>
                     <element signature="e#111#132#0#HTML" expanded="true" />
-                    <element signature="e#7041#7105#0#HTML" expanded="true" />
-                    <element signature="e#7218#7247#0#HTML" expanded="true" />
-                    <element signature="e#7341#7390#0#HTML" expanded="true" />
-                    <element signature="e#7572#7601#0#HTML" expanded="true" />
-                    <element signature="e#7695#7744#0#HTML" expanded="true" />
-                    <element signature="e#7926#7955#0#HTML" expanded="true" />
-                    <element signature="e#8049#8098#0#HTML" expanded="true" />
+                    <element signature="e#7039#7103#0#HTML" expanded="true" />
+                    <element signature="e#7416#7445#0#HTML" expanded="true" />
+                    <element signature="e#7547#7605#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,7 +83,7 @@
             <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-10.191176">
-                  <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+                  <caret line="128" column="3" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -107,8 +112,8 @@
           <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.52098763">
-                  <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.8493827">
+                  <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -152,8 +157,8 @@
         <option value="$PROJECT_DIR$/site/public/js/animation.gsap.js" />
         <option value="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
         <option value="$PROJECT_DIR$/site/public/js/homepage.js" />
-        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
+        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
       </list>
     </option>
   </component>
@@ -509,7 +514,7 @@
     <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.191176">
-          <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+          <caret line="128" column="3" selection-start-line="128" selection-start-column="3" selection-end-line="128" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -522,28 +527,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1594533">
-          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
-          <folding>
-            <element signature="e#111#132#0#HTML" expanded="true" />
-            <element signature="e#7041#7105#0#HTML" expanded="true" />
-            <element signature="e#7218#7247#0#HTML" expanded="true" />
-            <element signature="e#7341#7390#0#HTML" expanded="true" />
-            <element signature="e#7572#7601#0#HTML" expanded="true" />
-            <element signature="e#7695#7744#0#HTML" expanded="true" />
-            <element signature="e#7926#7955#0#HTML" expanded="true" />
-            <element signature="e#8049#8098#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.8493827">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
+    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098763">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.476082">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#7039#7103#0#HTML" expanded="true" />
+            <element signature="e#7416#7445#0#HTML" expanded="true" />
+            <element signature="e#7547#7605#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

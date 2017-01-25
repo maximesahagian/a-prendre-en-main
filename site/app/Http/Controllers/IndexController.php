@@ -17,10 +17,16 @@ class IndexController extends BaseController
         $ulule = DB::table('settings')->where('key','=','ulule_id')->first();
         $first_new = DB::table('news')->first();
 
+        $news = DB::table('news')
+            ->orderBy('id', 'desc')
+            ->take(3)
+            ->get();
+
         $data = [
             'message' =>  DB::table('news')->count(),
             'first_new' => $first_new,
-            'ulule' => $ulule
+            'ulule' => $ulule,
+            'news' => $news
         ];
 
         return view('pages.home',$data);

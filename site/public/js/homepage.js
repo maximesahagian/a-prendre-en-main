@@ -104,11 +104,25 @@ $(function() {
 
    five_anim.to('.second-animation .right', 1, {height: "38vw", width: "38vw"})
        .to('.map-zoom', 1, {width: "28vw"}, 0)
-       .to('.second-animation .small-circle', 1, {height: "15vw", width: "15vw"})
-       .to('.small-circle .pourcentage-circle', 1, {fontSize: "4vw"})
+       .to('.second-animation .zoom-map-circle span', 1, {left: "9vw", opacity: "1"}, 0)
+       .to('.second-animation .small-circle', 1, {height: "15vw", width: "15vw"}, 1)
+       .to('.small-circle .pourcentage-circle', 1, {fontSize: "4vw"}, 1)
+       .to('.small-circle #circle-pourcentage', 1, {fontSize: "4vw"}, 1)
    var scene4 = new ScrollMagic.Scene({triggerElement: ".maps-animation", duration: 300,tweenChanges: true, offset: 0})
        .setTween(five_anim)
        .addTo(controller)
+       .on('start', function(){
+          var options = {
+             useEasing : false,
+             useGrouping : false,
+             separator : ',',
+             decimal : '.',
+             prefix : '',
+             suffix : '%'
+          };
+          var circlePourcentage = new CountUp("circle-pourcentage", 0, 80, 0, 2, options);
+          circlePourcentage.start();
+       });
 
    /*scenecover.addIndicators();
    scene1.addIndicators();*/

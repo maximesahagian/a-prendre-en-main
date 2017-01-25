@@ -44,7 +44,7 @@
                     <div class="annim">
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
-                            <span><span id="pourcentage-population"></span>%</span>
+                            <span><span id="pourcentage-population"></span><sup>%</sup></span>
                             <p>des populations de l’Afrique Subsaharienne
                                 n’ont pas accès à l’eau potable.</p>
                         </div>
@@ -77,16 +77,14 @@
 
         </div>
         <div class="right">
-
-                <div class="small-circle">
-                    <span class="pourcentage-circle">80%</span>
-                </div>
-                <div class="zoom-map-circle">
-                    <span>DOUALA</span>
-                    <hr>
-                    <img class="map-zoom" src="/img/annimation/africa-zoom.png" alt="africa-zoom">
-                </div>
-
+            <div class="small-circle">
+                <span class="pourcentage-circle" id="circle-pourcentage"></span>
+            </div>
+            <div class="zoom-map-circle">
+                <span>DOUALA</span>
+                <hr>
+                <img class="map-zoom" src="/img/annimation/africa-zoom.png" alt="africa-zoom">
+            </div>
         </div>
 
         </section>
@@ -152,30 +150,20 @@
             </div>
         </div>
         <div class="wrapper-news">
-            <div class="second-new" style="display: inline-block">
-                <div class="left-second-new">
-                    <div class="second-image" style="background-image: url('/img/favicon.png')"></div>
+            @foreach($news as $new)
+                <?php
+                    $dateFirstNew = strtotime($new->date);
+                    $dateNew = date('d/m/Y', $dateFirstNew)
+                ?>
+                <div class="second-new" style="display: inline-block">
+                    <div class="left-second-new">
+                        <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
+                    </div>
+                    <h2>{{$new->title}}</h2>
+                    <h6>{{$dateNew}}</h6>
+                    <p>{{$new->message}}</p>
                 </div>
-                <h2>TITRE</h2>
-                <h5>Date</h5>
-                <p>Description</p>
-            </div>
-            <div class="second-new" style="display: inline-block">
-                <div class="left-second-new">
-                    <div class="second-image" style="background-image: url('/img/favicon.png')"></div>
-                </div>
-                <h2>TITRE</h2>
-                <h5>Date</h5>
-                <p>Description</p>
-            </div>
-            <div class="second-new" style="display: inline-block">
-                <div class="left-second-new">
-                    <div class="second-image" style="background-image: url('/img/favicon.png')"></div>
-                </div>
-                <h2>TITRE</h2>
-                <h5>Date</h5>
-                <p>Description</p>
-            </div>
+            @endforeach
         </div>
     </section>
 </div>

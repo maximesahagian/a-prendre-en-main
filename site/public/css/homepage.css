@@ -109,6 +109,14 @@
   position: relative;
 }
 
+.home-page .main-annimation .first-animation .right .annim .anim-text #pourcentage-population {
+  font-family: 'Merriweather';
+}
+
+.home-page .main-annimation .first-animation .right .annim .anim-text sup {
+  font-size: 5vw;
+}
+
 .home-page .main-annimation .first-animation .right .annim .anim-text p {
   font-size: 2vw;
 }
@@ -197,7 +205,8 @@
   font-size: 3vw;
   z-index: 4;
   top: -2vw;
-  left: 9vw;
+  left: -15vw;
+  opacity: 0;
 }
 
 .home-page .second-animation .right .zoom-map-circle hr {
@@ -453,8 +462,8 @@
 
 .home-page .logo-home {
   position: absolute;
-  top: 50px;
-  left: 30px;
+  top: 15%;
+  left: 9%;
 }
 
 /*# sourceMappingURL=homepage.css.map */
