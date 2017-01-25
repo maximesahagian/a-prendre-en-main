@@ -33,7 +33,7 @@
     }
     .content-footer {
       padding: 20px;
-      height: 150px;
+      height: 160px;
       width: 100%;
       color: #FFFFFF;
       background-color: black;
@@ -44,11 +44,22 @@
       h3 {
         opacity: 1;
       }
+
+      .amount-reach {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .amount-goal {
+        display: inline-block;
+        margin-left: 10px;
+      }
       .goal-container {
-        width: 80%;
+        width: 65%;
         height: 15px;
         border-radius: 15px;
         border: solid 1px white;
+        display: inline-block;
+        vertical-align: text-top;
         .goal-bar {
           max-width: 100%;
           width: 0%;
@@ -61,7 +72,6 @@
           background: transparent;
           color: white;
           float: right;
-          margin-top: 20px;
           @include phone() {
             float: none;
             margin: 20px auto;
