@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
-    </list>
+    <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="" />
     <ignored path="a-prendre-en-main.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -53,8 +47,8 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.013667426">
-                  <caret line="86" column="33" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.50569475">
+                  <caret line="98" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="5" />
                   <folding>
                     <element signature="e#115#136#0#HTML" expanded="true" />
                     <element signature="e#2762#4145#0#HTML" expanded="false" />
@@ -101,8 +95,8 @@
           <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9061728">
-                  <caret line="246" column="21" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.061728396">
+                  <caret line="228" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="336" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -518,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.013667426">
-          <caret line="86" column="33" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.50569475">
+          <caret line="98" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="123" selection-end-column="5" />
           <folding>
             <element signature="e#115#136#0#HTML" expanded="true" />
             <element signature="e#2762#4145#0#HTML" expanded="false" />
@@ -530,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9061728">
-          <caret line="246" column="21" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.061728396">
+          <caret line="228" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="336" selection-end-column="1" />
           <folding />
         </state>
       </provider>
