@@ -234,6 +234,61 @@
   display: block;
 }
 
+.home-page .third-animation {
+  padding-top: 9vw;
+  height: 100vw;
+  position: relative;
+}
+
+.home-page .third-animation .first-pipe {
+  position: absolute;
+  left: 40vw;
+  top: 2vw;
+  width: 16vw;
+}
+
+.home-page .third-animation .processus-title {
+  font-size: 10vw;
+  float: right;
+  color: rgba(74, 74, 74, 0.11);
+  margin-bottom: 6vw;
+  margin-right: 4vw;
+}
+
+.home-page .third-animation .left {
+  position: relative;
+  left: 21vw;
+  top: 40vw;
+}
+
+.home-page .third-animation .left .picture {
+  width: 29vw;
+  position: absolute;
+  right: 4vw;
+  left: -4vw;
+  top: -4vw;
+}
+
+.home-page .third-animation .left .background {
+  width: 29vw;
+  position: relative;
+  z-index: -3;
+}
+
+.home-page .third-animation .right {
+  width: 39vw;
+  margin-right: 8vw;
+  float: right;
+}
+
+.home-page .third-animation .right a {
+  top: 7vw;
+  float: right;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
 .home-page .video-conainer {
   width: 100%;
 }

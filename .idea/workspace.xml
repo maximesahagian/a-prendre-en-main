@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/css/news.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/css/news.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/app/Http/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/site/app/Http/Controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/gulpfile.js" afterPath="$PROJECT_DIR$/site/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/js/homepage.js" afterPath="$PROJECT_DIR$/site/public/js/homepage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888ac9d933a4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/news.css" afterPath="$PROJECT_DIR$/site/public/css/news.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/news.css.map" afterPath="$PROJECT_DIR$/site/public/css/news.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
@@ -60,11 +53,17 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3029613">
-                  <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+                <state vertical-scroll-proportion="-1.120729">
+                  <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
                   <folding>
-                    <element signature="e#115#136#0#HTML" expanded="true" />
-                    <element signature="e#4786#4850#0#HTML" expanded="true" />
+                    <element signature="e#111#132#0#HTML" expanded="true" />
+                    <element signature="e#6219#6283#0#HTML" expanded="true" />
+                    <element signature="e#6396#6425#0#HTML" expanded="true" />
+                    <element signature="e#6519#6568#0#HTML" expanded="true" />
+                    <element signature="e#6750#6779#0#HTML" expanded="true" />
+                    <element signature="e#6873#6922#0#HTML" expanded="true" />
+                    <element signature="e#7104#7133#0#HTML" expanded="true" />
+                    <element signature="e#7227#7276#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,7 +77,7 @@
             <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-10.191176">
-                  <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+                  <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -107,9 +106,25 @@
           <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.362963">
-                  <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
-                  <folding />
+                <state vertical-scroll-proportion="0.39012346">
+                  <caret line="242" column="7" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+                  <folding>
+                    <marker date="1485353528000" expanded="true" signature="366:1733" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="384:502" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="623:1733" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="661:1185" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="759:1176" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="826:863" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="885:978" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="1003:1165" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="1199:1733" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="1314:1483" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="1499:1733" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="2715:2726" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="2715:2734" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="2715:3264" placeholder="{...}" />
+                    <marker date="1485353528000" expanded="true" signature="2715:4424" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -152,8 +167,8 @@
         <option value="$PROJECT_DIR$/site/public/js/animation.gsap.js" />
         <option value="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
         <option value="$PROJECT_DIR$/site/public/js/homepage.js" />
-        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
+        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
       </list>
     </option>
   </component>
@@ -509,7 +524,7 @@
     <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.191176">
-          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -522,22 +537,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3029613">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.39012346">
+          <caret line="242" column="7" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
           <folding>
-            <element signature="e#115#136#0#HTML" expanded="true" />
-            <element signature="e#4786#4850#0#HTML" expanded="true" />
+            <marker date="1485353528000" expanded="true" signature="366:1733" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="384:502" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="623:1733" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="661:1185" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="759:1176" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="826:863" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="885:978" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="1003:1165" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="1199:1733" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="1314:1483" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="1499:1733" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="2715:2726" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="2715:2734" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="2715:3264" placeholder="{...}" />
+            <marker date="1485353528000" expanded="true" signature="2715:4424" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
+    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.362963">
-          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="-1.120729">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+          <folding>
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#6219#6283#0#HTML" expanded="true" />
+            <element signature="e#6396#6425#0#HTML" expanded="true" />
+            <element signature="e#6519#6568#0#HTML" expanded="true" />
+            <element signature="e#6750#6779#0#HTML" expanded="true" />
+            <element signature="e#6873#6922#0#HTML" expanded="true" />
+            <element signature="e#7104#7133#0#HTML" expanded="true" />
+            <element signature="e#7227#7276#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
