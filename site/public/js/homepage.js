@@ -68,5 +68,6 @@ $(function() {
 
 
    scenecover.addIndicators();
+   scene1.addIndicators();
 });
 
