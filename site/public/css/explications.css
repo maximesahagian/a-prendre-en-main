@@ -163,6 +163,11 @@
   background-image: url("/img/bottom_our_view.jpg");
 }
 
+.explications-section .to-take {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 .explications-section .to-take hr {
   width: 5vw;
   height: 2px;
