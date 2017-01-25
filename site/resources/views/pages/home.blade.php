@@ -4,12 +4,13 @@
     <input type="text" class="ulule_value" ulule="{{$ulule->value}}" style="display: none">
     <div class="home-page">
         <div class="fixed-indicator"></div>
+        <img class="logo-home" src="img/simple-logo-white.png" alt="Logo A prendre en main">
         <div class="video-conainer">
             <video loop autoplay>
                 <source src="/film/filmcompress.mp4" type="video/mp4">
             </video>
             <div class="row text-video">
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <h4>Approvisionnement en Eau potable – Douala – PK11
                         (Cameroun)</h4>
                     <h2>Un projet à prendre en main

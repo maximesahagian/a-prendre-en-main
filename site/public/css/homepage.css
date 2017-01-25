@@ -185,4 +185,10 @@
   }
 }
 
+.home-page .logo-home {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
 /*# sourceMappingURL=homepage.css.map */
