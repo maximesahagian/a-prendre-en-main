@@ -331,7 +331,32 @@
 
 .home-page .fourth-animation .left .text {
   position: absolute;
-  width: 16vw;
+  width: 17vw;
+}
+
+.home-page .fourth-animation .left .text hr {
+  border-top: 1px solid black;
+}
+
+.home-page .fourth-animation .left .text .botom {
+  display: table;
+}
+
+.home-page .fourth-animation .left .text .botom p, .home-page .fourth-animation .left .text .botom span {
+  display: table-cell;
+}
+
+.home-page .fourth-animation .left .text .botom span {
+  float: right;
+  text-align: right;
+  width: 30%;
+  font-weight: bold;
+}
+
+.home-page .fourth-animation .left .text .botom p {
+  width: 70%;
+  float: left;
+  text-align: left;
 }
 
 .home-page .fourth-animation .left .text .total {
@@ -340,7 +365,7 @@
 
 .home-page .fourth-animation .left img {
   position: absolute;
-  top: 2vw;
+  top: 5vw;
   left: 5vw;
   width: 15vw;
 }
@@ -362,6 +387,188 @@
 .home-page .fourth-animation .right .financement-background {
   width: 28vw;
   position: relative;
+}
+
+.home-page .fifth-animation {
+  position: relative;
+  height: 58vw;
+}
+
+.home-page .fifth-animation .left {
+  width: 43vw;
+  display: inline-block;
+}
+
+.home-page .fifth-animation .left p, .home-page .fifth-animation .left img {
+  display: table-cell;
+}
+
+.home-page .fifth-animation .left p {
+  width: 22vw;
+  text-align: right;
+  position: relative;
+  left: 16vw;
+  float: left;
+}
+
+.home-page .fifth-animation .left img {
+  width: 4vw;
+  float: right;
+}
+
+.home-page .fifth-animation .entretien-title {
+  position: absolute;
+  font-size: 8.8vw;
+  left: 8vw;
+  color: rgba(74, 74, 74, 0.11);
+  margin-bottom: 6vw;
+  margin-right: 4vw;
+  top: 11vw;
+}
+
+.home-page .fifth-animation .finalpipe {
+  top: -8vw;
+  width: 42vw;
+  z-index: -2;
+  position: relative;
+  left: 7vw;
+}
+
+.home-page .last-animation {
+  position: relative;
+  background: #A2DAD4;
+  height: 52.5vw;
+}
+
+.home-page .last-animation .left {
+  position: relative;
+}
+
+.home-page .last-animation .left h2 {
+  font-size: 8vw;
+  position: relative;
+  top: 4vw;
+  left: 3vw;
+  color: rgba(74, 74, 74, 0.11);
+  margin-bottom: 6vw;
+  margin-right: 4vw;
+}
+
+.home-page .last-animation .left i {
+  color: white;
+  position: relative;
+  left: 10vw;
+  top: 5vw;
+  font-weight: 200;
+}
+
+.home-page .last-animation .left div {
+  width: 30vw;
+  text-align: justify;
+  color: white;
+  padding: 1vw;
+  border-left: 0.6vw solid white;
+  height: 9vw;
+  position: relative;
+  left: 5vw;
+  top: 4vw;
+}
+
+.home-page .last-animation .left div p {
+  font-weight: 200;
+}
+
+.home-page .last-animation .piececontainer {
+  width: 63vw;
+  float: right;
+}
+
+.home-page .last-animation .piececontainer .piece1 {
+  position: absolute;
+  top: 1vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece01 {
+  position: absolute;
+  top: 2vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece2 {
+  position: absolute;
+  top: 13vw;
+  right: 16.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece3 {
+  position: absolute;
+  top: 16vw;
+  right: 30.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece6 {
+  position: absolute;
+  top: 23vw;
+  right: 22.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece02 {
+  position: absolute;
+  top: 42vw;
+  right: 16.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece03 {
+  position: absolute;
+  top: 3vw;
+  right: 22vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece8 {
+  position: absolute;
+  top: 29vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece9 {
+  position: absolute;
+  top: 31vw;
+  right: 38.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece11 {
+  position: absolute;
+  top: 31vw;
+  right: 7.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece12 {
+  position: absolute;
+  top: 13vw;
+  right: 7.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piece13 {
+  position: absolute;
+  bottom: 0;
+  right: 7.5vw;
+  margin-left: 13vw;
+}
+
+.home-page .last-animation .piececontainer .piecetat {
+  width: 45vw;
+  position: absolute;
+  right: 17vw;
+  bottom: 0;
 }
 
 .home-page .video-conainer {
