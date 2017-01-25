@@ -110,9 +110,15 @@
 
         <section class="fourth-animation">
             <div class="left">
-                <div>
+                <div class="text">
                     <p>Le cout total des trvaux s’éleve à :</p>
                         <span>23 628</span>
+                    <hr>
+                    <p>Abonnement mensuel
+                        par famille </p>
+                    <span class="la-taxe">
+                        24€
+                    </span>
                 </div>
                 <img src="/img/annimation/euro.png" alt="">
             </div>
