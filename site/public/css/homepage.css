@@ -60,7 +60,7 @@
 .home-page .main-annimation .right .annim {
   height: 40vw;
   position: absolute;
-  right: 0;
+  right: -340px;
   background: url("/img/annimation/right-1.png") no-repeat;
   background-size: contain;
   background-position: right;
