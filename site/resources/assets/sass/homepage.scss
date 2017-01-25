@@ -1,63 +1,64 @@
 @import "sizes";
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Lato');
-.home-page{
+
+.home-page {
   /*MAIN ANNIMATION SECTION*/
   font-family: 'Lato';
-  .fixed-indicator{
+  .fixed-indicator {
     position: fixed;
-    top:100px;
+    top: 100px;
     height: 1px;
     width: 3px;
     background: black;
     z-index: 3;
   }
-  .main-annimation{
-    height:50vw;
+  .main-annimation {
+    height: 50vw;
     padding: 25px 0;
     display: table;
     width: 100%;
-    .first-animation{
+    .first-animation {
       margin-top: 30px;
-      .left{
+      .left {
         display: table-cell;
         width: 50vw;
         height: 100%;
-        .maps-container{
+        .maps-container {
           position: relative;
           left: 8vw;
-          img{
+          img {
             width: 60%;
           }
-          .africa-map{
+          .africa-map {
             position: absolute;
             top: 100px;
           }
-          .africa-shadow{
+          .africa-shadow {
             opacity: 0;
             position: absolute;
-            top:30px;
-            left:30px;
+            top: 30px;
+            left: 30px;
             z-index: -2;
           }
 
         }
 
       }
-      .right{
+      .right {
         /*
         display: table-cell;
         */
         width: 50vw;
         height: 100%;
-        .annim{
+        .annim {
           height: 40vw;
           position: absolute;
           right: -460px;
-          background: url('/img/annimation/right-1.png')no-repeat;
+          background: url('/img/annimation/right-1.png') no-repeat;
           background-size: contain;
           background-position: right;
-          .anim-text{
+          .anim-text {
             background: white;
             top: 6vw;
             right: 6vw;
@@ -65,80 +66,80 @@
             display: block;
             width: 30vw;
             position: relative;
-            p{
+            p {
               font-size: 2vw;
             }
-            span{
+            span {
               font-size: 7vw;
             }
           }
         }
       }
     }
-    .second-animation{
-      
+    .second-animation {
+
     }
   }
   /*END MAIN ANNIMATION SECTION*/
   font-family: lato;
-  .video-conainer{
+  .video-conainer {
 
     width: 100%;
-    video{
+    video {
       width: 100%;
     }
-    .text-video{
+    .text-video {
       position: absolute;
       top: 30vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
-      h2{
+      h2 {
         font-family: 'Merriweather';
         font-size: 28px;
       }
-      h4{
+      h4 {
         font-weight: bold;
       }
-      @include phone(){
+      @include phone() {
         position: absolute;
         top: 10vw;
       }
-      .right-text-video{
+      .right-text-video {
         position: absolute;
         bottom: 0;
         right: 50px;
-        @include phone(){
+        @include phone() {
           position: relative;
         }
 
-        .goal-container{
+        .goal-container {
           width: 100%;
           height: 15px;
           border-radius: 15px;
           border: solid 1px white;
-          .goal-bar{
+          .goal-bar {
             max-width: 100%;
-            width:0%;
+            width: 0%;
             background: white;
             height: 100%;
             border-radius: 15px;
           }
-          .goal-button{
+          .goal-button {
             border: 1px solid white;
             background: transparent;
-            color:white;
+            color: white;
             float: right;
             margin-top: 20px;
-            @include phone(){
+            @include phone() {
               float: none;
               margin: 20px auto;
               width: 60%;
               display: block;
             }
 
-            &:hover{
-              background: rgba(173,173,173,0.60);
+            &:hover {
+              background: rgba(173, 173, 173, 0.60);
             }
           }
         }
@@ -147,14 +148,14 @@
 
   }
 
-  .para{
+  .para {
     color: blue;
 
-    @include phone(){
+    @include phone() {
       color: green;
     }
 
-    @include tablet-only(){
+    @include tablet-only() {
       color: red;
     }
 
@@ -164,5 +165,51 @@
     position: absolute;
     top: 50px;
     left: 30px;
+  }
+
+  .news {
+    background-color: #F9F9F9;
+    padding: 50px 0;
+    h1 {
+      margin-left: 170px;
+      margin-bottom: 50px;
+      font-family: Merriweather;
+    }
+    .main-new {
+      background-color: white;
+      margin: 10px 70px;
+      font-family: lato;
+      height: 300px;
+      box-shadow: 0 2px 2px lightgrey;
+      display: table;
+      .left {
+        width: 50%;
+        height: 100%;
+        display: table-cell;
+        padding: 50px 70px;
+        h1 {
+          width: 700px;
+          margin-left: initial;
+          margin-bottom: initial;
+        }
+        h4 {
+          width: 700px;
+          margin: 20px 0px;
+        }
+        p {
+          width: 700px;
+        }
+      }
+      .right {
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+        .main-image {
+          background-image: url("/img/favicon.png");
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
   }
 }
