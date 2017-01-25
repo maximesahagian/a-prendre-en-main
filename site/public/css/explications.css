@@ -164,18 +164,161 @@
 }
 
 .explications-section .to-take {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  margin-top: 30px;
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
 
 .explications-section .to-take hr {
-  width: 5vw;
   height: 2px;
   background-color: #5C5953;
+  display: block;
+  width: 5vw;
+  margin: 0;
 }
 
-.explications-section .to-take .title {
+.explications-section .to-take .before {
+  display: table-row;
+}
+
+.explications-section .to-take .before .title {
   color: #5C5953;
+  font-family: 'Merriweather';
+  font-size: 2vw;
+}
+
+.explications-section .to-take .before .description-take {
+  margin-top: 10px;
+}
+
+.explications-section .to-take .before .description-take p {
+  margin: 0;
+}
+
+.explications-section .to-take .after {
+  display: table;
+  margin-top: 80px;
+}
+
+.explications-section .to-take .after .left-first {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+}
+
+.explications-section .to-take .after .left-first .background-red {
+  width: 30vw;
+  height: 30vw;
+  background-color: #F3374E;
+  position: absolute;
+  top: 2vw;
+  left: 0px;
+}
+
+.explications-section .to-take .after .left-first .image-first {
+  height: 29vw;
+  position: absolute;
+  top: 0px;
+  left: 2vw;
+  background: url(/img/to_take_first.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 36vw;
+}
+
+.explications-section .to-take .after .right-first {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+}
+
+.explications-section .to-take .after .right-first .container-right {
+  width: 83%;
+  margin-left: auto;
+  position: relative;
+  bottom: 5vw;
+}
+
+.explications-section .to-take .after .right-first .container-right .title-right-first {
+  font-family: 'Merriweather';
+  font-size: 2vw;
+  margin-bottom: 30px;
+}
+
+.explications-section .to-take .after .right-first .container-right p {
+  word-spacing: 5px;
+  width: 85%;
+}
+
+.explications-section .to-take .after .right-first .container-right ul {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 80%;
+}
+
+.explications-section .to-take .after .right-first .container-right ul li {
+  list-style: initial;
+  margin-top: 5px;
+}
+
+.explications-section .to-take .numbers-objectives {
+  display: table;
+}
+
+.explications-section .to-take .numbers-objectives .left-second {
+  height: 40vw;
+  display: table-cell;
+  width: 50%;
+  float: left;
+}
+
+.explications-section .to-take .numbers-objectives .left-second .container-left {
+  margin-top: 8vw;
+}
+
+.explications-section .to-take .numbers-objectives .left-second .container-left .title-left-second {
+  font-family: 'Merriweather';
+  font-size: 2vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.explications-section .to-take .numbers-objectives .right-second {
+  display: table-cell;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+.explications-section .to-take .numbers-objectives .right-second .image-second {
+  position: absolute;
+  right: 2vw;
+  top: 0px;
+  background: url(/img/to_take_second.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30vw;
+  height: 37vw;
+}
+
+.explications-section .to-take .numbers-objectives .right-second .background-green {
+  position: absolute;
+  width: 28vw;
+  height: 35vw;
+  background-color: #B0E0C1;
+  right: 0px;
+  top: 4vw;
+  z-index: -1;
+}
+
+.explications-section .to-take .numbers-objectives ul {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.explications-section .to-take .numbers-objectives ul li {
+  list-style: initial;
 }
 
 /*# sourceMappingURL=explications.css.map */

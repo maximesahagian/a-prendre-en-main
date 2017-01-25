@@ -41,32 +41,57 @@
 
     <div class="to-take">
         <hr>
-        <h3 class="title">Un projet à prendre en main...</h3>
-        <div class="description-take">
-            <p>Approvisionnement en eau potable</p>
-            <p>Douala - PK11</p>
-            <p>Cameroun</p>
+        <div class="before">
+            <h3 class="title">Un projet à prendre en main...</h3>
+            <div class="description-take">
+                <p>Approvisionnement en eau potable</p>
+                <p>Douala - PK11</p>
+                <p>Cameroun</p>
+            </div>
         </div>
 
-        <div class="left-first">
-            <div class="background-red"></div>
-            <div class="image-first"></div>
-        </div>
+        <div class="after">
+            <div class="left-first">
+                <div class="background-red"></div>
+                <div class="image-first"></div>
+            </div>
 
-        <div class="right-first">
-            <h4 class="title-right-first">Contexte</h4>
-            <p>Selon l’Organisation Mondiale de la Santé plus de 60% de la population africaine n’a pas accès à l’eau potable.<br>
-                Pour notre premier projet, nous voulons implanter deux pompes à eau dans une localité au Cameroun, où le besoin est particulièrement préoccupant.<br>
-                En effet, dans la commune de Douala – PK11, quartier de Douala, composé environ de de 5000 habitants, 80% des habitants ne sont pas connectés au réseau de distribution d’eau potable.<br>
-                Pour couvrir leur besoin en eau, certains habitants n’ont pas d’autre choix que de se ravitailler auprès de sources d’eau impropres à la consommation. C’est la source de plusieurs maladies hydriques rencontrées localement telles que la dysenterie amibienne, le choléra, la typhoïde etc.<br>
-                Le projet d’approvisionnement en eau potable permettra :</p>
-            <ul>
-                <li>aux habitants de vivre dans de meilleures conditions en réduisant les risques d’apparition et de propagation de maladies d’origine hydrique.</li>
-                <li>aux jeunes enfants, sur qui repose la tâche de la collecte de l’eau, de consacrer plus de temps à leurs études.</li>
-                <li>aux femmes de pouvoir mener une activité économique (vente de denrées alimentaires).</li>
-            </ul>
+            <div class="right-first">
+                    <div class="container-right">
+                        <h4 class="title-right-first">Contexte</h4>
+                        <p>Selon l’Organisation Mondiale de la Santé plus de 60% de la population africaine n’a pas accès à l’eau potable.<br>
+                            Pour notre premier projet, nous voulons implanter deux pompes à eau dans une localité au Cameroun, où le besoin est particulièrement préoccupant.<br>
+                            En effet, dans la commune de Douala – PK11, quartier de Douala, composé environ de de 5000 habitants, 80% des habitants ne sont pas connectés au réseau de distribution d’eau potable.<br>
+                            Pour couvrir leur besoin en eau, certains habitants n’ont pas d’autre choix que de se ravitailler auprès de sources d’eau impropres à la consommation. C’est la source de plusieurs maladies hydriques rencontrées localement telles que la dysenterie amibienne, le choléra, la typhoïde etc.<br>
+                            Le projet d’approvisionnement en eau potable permettra :</p>
+                        <ul>
+                            <li>aux habitants de vivre dans de meilleures conditions en réduisant les risques d’apparition et de propagation de maladies d’origine hydrique.</li>
+                            <li>aux jeunes enfants, sur qui repose la tâche de la collecte de l’eau, de consacrer plus de temps à leurs études.</li>
+                            <li>aux femmes de pouvoir mener une activité économique (vente de denrées alimentaires).</li>
+                        </ul>
+                    </div>
+            </div>
         </div>
+        <div class="numbers-objectives">
+            <div class="left-second">
+                <div class="container-left">
+                    <h4 class="title-left-second">Objectifs chiffrés</h4>
+                    <ul>
+                        <li>Augmenter de 40% le taux de couverture en eau potable de la commune : 1600 personnes bénéficieront directement de la mise en place de l’approvisionnement en eau potable.</li>
+                        <li>Fournir 10L d’eau potable par jour et par personne</li>
+                        <li>Garantir l’entretien de la pompe à eau en faisant participer  chaque famille bénéficiaire à hauteur de 0,24€ par mois (150 fcfa).</li>
+                        <li>Créer 1 emploi rémunéré – une personne chargée de l’entretien et de la maintenance des pompes à eau</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-second">
+                <div class="image-second">
+                </div>
+                <div class="background-green">
 
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
