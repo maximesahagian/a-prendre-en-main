@@ -42,6 +42,11 @@
                 <div class="right ">
                     <div class="white-div"></div>
                     <div class="annim">
+                        <div class='barrescontainer'>
+                            <img class="barre" src="img/annimation/anim-1-barres.png" alt="">
+                            <img class="barre" src="img/annimation/anim-1-barres.png" alt="">
+                            <img class="barre" src="img/annimation/anim-1-barres.png" alt="">
+                        </div>
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
                             <span><span id="pourcentage-population"></span><sup>%</sup></span>

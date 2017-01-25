@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .home-page {
-  /*MAIN ANNIMATION SECTION*/
+  /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';
   .fixed-indicator {
     position: fixed;
@@ -75,9 +75,17 @@
           height: 40vw;
           position: absolute;
           right: 0px;
-          background: url('/img/annimation/right-1.png')no-repeat;
-          background-size: contain;
           background-position: right;
+          .barrescontainer {
+            position: absolute;
+            right: 0vw;
+            top: -2vw;
+            .barre {
+              display: block;
+              width: 10vw;
+              margin-top: 7vw;
+            }
+          }
           .animation-informations{
             position: absolute;
             bottom: 0px;
@@ -92,8 +100,8 @@
             color: white;
             z-index:3;
             background: white;
-            top: 6vw;
-            right: 6vw;
+            top: 5vw;
+            right: 8vw;
             height: 25vw;
             display: block;
             width: 30vw;
@@ -498,7 +506,7 @@
       bottom: 0;}
     }
   }
-  /*END MAIN ANNIMATION SECTION*/
+  /*END MAIN ANIMATION SECTION*/
   font-family: lato;
   .video-conainer {
 
