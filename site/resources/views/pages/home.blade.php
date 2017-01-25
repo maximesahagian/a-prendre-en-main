@@ -78,7 +78,7 @@
         </div>
         <div class="right">
             <div class="small-circle">
-                <span class="pourcentage-circle">80%</span>
+                <span class="pourcentage-circle" id="circle-pourcentage"></span>
             </div>
             <div class="zoom-map-circle">
                 <span>DOUALA</span>
