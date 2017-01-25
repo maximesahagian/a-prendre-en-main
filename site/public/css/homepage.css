@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 .home-page {
   /*MAIN ANNIMATION SECTION*/
   font-family: 'Lato';
@@ -22,42 +23,46 @@
   width: 100%;
 }
 
-.home-page .main-annimation .left {
+.home-page .main-annimation .first-animation {
+  margin-top: 30px;
+}
+
+.home-page .main-annimation .first-animation .left {
   display: table-cell;
   width: 50vw;
   height: 100%;
 }
 
-.home-page .main-annimation .left .maps-container {
+.home-page .main-annimation .first-animation .left .maps-container {
   position: relative;
   left: 8vw;
 }
 
-.home-page .main-annimation .left .maps-container img {
+.home-page .main-annimation .first-animation .left .maps-container img {
   width: 60%;
 }
 
-.home-page .main-annimation .left .maps-container .africa-map {
+.home-page .main-annimation .first-animation .left .maps-container .africa-map {
   position: absolute;
   top: 100px;
 }
 
-.home-page .main-annimation .left .maps-container .africa-shadow {
+.home-page .main-annimation .first-animation .left .maps-container .africa-shadow {
   position: absolute;
   top: 30px;
   left: 30px;
   z-index: -2;
 }
 
-.home-page .main-annimation .right {
+.home-page .main-annimation .first-animation .right {
   /*
-      display: table-cell;
-      */
+        display: table-cell;
+        */
   width: 50vw;
   height: 100%;
 }
 
-.home-page .main-annimation .right .annim {
+.home-page .main-annimation .first-animation .right .annim {
   height: 40vw;
   position: absolute;
   right: -460px;
@@ -66,21 +71,21 @@
   background-position: right;
 }
 
-.home-page .main-annimation .right .annim .anim-text {
-  padding: 1vw;
+.home-page .main-annimation .first-animation .right .annim .anim-text {
   background: white;
   top: 6vw;
-  /*right: 6vw;*/
+  right: 6vw;
+  height: 25vw;
   display: block;
   width: 30vw;
   position: relative;
 }
 
-.home-page .main-annimation .right .annim .anim-text p {
+.home-page .main-annimation .first-animation .right .annim .anim-text p {
   font-size: 2vw;
 }
 
-.home-page .main-annimation .right .annim .anim-text span {
+.home-page .main-annimation .first-animation .right .annim .anim-text span {
   font-size: 7vw;
 }
 
@@ -103,6 +108,10 @@
 .home-page .video-conainer .text-video h2 {
   font-family: 'Merriweather';
   font-size: 28px;
+}
+
+.home-page .video-conainer .text-video h4 {
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {
