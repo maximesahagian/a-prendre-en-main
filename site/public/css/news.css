@@ -17,6 +17,7 @@
   height: 300px;
   box-shadow: 0 2px 2px lightgrey;
   display: table;
+  width: 100%;
 }
 
 .home-page .news .main-new .left-new {
@@ -26,18 +27,12 @@
 }
 
 .home-page .news .main-new .left-new h1 {
-  width: 700px;
   margin-left: initial;
   margin-bottom: initial;
 }
 
 .home-page .news .main-new .left-new h4 {
-  width: 700px;
   margin: 20px 0px;
-}
-
-.home-page .news .main-new .left-new p {
-  width: 700px;
 }
 
 .home-page .news .main-new .right-new {

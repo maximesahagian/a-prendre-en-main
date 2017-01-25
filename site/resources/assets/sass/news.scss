@@ -17,21 +17,19 @@
         height: 300px;
         box-shadow: 0 2px 2px lightgrey;
         display: table;
+        width: 100%;
         .left-new {
           width: 50%;
           height: 100%;
           display: table-cell;
           h1 {
-            width: 700px;
             margin-left: initial;
             margin-bottom: initial;
           }
           h4 {
-            width: 700px;
             margin: 20px 0px;
           }
           p {
-            width: 700px;
           }
         }
         .right-new {
