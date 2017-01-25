@@ -57,12 +57,15 @@
             <h1>Les Actualités</h1>
             <div class="main-new">
                 <div class="left-new">
-                    <h1>Titre</h1>
-                    <h4>Date</h4>
-                    <p>Description</p>
+                    <h1>{{$first_new->title}}</h1>
+                    <?php
+                        $dateFirstNew = strtotime($first_new->date);
+                    ?>
+                    <h4><?= date('d/m/Y', $dateFirstNew) ?></h4>
+                    <p>{{$first_new->message}}</p>
                 </div>
                 <div class="right-new">
-                    <div class="main-image"></div>
+                    <div class="main-image" style="background-image: url('/img/actu/{{$first_new->image}}')"></div>
                 </div>
             </div>
         </section>
