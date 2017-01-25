@@ -13,6 +13,14 @@
     z-index: 3;
   }
   .main-annimation{
+    .cover-video{
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 50vw;
+      background-color: #fff;
+    }
+    position: relative;
     height:50vw;
     padding: 25px 0;
     display: table;

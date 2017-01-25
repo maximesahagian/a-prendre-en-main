@@ -17,10 +17,19 @@
 }
 
 .home-page .main-annimation {
+  position: relative;
   height: 50vw;
   padding: 25px 0;
   display: table;
   width: 100%;
+}
+
+.home-page .main-annimation .cover-video {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 50vw;
+  background-color: #fff;
 }
 
 .home-page .main-annimation .first-animation {

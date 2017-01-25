@@ -29,7 +29,7 @@
             </div>
         </div>
         <section class="main-annimation">
-
+            <div class="cover-video"></div>
             <div class="first-animation">
                 <div class="left">
                     <div class="maps-container">
@@ -42,7 +42,7 @@
                     <div class="annim">
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
-                            <span>60%</span>
+                            <span><span id="pourcentage-population"></span>%</span>
                             <p>des populations de l’Afrique Subsaharienne
                                 n’ont pas accès à l’eau potable.</p>
                         </div>
