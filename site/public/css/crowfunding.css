@@ -39,7 +39,7 @@
 
 .crowfunding-section .wrapper-crowfunding .content-footer {
   padding: 20px;
-  height: 150px;
+  height: 160px;
   width: 100%;
   color: #FFFFFF;
   background-color: black;
@@ -54,11 +54,23 @@
   opacity: 1;
 }
 
+.crowfunding-section .wrapper-crowfunding .content-footer .amount-reach {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.crowfunding-section .wrapper-crowfunding .content-footer .amount-goal {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .crowfunding-section .wrapper-crowfunding .content-footer .goal-container {
-  width: 80%;
+  width: 65%;
   height: 15px;
   border-radius: 15px;
   border: solid 1px white;
+  display: inline-block;
+  vertical-align: text-top;
 }
 
 .crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-bar {
@@ -74,7 +86,6 @@
   background: transparent;
   color: white;
   float: right;
-  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
