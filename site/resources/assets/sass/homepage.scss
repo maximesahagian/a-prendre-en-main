@@ -30,15 +30,17 @@
             width: 60%;
           }
           .africa-map{
+            z-index: 4;
             position: absolute;
             top: 100px;
           }
           .africa-shadow{
+            z-index: 3;
             opacity: 0;
             position: absolute;
             top:30px;
             left:30px;
-            z-index: -2;
+            z-index: 3;
           }
 
         }
@@ -50,14 +52,26 @@
         */
         width: 50vw;
         height: 100%;
+
+        .white-div{
+          height: 40vw;
+          position: absolute;
+          width: 1000px;
+          right: 0px;
+          background-color: white;
+          z-index: 1;
+        }
+
         .annim{
           height: 40vw;
           position: absolute;
-          right: -460px;
+          right: 0px;
           background: url('/img/annimation/right-1.png')no-repeat;
           background-size: contain;
           background-position: right;
           .anim-text{
+            color: white;
+            z-index:3;
             background: white;
             top: 6vw;
             right: 6vw;

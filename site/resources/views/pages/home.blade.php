@@ -38,6 +38,7 @@
                     </div>
                 </div>
                 <div class="right ">
+                    <div class="white-div"></div>
                     <div class="annim">
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>

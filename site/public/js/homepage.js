@@ -40,7 +40,8 @@ $(function() {
        .add(TweenMax.to(".annim", 1, {right: "0px"}, 0))*/
 
    first_anim.to(".africa-map", 1, {top: "0px"})
-           .to(".annim", 1, {right: "0px"}, 0)
+           .to(".white-div", 1, {right: "500px"}, 0)
+       .to(".anim-text", 1, {color: "black"}, 0)
        .to(".africa-shadow", 1, {opacity: "1"}, 0)
 
    // build scene
