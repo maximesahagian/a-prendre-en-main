@@ -28,22 +28,25 @@
             </div>
         </div>
         <section class="main-annimation">
-            <div class="left">
-                <div class="maps-container">
-                    <img class="africa-map" src="/img/annimation/africa-map.png" alt="africa-map">
-                    <img class="africa-shadow"  src="/img/annimation/africa-shadow.png" alt="africa-map">
-                </div>
-            </div>
-            <div class="right ">
-                <div class="annim">
-                    <div class="anim-text">
-                        <p>Selon l’Organisation Mondiale de la Santé…</p>
-                        <span>60%</span>
-                        <p>des populations de l’Afrique Subsaharienne
-                            n’ont pas accès à l’eau potable.</p>
+
+            <div class="first-animation">
+                <div class="left">
+                    <div class="maps-container">
+                        <img class="africa-map" src="/img/annimation/africa-map.png" alt="africa-map">
+                        <img class="africa-shadow"  src="/img/annimation/africa-shadow.png" alt="africa-map">
                     </div>
                 </div>
-                <div></div>
+                <div class="right ">
+                    <div class="annim">
+                        <div class="anim-text">
+                            <p>Selon l’Organisation Mondiale de la Santé…</p>
+                            <span>60%</span>
+                            <p>des populations de l’Afrique Subsaharienne
+                                n’ont pas accès à l’eau potable.</p>
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
             </div>
         </section>
     </div>
