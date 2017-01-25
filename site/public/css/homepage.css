@@ -39,6 +39,7 @@
 
 .home-page .main-annimation .left .maps-container .africa-map {
   position: absolute;
+  top: 100px;
 }
 
 .home-page .main-annimation .left .maps-container .africa-shadow {

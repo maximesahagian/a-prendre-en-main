@@ -28,3 +28,20 @@ $(document).ready(function(){
 
 });
 
+/*ANNIMATIONS*/
+// When the DOM is ready
+$(function() {
+
+   // Init ScrollMagic Controller
+   var controller = new ScrollMagic.Controller();
+
+   var tween = TweenMax.to(".africa-map", 1, {top: "0px"});
+
+   // build scene
+   var scene = new ScrollMagic.Scene({triggerElement: ".main-annimation", duration: 200, offset: -50})
+       .setTween(tween)
+       .addTo(controller);
+
+   scene.addIndicators();
+});
+
