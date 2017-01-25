@@ -90,7 +90,7 @@
                 <div class="left-new">
                     <h1>{{$first_new->title}}</h1>
                     <?php
-                        $dateFirstNew = strtotime($first_new->date);
+                    $dateFirstNew = strtotime($first_new->date);
                     ?>
                     <h4><?= date('d/m/Y', $dateFirstNew) ?></h4>
                     <p>{{$first_new->message}}</p>
