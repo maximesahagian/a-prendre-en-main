@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 .crowfunding-section {
   font-family: 'Lato', sans-serif;
 }
@@ -50,6 +52,42 @@
 
 .crowfunding-section .wrapper-crowfunding .content-footer h3 {
   opacity: 1;
+}
+
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container {
+  width: 100%;
+  height: 15px;
+  border-radius: 15px;
+  border: solid 1px white;
+}
+
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-bar {
+  max-width: 100%;
+  width: 0%;
+  background: white;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  float: right;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-button {
+    float: none;
+    margin: 20px auto;
+    width: 60%;
+    display: block;
+  }
+}
+
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-button:hover {
+  background: rgba(173, 173, 173, 0.6);
 }
 
 /*# sourceMappingURL=crowfunding.css.map */

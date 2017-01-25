@@ -18,6 +18,12 @@
         <div class="content-footer">
             <h3>Notre campagne Ulule</h3>
             <!--TODO : API ULULE-->
+            <div class="goal-container">
+                <div class="goal-bar"></div>
+                <a href="#">
+                    <button class="goal-button">Contribuer</button>
+                </a>
+            </div>
         </div>
     </div>
 </section>
