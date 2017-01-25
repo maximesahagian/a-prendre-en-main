@@ -67,10 +67,10 @@
 }
 
 .home-page .main-annimation .right .annim .anim-text {
+  padding: 1vw;
   background: white;
   top: 6vw;
-  right: 6vw;
-  height: 25vw;
+  /*right: 6vw;*/
   display: block;
   width: 30vw;
   position: relative;
