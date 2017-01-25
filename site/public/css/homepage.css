@@ -181,8 +181,8 @@
 .home-page .second-animation .right {
   float: right;
   position: relative;
-  height: 38vw;
-  width: 38vw;
+  height: 0vw;
+  width: 0vw;
   border-radius: 25vw;
   border: 2vw solid white;
   padding-top: 1vw;
@@ -208,8 +208,8 @@
   position: relative;
   background: -webkit-linear-gradient(left, #A3DCDA, #E9EAC7);
   background: linear-gradient(to right, #A3DCDA, #E9EAC7);
-  height: 15vw;
-  width: 15vw;
+  height: 0vw;
+  width: 0vw;
   position: relative;
   border-radius: 10vw;
   top: 28vw;
