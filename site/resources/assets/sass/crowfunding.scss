@@ -1,3 +1,7 @@
+@import "sizes";
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 .crowfunding-section {
   font-family: 'Lato', sans-serif;
   h2, h3 {
@@ -39,6 +43,36 @@
       }
       h3 {
         opacity: 1;
+      }
+      .goal-container {
+        width: 80%;
+        height: 15px;
+        border-radius: 15px;
+        border: solid 1px white;
+        .goal-bar {
+          max-width: 100%;
+          width: 0%;
+          background: white;
+          height: 100%;
+          border-radius: 15px;
+        }
+        .goal-button {
+          border: 1px solid white;
+          background: transparent;
+          color: white;
+          float: right;
+          margin-top: 20px;
+          @include phone() {
+            float: none;
+            margin: 20px auto;
+            width: 60%;
+            display: block;
+          }
+
+          &:hover {
+            background: rgba(173, 173, 173, 0.60);
+          }
+        }
       }
     }
   }
