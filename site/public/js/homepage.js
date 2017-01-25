@@ -67,7 +67,7 @@ $(function() {
        });
 
 
-   scenecover.addIndicators();
-   scene1.addIndicators();
+   /*scenecover.addIndicators();
+   scene1.addIndicators();*/
 });
 
