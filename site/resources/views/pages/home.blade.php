@@ -172,8 +172,13 @@
         </div>
     </section>
 
+
+    @include('components.crowfunding')
+
+    @include('components.explications')
+
     <section class="news">
-        <h1>Les Actualités</h1>
+        <h1>Les actualités</h1>
         <div class="main-new">
             <div class="left-new">
                 <div class="title-date">
@@ -206,6 +211,13 @@
             @endforeach
         </div>
     </section>
+
+    @include('components.team')
+
+    @include('components.contact')
+
+    @include('components.footer')
+
 </div>
 
 @stop
