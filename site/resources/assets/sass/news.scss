@@ -72,6 +72,8 @@
       .second-image {
         width: 100%;
         height: 125px;
+        background-size: cover;
+        background-position: center;
       }
       &:nth-child(2), &:nth-child(3) {
         margin-left: 1.5%;
