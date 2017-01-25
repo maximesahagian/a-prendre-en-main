@@ -104,6 +104,15 @@
                 <a href="#">En savoir plus</a>
             </div>
         </section>
+        <section class="fourth-animation">
+            <div class="left">
+                <div></div>
+                <img src="/img/animations/" alt="">
+            </div>
+            <div class="right">
+
+            </div>
+        </section>
         <section class="news">
             <h1>Les Actualités</h1>
             <div class="main-new">
