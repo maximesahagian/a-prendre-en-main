@@ -48,6 +48,9 @@
                     <div></div>
                 </div>
             </div>
+            <div class="second-animation">
+
+            </div>
         </section>
     </div>
 
