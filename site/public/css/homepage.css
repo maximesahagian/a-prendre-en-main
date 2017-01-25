@@ -17,10 +17,19 @@
 }
 
 .home-page .main-annimation {
+  position: relative;
   height: 50vw;
   padding: 25px 0;
   display: table;
   width: 100%;
+}
+
+.home-page .main-annimation .cover-video {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 50vw;
+  background-color: #fff;
 }
 
 .home-page .main-annimation .first-animation {
@@ -43,16 +52,18 @@
 }
 
 .home-page .main-annimation .first-animation .left .maps-container .africa-map {
+  z-index: 4;
   position: absolute;
   top: 100px;
 }
 
 .home-page .main-annimation .first-animation .left .maps-container .africa-shadow {
+  z-index: 3;
   opacity: 0;
   position: absolute;
   top: 30px;
   left: 30px;
-  z-index: -2;
+  z-index: 3;
 }
 
 .home-page .main-annimation .first-animation .right {
@@ -63,16 +74,27 @@
   height: 100%;
 }
 
+.home-page .main-annimation .first-animation .right .white-div {
+  height: 40vw;
+  position: absolute;
+  width: 1000px;
+  right: 0px;
+  background-color: white;
+  z-index: 1;
+}
+
 .home-page .main-annimation .first-animation .right .annim {
   height: 40vw;
   position: absolute;
-  right: -460px;
+  right: 0px;
   background: url("/img/annimation/right-1.png") no-repeat;
   background-size: contain;
   background-position: right;
 }
 
 .home-page .main-annimation .first-animation .right .annim .anim-text {
+  color: white;
+  z-index: 3;
   background: white;
   top: 6vw;
   right: 6vw;
