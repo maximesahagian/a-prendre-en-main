@@ -84,6 +84,25 @@
             </div>
 
         </section>
+        <section class="third-animation">
+            <img class="first-pipe" src="/img/annimation/first-pipe.png" alt="">
+            <h2 class="processus-title">PROCESSUS</h2>
+            <div class="left">
+                <img class="picture" src="/img/annimation/niga-water-pic.png" alt=""><img src="" alt="">
+                <img class="background" src="/img/annimation/background-niga-water-pic.png" alt=""><img src="" alt="">
+            </div>
+            <div class="right">
+                <p><strong>Une denrée rare et profonde</strong></p>
+                <p>
+
+                    Dans ce genre de régions aussi arides, il faut aller cherchée cette  eau si précieuse  beaucoup plus profonds sous terre, elle se situe au sein de napes fréatiques souterraine tres difficile d’acces.
+
+                    Il est dans un premier temps nécéssaire de localiser la source puis de forer un conduit d’acces jusqu’a celle-ci, ainsi on pourra installer un puit mécanique et remonter l’au jusqu’a la surface.
+
+                    Le probleme majeure étant le coup de financement des moyen de forage et pompages de l’eau et c’est précisement ici que nous intervenons avec votre aide pour financer l’ensemble de l’installation.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+        </section>
         <section class="news">
             <h1>Les Actualités</h1>
             <div class="main-new">
