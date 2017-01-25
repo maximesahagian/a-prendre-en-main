@@ -22,5 +22,9 @@ elixir(mix => {
 });
 
 elixir(mix => {
+    mix.sass('news.scss');
+});
+
+elixir(mix => {
     mix.sass('loginpage.scss');
 });
