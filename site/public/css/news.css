@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 .home-page .news {
   background-color: #F9F9F9;
-  padding: 50px 0;
+  padding: 50px 50px;
 }
 
 .home-page .news h1 {
@@ -13,7 +13,6 @@
 
 .home-page .news .main-new {
   background-color: white;
-  margin: 10px 70px;
   font-family: lato;
   height: 300px;
   box-shadow: 0 2px 2px lightgrey;
@@ -24,7 +23,6 @@
   width: 50%;
   height: 100%;
   display: table-cell;
-  padding: 50px 70px;
 }
 
 .home-page .news .main-new .left-new h1 {
@@ -52,6 +50,8 @@
   background-image: url("/img/favicon.png");
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=news.css.map */
