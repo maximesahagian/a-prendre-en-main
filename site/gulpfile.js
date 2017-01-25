@@ -18,6 +18,26 @@ elixir(mix => {
 });
 
 elixir(mix => {
+    mix.sass('team.scss');
+});
+
+elixir(mix => {
+    mix.sass('contact.scss');
+});
+
+elixir(mix => {
+    mix.sass('crowfunding.scss');
+});
+
+elixir(mix => {
+    mix.sass('explications.scss');
+});
+
+elixir(mix => {
+    mix.sass('footer.scss');
+});
+
+elixir(mix => {
     mix.sass('adminpage.scss');
 });
 

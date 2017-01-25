@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/homepage.css">
     <link rel="stylesheet" href="/css/news.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/crowfunding.css">
+    <link rel="stylesheet" href="/css/explications.css">
+    <link rel="stylesheet" href="/css/team.css">
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 <body>
 
