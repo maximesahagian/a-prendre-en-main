@@ -78,6 +78,10 @@
           background: url('/img/annimation/right-1.png')no-repeat;
           background-size: contain;
           background-position: right;
+          .animation-informations{
+            position: absolute;
+            bottom: 0px;
+          }
           .anim-text{
             color: white;
             z-index:3;
@@ -100,8 +104,10 @@
     }
   }
   .second-animation{
+    margin-bottom: 50px;
     position: relative;
     .informations{
+      position: relative;
       font-size: 8vw;
       float: right;
       color: rgba(74, 74, 74, 0.11);
@@ -117,6 +123,7 @@
           top: 6vw;
           width: 17vw;
           position: relative;
+          right: 250px;
         }
       }
       .text-div{
@@ -200,6 +207,53 @@
 
     }
 
+  }
+  .third-animation{
+    padding-top: 9vw;
+    height: 100vw;
+    position: relative;
+    .first-pipe{
+      position: absolute;
+      left: 40vw;
+      top: 2vw;
+      width: 16vw;
+    }
+    .processus-title{
+      font-size: 10vw;
+      float: right;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+    }
+    .left{
+      position: relative;
+      left: 21vw;
+      top: 40vw;
+      .picture{
+        width: 29vw;
+        position: absolute;
+        right: 4vw;
+        left: -4vw;
+        top: -4vw;
+      }
+      .background{
+        width: 29vw;
+        position: relative;
+        z-index: -3;
+      }
+    }
+    .right{
+      width: 39vw;
+      margin-right: 8vw;
+      float: right;
+      a{
+        top: 7vw;
+        float: right;
+        position: relative;
+        text-decoration: none;
+        color: black;
+      }
+    }
   }
   /*END MAIN ANNIMATION SECTION*/
   font-family: lato;
