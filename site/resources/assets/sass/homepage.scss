@@ -78,6 +78,10 @@
           background: url('/img/annimation/right-1.png')no-repeat;
           background-size: contain;
           background-position: right;
+          .animation-informations{
+            position: absolute;
+            bottom: 0px;
+          }
           .anim-text{
             color: white;
             z-index:3;
@@ -100,8 +104,10 @@
     }
   }
   .second-animation{
+    margin-bottom: 50px;
     position: relative;
     .informations{
+      position: relative;
       font-size: 8vw;
       float: right;
       color: rgba(74, 74, 74, 0.11);
@@ -117,6 +123,7 @@
           top: 6vw;
           width: 17vw;
           position: relative;
+          right: 250px;
         }
       }
       .text-div{

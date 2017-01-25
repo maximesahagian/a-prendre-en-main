@@ -65,7 +65,34 @@ $(function() {
           var pourcentage_population = new CountUp("pourcentage-population", 0, 60, 0, 2, options);
           pourcentage_population.start();
        });
+   var second_anim = new TimelineLite();
+   second_anim.to('.informations', 1, {top: "-100px"})
 
+   var scene2 = new ScrollMagic.Scene({triggerElement: ".animation-informations", duration: 200,tweenChanges: true, offset: 0})
+       .setTween(second_anim)
+       .addTo(controller)
+
+
+   scene2.addIndicators();
+
+   var third_anim = new TimelineLite();
+   third_anim.to('.rectangle-div img',1,{right: "0px"});
+
+   var scene3 = new ScrollMagic.Scene({triggerElement: ".informations", duration: 200,tweenChanges: true, offset: 0})
+       .setTween(third_anim)
+       .addTo(controller)
+       .on('start', function(){
+          var options = {
+             useEasing : false,
+             useGrouping : false,
+             separator : ',',
+             decimal : '.',
+             prefix : '',
+             suffix : ''
+          };
+          var number_city = new CountUp("number_city", 0, 5000, 0, 2, options);
+          number_city.start();
+       })
 
    /*scenecover.addIndicators();
    scene1.addIndicators();*/

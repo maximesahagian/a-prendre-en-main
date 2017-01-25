@@ -92,6 +92,11 @@
   background-position: right;
 }
 
+.home-page .main-annimation .first-animation .right .annim .animation-informations {
+  position: absolute;
+  bottom: 0px;
+}
+
 .home-page .main-annimation .first-animation .right .annim .anim-text {
   color: white;
   z-index: 3;
@@ -113,10 +118,12 @@
 }
 
 .home-page .second-animation {
+  margin-bottom: 50px;
   position: relative;
 }
 
 .home-page .second-animation .informations {
+  position: relative;
   font-size: 8vw;
   float: right;
   color: rgba(74, 74, 74, 0.11);
@@ -137,6 +144,7 @@
   top: 6vw;
   width: 17vw;
   position: relative;
+  right: 250px;
 }
 
 .home-page .second-animation .left .text-div {

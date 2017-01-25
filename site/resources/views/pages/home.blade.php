@@ -45,6 +45,7 @@
                             <p>des populations de l’Afrique Subsaharienne
                                 n’ont pas accès à l’eau potable.</p>
                         </div>
+                        <span class="animation-informations"></span>
                     </div>
                     <div></div>
                 </div>
@@ -62,7 +63,7 @@
                 <div class=" text-div">
                     <div class="">
                         <p>La ville se compose de </p>
-                        <span>5000</span>
+                        <span id="number_city"> </span>
                         <p><strong>habitants</strong> et s’impose paradoxalement comme le plus grand port du pays, et l’un des plus importants d’Afrique centrale. La ville s’étend sur les deux rives du fleuve et il n’existe qu’un seul pont pour passer d’une rive à l’autre.</p>
                     </div>
                     <hr>
