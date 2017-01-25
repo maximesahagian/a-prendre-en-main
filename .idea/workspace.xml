@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site/public/img/actu/5888ac9d933a4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/news.css" afterPath="$PROJECT_DIR$/site/public/css/news.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/news.css.map" afterPath="$PROJECT_DIR$/site/public/css/news.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/news.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
@@ -49,12 +53,17 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.61047834">
-                  <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+                <state vertical-scroll-proportion="-1.120729">
+                  <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
                   <folding>
-                    <element signature="e#115#136#0#HTML" expanded="true" />
-                    <element signature="e#2831#4228#0#HTML" expanded="false" />
-                    <element signature="e#6317#6381#0#HTML" expanded="true" />
+                    <element signature="e#111#132#0#HTML" expanded="true" />
+                    <element signature="e#6219#6283#0#HTML" expanded="true" />
+                    <element signature="e#6396#6425#0#HTML" expanded="true" />
+                    <element signature="e#6519#6568#0#HTML" expanded="true" />
+                    <element signature="e#6750#6779#0#HTML" expanded="true" />
+                    <element signature="e#6873#6922#0#HTML" expanded="true" />
+                    <element signature="e#7104#7133#0#HTML" expanded="true" />
+                    <element signature="e#7227#7276#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -97,8 +106,8 @@
           <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.061728396">
-                  <caret line="235" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.39012346">
+                  <caret line="242" column="7" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
                   <folding>
                     <marker date="1485353528000" expanded="true" signature="366:1733" placeholder="{...}" />
                     <marker date="1485353528000" expanded="true" signature="384:502" placeholder="{...}" />
@@ -530,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061728396">
-          <caret line="235" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="343" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.39012346">
+          <caret line="242" column="7" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
           <folding>
             <marker date="1485353528000" expanded="true" signature="366:1733" placeholder="{...}" />
             <marker date="1485353528000" expanded="true" signature="384:502" placeholder="{...}" />
@@ -554,12 +563,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61047834">
-          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        <state vertical-scroll-proportion="-1.120729">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
           <folding>
-            <element signature="e#115#136#0#HTML" expanded="true" />
-            <element signature="e#2831#4228#0#HTML" expanded="false" />
-            <element signature="e#6317#6381#0#HTML" expanded="true" />
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#6219#6283#0#HTML" expanded="true" />
+            <element signature="e#6396#6425#0#HTML" expanded="true" />
+            <element signature="e#6519#6568#0#HTML" expanded="true" />
+            <element signature="e#6750#6779#0#HTML" expanded="true" />
+            <element signature="e#6873#6922#0#HTML" expanded="true" />
+            <element signature="e#7104#7133#0#HTML" expanded="true" />
+            <element signature="e#7227#7276#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
