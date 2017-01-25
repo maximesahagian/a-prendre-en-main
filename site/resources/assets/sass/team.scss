@@ -1,3 +1,96 @@
 .team-section{
 
+  .equipe-line{
+    padding: 4vw;
+
+  .equipe-image-container{
+
+    -webkit-box-pack: justify;
+    display: -webkit-box;
+
+    width: 80vw;
+    margin: 0 auto;
+    .image-profile{
+      display: inline-block;
+      background: url("/img/user1.png") no-repeat;
+      background-size: contain ;
+      position: relative;
+      width: 20vw;
+      height: 20vw;
+      margin: 5vw 3vw;
+      span{
+        position: absolute;
+        bottom: -5.8vw;
+        width: 100%;
+        text-align: center;
+      }
+      .color{
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+
+      }
+      .color-1{
+        background: #82B09D;
+        top: -2vw;
+        left: -2vw;
+      }
+      .color-2{
+        background: #EAA93D;
+        bottom: -1.5vw;
+        left: -1.5vw;
+        width: 7vw;
+        height: 7vw;
+      }
+      .color-3{
+        background: #CF70E3;
+        top: -1.5vw;
+        right: -1.5vw;
+        width: 12vw;
+        height: 12vw;
+      }
+      .color-4{
+        background: #53BCC6;
+        bottom: -1.5vw;
+        right: -1.5vw;
+        width: 10vw;
+        height: 10vw;
+      }
+      .color-5{
+        background: #A9AF8F;
+        top: -2vw;
+        right: -2vw;
+        width: 15vw;
+        height: 15vw;
+      }
+      .color-6{
+        background: #B1D9A5;
+        top: 2vw;
+        right: -2vw;
+        width: 6vw;
+      }
+      .color-7{
+        background: #F95459;
+        top: 2vw;
+        left: -2vw;
+        width: 7vw;
+      }
+      .color-8{
+        background: #53BCC6;
+        top: -2vw;
+        right: -2vw;
+        width: 17vw;
+        height: 7vw;
+      }
+      .color-9{
+        background: #53BCC6;
+        bottom: -2vw;
+        right: -2vw;
+        width: 18vw;
+        height: 7vw;
+      }
+    }
+  }
+}
 }
