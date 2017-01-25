@@ -66,12 +66,20 @@
 
 .home-page .main-annimation .right .annim .anim-text {
   background: white;
-  top: 14vh;
-  left: 7vw;
-  height: 20vw;
+  top: 6vw;
+  right: 6vw;
+  height: 25vw;
   display: block;
-  width: 50%;
+  width: 30vw;
   position: relative;
+}
+
+.home-page .main-annimation .right .annim .anim-text p {
+  font-size: 2vw;
+}
+
+.home-page .main-annimation .right .annim .anim-text span {
+  font-size: 7vw;
 }
 
 .home-page .video-conainer {
