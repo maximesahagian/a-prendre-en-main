@@ -242,9 +242,9 @@
 
 .home-page .third-animation .first-pipe {
   position: absolute;
-  left: 40vw;
   top: 2vw;
   width: 16vw;
+  left: 7vw;
 }
 
 .home-page .third-animation .processus-title {
@@ -288,6 +288,71 @@
   position: relative;
   text-decoration: none;
   color: black;
+}
+
+.home-page .fourth-animation {
+  padding-top: 10vw;
+  height: 90vw;
+  position: relative;
+}
+
+.home-page .fourth-animation .pipe-2 {
+  position: absolute;
+  left: 35vw;
+  top: -14vw;
+  z-index: -4;
+}
+
+.home-page .fourth-animation .financement-title {
+  font-size: 7vw;
+  text-align: center;
+  color: rgba(74, 74, 74, 0.11);
+  margin-bottom: 6vw;
+  margin-right: 4vw;
+  position: relative;
+  top: 4vw;
+}
+
+.home-page .fourth-animation .left {
+  position: absolute;
+  height: 19vw;
+  width: 26vw;
+  left: 14vw;
+}
+
+.home-page .fourth-animation .left .text {
+  position: absolute;
+  width: 16vw;
+}
+
+.home-page .fourth-animation .left .text .total {
+  font-size: 5vw;
+}
+
+.home-page .fourth-animation .left img {
+  position: absolute;
+  top: 2vw;
+  left: 5vw;
+  width: 15vw;
+}
+
+.home-page .fourth-animation .right {
+  position: relative;
+  float: right;
+  right: 10vw;
+}
+
+.home-page .fourth-animation .right .financement-img {
+  position: absolute;
+  top: 7vw;
+  right: 6vw;
+  width: 30vw;
+  z-index: 3;
+}
+
+.home-page .fourth-animation .right .financement-background {
+  width: 28vw;
+  position: relative;
 }
 
 .home-page .video-conainer {

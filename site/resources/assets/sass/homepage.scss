@@ -214,9 +214,9 @@
     position: relative;
     .first-pipe{
       position: absolute;
-      left: 40vw;
       top: 2vw;
       width: 16vw;
+      left: 7vw;
     }
     .processus-title{
       font-size: 10vw;
@@ -257,8 +257,61 @@
     }
   }
   .fourth-animation{
-    
+    padding-top: 10vw;
+    height: 90vw;
+    position: relative;
+    .pipe-2{
+      position: absolute;
+      left: 35vw;
+      top: -14vw;
+      z-index: -4;
 
+    }
+    .financement-title{
+      font-size: 7vw;
+      text-align: center;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+      position: relative;
+      top: 4vw;
+    }
+
+    .left{
+      position: absolute;
+      height: 19vw;
+      width: 26vw;
+      left: 14vw;
+      .text{
+        position: absolute;
+        width: 16vw;
+        .total{
+          font-size: 5vw;
+        }
+      }
+      img{
+        position: absolute;
+        top: 2vw;
+        left: 5vw;
+        width: 15vw;
+      }
+    }
+  .right{
+    position: relative;
+    float: right;
+    right: 10vw;
+    .financement-img{
+      position: absolute;
+      top: 7vw;
+      right: 6vw;
+      width: 30vw;
+      z-index: 3;
+       }
+    .financement-background{
+      width: 28vw;
+      position: relative;
+    }
+  }
   }
   /*END MAIN ANNIMATION SECTION*/
   font-family: lato;

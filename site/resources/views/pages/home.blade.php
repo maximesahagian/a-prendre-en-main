@@ -77,14 +77,16 @@
 
         </div>
         <div class="right">
-            <div class="small-circle">
-                <span class="pourcentage-circle">80%</span>
-            </div>
-            <div class="zoom-map-circle">
-                <span>DOUALA</span>
-                <hr>
-                <img class="map-zoom" src="/img/annimation/africa-zoom.png" alt="africa-zoom">
-            </div>
+
+                <div class="small-circle">
+                    <span class="pourcentage-circle">80%</span>
+                </div>
+                <div class="zoom-map-circle">
+                    <span>DOUALA</span>
+                    <hr>
+                    <img class="map-zoom" src="/img/annimation/africa-zoom.png" alt="africa-zoom">
+                </div>
+
         </div>
 
         </section>
@@ -109,20 +111,23 @@
         </section>
 
         <section class="fourth-animation">
+            <img class="pipe-2" src="/img/annimation/pipe-2.png" alt="">
+            <h2 class="financement-title">FINANCEMENT</h2>
             <div class="left">
                 <div class="text">
                     <p>Le cout total des trvaux s’éleve à :</p>
-                        <span>23 628</span>
+                        <span class="total">23 628</span>
                     <hr>
                     <p>Abonnement mensuel
                         par famille </p>
                     <span class="la-taxe">
-                        24€
+                        0,24€
                     </span>
                 </div>
                 <img src="/img/annimation/euro.png" alt="">
             </div>
             <div class="right">
+
                 <img class="financement-img" src="/img/annimation/financement-img.png" alt="">
                 <img class="financement-background" src="/img/annimation/financement-background.png" alt="">
 
