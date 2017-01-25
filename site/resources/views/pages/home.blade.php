@@ -113,14 +113,16 @@
             <h2 class="financement-title">FINANCEMENT</h2>
             <div class="left">
                 <div class="text">
-                    <p>Le cout total des trvaux s’éleve à :</p>
+                    <p>Le cout total des travaux s’éleve à :</p>
                         <span class="total">23 628</span>
                     <hr>
-                    <p>Abonnement mensuel
-                        par famille </p>
-                    <span class="la-taxe">
-                        0,24€
-                    </span>
+                    <div class="botom">
+                        <p>Abonnement mensuel
+                            par famille </p>
+                        <span class="la-taxe">
+                            0,24€
+                        </span>
+                    </div>
                 </div>
                 <img src="/img/annimation/euro.png" alt="">
             </div>
@@ -131,6 +133,44 @@
 
             </div>
         </section>
+        <section class="fifth-animation">
+            <h2 class="entretien-title">ENTRETIEN</h2>
+            <div class="left">
+                <p>En cas de casse ou problemes, un technicien est chargé des réparations sur place </p>
+                <img src="/img/annimation/entretien-picto.png" alt="">
+            </div>
+            <img class='finalpipe' src="/img/annimation/final-pipe.png" alt="final pipe">
+        </section>
+    <section class="last-animation">
+        <div class="left">
+            <h2>
+                CAISSE <br>COMMUNE
+            </h2>
+            <div>
+                <p>Chaque famille rejoignant la caisse commune permet de contribuer a cette derniere de part l’abonnement mis en place pour l’entretient et l’expension de ce projet.</p>
+            </div>
+            <i>”Les petits ruissaux font les grandes rivieres”</i>
+        </div>
+
+        <div class="piececontainer">
+            <img class="piece1" src="/img/annimation/piece1.png" alt="">
+            <img class="piece01" src="/img/annimation/piece.png" alt="">
+            <img class="piece2" src="/img/annimation/piece2.png" alt="">
+            <img class="piece3" src="/img/annimation/piece4.png" alt="">
+            <img class="piece6" src="/img/annimation/piece6.png" alt="">
+            <img class="piece02" src="/img/annimation/piece.png" alt="">
+            <img class="piece11" src="/img/annimation/piece.png" alt="">
+            <img class="piece12" src="/img/annimation/piece1.png" alt="">
+            <img class="piece13" src="/img/annimation/piece.png" alt="">
+
+            <img class="piece03" src="/img/annimation/piece.png" alt="">
+            <img class="piece8" src="/img/annimation/piece2.png" alt="">
+            <img class="piece9" src="/img/annimation/piece1.png" alt="">
+            <div>
+                <img class="piecetat" src="/img/annimation/piecetat.png" alt="">
+            </div>
+        </div>
+    </section>
 
 
     @include('components.crowfunding')

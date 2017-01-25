@@ -1,3 +1,45 @@
-.crowfunding-section{
-
+.crowfunding-section {
+  font-family: 'Lato', sans-serif;
+  h2, h3 {
+    font-family: Merriweather;
+  }
+  .image-fong {
+    background-image: url("/img/amazon.png");
+    margin-top: 200px;
+    width: 100%;
+    height: 799px;
+    background-position: center center;
+    background-size: cover;
+  }
+  .wrapper-crowfunding {
+    width: 490px;
+    margin-left: 70px;
+    z-index: 5;
+    margin-top: -930px;
+    position: absolute;
+    .content-body {
+      padding: 30px 50px;
+      color: #FFFFFF;
+      background-color: black;
+      opacity: 0.7;
+      p {
+        margin-top: 40px;
+        color: lightgray;
+      }
+    }
+    .content-footer {
+      padding: 20px;
+      height: 150px;
+      width: 100%;
+      color: #FFFFFF;
+      background-color: black;
+      opacity: 0.8;
+      h3 {
+        margin-top: 0;
+      }
+      h3 {
+        opacity: 1;
+      }
+    }
+  }
 }

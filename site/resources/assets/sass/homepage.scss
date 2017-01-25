@@ -291,14 +291,35 @@
       left: 14vw;
       .text{
         position: absolute;
-        width: 16vw;
+        width: 17vw;
+        hr{
+          border-top: 1px solid black ;
+        }
+        .botom{
+          display: table;
+          p,span{
+            display: table-cell;
+
+          }
+          span{
+            float: right;
+            text-align: right;
+            width: 30%;
+            font-weight: bold;
+          }
+          p{
+            width: 70%;
+            float: left;
+            text-align: left;
+          }
+        }
         .total{
           font-size: 5vw;
         }
       }
       img{
         position: absolute;
-        top: 2vw;
+        top: 5vw;
         left: 5vw;
         width: 15vw;
       }
@@ -319,6 +340,163 @@
       position: relative;
     }
   }
+  }
+  .fifth-animation{
+    position: relative;
+    height: 58vw;
+
+    .left{
+      width: 43vw;
+      display: inline-block;
+
+      p,img{
+        display: table-cell;
+      }
+      p{
+        width: 22vw;
+        text-align: right;
+        position: relative;
+        left: 16vw;
+        float: left;
+      }
+      img{
+        width: 4vw;
+        float: right;
+      }
+    }
+    .entretien-title{
+      position: absolute;
+
+      font-size: 8.8vw;
+      left:8vw;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+      top: 11vw;
+    }
+    .finalpipe{
+      top: -8vw;
+      width: 42vw;
+      z-index: -2;
+      position: relative;
+      left: 7vw;
+    }
+  }
+  .last-animation{
+    position: relative;
+    background: #A2DAD4;
+    height: 52.5vw;
+    .left{
+      position: relative;
+      h2{
+        font-size: 8vw;
+        position: relative;
+        top: 4vw;
+        left: 3vw;
+        color: rgba(74, 74, 74, 0.11);
+        margin-bottom: 6vw;
+        margin-right: 4vw;
+      }
+      i{
+        color: white;
+        position: relative;
+        left: 10vw;
+        top: 5vw;
+        font-weight: 200;
+      }
+      div{
+        width: 30vw;
+        text-align: justify;
+        color: white;
+        padding: 1vw;
+        border-left: 0.6vw solid white;
+        height: 9vw;
+        position: relative;
+        left: 5vw;
+        top:4vw;
+        p{
+          font-weight: 200;
+        }
+      }
+
+    }
+    .piececontainer{
+      width: 63vw;
+      float: right;
+      .piece1{
+        position: absolute;
+        top: 1vw;
+        margin-left: 13vw;
+      }
+      .piece01{
+        position: absolute;
+        top: 2vw;
+        margin-left: 13vw;}
+      .piece2{
+        position: absolute;
+        top: 13vw;
+        right: 16.5vw;
+        margin-left: 13vw;
+      }
+      .piece3{
+        position: absolute;
+        top: 16vw;
+        right: 30.5vw;
+        margin-left: 13vw;
+      }
+      .piece6{
+        position: absolute;
+        top: 23vw;
+        right: 22.5vw;
+        margin-left: 13vw;
+      }
+      .piece02{
+        position: absolute;
+        top: 42vw;
+        right: 16.5vw;
+        margin-left: 13vw;
+      }
+      .piece03{
+        position: absolute;
+        top: 3vw;
+        right: 22vw;
+        margin-left: 13vw;
+      }
+      .piece8{
+        position: absolute;
+        top: 29vw;
+        margin-left: 13vw;
+      }
+      .piece9{
+        position: absolute;
+        top: 31vw;
+        right: 38.5vw;
+        margin-left: 13vw;
+      }
+      .piece11{
+        position: absolute;
+        top: 31vw;
+        right: 7.5vw;
+        margin-left: 13vw;
+      }
+      .piece12{
+        position: absolute;
+        top: 13vw;
+        right: 7.5vw;
+        margin-left: 13vw;
+      }
+      .piece13{
+        position: absolute;
+       bottom: 0;
+        right: 7.5vw;
+        margin-left: 13vw;
+      }
+      .piecetat{width: 45vw;
+      position: absolute;
+        right:17vw;
+
+      bottom: 0;}
+    }
   }
   /*END MAIN ANNIMATION SECTION*/
   font-family: lato;
