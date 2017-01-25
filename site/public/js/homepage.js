@@ -39,7 +39,7 @@ $(function() {
        /*.add(TweenMax.to(".africa-map", 1, {top: "0px"},0))
        .add(TweenMax.to(".annim", 1, {right: "0px"}, 0))*/
 
-   first_anim.to(".africa-map", 1, {top: "0px"})
+   first_anim.to(".africa-map", 1, {top: "0px", opacity: "1"})
            .to(".annim", 1, {right: "0px"}, 0)
 
    // build scene

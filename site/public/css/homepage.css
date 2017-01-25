@@ -43,6 +43,7 @@
 }
 
 .home-page .main-annimation .first-animation .left .maps-container .africa-map {
+  opacity: 0;
   position: absolute;
   top: 100px;
 }
