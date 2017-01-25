@@ -147,30 +147,20 @@
             </div>
         </div>
         <div class="wrapper-news">
-            <div class="second-new" style="display: inline-block">
-                <div class="left-second-new">
-                    <div class="second-image" style="background-image: url('/img/favicon.png')"></div>
+            @foreach($news as $new)
+                <?php
+                    $dateFirstNew = strtotime($new->date);
+                    $dateNew = date('d/m/Y', $dateFirstNew)
+                ?>
+                <div class="second-new" style="display: inline-block">
+                    <div class="left-second-new">
+                        <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
+                    </div>
+                    <h2>{{$new->title}}</h2>
+                    <h5>{{$dateNew}}</h5>
+                    <p>{{$new->message}}</p>
                 </div>
-                <h2>TITRE</h2>
-                <h5>Date</h5>
-                <p>Description</p>
-            </div>
-            <div class="second-new" style="display: inline-block">
-                <div class="left-second-new">
-                    <div class="second-image" style="background-image: url('/img/favicon.png')"></div>
-                </div>
-                <h2>TITRE</h2>
-                <h5>Date</h5>
-                <p>Description</p>
-            </div>
-            <div class="second-new" style="display: inline-block">
-                <div class="left-second-new">
-                    <div class="second-image" style="background-image: url('/img/favicon.png')"></div>
-                </div>
-                <h2>TITRE</h2>
-                <h5>Date</h5>
-                <p>Description</p>
-            </div>
+            @endforeach
         </div>
     </section>
 </div>
