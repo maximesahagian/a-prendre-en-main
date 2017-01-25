@@ -94,6 +94,20 @@ $(function() {
           number_city.start();
        })
 
+/*   var fourth_anim = new TimelineLite();
+   fourth_anim.to('.small-circle',1,{top: "28vw"});
+   var scene4 = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 200,tweenChanges: true, offset: 0})
+       .setTween(fourth_anim)
+       .addTo(controller)*/
+
+   var five_anim = new TimelineLite();
+
+   five_anim.to('.second-animation .right', 1, {height: "38vw", width: "38vw"})
+       .to('.second-animation .small-circle', 1, {height: "15vw", width: "15vw"})
+   var scene4 = new ScrollMagic.Scene({triggerElement: ".maps-animation", duration: 300,tweenChanges: true, offset: 0})
+       .setTween(five_anim)
+       .addTo(controller)
+
    /*scenecover.addIndicators();
    scene1.addIndicators();*/
 });

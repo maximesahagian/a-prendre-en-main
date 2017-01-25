@@ -62,9 +62,9 @@
                 </div>
                 <div class=" text-div">
                     <div class="">
-                        <p>La ville se compose de </p>
+                        <p class="maps-animation">La ville se compose de </p>
                         <span id="number_city"> </span>
-                        <p><strong>habitants</strong> et s’impose paradoxalement comme le plus grand port du pays, et l’un des plus importants d’Afrique centrale. La ville s’étend sur les deux rives du fleuve et il n’existe qu’un seul pont pour passer d’une rive à l’autre.</p>
+                        <p class="small-circle-animation"><strong>habitants</strong> et s’impose paradoxalement comme le plus grand port du pays, et l’un des plus importants d’Afrique centrale. La ville s’étend sur les deux rives du fleuve et il n’existe qu’un seul pont pour passer d’une rive à l’autre.</p>
                     </div>
                     <hr>
                     <p class="little-text">     des habitants ne sont pas
