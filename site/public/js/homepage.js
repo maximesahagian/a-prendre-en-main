@@ -104,6 +104,7 @@ $(function() {
 
    five_anim.to('.second-animation .right', 1, {height: "38vw", width: "38vw"})
        .to('.map-zoom', 1, {width: "28vw"}, 0)
+       .to('.second-animation .zoom-map-circle span', 1, {left: "9vw", opacity: "1"}, 0)
        .to('.second-animation .small-circle', 1, {height: "15vw", width: "15vw"})
        .to('.small-circle .pourcentage-circle', 1, {fontSize: "4vw"})
    var scene4 = new ScrollMagic.Scene({triggerElement: ".maps-animation", duration: 300,tweenChanges: true, offset: 0})
