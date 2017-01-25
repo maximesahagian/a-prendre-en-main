@@ -107,12 +107,18 @@
                 <a href="#">En savoir plus</a>
             </div>
         </section>
+
         <section class="fourth-animation">
             <div class="left">
-                <div></div>
-                <img src="/img/animations/" alt="">
+                <div>
+                    <p>Le cout total des trvaux s’éleve à :</p>
+                        <span>23 628</span>
+                </div>
+                <img src="/img/annimation/euro.png" alt="">
             </div>
             <div class="right">
+                <img class="financement-img" src="/img/annimation/financement-img.png" alt="">
+                <img class="financement-background" src="/img/annimation/financement-background.png" alt="">
 
             </div>
         </section>

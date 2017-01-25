@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,17 +49,17 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.120729">
-                  <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.54897493">
+                  <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
                   <folding>
                     <element signature="e#111#132#0#HTML" expanded="true" />
-                    <element signature="e#6219#6283#0#HTML" expanded="true" />
-                    <element signature="e#6396#6425#0#HTML" expanded="true" />
-                    <element signature="e#6519#6568#0#HTML" expanded="true" />
-                    <element signature="e#6750#6779#0#HTML" expanded="true" />
-                    <element signature="e#6873#6922#0#HTML" expanded="true" />
-                    <element signature="e#7104#7133#0#HTML" expanded="true" />
-                    <element signature="e#7227#7276#0#HTML" expanded="true" />
+                    <element signature="e#6611#6675#0#HTML" expanded="true" />
+                    <element signature="e#6788#6817#0#HTML" expanded="true" />
+                    <element signature="e#6911#6960#0#HTML" expanded="true" />
+                    <element signature="e#7142#7171#0#HTML" expanded="true" />
+                    <element signature="e#7265#7314#0#HTML" expanded="true" />
+                    <element signature="e#7496#7525#0#HTML" expanded="true" />
+                    <element signature="e#7619#7668#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -73,7 +73,7 @@
             <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-10.191176">
-                  <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+                  <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -104,23 +104,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.70864195">
                   <caret line="231" column="18" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="18" />
-                  <folding>
-                    <marker date="1485355107000" expanded="true" signature="366:1733" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="384:502" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="623:1733" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="661:1185" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="759:1176" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="826:863" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="885:978" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="1003:1165" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="1199:1733" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="1314:1483" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="1499:1733" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="2715:2726" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="2715:2734" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="2715:3264" placeholder="{...}" />
-                    <marker date="1485355107000" expanded="true" signature="2715:4424" placeholder="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -163,8 +147,8 @@
         <option value="$PROJECT_DIR$/site/public/js/animation.gsap.js" />
         <option value="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
         <option value="$PROJECT_DIR$/site/public/js/homepage.js" />
-        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
+        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
       </list>
     </option>
   </component>
@@ -520,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.191176">
-          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
+          <caret line="112" column="3" selection-start-line="112" selection-start-column="3" selection-end-line="112" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -533,43 +517,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.120729">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-          <folding>
-            <element signature="e#111#132#0#HTML" expanded="true" />
-            <element signature="e#6219#6283#0#HTML" expanded="true" />
-            <element signature="e#6396#6425#0#HTML" expanded="true" />
-            <element signature="e#6519#6568#0#HTML" expanded="true" />
-            <element signature="e#6750#6779#0#HTML" expanded="true" />
-            <element signature="e#6873#6922#0#HTML" expanded="true" />
-            <element signature="e#7104#7133#0#HTML" expanded="true" />
-            <element signature="e#7227#7276#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70864195">
           <caret line="231" column="18" selection-start-line="231" selection-start-column="18" selection-end-line="231" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54897493">
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
           <folding>
-            <marker date="1485355107000" expanded="true" signature="366:1733" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="384:502" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="623:1733" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="661:1185" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="759:1176" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="826:863" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="885:978" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="1003:1165" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="1199:1733" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="1314:1483" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="1499:1733" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="2715:2726" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="2715:2734" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="2715:3264" placeholder="{...}" />
-            <marker date="1485355107000" expanded="true" signature="2715:4424" placeholder="{...}" />
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#6611#6675#0#HTML" expanded="true" />
+            <element signature="e#6788#6817#0#HTML" expanded="true" />
+            <element signature="e#6911#6960#0#HTML" expanded="true" />
+            <element signature="e#7142#7171#0#HTML" expanded="true" />
+            <element signature="e#7265#7314#0#HTML" expanded="true" />
+            <element signature="e#7496#7525#0#HTML" expanded="true" />
+            <element signature="e#7619#7668#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
