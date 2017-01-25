@@ -49,9 +49,40 @@
                     <div></div>
                 </div>
             </div>
-            <div class="second-animation">
+        </section>
+        <section class="second-animation">
+
+            <h2 class="informations">INFORMATIONS</h2>
+
+
+            <div class="left">
+                <div class="rectangle-div">
+                    <img class="rectangle" src="/img/annimation/rectangle.png" alt="">
+                </div>
+                <div class=" text-div">
+                    <div class="">
+                        <p>La ville se compose de </p>
+                        <span>5000</span>
+                        <p><strong>habitants</strong> et s’impose paradoxalement comme le plus grand port du pays, et l’un des plus importants d’Afrique centrale. La ville s’étend sur les deux rives du fleuve et il n’existe qu’un seul pont pour passer d’une rive à l’autre.</p>
+                    </div>
+                    <hr>
+                    <p class="little-text">     des habitants ne sont pas
+                        connectés au réseau de distribution d’eau potable.</p>
+                </div>
+
 
             </div>
+            <div class="right">
+                <div class="small-circle">
+                    <span>80%</span>
+                </div>
+                <div class="zoom-map-circle">
+                    <span>DOUALA</span>
+                    <hr>
+                    <img class="map-zoom" src="/img/annimation/africa-zoom.png" alt="africa-zoom">
+                </div>
+            </div>
+
         </section>
         <section class="news">
             <h1>Les Actualités</h1>
