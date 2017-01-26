@@ -262,8 +262,8 @@ $(function() {
 
     var fourteen_anim = new TimelineLite();
 
-    fourteen_anim.to('.our-view .second', 1, {bottom: '-4vw'})
-        .to('.our-view .third', 1, {bottom: '-9vw'},0)
+    fourteen_anim.to('.our-view .second', 1, {bottom: '-7vw'})
+        .to('.our-view .third', 1, {bottom: '-10vw'},0);
 
     var scene14 = new ScrollMagic.Scene({triggerElement: ".sign", duration: 300,tweenChanges: true, offset: 0})
         .setTween(fourteen_anim)

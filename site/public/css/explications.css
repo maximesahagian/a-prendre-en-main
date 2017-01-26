@@ -80,31 +80,44 @@
   position: relative;
 }
 
+.explications-section .our-view i {
+  position: absolute;
+  right: 7vw;
+  top: 3vw;
+  font-size: 1.4vw;
+  color: #5C5953;
+}
+
 .explications-section .our-view .title {
-  margin-left: 7vw;
+  margin-left: 5vw;
   font-family: 'Merriweather';
   font-size: 2.1vw;
   position: absolute;
-  top: -9vw;
+  top: -3vw;
 }
 
 .explications-section .our-view .block-view {
-  padding: 25px;
+  padding: 3vw;
   text-align: center;
 }
 
 .explications-section .our-view .block-view .title-div {
   font-family: 'Merriweather';
   font-size: 2vw;
+  text-align: left;
+  padding-left: 2vw;
+  width: 30vw;
 }
 
 .explications-section .our-view .block-view .description {
+  font-style: italic;
   text-align: left;
   margin-top: 15px;
   font-size: 1.2vw;
   font-family: 'Lato';
   padding-right: 3vw;
   padding-left: 2vw;
+  color: #5C5953;
 }
 
 .explications-section .our-view .first {
@@ -126,8 +139,9 @@
 
 .explications-section .our-view .second {
   margin-left: 27vw;
-  bottom: 0vw;
-  width: 32vw;
+  height: 30vw;
+  bottom: -1vw;
+  width: 36vw;
   background-color: #E0F2F7;
   position: absolute;
 }
@@ -138,13 +152,14 @@
 
 .explications-section .our-view .second .description {
   color: #718285;
+  width: 25vw;
 }
 
 .explications-section .our-view .third {
-  bottom: 0vw;
   width: 28vw;
+  bottom: -1vw;
   background-color: #FFF0D5;
-  margin-left: 56vw;
+  margin-left: 60vw;
   position: absolute;
 }
 
@@ -158,13 +173,14 @@
 }
 
 .explications-section .bottom-our-view {
-  height: 8.5vw;
+  height: 17.5vw;
   width: 100%;
-  background-image: url("/img/bottom_our_view.jpg");
+  background-image: url(/img/bottom_our_view.jpg);
+  background-size: cover;
 }
 
 .explications-section .to-take {
-  margin-top: 30px;
+  margin-top: 6vw;
   padding-left: 7vw;
   padding-right: 7vw;
 }

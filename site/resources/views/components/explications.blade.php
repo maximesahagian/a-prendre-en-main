@@ -19,6 +19,7 @@
         </div>
     </div>
     <div class="our-view">
+        <i>"Diversité, Respect, Volonté d'aider, Partage."</i>
         <h3 class="title">Notre approche</h3>
         <div class="first block-view">
             <h4 class="title-div">Implication locale</h4>
