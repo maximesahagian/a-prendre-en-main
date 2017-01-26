@@ -71,7 +71,6 @@
           border: 1px solid white;
           background: transparent;
           color: white;
-          float: right;
           @include phone() {
             float: none;
             margin: 20px auto;
