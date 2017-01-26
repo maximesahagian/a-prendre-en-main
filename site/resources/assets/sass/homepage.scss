@@ -653,7 +653,7 @@ body, html {
     }
     .text-video {
       position: absolute;
-      top: 30vw;
+      top: 25vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
@@ -715,8 +715,11 @@ body, html {
             border-radius: 15px;
           }
           .goal-button {
-            border: 1px solid white;
-            background: transparent;
+            border: 0px solid white;
+            background: #83B09D;
+            border-radius: 2vw;
+            width: 9vw;
+            height: 2.5vw;
             color: white;
             float: right;
             margin-top: 20px;
