@@ -234,6 +234,66 @@
       }
 
     }
+    .after2{
+      display: table;
+      margin-top: 80px;
+      .left-first{
+        display: table-cell;
+        width: 50%;
+        position: relative;
+        .background-red{
+          width: 30vw;
+          height: 30vw;
+          background-color: #BFDAC4;
+          position: absolute;
+          top: 2vw;
+          left: 0px;
+        }
+
+        .image-first{
+          height: 29vw;
+          position: absolute;
+          top: 0px;
+          left: 2vw;
+          background: url(/img/mamadou.png);
+          background-size: cover;
+          background-position: center;
+          width: 36vw;
+        }
+
+      }
+
+      .right-first{
+        display: table-cell;
+        width: 50%;
+        position: relative;
+        .container-right{
+          width: 83%;
+          margin-left: auto;
+          position: relative;
+          bottom: 5vw;
+          .title-right-first{
+            font-family: 'Merriweather';
+            font-size: 2vw;
+            margin-bottom: 30px;
+          }
+          p{
+            word-spacing: 5px;
+            width: 85%;
+          }
+          ul{
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 80%;
+            li{
+              list-style: initial;
+              margin-top:5px;
+            }
+          }
+        }
+      }
+
+    }
     .numbers-objectives{
       display: table;
       .left-second{
@@ -272,6 +332,62 @@
           width: 28vw;
           height: 35vw;
           background-color: #B0E0C1;
+          right: 0px;
+          top:4vw;
+          z-index: -1;
+        }
+      }
+      ul{
+        width: 90%;
+        margin: 0 auto;
+        li{
+          list-style: initial;
+        }
+      }
+    }
+
+    .numbers-objectives2{
+      display: table;
+      .left-second{
+        height: 40vw;
+        display: table-cell;
+        width: 50%;
+        float: left;
+        .container-left{
+          margin-top: 8vw;
+          p{
+            word-spacing: 5px;
+            width: 85%;
+          }
+          .title-left-second{
+            font-family: 'Merriweather';
+            font-size: 2vw;
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .right-second{
+        display: table-cell;
+        width: 50%;
+        float: right;
+        position: relative;
+        .image-second{
+          position: absolute;
+          right: 2vw;
+          top: 0px;
+          background: url(/img/pompe.png);
+          background-size: cover;
+          background-position: center;
+          width: 36vw;
+          height: 29vw;
+        }
+        .background-green{
+          position: absolute;
+          width: 32vw;
+          height: 27vw;
+          background-color: #CC92FF;
           right: 0px;
           top:4vw;
           z-index: -1;

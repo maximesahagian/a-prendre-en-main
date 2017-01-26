@@ -92,6 +92,54 @@
                 </div>
             </div>
         </div>
+
+        <div class="after2">
+            <div class="left-first">
+                <div class="background-red"></div>
+                <div class="image-first"></div>
+            </div>
+
+            <div class="right-first">
+                <div class="container-right">
+                    <h4 class="title-right-first">Coût du projet </h4>
+                    <p>Le coût du projet est de <strong>23 638€.</strong>
+                        Les activités prévues :</p>
+                    <ul>
+                        <li>Etude de sol</li>
+                        <li>Travaux de forage</li>
+                        <li>Equipement – Développement air lift – pompage d’essai</li>
+                        <li>Achat et installation des pompes ( (2 pompes prévues)</li>
+                        <li>Structure clôture de sécurité de l’ouvrage</li>
+                        <li>Construction puisard – installation chaîne – caisse à outils</li>
+                        <li>Traitement et désinfection du forage</li>
+                        <li>Prélèvement et analyse physico-chimique de l’eau</li>
+                        <li>Constitution d’un comité de gestion</li>
+                        <li>Formation délivrée par le Prestataire ETS MBAKOP & FILS au comité de gestion</li>
+                        <li>Déploiement d’une formation aux jeunes et femmes aux règles d’hygiène et de salubrité</li>
+                        <li>Dépliants pour sensibilisation des populations</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="numbers-objectives2">
+            <div class="left-second">
+                <div class="container-left">
+                    <h4 class="title-left-second">Date de réalisation</h4>
+                    <p>La mise en oeuvre du projet est prévue au 31/10/2017.
+                        Un voyage est prévu en Avril 2017 pour prendre contact avec les populations locales en présentiel et présenter en détail le projet.
+                        Par la suite, 2 membres de l’association se rendront sur place le 16 octobre 2017 (2 semaines avant l’ouverture des pompes à eau) pour suivre les travaux (durée de 10 jours) et dispenser les formations.</p>
+                </div>
+            </div>
+            <div class="right-second">
+                <div class="image-second">
+                </div>
+                <div class="background-green">
+
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>

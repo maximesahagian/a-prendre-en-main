@@ -261,6 +261,72 @@
   margin-top: 5px;
 }
 
+.explications-section .to-take .after2 {
+  display: table;
+  margin-top: 80px;
+}
+
+.explications-section .to-take .after2 .left-first {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+}
+
+.explications-section .to-take .after2 .left-first .background-red {
+  width: 30vw;
+  height: 30vw;
+  background-color: #BFDAC4;
+  position: absolute;
+  top: 2vw;
+  left: 0px;
+}
+
+.explications-section .to-take .after2 .left-first .image-first {
+  height: 29vw;
+  position: absolute;
+  top: 0px;
+  left: 2vw;
+  background: url(/img/mamadou.png);
+  background-size: cover;
+  background-position: center;
+  width: 36vw;
+}
+
+.explications-section .to-take .after2 .right-first {
+  display: table-cell;
+  width: 50%;
+  position: relative;
+}
+
+.explications-section .to-take .after2 .right-first .container-right {
+  width: 83%;
+  margin-left: auto;
+  position: relative;
+  bottom: 5vw;
+}
+
+.explications-section .to-take .after2 .right-first .container-right .title-right-first {
+  font-family: 'Merriweather';
+  font-size: 2vw;
+  margin-bottom: 30px;
+}
+
+.explications-section .to-take .after2 .right-first .container-right p {
+  word-spacing: 5px;
+  width: 85%;
+}
+
+.explications-section .to-take .after2 .right-first .container-right ul {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 80%;
+}
+
+.explications-section .to-take .after2 .right-first .container-right ul li {
+  list-style: initial;
+  margin-top: 5px;
+}
+
 .explications-section .to-take .numbers-objectives {
   display: table;
 }
@@ -318,6 +384,71 @@
 }
 
 .explications-section .to-take .numbers-objectives ul li {
+  list-style: initial;
+}
+
+.explications-section .to-take .numbers-objectives2 {
+  display: table;
+}
+
+.explications-section .to-take .numbers-objectives2 .left-second {
+  height: 40vw;
+  display: table-cell;
+  width: 50%;
+  float: left;
+}
+
+.explications-section .to-take .numbers-objectives2 .left-second .container-left {
+  margin-top: 8vw;
+}
+
+.explications-section .to-take .numbers-objectives2 .left-second .container-left p {
+  word-spacing: 5px;
+  width: 85%;
+}
+
+.explications-section .to-take .numbers-objectives2 .left-second .container-left .title-left-second {
+  font-family: 'Merriweather';
+  font-size: 2vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.explications-section .to-take .numbers-objectives2 .right-second {
+  display: table-cell;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+.explications-section .to-take .numbers-objectives2 .right-second .image-second {
+  position: absolute;
+  right: 2vw;
+  top: 0px;
+  background: url(/img/pompe.png);
+  background-size: cover;
+  background-position: center;
+  width: 36vw;
+  height: 29vw;
+}
+
+.explications-section .to-take .numbers-objectives2 .right-second .background-green {
+  position: absolute;
+  width: 32vw;
+  height: 27vw;
+  background-color: #CC92FF;
+  right: 0px;
+  top: 4vw;
+  z-index: -1;
+}
+
+.explications-section .to-take .numbers-objectives2 ul {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.explications-section .to-take .numbers-objectives2 ul li {
   list-style: initial;
 }
 
