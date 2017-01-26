@@ -21,6 +21,11 @@
     z-index: 5;
     margin-top: -500px;
     position: absolute;
+
+    @include phone() {
+      position: inherit;
+      margin: 0 auto;
+    }
     .content-body {
       padding: 30px 50px;
       color: #FFFFFF;
