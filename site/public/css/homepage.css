@@ -482,6 +482,7 @@
 }
 
 .home-page .fifth-animation .left {
+  opacity: 0;
   width: 43vw;
   display: inline-block;
 }
@@ -506,7 +507,7 @@
 .home-page .fifth-animation .entretien-title {
   position: absolute;
   font-size: 8.8vw;
-  left: 8vw;
+  left: -10vw;
   color: rgba(74, 74, 74, 0.11);
   margin-bottom: 6vw;
   margin-right: 4vw;
@@ -552,6 +553,7 @@
 }
 
 .home-page .last-animation .left div {
+  opacity: 0;
   width: 30vw;
   text-align: justify;
   color: white;
@@ -657,7 +659,7 @@
 .home-page .last-animation .piececontainer .piecetat {
   width: 45vw;
   position: absolute;
-  right: 17vw;
+  right: 55vw;
   bottom: 0;
 }
 

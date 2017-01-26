@@ -426,6 +426,7 @@ body,html{
       width: 2vw;
     }
     .left{
+      opacity: 0;
       width: 43vw;
       display: inline-block;
 
@@ -446,9 +447,8 @@ body,html{
     }
     .entretien-title{
       position: absolute;
-
       font-size: 8.8vw;
-      left:8vw;
+      left: -10vw;
       color: rgba(74, 74, 74, 0.11);
       margin-bottom: 6vw;
       margin-right: 4vw;
@@ -487,6 +487,7 @@ body,html{
         font-weight: 200;
       }
       div{
+        opacity: 0;
         width: 30vw;
         text-align: justify;
         color: white;
@@ -574,9 +575,10 @@ body,html{
         right: 7.5vw;
         margin-left: 13vw;
       }
-      .piecetat{width: 45vw;
-      position: absolute;
-        right:17vw;
+      .piecetat{
+        width: 45vw;
+        position: absolute;
+        right:55vw;
 
       bottom: 0;}
     }

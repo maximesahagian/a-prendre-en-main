@@ -175,14 +175,14 @@ $(function() {
     var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-animation", duration: 300,tweenChanges: true, offset: 200})
         .setTween(eight_anim)
         .addTo(controller)
-    
+
 
     var night_anim = new TimelineLite();
     night_anim.to('.fourth-animation .financement-img',1,{top: "7vw"})
     night_anim.to('.fourth-animation .financement-background',1,{top: "0vw"},0)
     night_anim.to('.fourth-animation .left',1,{opacity: "1"},0)
 
-    var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-title", duration: 300,tweenChanges: true, offset: -50})
+    var scene9 = new ScrollMagic.Scene({triggerElement: ".financement-title", duration: 300,tweenChanges: true, offset: -50})
         .setTween(night_anim)
         .addTo(controller)
         .on('start',function(){
@@ -195,7 +195,40 @@ $(function() {
                 suffix : ''
             };
             var euroNumber = new CountUp("euro-number", 0, 23628, 0, 2, options);
+            euroNumber.start();
         });
+
+    var ten_anim = new TimelineLite();
+    ten_anim.to('.entretien-title', 1, {left: "8vh"})
+    ten_anim.to('.fifth-animation .left', 1, {opacity: "1"}, 1)
+
+    var scene10 = new ScrollMagic.Scene({triggerElement: ".fifth-animation", duration: 400,tweenChanges: true, offset: 0})
+        .setTween(ten_anim)
+        .addTo(controller)
+
+    var eleven_anim = new TimelineLite();
+
+    eleven_anim
+        .to('.last-animation .left div', 1, {opacity: "1"})
+        .to('.piece01', 1, {top: '15vw'}, 0)
+        .to('.piece1', 1, {top: '20vw'}, 0)
+        .to('.piece2', 1, {top: '27vw'}, 0)
+        .to('.piece3', 1, {top: '35vw'}, 0)
+        .to('.piece03', 1, {top: '28vw'}, 0)
+        .to('.piece8', 1, {top: '47.7vw'}, 0)
+        .to('.piece6', 1, {top: '39vw'}, 0)
+        .to('.piece9', 1, {top: '39vw'}, 0)
+        .to('.piece12', 1, {top: '20vw'}, 0)
+        .to('.piece11', 1, {top: '50vw'}, 0)
+        .to('.piece02', 1, {top: '51vw'}, 0)
+        .to('.piecetat', 1, {right: '17vw'}, 0)
+
+
+
+
+    var scene11 = new ScrollMagic.Scene({triggerElement: ".last-animation", duration: 600,tweenChanges: true, offset: 0})
+        .setTween(eleven_anim)
+        .addTo(controller)
 
     //TO 4
 });
