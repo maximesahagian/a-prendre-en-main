@@ -1,5 +1,5 @@
 $('.content-contact .button #button').click(function(){
-    $('.infos').css({display: 'block'});
+/*    $('.infos').css({display: 'block'});
     $.ajax({
         url: "/sendmail",
         cache: false,
@@ -14,5 +14,9 @@ $('.content-contact .button #button').click(function(){
             $('.infos').removeClass('en-cours');
             $('.infos').addClass('sent');
             $('.infos').html('Le mail a bien été envoyé, notre équipe vous répondra dans les plus brefs délais.')
-        });
+        });*/
+
+    var response = grecaptcha.getResponse();
+
+    console.log(response);
 });

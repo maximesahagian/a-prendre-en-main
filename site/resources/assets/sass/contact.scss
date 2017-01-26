@@ -6,8 +6,8 @@
   input, textarea, button {
     outline: none;
   }
-  height: 380px;
-  margin: 200px 0;
+  height: 600px;
+  margin: 100px 0;
   color: #5C5953;
   .goute-1, .goute-2 {
     background-image: url("/img/annimation/goute-large.png");
@@ -88,25 +88,25 @@
         width: 100%;
       }
     }
-    .infos{
+    .infos {
 
       border-radius: 2px;
       padding: 20px;
       margin-top: 25px;
       display: none;
     }
-    .en-cours{
+    .en-cours {
       background-color: #E0F2F7;
       border: 1px solid #7E949A;
       color: #718285;
     }
-    .sent{
+    .sent {
       background-color: #E0FBF3;
       border: 1px solid #84908C;
       color: #84908C;
     }
     .button {
-      margin-top: 30px;
+      margin-top: 80px;
       float: right;
       #button {
         border-radius: 25px;
@@ -120,6 +120,10 @@
           color: white;
         }
       }
+    }
+    .captcha {
+      float: left;
+      margin-top: 50px;
     }
   }
 }
