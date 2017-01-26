@@ -8,19 +8,18 @@
     font-family: Merriweather;
   }
   .image-fong {
-    background-image: url("/img/water-hands.jpg");
+    background-image: url("/img/amazonie.png");
     margin-top: 100px;
     width: 100%;
-    height: 799px;
+    height: 804px;
     background-position: center center;
     background-size: cover;
   }
   .wrapper-crowfunding {
     width: 40%;
-
     z-index: 5;
-    margin-left: 60px;
     position: absolute;
+    height: 800px;
 
     @include phone() {
       position: inherit;
@@ -57,6 +56,7 @@
       }
       h3 {
         opacity: 1;
+        margin-left: -190px;
       }
 
       .amount-raised-two {
