@@ -15,11 +15,11 @@
 }
 
 .home-page p {
-  font-size: 1.7vw;
+  font-size: 1.3vw;
 }
 
 .home-page li {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
 
 .home-page .phoneportrait {
@@ -821,6 +821,7 @@
   position: absolute;
   top: 15%;
   left: 9%;
+  width: 7vw;
 }
 
 /*# sourceMappingURL=homepage.css.map */
