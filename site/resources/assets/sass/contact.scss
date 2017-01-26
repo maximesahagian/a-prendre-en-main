@@ -1,0 +1,125 @@
+@import "sizes";
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.contact-section {
+  input, textarea, button {
+    outline: none;
+  }
+  height: 380px;
+  margin: 200px 0;
+  color: #5C5953;
+  .goute-1, .goute-2 {
+    background-image: url("/img/annimation/goute-large.png");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+  }
+  .goute-1 {
+    width: 119px;
+    height: 159px;
+    margin-left: 445px;
+    margin-top: -80px;
+    z-index: -1;
+
+  }
+  .goute-2 {
+    width: 45px;
+    height: 60px;
+    margin-left: 375px;
+    margin-top: 40px;
+    z-index: -1;
+  }
+  .content-contact {
+    height: 425px;
+    width: 620px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: merriweather;
+  }
+  p {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .content-contact {
+    .top-contact {
+      width: 100%;
+      margin: 0 auto;
+      .surname-contact {
+        display: inline-block;
+        #prenom {
+          display: block;
+          border: none;
+          border-bottom: 1px solid lightgrey;
+          width: 150%;
+        }
+      }
+      .name-contact {
+        display: inline-block;
+        margin-left: 218px;
+        #nom {
+          display: block;
+          border: none;
+          border-bottom: 1px solid lightgrey;
+          width: 150%;
+        }
+      }
+    }
+    .email {
+      display: block;
+      margin-top: 50px;
+      #courriel {
+        display: block;
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        width: 36%;
+      }
+    }
+    .message {
+      display: block;
+      margin-top: 30px;
+      #message {
+        display: block;
+        border: none;
+        border-bottom: 1px solid lightgrey;
+        width: 100%;
+      }
+    }
+    .infos{
+
+      border-radius: 2px;
+      padding: 20px;
+      margin-top: 25px;
+      display: none;
+    }
+    .en-cours{
+      background-color: #E0F2F7;
+      border: 1px solid #7E949A;
+      color: #718285;
+    }
+    .sent{
+      background-color: #E0FBF3;
+      border: 1px solid #84908C;
+      color: #84908C;
+    }
+    .button {
+      margin-top: 30px;
+      float: right;
+      #button {
+        border-radius: 25px;
+        background-color: #53BCC6;
+        border: none;
+        width: 105px;
+        color: white;
+        font-family: Lato, sans-serif;
+        span {
+          margin-left: 10px;
+          color: white;
+        }
+      }
+    }
+  }
+}

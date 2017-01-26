@@ -1,0 +1,27 @@
+@import "sizes";
+
+.footer-section{
+  height: 424px;
+  background-color: #EFEDE8;
+  width: 100%;
+  text-align: center;
+  .partenaires{
+    display: inline-block;
+    margin-top: 200px;
+    @include phone() {
+      margin-top: 60px;
+    }
+    li{
+      display: inline-block;
+
+      @include phone() {
+        margin-bottom: 60px;
+        display: block;
+      }
+    }
+    .supdeco{
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+}

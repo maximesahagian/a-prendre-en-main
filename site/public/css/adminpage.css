@@ -1,0 +1,131 @@
+.admin-page .news .add-new-btn, .admin-page .team .add-new-btn, .admin-page .admins .add-new-btn {
+  margin-bottom: 25px;
+}
+
+.admin-page .news .metric a button, .admin-page .team .metric a button, .admin-page .admins .metric a button {
+  color: white;
+}
+
+.admin-page .news .metric .actions, .admin-page .team .metric .actions, .admin-page .admins .metric .actions {
+  float: right;
+}
+
+.admin-page .news .metric .image-new, .admin-page .team .metric .image-new, .admin-page .admins .metric .image-new {
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+}
+
+.admin-page .news .metric .image-team, .admin-page .team .metric .image-team, .admin-page .admins .metric .image-team {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url("https://static.pratique.fr/images/unsized/fr/franchise-profil.jpg");
+}
+
+.admin-page .news .container-fluid .panel-headline .panel-body .row .title-new {
+  text-transform: uppercase;
+  margin: 0 auto 30px;
+  display: block;
+  text-align: center;
+}
+
+.admin-page .news .container-fluid .panel-headline .panel-body .row .image-new {
+  margin: 0 auto 15px;
+  height: 90px;
+}
+
+.admin-page .news .container-fluid .panel-headline .panel-body .row .btn {
+  width: 100%;
+  padding: 5px;
+}
+
+.admin-page .team .container-fluid .panel-headline .panel-body .row .image-team {
+  margin: 0 auto 15px;
+}
+
+.admin-page .team .container-fluid .panel-headline .panel-body .row .btn {
+  width: 100%;
+  padding: 5px;
+}
+
+.admin-page #wrapper .sidebar {
+  left: -280px;
+  z-index: 2;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .sidebar {
+    left: 0px;
+  }
+}
+
+.admin-page #wrapper .sidebar .brand a img {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.admin-page #wrapper .burger-open {
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .burger-open {
+    display: none;
+  }
+}
+
+.admin-page #wrapper .burger-open span {
+  font-size: 30px;
+}
+
+.admin-page #wrapper .burger-close {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .admin-page #wrapper .burger-close {
+    display: none;
+  }
+}
+
+.admin-page #wrapper .burger-close span {
+  font-size: 30px;
+  color: #AEB7C2;
+}
+
+.admin-page .main {
+  width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .admin-page .main {
+    width: calc(100% - 260px) !important;
+  }
+}
+
+.admin-page .main .main-content .container-fluid .panel {
+  margin-top: 30px;
+}
+
+@media (min-width: 1024px) {
+  .admin-page .main .main-content .container-fluid .panel {
+    margin-top: 0;
+  }
+}
+
+.admin-page .main .main-content .container-fluid .panel .text-input {
+  display: block;
+  width: 100%;
+}
+
+/*# sourceMappingURL=adminpage.css.map */

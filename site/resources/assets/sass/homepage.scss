@@ -1,3 +1,732 @@
-.home{
+@import "sizes";
+@import 'portrait';
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
+body, html {
+  overflow-x: hidden;
+  @include portrait {
+    overflow: hidden;
+    position: fixed;
+  }
+}
+
+.home-page {
+  p {
+    font-size: 1.3vw;
+  }
+  li {
+    font-size: 1.2vw;
+  }
+  .phoneportrait {
+    display: none;
+    z-index: 4;
+    @include portrait {
+      background: url(/img/phone_portrait.png);
+      background-size: cover;
+
+      display: block;
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      z-index: 7;
+    }
+  }
+
+  /*MAIN ANIMATION SECTION*/
+  font-family: 'Lato';
+  .fixed-indicator {
+    position: fixed;
+    top: 100px;
+    height: 1px;
+    width: 3px;
+    background: black;
+    z-index: 3;
+  }
+  .main-annimation {
+    .cover-video {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 50vw;
+      background-color: #fff;
+    }
+    position: relative;
+    height: 50vw;
+    padding: 25px 0;
+    display: table;
+    width: 100%;
+    .first-animation {
+      margin-top: 30px;
+      .left {
+        display: table-cell;
+        width: 50vw;
+        height: 100%;
+        .maps-container {
+          position: relative;
+          left: 8vw;
+          img {
+
+            width: 60%;
+          }
+          .africa-map {
+            z-index: 4;
+            position: absolute;
+            top: 13vw;
+          }
+          .africa-shadow {
+            z-index: 3;
+            opacity: 0;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 3;
+          }
+
+        }
+
+      }
+      .right {
+        /*
+        display: table-cell;
+        */
+        width: 50vw;
+        height: 100%;
+
+        .white-div {
+          height: 40vw;
+          position: absolute;
+          width: 1000px;
+          right: 0px;
+          background-color: white;
+          z-index: 1;
+        }
+
+        .annim {
+          height: 40vw;
+          position: absolute;
+          right: 0px;
+          background-position: right;
+          .barrescontainer {
+            position: absolute;
+            right: 0vw;
+            top: 7vw;
+            .barre {
+              display: block;
+              width: 10vw;
+              margin-top: 2vw;
+              position: absolute;
+              right: -10vw;
+            }
+
+            .barre2 {
+              top: 4vw;
+            }
+            .barre3 {
+              top: 8vw;
+            }
+          }
+          .animation-informations {
+            position: absolute;
+            bottom: 0px;
+          }
+          .anim-text {
+            #pourcentage-population {
+              font-family: 'Merriweather';
+            }
+            sup {
+              font-size: 5vw;
+            }
+            color: white;
+            z-index: 3;
+            background: white;
+            top: 5vw;
+            right: 8vw;
+            height: 25vw;
+            display: block;
+            width: 30vw;
+            position: relative;
+            p {
+              font-size: 1.4vw;
+              font-family: Lato, sans-serif;
+            }
+            span {
+              font-size: 7vw;
+            }
+          }
+        }
+      }
+    }
+  }
+  .second-animation {
+    margin-bottom: 50px;
+    position: relative;
+    .goute-large {
+      position: absolute;
+      bottom: 8vw;
+      left: 22vw;
+      z-index: -2;
+      width: 9vw;
+    }
+
+    .goute-medium {
+      position: absolute;
+      bottom: 3vw;
+      left: 22vw;
+      width: 3vw;
+    }
+    .goute-small {
+      width: 1.9vw;
+      position: absolute;
+      bottom: -2vw;
+      left: 19vw;
+    }
+    .informations {
+      position: relative;
+      font-size: 8vw;
+      float: right;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+      font-family: Merriweather;
+    }
+    .left {
+      display: inline-block;
+      width: 53vw;
+      .rectangle-div {
+        display: inline-block;
+        img {
+          top: 6vw;
+          width: 17vw;
+          position: relative;
+          right: 250px;
+        }
+      }
+      .text-div {
+        display: inline-block;
+        float: right;
+        width: 35vw;
+        .little-text {
+          width: 21vw;
+          float: right;
+          position: relative;
+          left: 13vw;
+        }
+        hr {
+          width: 10vw;
+          height: 8vw;
+          transform: rotate(90deg);
+          border-top: 1px solid black;
+          position: relative;
+          left: 8vw;
+        }
+        p {
+          font-size: 1.5vw;
+          margin: 0;
+          color: #4A4A4A;
+        }
+        span {
+          font-size: 8vw;
+        }
+      }
+
+    }
+    .right {
+      float: right;
+      position: relative;
+      height: 0vw;
+      width: 0vw;
+      border-radius: 25vw;
+      border: 2vw solid white;
+      padding-top: 1vw;
+      background: linear-gradient(to right, #A3DCDA, #E9EAC7);
+      display: inline-block;
+      .zoom-map-circle {
+        span {
+          position: absolute;
+          font-weight: bold;
+          font-size: 3vw;
+          z-index: 4;
+          top: -2vw;
+          left: -15vw;
+          opacity: 0;
+        }
+        hr {
+          position: absolute;
+        }
+      }
+      .small-circle {
+        position: relative;
+        background: linear-gradient(to right, #A3DCDA, #E9EAC7);
+        height: 0vw;
+        width: 0vw;
+        position: relative;
+        border-radius: 10vw;
+        top: 28vw;
+        border: 1vw white solid;
+        span {
+          width: 100%;
+          position: absolute;
+          text-align: center;
+          top: 4vw;
+          font-size: 0vw;
+          font-weight: bold;
+        }
+      }
+      .map-zoom {
+        position: absolute;
+        width: 0vw;
+        left: 2.7vw;
+        top: 2.3vw;
+        margin: 0px auto;
+        display: block;
+      }
+
+    }
+
+  }
+  .third-animation {
+    padding-top: 9vw;
+    height: 100vw;
+    position: relative;
+    .first-pipe {
+      position: absolute;
+      top: 2vw;
+      width: 16vw;
+      left: 7vw;
+    }
+    .processus-title {
+      font-size: 10vw;
+      float: right;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+      position: relative;
+      bottom: -10vw;
+      font-family: Merriweather;
+    }
+    .left {
+      position: relative;
+      left: 21vw;
+      top: 40vw;
+      width: 40vw;
+      .picture {
+        width: 29vw;
+        position: absolute;
+        right: 4vw;
+        left: -4vw;
+        top: 10vw;
+      }
+      .background {
+        width: 29vw;
+        position: relative;
+        z-index: -3;
+        top: -5vw;
+      }
+    }
+    .right {
+      opacity: 0;
+      width: 39vw;
+      margin-right: 8vw;
+      float: right;
+      a {
+        top: 7vw;
+        float: right;
+        position: relative;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .fourth-animation {
+    padding-top: 10vw;
+    height: 90vw;
+    position: relative;
+    .pipe-2 {
+      position: absolute;
+      left: 34vw;
+      top: -9vw;
+      width: 43vw;
+      z-index: -4;
+
+    }
+    .financement-title {
+      font-size: 7vw;
+      text-align: center;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+      position: relative;
+      top: 3vw;
+      right: 20vw
+    }
+
+    .left {
+      opacity: 0;
+      position: absolute;
+      height: 19vw;
+      width: 26vw;
+      left: 14vw;
+      .text {
+        position: absolute;
+        width: 17vw;
+        hr {
+          border-top: 1px solid black;
+        }
+        .botom {
+          display: table;
+          p, span {
+            display: table-cell;
+
+          }
+          span {
+            float: right;
+            text-align: right;
+            width: 30%;
+            font-weight: bold;
+            font-size: 1.2vw;
+          }
+          p {
+            width: 70%;
+            float: left;
+            text-align: left;
+          }
+        }
+        .total {
+          font-size: 5vw;
+        }
+      }
+      img {
+        position: absolute;
+        top: 5vw;
+        left: 5vw;
+        width: 15vw;
+      }
+    }
+    .right {
+      position: relative;
+      float: right;
+      right: 10vw;
+      .financement-img {
+        position: absolute;
+        top: -3vw;
+        right: 6vw;
+        width: 30vw;
+        z-index: 3;
+      }
+      .financement-background {
+        width: 28vw;
+        position: relative;
+        top: 10vw;
+      }
+    }
+  }
+  .fifth-animation {
+    position: relative;
+    height: 58vw;
+    .fix-it {
+      position: absolute;
+      right: 48vw;
+      top: 35vw;
+      width: 2vw;
+    }
+    .left {
+      opacity: 0;
+      width: 43vw;
+      display: inline-block;
+
+      p, img {
+        display: table-cell;
+      }
+      p {
+        width: 22vw;
+        text-align: right;
+        position: relative;
+        left: 16vw;
+        float: left;
+      }
+      img {
+        width: 4vw;
+        float: right;
+      }
+    }
+    .entretien-title {
+      position: absolute;
+      font-size: 8.8vw;
+      left: -10vw;
+      color: rgba(74, 74, 74, 0.11);
+      margin-bottom: 6vw;
+      margin-right: 4vw;
+      top: 11vw;
+      font-family: Merriweather;
+    }
+    .finalpipe {
+      top: -8vw;
+      width: 42vw;
+      z-index: -2;
+      position: relative;
+      left: 7vw;
+    }
+  }
+  .last-animation {
+    position: relative;
+    background: #A2DAD4;
+    height: 52.5vw;
+    .left {
+      position: relative;
+      h2 {
+        font-size: 8vw;
+        position: relative;
+        top: 4vw;
+        left: 3vw;
+        color: rgba(74, 74, 74, 0.11);
+        margin-bottom: 6vw;
+        margin-right: 4vw;
+        font-family: Merriweather;
+      }
+      i {
+        color: white;
+        position: relative;
+        left: 10vw;
+        top: 5vw;
+        font-weight: 200;
+        font-size: 1.7vw;
+      }
+      div {
+        opacity: 0;
+        width: 30vw;
+        text-align: justify;
+        color: white;
+        padding: 1vw;
+        border-left: 0.6vw solid white;
+        position: relative;
+        left: 5vw;
+        top: 4vw;
+        font-family: Merriweather;
+        p {
+          font-size: 1.7vw;
+          font-weight: 200;
+        }
+      }
+
+    }
+    .piececontainer {
+      width: 63vw;
+      float: right;
+      .piece {
+        width: 2vw;
+      }
+      .piece1 {
+        position: absolute;
+        top: 1vw;
+        margin-left: 13vw;
+      }
+      .piece01 {
+        position: absolute;
+        top: 2vw;
+        margin-left: 13vw;
+      }
+      .piece2 {
+        position: absolute;
+        top: 13vw;
+        right: 16.5vw;
+        margin-left: 13vw;
+      }
+      .piece3 {
+        position: absolute;
+        top: 16vw;
+        right: 30.5vw;
+        margin-left: 13vw;
+      }
+      .piece6 {
+        position: absolute;
+        top: 23vw;
+        right: 22.5vw;
+        margin-left: 13vw;
+      }
+      .piece02 {
+        position: absolute;
+        top: 42vw;
+        right: 16.5vw;
+        margin-left: 13vw;
+      }
+      .piece03 {
+        position: absolute;
+        top: 3vw;
+        right: 22vw;
+        margin-left: 13vw;
+      }
+      .piece8 {
+        position: absolute;
+        top: 29vw;
+        margin-left: 13vw;
+      }
+      .piece9 {
+        position: absolute;
+        top: 31vw;
+        right: 38.5vw;
+        margin-left: 13vw;
+      }
+      .piece11 {
+        position: absolute;
+        top: 31vw;
+        right: 7.5vw;
+        margin-left: 13vw;
+      }
+      .piece12 {
+        position: absolute;
+        top: 13vw;
+        right: 7.5vw;
+        margin-left: 13vw;
+      }
+      .piece13 {
+        position: absolute;
+        bottom: 0;
+        right: 7.5vw;
+        margin-left: 13vw;
+      }
+      .piecetat {
+        width: 45vw;
+        position: absolute;
+        right: 55vw;
+
+        bottom: 0;
+      }
+    }
+  }
+  /*END MAIN ANIMATION SECTION*/
+  font-family: lato;
+  .video-conainer {
+
+    width: 100%;
+    @include desktop {
+      background: none;
+      video {
+        display: block
+      }
+    }
+    @include tablet-only {
+      background: url('/img/mobile-video.png') no-repeat;
+      background-size: cover;
+      height: 67vw;
+      video {
+        display: none
+      }
+    }
+    @include phone {
+      background: url('/img/mobile-video.png') no-repeat;
+      background-size: cover;
+      height: 67vw;
+      video {
+        display: none
+      }
+    }
+    video {
+      width: 100%;
+    }
+    .text-video {
+      position: absolute;
+      top: 30vw;
+      padding: 0 8%;
+      margin: 0 auto;
+      color: white;
+      @include phone() {
+        p {
+          font-size: 2vw;
+        }
+        h4 {
+          font-size: 2vw;
+        }
+        left: 1vw;
+        text-align: center;
+        position: absolute;
+        width: 85vw;
+        top: 10vw;
+        right: 0;
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+      }
+      h2 {
+        font-family: Helvetica;
+        font-size: 28px;
+        @include phone {
+          font-size: 4vw;
+        }
+      }
+      @include phone() {
+        position: absolute;
+        top: 10vw;
+      }
+      .right-text-video {
+
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+        @include phone() {
+          position: relative;
+          right: 0;
+        }
+
+        h4 {
+          font-family: Merriweather;
+          font-weight: inherit;
+          text-align: center;
+        }
+
+        .goal-container {
+          width: 90%;
+          height: 15px;
+          border-radius: 15px;
+          border: solid 1px white;
+          margin: 0 auto;
+          .goal-bar {
+            max-width: 100%;
+            width: 0%;
+            background: white;
+            height: 100%;
+            border-radius: 15px;
+          }
+          .goal-button {
+            border: 1px solid white;
+            background: transparent;
+            color: white;
+            float: right;
+            margin-top: 20px;
+            @include phone() {
+              float: none;
+              margin: 20px auto;
+              width: 60%;
+              display: block;
+            }
+
+            &:hover {
+              background: rgba(173, 173, 173, 0.60);
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .para {
+    color: blue;
+
+    @include phone() {
+      color: green;
+    }
+
+    @include tablet-only() {
+      color: red;
+    }
+
+  }
+
+  .logo-home {
+    position: absolute;
+    top: 4vw;
+    left: 5vw;
+    width: 7vw;
+  }
 }

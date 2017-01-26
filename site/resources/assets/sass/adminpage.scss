@@ -1,0 +1,156 @@
+@import "sizes";
+
+.admin-page {
+
+  //Début des actualités
+  .news, .team, .admins{
+    .add-new-btn {
+      margin-bottom: 25px;
+    }
+    .metric {
+      a {
+        button {
+          color: white;
+        }
+      }
+      .actions {
+        float: right;
+      }
+      .image-new{
+        height: 50px;
+        width: 100px;
+        background-size: cover;
+      }
+      .image-team{
+        height:100px;
+        width: 100px;
+        border-radius: 50%;
+        background-size: cover;
+        background-image: url('https://static.pratique.fr/images/unsized/fr/franchise-profil.jpg');
+      }
+    }
+  }
+  // Fin des Actualités
+  // Debut de news
+  .news {
+    .container-fluid{
+      .panel-headline{
+        .panel-body{
+          .row{
+            .title-new{
+              text-transform: uppercase;
+              margin: 0 auto 30px;
+              display: block;
+              text-align: center;
+            }
+            .image-new{
+              margin: 0 auto 15px;
+              height: 90px;
+            }
+            .btn{
+              width: 100%;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Fin de news
+  //Début de l'équipe
+
+  .team {
+    .container-fluid{
+      .panel-headline{
+        .panel-body{
+          .row{
+            .image-team{
+              margin: 0 auto 15px;
+            }
+            .btn{
+              width: 100%;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Fin de l'équipe
+
+  #wrapper {
+    .sidebar {
+      left: -280px;
+      @include desktop(){
+        left: 0px;
+      }
+      .brand {
+        a {
+          img {
+            margin: 0 auto;
+            max-width: 50%;
+          }
+        }
+      }
+      z-index: 2;
+    }
+
+    .burger-open {
+      position: absolute;
+      top: 14px;
+      left: 30px;
+      z-index: 1;
+      cursor: pointer;
+
+      @include desktop() {
+        display: none;
+      }
+
+      span {
+        font-size: 30px;
+      }
+    }
+
+    .burger-close {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+      cursor: pointer;
+
+      @include desktop() {
+        display: none;
+      }
+
+      span {
+        font-size: 30px;
+        color: #AEB7C2;
+      }
+    }
+
+  }
+
+  .main {
+    width: 100% !important;
+    @include desktop(){
+      width: calc(100% - 260px) !important;
+    }
+    .main-content {
+      .container-fluid {
+        .panel {
+          margin-top: 30px;
+
+          @include desktop() {
+            margin-top: 0;
+          }
+          .text-input {
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

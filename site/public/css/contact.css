@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.contact-section {
+  height: 380px;
+  margin: 200px 0;
+  color: #5C5953;
+}
+
+.contact-section input, .contact-section textarea, .contact-section button {
+  outline: none;
+}
+
+.contact-section .goute-1, .contact-section .goute-2 {
+  background-image: url("/img/annimation/goute-large.png");
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+}
+
+.contact-section .goute-1 {
+  width: 119px;
+  height: 159px;
+  margin-left: 445px;
+  margin-top: -80px;
+  z-index: -1;
+}
+
+.contact-section .goute-2 {
+  width: 45px;
+  height: 60px;
+  margin-left: 375px;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.contact-section .content-contact {
+  height: 425px;
+  width: 620px;
+  margin: 0 auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: merriweather;
+}
+
+.contact-section p {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.contact-section .content-contact .top-contact {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-section .content-contact .top-contact .surname-contact {
+  display: inline-block;
+}
+
+.contact-section .content-contact .top-contact .surname-contact #prenom {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  width: 150%;
+}
+
+.contact-section .content-contact .top-contact .name-contact {
+  display: inline-block;
+  margin-left: 218px;
+}
+
+.contact-section .content-contact .top-contact .name-contact #nom {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  width: 150%;
+}
+
+.contact-section .content-contact .email {
+  display: block;
+  margin-top: 50px;
+}
+
+.contact-section .content-contact .email #courriel {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  width: 36%;
+}
+
+.contact-section .content-contact .message {
+  display: block;
+  margin-top: 30px;
+}
+
+.contact-section .content-contact .message #message {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+
+.contact-section .content-contact .infos {
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 25px;
+  display: none;
+}
+
+.contact-section .content-contact .en-cours {
+  background-color: #E0F2F7;
+  border: 1px solid #7E949A;
+  color: #718285;
+}
+
+.contact-section .content-contact .sent {
+  background-color: #E0FBF3;
+  border: 1px solid #84908C;
+  color: #84908C;
+}
+
+.contact-section .content-contact .button {
+  margin-top: 30px;
+  float: right;
+}
+
+.contact-section .content-contact .button #button {
+  border-radius: 25px;
+  background-color: #53BCC6;
+  border: none;
+  width: 105px;
+  color: white;
+  font-family: Lato, sans-serif;
+}
+
+.contact-section .content-contact .button #button span {
+  margin-left: 10px;
+  color: white;
+}
+
+/*# sourceMappingURL=contact.css.map */

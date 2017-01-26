@@ -13,10 +13,38 @@ require('laravel-elixir-vue-2');
  |
  */
 
-elixir(function(mix) {
-    mix.sass("app.scss");
+elixir(mix => {
+    mix.sass('homepage.scss');
 });
 
-elixir(function(mix) {
-    mix.sass("homepage.scss");
+elixir(mix => {
+    mix.sass('team.scss');
+});
+
+elixir(mix => {
+    mix.sass('contact.scss');
+});
+
+elixir(mix => {
+    mix.sass('crowfunding.scss');
+});
+
+elixir(mix => {
+    mix.sass('explications.scss');
+});
+
+elixir(mix => {
+    mix.sass('footer.scss');
+});
+
+elixir(mix => {
+    mix.sass('adminpage.scss');
+});
+
+elixir(mix => {
+    mix.sass('news.scss');
+});
+
+elixir(mix => {
+    mix.sass('loginpage.scss');
 });

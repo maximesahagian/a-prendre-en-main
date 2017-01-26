@@ -1,0 +1,414 @@
+@import 'sizes';
+
+.explications-section{
+  margin-top: 12vw;
+  .in-some-word{
+    margin-bottom: 17vw;
+    position: relative;
+    display: table;
+    .yellow-background{
+      z-index: -1;
+      background-color: #FFF0D5;
+      width: 64vw;
+      height: 100%;
+      position: absolute;
+      right: 0px;
+      top: 10vw;
+      bottom: 13vw;
+    }
+    .left-some-word, .right-some-word{
+      z-index: 3;
+      display: table-cell;
+      width: 70%;
+    }
+    .left-some-word{
+      padding-left: 9vw;
+      padding-right: 3vw;
+      width: 53%;
+      .title{
+        font-family: 'Merriweather';
+        font-size: 2.6vw;
+        color: #5C5953;
+      }
+      .first-paragraph{
+        margin-top: 30px;
+        font-size: 1.3vw;
+        font-family: 'Lato';
+        color: #4A4A4A;
+      }
+      .second-paragraph{
+        color: #605B52;
+        font-family: 'Lato';
+        font-size: 1.6vw;
+        word-spacing: 0.3vw;
+        font-style: italic;
+        line-height: 3vw;
+        margin-top: 30px;
+        .sign{
+          margin-top: 15px;
+          display: block;
+        }
+      }
+    }
+    .right-some-word{
+      position: relative;
+      .image-right{
+        position:absolute;
+        right: 0;
+        top: -5vw;
+        width: 90%;
+        background-image: url(/img/some_words.jpg);
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10%;
+      }
+    }
+  }
+  .our-view{
+    height: 25vw;
+    position: relative;
+
+    .title{
+      margin-left: 7vw;
+      font-family: 'Merriweather';
+      font-size: 2.1vw;
+      position: absolute;
+      top: -9vw;
+    }
+
+    .block-view{
+      padding: 25px;
+      text-align: center;
+      .title-div{
+        font-family: 'Merriweather';
+        font-size: 2vw;
+      }
+      .description{
+        text-align: left;
+        margin-top: 15px;
+        font-size: 1.2vw;
+        font-family: 'Lato';
+        padding-right: 3vw;
+        padding-left: 2vw;
+      }
+    }
+
+    .first{
+      width: 30vw;
+      bottom: 0px;
+      left: 0px;
+      background-color: #E0FBF3;
+      position: absolute;
+      z-index: -1;
+      .title-div{
+        color: #A6B9B3;
+      }
+      .description{
+        color: #84908C;
+      }
+    }
+
+    .second{
+      margin-left: 27vw;
+      bottom: 0vw;
+      width: 32vw;
+      background-color: #E0F2F7;
+      position: absolute;
+
+      .title-div{
+        color: #7E949A;
+      }
+      .description{
+        color: #718285;
+      }
+    }
+
+    .third{
+      bottom: 0vw;
+      width: 28vw;
+      background-color: #FFF0D5;
+      margin-left: 56vw;
+      position: absolute;
+
+      .title-div{
+        color: #B0A592;
+      }
+      .description{
+        padding-right: 1vw;
+        color: #958B78;
+      }
+    }
+
+  }
+
+  .bottom-our-view{
+    height: 8.5vw;
+    width: 100%;
+    background-image: url('/img/bottom_our_view.jpg');
+  }
+
+  .to-take{
+    margin-top: 30px;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    hr{
+      height: 2px;
+      background-color: #5C5953;
+      display: block;
+      width: 5vw;
+      margin: 0;
+    }
+    .before{
+      display: table-row;
+      .title{
+        color: #5C5953;
+        font-family: 'Merriweather';
+        font-size: 2vw;
+      }
+      .description-take{
+        margin-top: 10px;
+        p{
+          margin: 0;
+        }
+      }
+    }
+
+    .after{
+      display: table;
+      margin-top: 80px;
+      .left-first{
+        display: table-cell;
+        width: 50%;
+        position: relative;
+        .background-red{
+          width: 30vw;
+          height: 30vw;
+          background-color: #F3374E;
+          position: absolute;
+          top: -5vw;
+          left: 0px;
+        }
+
+        .image-first{
+          opacity: 0;
+          height: 29vw;
+          position: absolute;
+          top: 10vw;
+          left: 2vw;
+          background: url(/img/to_take_first.jpg);
+          background-size: cover;
+          background-position: center;
+          width: 36vw;
+        }
+
+      }
+
+      .right-first{
+        display: table-cell;
+        width: 50%;
+        position: relative;
+        .container-right{
+          opacity: 0;
+          width: 83%;
+          margin-left: auto;
+          position: relative;
+          bottom: 5vw;
+          .title-right-first{
+            font-family: 'Merriweather';
+            font-size: 2vw;
+            margin-bottom: 30px;
+          }
+          p{
+            word-spacing: 5px;
+            width: 37vw;
+          }
+          ul{
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 80%;
+            li{
+              list-style: initial;
+              margin-top:5px;
+            }
+          }
+        }
+      }
+
+    }
+    .after2{
+      display: table;
+      margin-top: 80px;
+      .left-first{
+        display: table-cell;
+        width: 50%;
+        position: relative;
+        .background-red{
+          width: 30vw;
+          height: 30vw;
+          background-color: #BFDAC4;
+          position: absolute;
+          top: -5vw;
+          left: 0px;
+        }
+
+        .image-first{
+          opacity: 0;
+          height: 29vw;
+          position: absolute;
+          top: 15vw;
+          left: 2vw;
+          background: url(/img/mamadou.png);
+          background-size: cover;
+          background-position: center;
+          width: 36vw;
+        }
+
+      }
+
+      .right-first{
+        display: table-cell;
+        width: 50%;
+        position: relative;
+        .container-right{
+          opacity: 0;
+          width: 83%;
+          margin-left: auto;
+          position: relative;
+          bottom: 5vw;
+          .title-right-first{
+            font-family: 'Merriweather';
+            font-size: 2vw;
+            margin-bottom: 30px;
+          }
+          p{
+            word-spacing: 5px;
+            width: 85%;
+          }
+          ul{
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 80%;
+            li{
+              list-style: initial;
+              margin-top:5px;
+            }
+          }
+        }
+      }
+
+    }
+    .numbers-objectives{
+      display: table;
+      .left-second{
+        height: 40vw;
+        display: table-cell;
+        width: 50%;
+        float: left;
+        .container-left{
+          opacity: 0;
+          margin-top: 8vw;
+          .title-left-second{
+            font-family: 'Merriweather';
+            font-size: 2vw;
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .right-second{
+        display: table-cell;
+        width: 50%;
+        float: right;
+        position: relative;
+        .image-second{
+          opacity: 0;
+          position: absolute;
+          right: 2vw;
+          top: 20vw;
+          background: url(/img/to_take_second.jpg);
+          background-size: cover;
+          background-position: center;
+          width: 30vw;
+          height: 37vw;
+        }
+        .background-green{
+          position: absolute;
+          width: 28vw;
+          height: 35vw;
+          background-color: #B0E0C1;
+          right: 0px;
+          top: -2vw;
+          z-index: -1;
+        }
+      }
+      ul{
+        width: 90%;
+        margin: 0 auto;
+        li{
+          list-style: initial;
+        }
+      }
+    }
+
+    .numbers-objectives2{
+      display: table;
+      .left-second{
+        height: 40vw;
+        display: table-cell;
+        width: 50%;
+        float: left;
+        .container-left{
+          opacity: 0;
+          margin-top: 8vw;
+          p{
+            word-spacing: 5px;
+            width: 85%;
+          }
+          .title-left-second{
+            font-family: 'Merriweather';
+            font-size: 2vw;
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .right-second{
+        display: table-cell;
+        width: 50%;
+        float: right;
+        position: relative;
+        .image-second{
+          opacity: 0;
+          position: absolute;
+          right: 2vw;
+          top: 15vw;
+          background: url(/img/pompe.png);
+          background-size: cover;
+          background-position: center;
+          width: 36vw;
+          height: 29vw;
+        }
+        .background-green{
+          position: absolute;
+          width: 32vw;
+          height: 27vw;
+          background-color: #CC92FF;
+          right: 0px;
+          top: -1vw;
+          z-index: -1;
+        }
+      }
+      ul{
+        width: 90%;
+        margin: 0 auto;
+        li{
+          list-style: initial;
+        }
+      }
+    }
+  }
+
+}

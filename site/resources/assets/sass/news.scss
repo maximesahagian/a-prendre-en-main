@@ -1,0 +1,101 @@
+@import "sizes";
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.home-page {
+  .news {
+    background-color: #F9F9F9;
+    padding: 50px 50px;
+    h1 {
+      margin-left: 170px;
+      margin-bottom: 50px;
+      font-family: Merriweather;
+      opacity: 0;
+    }
+    .main-new {
+      background-color: white;
+      font-family: lato;
+      height: 300px;
+      box-shadow: 0 2px 2px lightgrey;
+      display: table;
+      width: 100%;
+      .left-new {
+        width: 50%;
+        height: 100%;
+        display: table-cell;
+
+        @include phone() {
+          width: 100%;
+        }
+        h2 {
+          margin-left: initial;
+          margin-bottom: initial;
+          text-align: center;
+          font-family: 'Merriweather';
+        }
+        h6 {
+          margin: 10px 23px;
+        }
+        p {
+          margin: 20px 30px;
+        }
+        .title-date {
+          margin: 0 auto;
+        }
+      }
+      .right-new {
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+        .main-image {
+          background-image: url("/img/favicon.png");
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center center;
+
+          @include phone() {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .wrapper-news {
+    margin-top: 25px;
+    display: table;
+    .second-new {
+      background-color: white;
+      font-family: lato;
+      box-shadow: 0 2px 2px lightgrey;
+      width: 32%;
+      margin-top: 10px;
+      padding: 0.5vw;
+      display: table-cell;
+
+      @include phone(){
+        display: block;
+        width: 100%;
+      }
+      h2 {
+        text-align: center;
+        font-family: 'Merriweather';
+      }
+      h6 {
+        margin-left: 39px;
+      }
+      p {
+        margin: 10px 15px;
+      }
+      .second-image {
+        width: 100%;
+        height: 125px;
+        background-size: cover;
+        background-position: center;
+      }
+      &:nth-child(2), &:nth-child(3) {
+        margin-left: 1.5%;
+      }
+    }
+  }
+}

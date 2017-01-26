@@ -1,0 +1,51 @@
+@import "sizes";
+
+html {
+  height: 100%;
+  .login-page {
+    height: 100%;
+    #login-background {
+      height: 100%;
+      .animation-pulseSlow {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        margin-left: 0;
+      }
+    }
+    .logo-img {
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 2;
+      width: 70px;
+    }
+    .animation-fadeIn {
+
+      .login-title {
+        background: rgba(85, 92, 95, 0.9) !important;
+        h1 {
+          font-weight: 300;
+        }
+      }
+      .remember-me {
+        position: absolute;
+        left: 80px;
+        top: 5px;
+        width: 125px;
+
+        @include phone() {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #login-background {
+    background-image: url("/img/backgrounds/login-background.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
