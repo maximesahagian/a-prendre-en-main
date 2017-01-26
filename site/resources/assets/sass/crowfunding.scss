@@ -45,33 +45,32 @@
         opacity: 1;
       }
 
-      .amount-reach {
+      .amount-raised-two {
         display: inline-block;
         margin-right: 10px;
       }
-      .amount-goal {
+      .amount-goal-two {
         display: inline-block;
         margin-left: 10px;
       }
-      .goal-container {
+      .goal-container-two {
         width: 65%;
         height: 15px;
         border-radius: 15px;
         border: solid 1px white;
         display: inline-block;
         vertical-align: text-top;
-        .goal-bar {
+        .goal-bar-two {
           max-width: 100%;
           width: 0%;
           background: white;
           height: 100%;
           border-radius: 15px;
         }
-        .goal-button {
+        .goal-button-two {
           border: 1px solid white;
           background: transparent;
           color: white;
-          float: right;
           @include phone() {
             float: none;
             margin: 20px auto;
