@@ -54,17 +54,17 @@
   opacity: 1;
 }
 
-.crowfunding-section .wrapper-crowfunding .content-footer .amount-reach {
+.crowfunding-section .wrapper-crowfunding .content-footer .amount-raised-two {
   display: inline-block;
   margin-right: 10px;
 }
 
-.crowfunding-section .wrapper-crowfunding .content-footer .amount-goal {
+.crowfunding-section .wrapper-crowfunding .content-footer .amount-goal-two {
   display: inline-block;
   margin-left: 10px;
 }
 
-.crowfunding-section .wrapper-crowfunding .content-footer .goal-container {
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container-two {
   width: 65%;
   height: 15px;
   border-radius: 15px;
@@ -73,7 +73,7 @@
   vertical-align: text-top;
 }
 
-.crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-bar {
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container-two .goal-bar-two {
   max-width: 100%;
   width: 0%;
   background: white;
@@ -81,14 +81,14 @@
   border-radius: 15px;
 }
 
-.crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-button {
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container-two .goal-button-two {
   border: 1px solid white;
   background: transparent;
   color: white;
 }
 
 @media (max-width: 767px) {
-  .crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-button {
+  .crowfunding-section .wrapper-crowfunding .content-footer .goal-container-two .goal-button-two {
     float: none;
     margin: 20px auto;
     width: 60%;
@@ -96,7 +96,7 @@
   }
 }
 
-.crowfunding-section .wrapper-crowfunding .content-footer .goal-container .goal-button:hover {
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container-two .goal-button-two:hover {
   background: rgba(173, 173, 173, 0.6);
 }
 
