@@ -13,7 +13,7 @@
       height: 100%;
       position: absolute;
       right: 0px;
-      top: -2vw;
+      top: 10vw;
       bottom: 13vw;
     }
     .left-some-word, .right-some-word{
@@ -54,9 +54,8 @@
       position: relative;
       .image-right{
         position:absolute;
-        position: absolute;
         right: 0;
-        top: 8vw;
+        top: -5vw;
         width: 90%;
         background-image: url(/img/some_words.jpg);
         height: 100%;
@@ -112,7 +111,7 @@
 
     .second{
       margin-left: 27vw;
-      bottom: -4vw;
+      bottom: 0vw;
       width: 32vw;
       background-color: #E0F2F7;
       position: absolute;
@@ -126,7 +125,7 @@
     }
 
     .third{
-      bottom: -9vw;
+      bottom: 0vw;
       width: 28vw;
       background-color: #FFF0D5;
       margin-left: 56vw;
@@ -187,14 +186,14 @@
           height: 30vw;
           background-color: #F3374E;
           position: absolute;
-          top: 2vw;
+          top: -5vw;
           left: 0px;
         }
 
         .image-first{
           height: 29vw;
           position: absolute;
-          top: 0px;
+          top: 10vw;
           left: 2vw;
           background: url(/img/to_take_first.jpg);
           background-size: cover;
@@ -209,6 +208,7 @@
         width: 50%;
         position: relative;
         .container-right{
+          opacity: 0;
           width: 83%;
           margin-left: auto;
           position: relative;
@@ -303,6 +303,7 @@
         width: 50%;
         float: left;
         .container-left{
+          opacity: 0;
           margin-top: 8vw;
           .title-left-second{
             font-family: 'Merriweather';
@@ -321,7 +322,7 @@
         .image-second{
           position: absolute;
           right: 2vw;
-          top: 0px;
+          top: 20vw;
           background: url(/img/to_take_second.jpg);
           background-size: cover;
           background-position: center;
@@ -334,7 +335,7 @@
           height: 35vw;
           background-color: #B0E0C1;
           right: 0px;
-          top:4vw;
+          top: -2vw;
           z-index: -1;
         }
       }

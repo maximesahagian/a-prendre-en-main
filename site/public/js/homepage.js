@@ -251,6 +251,45 @@ $(function() {
             });
         })
 
+    var thirteen_anim = new TimelineLite();
+
+    thirteen_anim.to('.explications-section .yellow-background', 1, {top: '-2vw'})
+    .to('.explications-section .right-some-word .image-right', 1, {top: '8vw'},0)
+
+    var scene13 = new ScrollMagic.Scene({triggerElement: ".explications-section", duration: 400,tweenChanges: true, offset: -100})
+        .setTween(thirteen_anim)
+        .addTo(controller)
+
+    var fourteen_anim = new TimelineLite();
+
+    fourteen_anim.to('.our-view .second', 1, {bottom: '-4vw'})
+        .to('.our-view .third', 1, {bottom: '-9vw'},0)
+
+    var scene14 = new ScrollMagic.Scene({triggerElement: ".sign", duration: 300,tweenChanges: true, offset: 0})
+        .setTween(fourteen_anim)
+        .addTo(controller)
+
+    var fifteen_anim = new TimelineLite();
+
+    fifteen_anim.to('.after .left-first .background-red', 1, {top: '2vw'})
+        .to('.after .left-first .image-first', 1 ,{top : "0vw"}, 0)
+        .to('.after .right-first .container-right', 1 ,{opacity: '1'}, 0)
+
+    var scene15 = new ScrollMagic.Scene({triggerElement: ".to-take .before .title", duration: 300,tweenChanges: true, offset: 0})
+        .setTween(fifteen_anim)
+        .addTo(controller)
+
+
+    var sixteen_anim = new TimelineLite();
+
+    sixteen_anim.to('.right-second .image-second', 1, {top: '0vw'})
+        .to('.right-second .background-green', 1, {top: '4vw'}, 0)
+        .to('.numbers-objectives .left-second .container-left', 1, {opacity: '1'}, 0)
+
+    var scene16 = new ScrollMagic.Scene({triggerElement: ".to-take .after .right-first ul", duration: 300,tweenChanges: true, offset: 100})
+        .setTween(sixteen_anim)
+        .addTo(controller)
+
     //TO 4
 });
 
