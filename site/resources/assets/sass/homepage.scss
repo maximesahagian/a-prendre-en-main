@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body,html{
+  overflow-x: hidden;
   @include portrait{
     overflow: hidden;
     position: fixed;
