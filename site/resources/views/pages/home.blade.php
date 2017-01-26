@@ -14,7 +14,7 @@
         </video>
         <div class="row text-video">
             <div class="col-sm-6 col-xs-12">
-                <h4>Approvisionnement en Eau potable – Douala – PK11
+                <h4>Approvisionnemente en Eau potable – Douala – PK11
                     (Cameroun)</h4>
                 <h2>Un projet à prendre en main
                 </h2>
