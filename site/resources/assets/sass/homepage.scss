@@ -102,8 +102,15 @@
               display: block;
               width: 10vw;
               margin-top: 2vw;
-              position: relative;
+              position: absolute;
               right: -10vw;
+            }
+
+            .barre2 {
+              top: 4vw;
+            }
+            .barre3{
+              top: 8vw;
             }
           }
           .animation-informations{
@@ -302,6 +309,7 @@
       }
     }
     .right{
+      opacity: 0;
       width: 39vw;
       margin-right: 8vw;
       float: right;
@@ -333,10 +341,12 @@
       margin-bottom: 6vw;
       margin-right: 4vw;
       position: relative;
-      top: 4vw;
+      top: 3vw;
+      right: 20vw
     }
 
     .left{
+      opacity: 0;
       position: absolute;
       height: 19vw;
       width: 26vw;
@@ -382,7 +392,7 @@
     right: 10vw;
     .financement-img{
       position: absolute;
-      top: 7vw;
+      top: -3vw;
       right: 6vw;
       width: 30vw;
       z-index: 3;
@@ -390,6 +400,7 @@
     .financement-background{
       width: 28vw;
       position: relative;
+      top: 10vw;
     }
   }
   }

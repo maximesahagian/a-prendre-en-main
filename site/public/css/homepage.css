@@ -117,8 +117,16 @@
   display: block;
   width: 10vw;
   margin-top: 2vw;
-  position: relative;
+  position: absolute;
   right: -10vw;
+}
+
+.home-page .main-annimation .first-animation .right .annim .barrescontainer .barre2 {
+  top: 4vw;
+}
+
+.home-page .main-annimation .first-animation .right .annim .barrescontainer .barre3 {
+  top: 8vw;
 }
 
 .home-page .main-annimation .first-animation .right .annim .animation-informations {
@@ -340,6 +348,7 @@
 }
 
 .home-page .third-animation .right {
+  opacity: 0;
   width: 39vw;
   margin-right: 8vw;
   float: right;
@@ -374,10 +383,12 @@
   margin-bottom: 6vw;
   margin-right: 4vw;
   position: relative;
-  top: 4vw;
+  top: 3vw;
+  right: 20vw;
 }
 
 .home-page .fourth-animation .left {
+  opacity: 0;
   position: absolute;
   height: 19vw;
   width: 26vw;
@@ -433,7 +444,7 @@
 
 .home-page .fourth-animation .right .financement-img {
   position: absolute;
-  top: 7vw;
+  top: -3vw;
   right: 6vw;
   width: 30vw;
   z-index: 3;
@@ -442,6 +453,7 @@
 .home-page .fourth-animation .right .financement-background {
   width: 28vw;
   position: relative;
+  top: 10vw;
 }
 
 .home-page .fifth-animation {

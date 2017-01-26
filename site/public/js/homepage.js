@@ -164,12 +164,30 @@ $(function() {
     var seven_anim = new TimelineLite();
     seven_anim.to('.third-animation .left .picture',1,{top: "-4vw"})
         .to('.third-animation .left .background',1,{top:'0vw'},0)
+        .to('.third-animation .right',1,{opacity:'1'},0)
 
     var scene7 = new ScrollMagic.Scene({triggerElement: ".processus-title", duration: 300,tweenChanges: true, offset: 350})
         .setTween(seven_anim)
         .addTo(controller)
 
-    scene7.addIndicators();
-    //TO -4
+    var eight_anim = new TimelineLite();
+    eight_anim.to('.financement-title',1,{right: "0vw"})
+
+    var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-animation", duration: 300,tweenChanges: true, offset: 200})
+        .setTween(eight_anim)
+        .addTo(controller)
+
+    scene8.addIndicators();
+
+    var night_anim = new TimelineLite();
+    night_anim.to('.fourth-animation .financement-img',1,{top: "7vw"})
+    night_anim.to('.fourth-animation .financement-background',1,{top: "0vw"},0)
+    night_anim.to('.fourth-animation .left',1,{opacity: "1"},0)
+
+    var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-title", duration: 300,tweenChanges: true, offset: -50})
+        .setTween(night_anim)
+        .addTo(controller)
+
+    //TO 4
 });
 
