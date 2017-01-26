@@ -121,7 +121,7 @@
             <div class="left">
                 <div class="text">
                     <p>Le cout total des travaux s’éleve à :</p>
-                        <span class="total">23 628</span>
+                        <span class="total" id="euro-number"></span>
                     <hr>
                     <div class="botom">
                         <p>Abonnement mensuel
