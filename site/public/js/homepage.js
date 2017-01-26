@@ -24,12 +24,22 @@ $(document).ready(function(){
        };
 
        var amount_raised_2 = new CountUp("amount-raised-two", 0, data.amount_raised, 0, 2, options);
-
        amount_raised_2.start();
 
        var amount_goal_2 = new CountUp("amount-goal-two", 0, data.goal, 0, 2, options);
-
        amount_goal_2.start();
+
+       var options = {
+           useEasing : false,
+           useGrouping : false,
+           separator : ',',
+           decimal : '.',
+           prefix : '',
+           suffix : ''
+       };
+
+       var contributors = new CountUp("contributors", 0, data.supporters_count, 0, 2, options);
+       contributors.start();
 
       var pourcentage = (data.amount_raised/data.goal)*100;
       pourcentage = Math.round(pourcentage);

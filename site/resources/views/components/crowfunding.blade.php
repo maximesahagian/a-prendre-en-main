@@ -21,7 +21,7 @@
             <h4 class="amount-raised-two" id="amount-raised-two"></h4>
             <div class="goal-container-two">
                 <div class="goal-bar-two"></div>
-                <h5>800 personnes ont déjà participé</h5>
+                <h5><span id="contributors" class="contributors"></span> personnes ont déjà participé</h5>
                 <a href="#">
                     <button class="goal-button-two">Contribuer</button>
                 </a>
