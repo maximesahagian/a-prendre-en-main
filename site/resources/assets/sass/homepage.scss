@@ -624,27 +624,41 @@ body,html{
       margin: 0 auto;
       color: white;
       @include phone(){
+        p{
+          font-size: 2vw;
+        }
+        h4{
+          font-size: 2vw;
+        }
+        left: 1vw;
+        text-align: center;
         position: absolute;
-        top: 0vw;
-        font-size: 2vw;
+        width: 85vw;
+        top: 10vw;
+        right: 0;
         margin: 0 auto;
         display: block;
-        left: 15vw;
+        padding: 0;
       }
       h2 {
         font-family: Helvetica;
         font-size: 28px;
+        @include phone{
+          font-size: 4vw;
+        }
       }
       @include phone() {
         position: absolute;
         top: 10vw;
       }
       .right-text-video {
+
         position: absolute;
         bottom: 0;
         right: 50px;
         @include phone() {
           position: relative;
+          right: 0;
         }
 
         h4 {

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +43,12 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.342233">
-                  <caret line="170" column="70" selection-start-line="170" selection-start-column="70" selection-end-line="170" selection-end-column="70" />
+                <state vertical-scroll-proportion="0.7673667">
+                  <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
                   <folding>
                     <element signature="e#111#132#0#HTML" expanded="true" />
-                    <element signature="e#9972#10036#0#HTML" expanded="true" />
-                    <element signature="e#10450#10508#0#HTML" expanded="true" />
+                    <element signature="e#10008#10072#0#HTML" expanded="true" />
+                    <element signature="e#10486#10544#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -82,8 +86,8 @@
           <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.80759495">
-                  <caret line="707" column="14" selection-start-line="707" selection-start-column="14" selection-end-line="707" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.5606838">
+                  <caret line="627" column="24" selection-start-line="627" selection-start-column="24" selection-end-line="627" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -172,8 +176,8 @@
         <option value="$PROJECT_DIR$/site/resources/views/components/explications.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/_portrait.scss" />
         <option value="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
-        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" />
+        <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
       </list>
     </option>
@@ -462,7 +466,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21601686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21601686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -652,18 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.342233">
-          <caret line="170" column="70" selection-start-line="170" selection-start-column="70" selection-end-line="170" selection-end-column="70" />
-          <folding>
-            <element signature="e#111#132#0#HTML" expanded="true" />
-            <element signature="e#9972#10036#0#HTML" expanded="true" />
-            <element signature="e#10450#10508#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/explications.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3046875">
@@ -672,10 +664,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7673667">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#10008#10072#0#HTML" expanded="true" />
+            <element signature="e#10486#10544#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80759495">
-          <caret line="707" column="14" selection-start-line="707" selection-start-column="14" selection-end-line="707" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.5606838">
+          <caret line="627" column="24" selection-start-line="627" selection-start-column="24" selection-end-line="627" selection-end-column="24" />
           <folding />
         </state>
       </provider>
