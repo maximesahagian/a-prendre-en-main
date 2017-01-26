@@ -696,8 +696,8 @@ body, html {
         }
 
         h4 {
-          font-family: Merriweather;
-          font-weight: inherit;
+          font-family: lato;
+          font-weight: 200 ;
           text-align: center;
         }
 
@@ -715,6 +715,7 @@ body, html {
             border-radius: 15px;
           }
           .goal-button {
+            font-size: 1.2vw;
             border: 0px solid white;
             background: #83B09D;
             border-radius: 2vw;
