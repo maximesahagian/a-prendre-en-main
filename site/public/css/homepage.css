@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Lato");
-body, html {
-  overflow-x: hidden;
-}
-
 @media only screen and (orientation: portrait) {
   body, html {
     overflow: hidden;
@@ -410,7 +406,7 @@ body, html {
   position: absolute;
   left: 34vw;
   top: -9vw;
-  width: 43vw;
+  width: 34vw;
   z-index: -4;
 }
 
@@ -431,6 +427,7 @@ body, html {
   height: 19vw;
   width: 26vw;
   left: 14vw;
+  top: 37vw;
 }
 
 .home-page .fourth-animation .left .text {
