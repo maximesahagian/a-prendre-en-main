@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
@@ -57,7 +54,7 @@
             <entry file="file://$PROJECT_DIR$/site/resources/views/components/explications.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-1.2340425">
-                  <caret line="128" column="55" selection-start-line="128" selection-start-column="55" selection-end-line="128" selection-end-column="55" />
+                  <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -80,23 +77,23 @@
           <file leaf-file-name="homepage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-20.382353">
-                  <caret line="292" column="3" selection-start-line="292" selection-start-column="3" selection-end-line="292" selection-end-column="3" />
+                <state vertical-scroll-proportion="-34.35294">
+                  <caret line="317" column="3" selection-start-line="317" selection-start-column="3" selection-end-line="317" selection-end-column="3" />
                   <folding>
-                    <marker date="1485444446000" expanded="true" signature="28:530" placeholder="{...}" />
-                    <marker date="1485444446000" expanded="true" signature="123:530" placeholder="{...}" />
-                    <marker date="1485444446000" expanded="true" signature="145:305" placeholder="{&quot;useEasing&quot;: false...}" />
-                    <marker date="1485444446000" expanded="true" signature="10780:10794" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="28:530" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="123:530" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="145:305" placeholder="{&quot;useEasing&quot;: false...}" />
+                    <marker date="1485445344000" expanded="true" signature="12074:12076" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.890625">
-                  <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.46324787">
+                  <caret line="518" column="21" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -112,12 +109,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="explications.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="explications.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/explications.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12991454">
-                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-                  <folding />
+                <state vertical-scroll-proportion="-0.59375">
+                  <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+                  <folding>
+                    <marker date="1485445344000" expanded="true" signature="3349:3717" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="3414:3717" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="3516:3683" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="3705:3717" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="8376:8420" placeholder="{...}" />
+                    <marker date="1485445344000" expanded="true" signature="8376:8541" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -126,7 +130,7 @@
             <entry file="file://$PROJECT_DIR$/site/resources/views/layouts/page.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-0.91935486">
-                  <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+                  <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -197,8 +201,8 @@
         <option value="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/crowfunding.scss" />
-        <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" />
+        <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
       </list>
     </option>
   </component>
@@ -625,13 +629,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.382353">
-          <caret line="292" column="3" selection-start-line="292" selection-start-column="3" selection-end-line="292" selection-end-column="3" />
+        <state vertical-scroll-proportion="-34.35294">
+          <caret line="317" column="3" selection-start-line="317" selection-start-column="3" selection-end-line="317" selection-end-column="3" />
           <folding>
-            <marker date="1485444446000" expanded="true" signature="28:530" placeholder="{...}" />
-            <marker date="1485444446000" expanded="true" signature="123:530" placeholder="{...}" />
-            <marker date="1485444446000" expanded="true" signature="145:305" placeholder="{&quot;useEasing&quot;: false...}" />
-            <marker date="1485444446000" expanded="true" signature="10780:10794" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="28:530" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="123:530" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="145:305" placeholder="{&quot;useEasing&quot;: false...}" />
+            <marker date="1485445344000" expanded="true" signature="12074:12076" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -647,7 +651,7 @@
     <entry file="file://$PROJECT_DIR$/site/resources/views/components/explications.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2340425">
-          <caret line="128" column="55" selection-start-line="128" selection-start-column="55" selection-end-line="128" selection-end-column="55" />
+          <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -671,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/site/resources/views/layouts/page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.91935486">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -704,18 +708,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
+    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/explications.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.890625">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="-0.59375">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <marker date="1485445344000" expanded="true" signature="3349:3717" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="3414:3717" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="3516:3683" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="3705:3717" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="8376:8420" placeholder="{...}" />
+            <marker date="1485445344000" expanded="true" signature="8376:8541" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/explications.scss">
+    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12991454">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.46324787">
+          <caret line="518" column="21" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
           <folding />
         </state>
       </provider>
