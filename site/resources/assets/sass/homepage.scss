@@ -611,11 +611,8 @@ body,html{
         left: 15vw;
       }
       h2 {
-        font-family: 'Merriweather';
+        font-family: Helvetica;
         font-size: 28px;
-      }
-      h4 {
-        font-weight: bold;
       }
       @include phone() {
         position: absolute;
@@ -629,11 +626,18 @@ body,html{
           position: relative;
         }
 
+        h4 {
+          font-family: Merriweather;
+          font-weight: inherit;
+          text-align: center;
+        }
+
         .goal-container {
-          width: 100%;
+          width: 90%;
           height: 15px;
           border-radius: 15px;
           border: solid 1px white;
+          margin: 0 auto;
           .goal-bar {
             max-width: 100%;
             width: 0%;
