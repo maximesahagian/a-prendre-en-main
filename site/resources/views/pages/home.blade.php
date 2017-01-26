@@ -40,12 +40,11 @@
                     <img class="africa-shadow" src="/img/annimation/africa-shadow.png" alt="africa-map">
                 </div>
                 <div class="right ">
-                    <div class="white-div"></div>
                     <div class="annim">
                         <div class='barrescontainer'>
-                            <img class="barre" src="img/annimation/anim-1-barres.png" alt="">
-                            <img class="barre" src="img/annimation/anim-1-barres.png" alt="">
-                            <img class="barre" src="img/annimation/anim-1-barres.png" alt="">
+                            <img class="barre barre1" src="img/annimation/anim-1-barres.png" alt="">
+                            <img class="barre barre2" src="img/annimation/anim-1-barres.png" alt="">
+                            <img class="barre barre3" src="img/annimation/anim-1-barres.png" alt="">
                         </div>
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
@@ -82,7 +81,7 @@
 
         </div>
         <div class="right">
-            <div class="small-circle">
+            <div class="small-circle small-circle-anim-two">
                 <span class="pourcentage-circle" id="circle-pourcentage"></span>
             </div>
             <div class="zoom-map-circle">

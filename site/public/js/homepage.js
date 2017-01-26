@@ -73,10 +73,11 @@ $(function() {
 
    var first_anim = new TimelineLite();
    first_anim.to(".africa-map", 1, {top: "0px"})
-           .to(".white-div", 1, {right: "500px"}, 0)
        .to(".anim-text", 1, {color: "black"}, 0)
-
        .to(".africa-shadow", 1, {opacity: "1"}, 0)
+       .to('.barre1',1,{right: "0"},1)
+       .to('.barre2',1,{right: "0"},2)
+       .to('.barre3',1,{right: "0"},3)
 
    // build scene
    var scene1 = new ScrollMagic.Scene({triggerElement: ".first-animation", duration: 300,tweenChanges: true, offset: 0})
@@ -153,7 +154,22 @@ $(function() {
           circlePourcentage.start();
        });
 
-   /*scenecover.addIndicators();
-   scene1.addIndicators();*/
+    var six_anim = new TimelineLite();
+    six_anim.to('.processus-title',1,{bottom: "2vw"});
+
+    var scene6 = new ScrollMagic.Scene({triggerElement: ".small-circle-anim-two", duration: 300,tweenChanges: true, offset: 100})
+            .setTween(six_anim)
+            .addTo(controller)
+
+    var seven_anim = new TimelineLite();
+    seven_anim.to('.third-animation .left .picture',1,{top: "-4vw"})
+        .to('.third-animation .left .background',1,{top:'0vw'},0)
+
+    var scene7 = new ScrollMagic.Scene({triggerElement: ".processus-title", duration: 300,tweenChanges: true, offset: 350})
+        .setTween(seven_anim)
+        .addTo(controller)
+
+    scene7.addIndicators();
+    //TO -4
 });
 

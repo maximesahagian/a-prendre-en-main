@@ -93,13 +93,15 @@
 .home-page .main-annimation .first-animation .right .annim .barrescontainer {
   position: absolute;
   right: 0vw;
-  top: -2vw;
+  top: 7vw;
 }
 
 .home-page .main-annimation .first-animation .right .annim .barrescontainer .barre {
   display: block;
   width: 10vw;
-  margin-top: 7vw;
+  margin-top: 2vw;
+  position: relative;
+  right: -10vw;
 }
 
 .home-page .main-annimation .first-animation .right .annim .animation-informations {
@@ -272,6 +274,8 @@
   color: rgba(74, 74, 74, 0.11);
   margin-bottom: 6vw;
   margin-right: 4vw;
+  position: relative;
+  bottom: -10vw;
 }
 
 .home-page .third-animation .left {
@@ -286,13 +290,14 @@
   position: absolute;
   right: 4vw;
   left: -4vw;
-  top: -4vw;
+  top: 10vw;
 }
 
 .home-page .third-animation .left .background {
   width: 29vw;
   position: relative;
   z-index: -3;
+  top: -5vw;
 }
 
 .home-page .third-animation .right {
