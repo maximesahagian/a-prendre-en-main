@@ -14,7 +14,6 @@ body, html {
 .home-page {
   p {
     font-size: 1.3vw;
-    font-family: lato;
   }
   li {
     font-size: 1.2vw;
@@ -515,13 +514,8 @@ body, html {
     .piececontainer {
       width: 63vw;
       float: right;
-<<<<<<< HEAD
-      .piece{
-        width: 1.2vw;
-=======
       .piece {
         width: 2vw;
->>>>>>> 0845c61cbe16fb143740504c491f45bd48c1b02c
       }
       .piece1 {
         position: absolute;
@@ -604,37 +598,9 @@ body, html {
   /*END MAIN ANIMATION SECTION*/
   font-family: lato;
   .video-conainer {
-    width: 100%;
-<<<<<<< HEAD
-    .navbar{
-    ul{
-      position: relative;
-      margin: 0 auto;
-      width: 80vw;
-      text-align: center;
-      bottom: 4vw;
 
-      li{
-        display: inline-block;
-        width: 10vw;
-        margin: 0 1vw;
-        &:hover{
-          border-bottom: 4px solid white;
-          padding-bottom: 2vw;
-        }
-        a {
-          color: white;
-          &:hover{
-            text-decoration: none;
-          }
-        }
-      }
-    }
-    }
-    @include desktop{
-=======
+    width: 100%;
     @include desktop {
->>>>>>> 0845c61cbe16fb143740504c491f45bd48c1b02c
       background: none;
       video {
         display: block
@@ -661,24 +627,12 @@ body, html {
     }
     .text-video {
       position: absolute;
-      top: 25vw;
+      top: 30vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
-<<<<<<< HEAD
-      p{
-        font-size: 1.2vw;
-        font-weight: 200;
-      }
-      h4{
-        font-size: 1.2vw;
-      }
-      @include phone(){
-        p{
-=======
       @include phone() {
         p {
->>>>>>> 0845c61cbe16fb143740504c491f45bd48c1b02c
           font-size: 2vw;
         }
         h4 {
@@ -696,15 +650,8 @@ body, html {
       }
       h2 {
         font-family: Helvetica;
-<<<<<<< HEAD
-        font-size: 2.3vw;
-        font-weight: 300;
-        margin: 3vw 0;
-        @include phone{
-=======
         font-size: 28px;
         @include phone {
->>>>>>> 0845c61cbe16fb143740504c491f45bd48c1b02c
           font-size: 4vw;
         }
       }
@@ -726,8 +673,6 @@ body, html {
           font-family: Merriweather;
           font-weight: inherit;
           text-align: center;
-          font-family: lato;
-          font-weight: 200;
         }
 
         .goal-container {
@@ -782,7 +727,7 @@ body, html {
   .logo-home {
     position: absolute;
     top: 4vw;
-    left: 9vw;
-    width: 5vw;
+    left: 5vw;
+    width: 7vw;
   }
 }

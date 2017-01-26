@@ -316,6 +316,14 @@ $(function() {
     var scene_title = new ScrollMagic.Scene({triggerElement: ".news", duration: 200,tweenChanges: true, offset: 0})
         .setTween(title_news)
         .addTo(controller)
+
+    var goutte_1 = new TimelineLite();
+        goutte_1.to('.contact-section .goute-1',1,{top: '-5vw'})
+        goutte_1.to('.contact-section .goute-2',1,{top: '7vw'},0)
+
+    var scene_goutte_1 = new ScrollMagic.Scene({triggerElement: ".color-8", duration: 200,tweenChanges: true, offset: 150})
+        .setTween(goutte_1)
+        .addTo(controller)
 });
 
 $('.navbar li').click(function(){
