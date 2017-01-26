@@ -175,7 +175,7 @@ $(function() {
     var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-animation", duration: 300,tweenChanges: true, offset: 200})
         .setTween(eight_anim)
         .addTo(controller)
-    
+
 
     var night_anim = new TimelineLite();
     night_anim.to('.fourth-animation .financement-img',1,{top: "7vw"})
@@ -195,6 +195,7 @@ $(function() {
                 suffix : ''
             };
             var euroNumber = new CountUp("euro-number", 0, 23628, 0, 2, options);
+            euroNumber.start();
         });
 
     //TO 4
