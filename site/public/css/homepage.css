@@ -725,18 +725,33 @@
 
 @media (max-width: 767px) {
   .home-page .video-conainer .text-video {
+    left: 1vw;
+    text-align: center;
     position: absolute;
-    top: 0vw;
-    font-size: 2vw;
+    width: 85vw;
+    top: 10vw;
+    right: 0;
     margin: 0 auto;
     display: block;
-    left: 15vw;
+    padding: 0;
+  }
+  .home-page .video-conainer .text-video p {
+    font-size: 2vw;
+  }
+  .home-page .video-conainer .text-video h4 {
+    font-size: 2vw;
   }
 }
 
 .home-page .video-conainer .text-video h2 {
   font-family: Helvetica;
   font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  .home-page .video-conainer .text-video h2 {
+    font-size: 4vw;
+  }
 }
 
 @media (max-width: 767px) {
@@ -755,6 +770,7 @@
 @media (max-width: 767px) {
   .home-page .video-conainer .text-video .right-text-video {
     position: relative;
+    right: 0;
   }
 }
 
