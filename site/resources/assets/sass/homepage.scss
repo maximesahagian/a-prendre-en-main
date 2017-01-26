@@ -302,8 +302,9 @@
     position: relative;
     .pipe-2{
       position: absolute;
-      left: 35vw;
-      top: -14vw;
+      left: 34vw;
+      top: -9vw;
+      width: 43vw;
       z-index: -4;
 
     }
@@ -377,7 +378,12 @@
   .fifth-animation{
     position: relative;
     height: 58vw;
-
+    .fix-it{
+      position: absolute;
+      right: 48vw;
+      top: 25vw;
+      width: 2vw;
+    }
     .left{
       width: 43vw;
       display: inline-block;

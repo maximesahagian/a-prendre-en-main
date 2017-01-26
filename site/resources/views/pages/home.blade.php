@@ -141,6 +141,7 @@
             </div>
         </section>
         <section class="fifth-animation">
+            <img class="fix-it" src="/img/annimation/fix_it.png" alt="">
             <h2 class="entretien-title">ENTRETIEN</h2>
             <div class="left">
                 <p>En cas de casse ou problemes, un technicien est chargé des réparations sur place </p>
