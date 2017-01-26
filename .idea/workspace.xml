@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +81,8 @@
           <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.84444445">
-                  <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.56790125">
+                  <caret line="544" column="17" selection-start-line="544" selection-start-column="17" selection-end-line="544" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -593,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84444445">
-          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.56790125">
+          <caret line="544" column="17" selection-start-line="544" selection-start-column="17" selection-end-line="544" selection-end-column="17" />
           <folding />
         </state>
       </provider>
