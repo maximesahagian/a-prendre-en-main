@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-body{
+body,html{
   @include portrait{
     overflow: hidden;
+    position: fixed;
   }
 }
 .home-page {
