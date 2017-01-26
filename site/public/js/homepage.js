@@ -37,21 +37,6 @@ $(document).ready(function(){
            prefix : '',
            suffix : ''
        };
-
-       var contributors = new CountUp("contributors", 0, data.supporters_count, 0, 2, options);
-       contributors.start();
-
-      var pourcentage = (data.amount_raised/data.goal)*100;
-      pourcentage = Math.round(pourcentage);
-
-       $('.goal-bar').animate({
-           width: pourcentage+"%"
-       }, 2000 );
-
-
-      $('.goal-bar-two').animate({
-         width: pourcentage+"%"
-      }, 2000 );
    });
 
 
@@ -229,6 +214,41 @@ $(function() {
     var scene11 = new ScrollMagic.Scene({triggerElement: ".last-animation", duration: 600,tweenChanges: true, offset: 0})
         .setTween(eleven_anim)
         .addTo(controller)
+
+    var twelve_anim = new TimelineLite();
+
+    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-930px'})
+        .to('.crowfunding-section .image-fong', 1,{marginTop:"200px"}, 0)
+
+    var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 350,tweenChanges: true, offset: 0})
+            .setTween(twelve_anim)
+            .addTo(controller)
+        .on('start', function(){
+            $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), function(data){
+                var options = {
+                    useEasing : false,
+                    useGrouping : false,
+                    separator : ' ',
+                    decimal : ' ',
+                    prefix : '',
+                    suffix : ''
+                };
+                var contributors = new CountUp("contributors", 0, data.supporters_count, 0, 2, options);
+                contributors.start();
+
+                var pourcentage = (data.amount_raised/data.goal)*100;
+                pourcentage = Math.round(pourcentage);
+
+                $('.goal-bar').animate({
+                    width: pourcentage+"%"
+                }, 2000 );
+
+
+                $('.goal-bar-two').animate({
+                    width: pourcentage+"%"
+                }, 2000 );
+            });
+        })
 
     //TO 4
 });
