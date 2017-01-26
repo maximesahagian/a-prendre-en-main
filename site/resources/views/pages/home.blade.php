@@ -207,7 +207,7 @@
                     $dateFirstNew = strtotime($new->date);
                     $dateNew = date('d/m/Y', $dateFirstNew)
                 ?>
-                <div class="second-new" style="display: inline-block">
+                <div class="second-new">
                     <div class="left-second-new">
                         <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
                     </div>

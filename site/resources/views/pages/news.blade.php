@@ -20,7 +20,7 @@
                                 <div class="image-new" style="background-image: url('/img/actu/<?=$new->image?>')">
 
                                 </div>
-                                <div class=" row">
+                                <div class="row">
                                     <div class="col-xs-6">
                                      <a href="/admin/news/edit/{{$new->id}}"><button class="btn btn-alert">Editer</button></a>
                                     </div>
