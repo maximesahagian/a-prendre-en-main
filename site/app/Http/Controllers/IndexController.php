@@ -34,4 +34,8 @@ class IndexController extends BaseController
 
         return view('pages.home',$data);
     }
+
+    public function sendMail(){
+        dd($_GET);
+    }
 }

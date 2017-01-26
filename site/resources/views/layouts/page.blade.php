@@ -24,5 +24,6 @@
     <script src="/js/animation.gsap.js"></script>
     <script src="/js/countup.js"></script>
     <script src="/js/homepage.js"></script>
+    <script src="/js/ajax_home.js"></script>
 </body>
 </html>

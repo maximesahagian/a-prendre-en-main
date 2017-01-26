@@ -60,7 +60,10 @@
         </div>
     </section>
     <section class="second-animation">
-
+        <img class="goute-large" src="/img/annimation/goute-large.png" alt="">
+        <img class="goute-medium" src="/img/annimation/goute-medium.png" alt="">
+        <img class="goute-small" src="/img/annimation/goute-small.png" alt="">
+        
         <h2 class="informations">INFORMATIONS</h2>
 
             <div class="left">
