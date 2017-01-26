@@ -4,9 +4,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .home-page {
-  @include portrait{
-
+  .phoneportrait{
+    display: none;
+    z-index: 4;
   }
+  @include portrait{
+    .phoneportrait{
+      background: url(/img/phone_portrait.png);
+      background-size: cover;
+      display: block;
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      z-index: 7;
+    }
+  }
+
   /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';
   .fixed-indicator {

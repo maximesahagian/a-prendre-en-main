@@ -3,6 +3,9 @@
 
 <input type="text" class="ulule_value" ulule="{{$ulule->value}}" style="display: none">
 <div class="home-page">
+   <div class="phoneportrait">
+
+   </div>
     <img class="logo-home" src="img/simple-logo-white.png" alt="Logo A prendre en main">
     <div class="video-conainer">
         <video loop autoplay>
