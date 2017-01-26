@@ -14,14 +14,12 @@ $(document).ready(function(){
       var goal = new CountUp("goal", 0, data.goal, 0, 2, options);
       goal.start();
 
-       var options = {
-           useEasing : false,
-           useGrouping : false,
-           separator : ',',
-           decimal : '.',
-           prefix : '',
-           suffix : '€'
-       };
+       var pourcentage = (data.amount_raised/data.goal)*100;
+       pourcentage = Math.round(pourcentage);
+
+       $('.goal-bar').animate({
+           width: pourcentage+"%"
+       }, 2000 );
 
        var amount_raised_2 = new CountUp("amount-raised-two", 0, data.amount_raised, 0, 2, options);
        amount_raised_2.start();
@@ -223,7 +221,7 @@ $(function() {
     twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-930px'})
         .to('.crowfunding-section .image-fong', 1,{marginTop:"200px"}, 0)
 
-    var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 350,tweenChanges: true, offset: 0})
+    var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 500,tweenChanges: true, offset: 0})
             .setTween(twelve_anim)
             .addTo(controller)
         .on('start', function(){
