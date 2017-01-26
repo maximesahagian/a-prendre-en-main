@@ -60,6 +60,16 @@ body, html {
     width: 100%;
     .first-animation {
       margin-top: 30px;
+      h2{
+        font-size: 8vw;
+        position: absolute;
+        top: 4vw;
+        right: 1vw;
+        color: rgba(74, 74, 74, 0.11);
+        margin-bottom: 6vw;
+        margin-right: 4vw;
+        font-family: Merriweather;
+      }
       .left {
         display: table-cell;
         width: 50vw;
@@ -78,10 +88,12 @@ body, html {
           }
           .africa-shadow {
             z-index: 3;
-            opacity: 0;
             position: absolute;
-            top: 30px;
+            width: 20vw;
+            height: 31vw;
+            top: -2vw;
             left: 30px;
+            background: #FFF351;
             z-index: 3;
           }
 
@@ -133,6 +145,7 @@ body, html {
             bottom: 0px;
           }
           .anim-text {
+
             #pourcentage-population {
               font-family: 'Merriweather';
             }
@@ -142,8 +155,8 @@ body, html {
             color: white;
             z-index: 3;
             background: white;
-            top: 5vw;
-            right: 8vw;
+            top: 17vw;
+            right: 12vw;
             height: 25vw;
             display: block;
             width: 30vw;
@@ -168,7 +181,7 @@ body, html {
       bottom: 8vw;
       left: 22vw;
       z-index: -2;
-      width: 9vw;
+      width: 5vw;
     }
 
     .goute-medium {
@@ -293,9 +306,9 @@ body, html {
     position: relative;
     .first-pipe {
       position: absolute;
-      top: 2vw;
-      width: 16vw;
-      left: 7vw;
+      top: 2.8vw;
+      width: 14.1vw;
+      left: 9vw;
     }
     .processus-title {
       font-size: 10vw;
@@ -516,7 +529,7 @@ body, html {
       width: 63vw;
       float: right;
       .piece {
-        width: 2vw;
+        width: 1.1vw;
       }
       .piece1 {
         position: absolute;

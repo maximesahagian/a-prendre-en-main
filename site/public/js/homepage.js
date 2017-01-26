@@ -57,10 +57,8 @@ $(function() {
    var first_anim = new TimelineLite();
    first_anim.to(".africa-map", 1, {top: "0px"})
        .to(".anim-text", 1, {color: "black"}, 0)
-       .to(".africa-shadow", 1, {opacity: "1"}, 0)
-       .to('.barre1',1,{right: "0"},1)
-       .to('.barre2',1,{right: "0"},2)
-       .to('.barre3',1,{right: "0"},3)
+       .to(".africa-shadow", 1, {top: "5vw"}, 0)
+
 
    // build scene
    var scene1 = new ScrollMagic.Scene({triggerElement: ".first-animation", duration: 300,tweenChanges: true, offset: 0})
@@ -328,9 +326,9 @@ $(function() {
     var goutte_small = new TimelineLite();
     goutte_1.to('.goute-small',1,{bottom: '-10vw'},0)
     goutte_1.to('.goute-medium',1,{bottom: '6vw'},0)
-    goutte_1.to('.goute-large',1,{bottom: '-7vw'},0)
+    goutte_1.to('.goute-large',1,{bottom: '-4vw'},0)
 
-    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 200,tweenChanges: true, offset:0 })
+    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 300,tweenChanges: true, offset:0 })
         .setTween(goutte_1)
         .addTo(controller)
 });
