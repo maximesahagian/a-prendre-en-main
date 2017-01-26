@@ -97,6 +97,25 @@
   border-bottom: 1px solid lightgrey;
 }
 
+.contact-section .content-contact .infos {
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 25px;
+  display: none;
+}
+
+.contact-section .content-contact .en-cours {
+  background-color: #E0F2F7;
+  border: 1px solid #7E949A;
+  color: #718285;
+}
+
+.contact-section .content-contact .sent {
+  background-color: #E0FBF3;
+  border: 1px solid #84908C;
+  color: #84908C;
+}
+
 .contact-section .content-contact .button {
   margin-top: 30px;
   float: right;

@@ -83,6 +83,23 @@
         border-bottom: 1px solid lightgrey;
       }
     }
+    .infos{
+
+      border-radius: 2px;
+      padding: 20px;
+      margin-top: 25px;
+      display: none;
+    }
+    .en-cours{
+      background-color: #E0F2F7;
+      border: 1px solid #7E949A;
+      color: #718285;
+    }
+    .sent{
+      background-color: #E0FBF3;
+      border: 1px solid #84908C;
+      color: #84908C;
+    }
     .button {
       margin-top: 30px;
       float: right;
