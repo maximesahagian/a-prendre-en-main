@@ -432,6 +432,13 @@
   height: 58vw;
 }
 
+.home-page .fifth-animation .fix-it {
+  position: absolute;
+  right: 48vw;
+  top: 25vw;
+  width: 2vw;
+}
+
 .home-page .fifth-animation .left {
   width: 43vw;
   display: inline-block;
