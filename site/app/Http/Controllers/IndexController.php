@@ -22,11 +22,14 @@ class IndexController extends BaseController
             ->take(3)
             ->get();
 
+        $team = DB::table('members')->get();
+
         $data = [
             'message' =>  DB::table('news')->count(),
             'first_new' => $first_new,
             'ulule' => $ulule,
-            'news' => $news
+            'news' => $news,
+            'team' => $team
         ];
 
         return view('pages.home',$data);
