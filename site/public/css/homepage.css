@@ -711,12 +711,8 @@
 }
 
 .home-page .video-conainer .text-video h2 {
-  font-family: 'Merriweather';
+  font-family: Helvetica;
   font-size: 28px;
-}
-
-.home-page .video-conainer .text-video h4 {
-  font-weight: bold;
 }
 
 @media (max-width: 767px) {
@@ -738,11 +734,18 @@
   }
 }
 
+.home-page .video-conainer .text-video .right-text-video h4 {
+  font-family: Merriweather;
+  font-weight: inherit;
+  text-align: center;
+}
+
 .home-page .video-conainer .text-video .right-text-video .goal-container {
-  width: 100%;
+  width: 90%;
   height: 15px;
   border-radius: 15px;
   border: solid 1px white;
+  margin: 0 auto;
 }
 
 .home-page .video-conainer .text-video .right-text-video .goal-container .goal-bar {
