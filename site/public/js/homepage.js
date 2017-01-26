@@ -14,14 +14,12 @@ $(document).ready(function(){
       var goal = new CountUp("goal", 0, data.goal, 0, 2, options);
       goal.start();
 
-       var options = {
-           useEasing : false,
-           useGrouping : false,
-           separator : ',',
-           decimal : '.',
-           prefix : '',
-           suffix : '€'
-       };
+       var pourcentage = (data.amount_raised/data.goal)*100;
+       pourcentage = Math.round(pourcentage);
+
+       $('.goal-bar').animate({
+           width: pourcentage+"%"
+       }, 2000 );
 
        var amount_raised_2 = new CountUp("amount-raised-two", 0, data.amount_raised, 0, 2, options);
        amount_raised_2.start();
@@ -223,7 +221,7 @@ $(function() {
     twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-930px'})
         .to('.crowfunding-section .image-fong', 1,{marginTop:"200px"}, 0)
 
-    var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 350,tweenChanges: true, offset: 0})
+    var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 500,tweenChanges: true, offset: 0})
             .setTween(twelve_anim)
             .addTo(controller)
         .on('start', function(){
@@ -252,6 +250,45 @@ $(function() {
                 }, 2000 );
             });
         })
+
+    var thirteen_anim = new TimelineLite();
+
+    thirteen_anim.to('.explications-section .yellow-background', 1, {top: '-2vw'})
+    .to('.explications-section .right-some-word .image-right', 1, {top: '8vw'},0)
+
+    var scene13 = new ScrollMagic.Scene({triggerElement: ".explications-section", duration: 400,tweenChanges: true, offset: -100})
+        .setTween(thirteen_anim)
+        .addTo(controller)
+
+    var fourteen_anim = new TimelineLite();
+
+    fourteen_anim.to('.our-view .second', 1, {bottom: '-4vw'})
+        .to('.our-view .third', 1, {bottom: '-9vw'},0)
+
+    var scene14 = new ScrollMagic.Scene({triggerElement: ".sign", duration: 300,tweenChanges: true, offset: 0})
+        .setTween(fourteen_anim)
+        .addTo(controller)
+
+    var fifteen_anim = new TimelineLite();
+
+    fifteen_anim.to('.after .left-first .background-red', 1, {top: '2vw'})
+        .to('.after .left-first .image-first', 1 ,{top : "0vw"}, 0)
+        .to('.after .right-first .container-right', 1 ,{opacity: '1'}, 0)
+
+    var scene15 = new ScrollMagic.Scene({triggerElement: ".to-take .before .title", duration: 300,tweenChanges: true, offset: 0})
+        .setTween(fifteen_anim)
+        .addTo(controller)
+
+
+    var sixteen_anim = new TimelineLite();
+
+    sixteen_anim.to('.right-second .image-second', 1, {top: '0vw'})
+        .to('.right-second .background-green', 1, {top: '4vw'}, 0)
+        .to('.numbers-objectives .left-second .container-left', 1, {opacity: '1'}, 0)
+
+    var scene16 = new ScrollMagic.Scene({triggerElement: ".to-take .after .right-first ul", duration: 300,tweenChanges: true, offset: 100})
+        .setTween(sixteen_anim)
+        .addTo(controller)
 
     //TO 4
 });
