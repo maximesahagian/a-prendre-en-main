@@ -2,6 +2,10 @@
 
 .explications-section{
   margin-top: 5vw;
+
+  @include phone() {
+    margin-top: 370px;
+  }
   .in-some-word{
     margin-bottom: 17vw;
     position: relative;

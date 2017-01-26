@@ -30,6 +30,9 @@
     margin: 0 auto;
     width: 100%;
   }
+  .crowfunding-section .wrapper-crowfunding h2 {
+    font-size: 20px;
+  }
 }
 
 .crowfunding-section .wrapper-crowfunding .content-body {
@@ -47,7 +50,7 @@
 
 @media (max-width: 767px) {
   .crowfunding-section .wrapper-crowfunding .content-body p {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 }
 
@@ -58,6 +61,7 @@
   color: #FFFFFF;
   background-color: #1D2622;
   opacity: 0.9;
+  text-align: center;
 }
 
 .crowfunding-section .wrapper-crowfunding .content-footer h3 {

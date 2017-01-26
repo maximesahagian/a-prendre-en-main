@@ -26,6 +26,9 @@
       position: inherit;
       margin: 0 auto;
       width: 100%;
+      h2 {
+        font-size: 20px;
+      }
     }
     .content-body {
       padding: 30px 50px;
@@ -36,8 +39,8 @@
         margin-top: 40px;
         color: lightgray;
         font-size: 1vw;
-        @include phone{
-          font-size: 3vw;
+        @include phone {
+          font-size: 2.5vw;
         }
       }
     }
@@ -48,6 +51,7 @@
       color: #FFFFFF;
       background-color: #1D2622;
       opacity: 0.9;
+      text-align: center;
       h3 {
         margin-top: 0;
       }
