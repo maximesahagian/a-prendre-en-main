@@ -124,8 +124,7 @@
 
 .explications-section .our-view .second {
   margin-left: 27vw;
-  height: 25vw;
-  bottom: -3vw;
+  bottom: -7vw;
   width: 32vw;
   background-color: #E0F2F7;
   position: absolute;
@@ -140,9 +139,8 @@
 }
 
 .explications-section .our-view .third {
-  height: 23vw;
-  bottom: -6vw;
-  width: 24vw;
+  bottom: -9vw;
+  width: 28vw;
   background-color: #FFF0D5;
   margin-left: 56vw;
   position: absolute;
