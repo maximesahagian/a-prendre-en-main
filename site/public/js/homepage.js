@@ -187,6 +187,18 @@ $(function() {
     var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-title", duration: 300,tweenChanges: true, offset: -50})
         .setTween(night_anim)
         .addTo(controller)
+        .on('start',function(){
+            var options = {
+                useEasing : false,
+                useGrouping : false,
+                separator : ' ',
+                decimal : ' ',
+                prefix : '',
+                suffix : ''
+            };
+            var euroNumber = new CountUp("euro-number", 0, 23628, 0, 2, options);
+            euroNumber.start();
+        });
 
     //TO 4
 });
