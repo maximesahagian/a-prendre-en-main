@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 .contact-section {
-  height: 380px;
-  margin: 200px 0;
+  height: 600px;
+  margin: 100px 0;
   color: #5C5953;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .contact-section .content-contact .button {
-  margin-top: 30px;
+  margin-top: 80px;
   float: right;
 }
 
@@ -138,6 +138,11 @@
 .contact-section .content-contact .button #button span {
   margin-left: 10px;
   color: white;
+}
+
+.contact-section .content-contact .captcha {
+  float: left;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=contact.css.map */
