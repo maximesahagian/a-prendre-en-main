@@ -540,6 +540,14 @@
       padding: 0 8%;
       margin: 0 auto;
       color: white;
+      @include phone(){
+        position: absolute;
+        top: 0vw;
+        font-size: 2vw;
+        margin: 0 auto;
+        display: block;
+        left: 15vw;
+      }
       h2 {
         font-family: 'Merriweather';
         font-size: 28px;

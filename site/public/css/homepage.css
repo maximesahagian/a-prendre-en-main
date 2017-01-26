@@ -619,6 +619,17 @@
   color: white;
 }
 
+@media (max-width: 767px) {
+  .home-page .video-conainer .text-video {
+    position: absolute;
+    top: 0vw;
+    font-size: 2vw;
+    margin: 0 auto;
+    display: block;
+    left: 15vw;
+  }
+}
+
 .home-page .video-conainer .text-video h2 {
   font-family: 'Merriweather';
   font-size: 28px;
