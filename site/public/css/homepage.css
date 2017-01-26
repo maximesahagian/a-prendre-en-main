@@ -344,8 +344,9 @@
 
 .home-page .fourth-animation .pipe-2 {
   position: absolute;
-  left: 35vw;
-  top: -14vw;
+  left: 34vw;
+  top: -9vw;
+  width: 43vw;
   z-index: -4;
 }
 
