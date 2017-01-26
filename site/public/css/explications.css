@@ -15,7 +15,7 @@
   height: 100%;
   position: absolute;
   right: 0px;
-  top: -2vw;
+  top: 10vw;
   bottom: 13vw;
 }
 
@@ -65,9 +65,8 @@
 
 .explications-section .in-some-word .right-some-word .image-right {
   position: absolute;
-  position: absolute;
   right: 0;
-  top: 8vw;
+  top: -5vw;
   width: 90%;
   background-image: url(/img/some_words.jpg);
   height: 100%;
@@ -128,7 +127,7 @@
 
 .explications-section .our-view .second {
   margin-left: 27vw;
-  bottom: -4vw;
+  bottom: 0vw;
   width: 32vw;
   background-color: #E0F2F7;
   position: absolute;
@@ -143,7 +142,7 @@
 }
 
 .explications-section .our-view .third {
-  bottom: -9vw;
+  bottom: 0vw;
   width: 28vw;
   background-color: #FFF0D5;
   margin-left: 56vw;
@@ -213,14 +212,14 @@
   height: 30vw;
   background-color: #F3374E;
   position: absolute;
-  top: 2vw;
+  top: -5vw;
   left: 0px;
 }
 
 .explications-section .to-take .after .left-first .image-first {
   height: 29vw;
   position: absolute;
-  top: 0px;
+  top: 10vw;
   left: 2vw;
   background: url(/img/to_take_first.jpg);
   background-size: cover;
@@ -235,6 +234,7 @@
 }
 
 .explications-section .to-take .after .right-first .container-right {
+  opacity: 0;
   width: 83%;
   margin-left: auto;
   position: relative;
@@ -341,6 +341,7 @@
 }
 
 .explications-section .to-take .numbers-objectives .left-second .container-left {
+  opacity: 0;
   margin-top: 8vw;
 }
 
@@ -362,7 +363,7 @@
 .explications-section .to-take .numbers-objectives .right-second .image-second {
   position: absolute;
   right: 2vw;
-  top: 0px;
+  top: 20vw;
   background: url(/img/to_take_second.jpg);
   background-size: cover;
   background-position: center;
@@ -376,7 +377,7 @@
   height: 35vw;
   background-color: #B0E0C1;
   right: 0px;
-  top: 4vw;
+  top: -2vw;
   z-index: -1;
 }
 
