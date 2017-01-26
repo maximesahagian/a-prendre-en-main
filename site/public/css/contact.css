@@ -1,2 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+.contact-section {
+  margin: 200px 0;
+  color: #5C5953;
+}
+
+.contact-section .goute-1, .contact-section .goute-2 {
+  background-image: url("/img/annimation/goute-large.png");
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+}
+
+.contact-section .goute-1 {
+  width: 119px;
+  height: 159px;
+  margin-left: 386px;
+  margin-top: -80px;
+  z-index: -1;
+}
+
+.contact-section .goute-2 {
+  width: 45px;
+  height: 60px;
+  margin-left: 335px;
+  margin-top: 40px;
+  z-index: -1;
+}
+
+.contact-section .content-contact {
+  height: 425px;
+  width: 620px;
+  margin: 0 auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: merriweather;
+}
+
+.contact-section p {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.contact-section .content-contact .formulaire-contact .top-contact {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-section .content-contact .formulaire-contact .top-contact .surname-contact {
+  display: inline-block;
+}
+
+.contact-section .content-contact .formulaire-contact .top-contact .surname-contact #prenom {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-section .content-contact .formulaire-contact .top-contact .name-contact {
+  display: inline-block;
+  margin-left: 218px;
+}
+
+.contact-section .content-contact .formulaire-contact .top-contact .name-contact #nom {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-section .content-contact .formulaire-contact .email {
+  display: block;
+  margin-top: 50px;
+}
+
+.contact-section .content-contact .formulaire-contact .email #courriel {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-section .content-contact .formulaire-contact .message {
+  display: block;
+  margin-top: 30px;
+}
+
+.contact-section .content-contact .formulaire-contact .message #message {
+  display: block;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-section .content-contact .formulaire-contact .button {
+  margin-top: 30px;
+  float: right;
+}
+
+.contact-section .content-contact .formulaire-contact .button #button {
+  border-radius: 25px;
+  background-color: #53BCC6;
+  border: none;
+  width: 105px;
+  color: white;
+  font-family: Lato, sans-serif;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.contact-section .content-contact .formulaire-contact .button #button span {
+  margin-left: 10px;
+  color: white;
+}
 
 /*# sourceMappingURL=contact.css.map */
