@@ -9,23 +9,25 @@ body,html{
     position: fixed;
   }
 }
-.home-page {
-  .phoneportrait{
-    display: none;
-    z-index: 4;
-  }
+.phoneportrait{
+  display: none;
+  z-index: 4;
   @include portrait{
-    .phoneportrait{
-      background: url(/img/phone_portrait.png);
-      background-size: cover;
+    background: url(/img/phone_portrait.png);
+    background-size: cover;
 
-      display: block;
-      position: fixed;
-      height: 100vh;
-      width: 100vw;
-      z-index: 7;
-    }
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 7;
   }
+}
+.home-page {
+  @include portrait(){
+    display: none;
+  }
+
 
   /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';

@@ -7,20 +7,13 @@
   }
 }
 
-.home-page {
-  /*MAIN ANIMATION SECTION*/
-  font-family: 'Lato';
-  /*END MAIN ANIMATION SECTION*/
-  font-family: lato;
-}
-
-.home-page .phoneportrait {
+.phoneportrait {
   display: none;
   z-index: 4;
 }
 
 @media only screen and (orientation: portrait) {
-  .home-page .phoneportrait {
+  .phoneportrait {
     background: url(/img/phone_portrait.png);
     background-size: cover;
     display: block;
@@ -28,6 +21,19 @@
     height: 100vh;
     width: 100vw;
     z-index: 7;
+  }
+}
+
+.home-page {
+  /*MAIN ANIMATION SECTION*/
+  font-family: 'Lato';
+  /*END MAIN ANIMATION SECTION*/
+  font-family: lato;
+}
+
+@media only screen and (orientation: portrait) {
+  .home-page {
+    display: none;
   }
 }
 
