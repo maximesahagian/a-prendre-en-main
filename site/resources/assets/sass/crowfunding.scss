@@ -16,10 +16,13 @@
     background-size: cover;
   }
   .wrapper-crowfunding {
-    width: 490px;
-    margin-left: 70px;
+    @include phone{
+      width: 100%;
+    }
+    width: 70%;
+
     z-index: 5;
-    margin-top: -500px;
+    margin:0 auto;
     position: absolute;
     .content-body {
       padding: 30px 50px;
@@ -29,6 +32,12 @@
       p {
         margin-top: 40px;
         color: lightgray;
+        @include phone{
+          font-size: 3vw;
+        }
+        @include tablet{
+          font-size: 2vw;
+        }
       }
     }
     .content-footer {
