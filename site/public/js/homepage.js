@@ -324,6 +324,15 @@ $(function() {
     var scene_goutte_1 = new ScrollMagic.Scene({triggerElement: ".color-8", duration: 200,tweenChanges: true, offset: 150})
         .setTween(goutte_1)
         .addTo(controller)
+
+    var goutte_small = new TimelineLite();
+    goutte_1.to('.goute-small',1,{bottom: '-10vw'},0)
+    goutte_1.to('.goute-medium',1,{bottom: '6vw'},0)
+    goutte_1.to('.goute-large',1,{bottom: '-7vw'},0)
+
+    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 200,tweenChanges: true, offset:0 })
+        .setTween(goutte_1)
+        .addTo(controller)
 });
 
 $('.navbar li').click(function(){
