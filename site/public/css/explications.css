@@ -1,5 +1,5 @@
 .explications-section {
-  margin-top: 150px;
+  margin-top: 460px;
 }
 
 .explications-section .in-some-word {
@@ -85,7 +85,7 @@
   font-family: 'Merriweather';
   font-size: 2.1vw;
   position: absolute;
-  top: -2vw;
+  top: -9vw;
 }
 
 .explications-section .our-view .block-view {
@@ -112,7 +112,6 @@
   bottom: 0px;
   left: 0px;
   background-color: #E0FBF3;
-  height: 24vw;
   position: absolute;
   z-index: -1;
 }

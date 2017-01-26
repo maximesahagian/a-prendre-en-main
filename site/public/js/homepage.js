@@ -201,12 +201,12 @@ $(function() {
         .to('.piece2', 1, {top: '27vw'}, 0)
         .to('.piece3', 1, {top: '35vw'}, 0)
         .to('.piece03', 1, {top: '28vw'}, 0)
-        .to('.piece8', 1, {top: '47.7vw'}, 0)
+        .to('.piece8', 1, {top: '46vw'}, 0)
         .to('.piece6', 1, {top: '39vw'}, 0)
         .to('.piece9', 1, {top: '39vw'}, 0)
         .to('.piece12', 1, {top: '20vw'}, 0)
         .to('.piece11', 1, {top: '50vw'}, 0)
-        .to('.piece02', 1, {top: '51vw'}, 0)
+        .to('.piece02', 1, {top: '50vw'}, 0)
         .to('.piecetat', 1, {right: '17vw'}, 0)
 
 

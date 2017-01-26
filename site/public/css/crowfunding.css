@@ -30,6 +30,13 @@
   }
 }
 
+@media (max-width: 767px) {
+  .crowfunding-section .wrapper-crowfunding {
+    position: inherit;
+    margin: 0 auto;
+  }
+}
+
 .crowfunding-section .wrapper-crowfunding .content-body {
   padding: 30px 50px;
   color: #FFFFFF;

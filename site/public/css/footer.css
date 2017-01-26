@@ -10,8 +10,21 @@
   margin-top: 200px;
 }
 
+@media (max-width: 767px) {
+  .footer-section .partenaires {
+    margin-top: 60px;
+  }
+}
+
 .footer-section .partenaires li {
   display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .footer-section .partenaires li {
+    margin-bottom: 60px;
+    display: block;
+  }
 }
 
 .footer-section .partenaires .supdeco {
