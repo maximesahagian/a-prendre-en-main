@@ -14,6 +14,14 @@
   font-family: lato;
 }
 
+.home-page p {
+  font-size: 1.3vw;
+}
+
+.home-page li {
+  font-size: 1.2vw;
+}
+
 .home-page .phoneportrait {
   display: none;
   z-index: 4;
@@ -550,6 +558,7 @@
   left: 10vw;
   top: 5vw;
   font-weight: 200;
+  font-size: 1.7vw;
 }
 
 .home-page .last-animation .left div {
@@ -559,7 +568,6 @@
   color: white;
   padding: 1vw;
   border-left: 0.6vw solid white;
-  height: 9vw;
   position: relative;
   left: 5vw;
   top: 4vw;
@@ -567,12 +575,17 @@
 }
 
 .home-page .last-animation .left div p {
+  font-size: 1.7vw;
   font-weight: 200;
 }
 
 .home-page .last-animation .piececontainer {
   width: 63vw;
   float: right;
+}
+
+.home-page .last-animation .piececontainer .piece {
+  width: 2vw;
 }
 
 .home-page .last-animation .piececontainer .piece1 {
@@ -806,8 +819,9 @@
 
 .home-page .logo-home {
   position: absolute;
-  top: 15%;
-  left: 9%;
+  top: 4vw;
+  left: 5vw;
+  width: 7vw;
 }
 
 /*# sourceMappingURL=homepage.css.map */

@@ -165,19 +165,19 @@
         </div>
 
         <div class="piececontainer">
-            <img class="piece1" src="/img/annimation/piece1.png" alt="">
-            <img class="piece01" src="/img/annimation/piece.png" alt="">
-            <img class="piece2" src="/img/annimation/piece2.png" alt="">
-            <img class="piece3" src="/img/annimation/piece4.png" alt="">
-            <img class="piece6" src="/img/annimation/piece6.png" alt="">
-            <img class="piece02" src="/img/annimation/piece.png" alt="">
-            <img class="piece11" src="/img/annimation/piece.png" alt="">
-            <img class="piece12" src="/img/annimation/piece1.png" alt="">
-            <img class="piece13" src="/img/annimation/piece.png" alt="">
+            <img class="piece piece1" src="/img/annimation/piece1.png" alt="">
+            <img class="piece piece01" src="/img/annimation/piece.png" alt="">
+            <img class="piece piece2" src="/img/annimation/piece2.png" alt="">
+            <img class="piece piece3" src="/img/annimation/piece4.png" alt="">
+            <img class="piece piece6" src="/img/annimation/piece6.png" alt="">
+            <img class="piece piece02" src="/img/annimation/piece.png" alt="">
+            <img class="piece piece11" src="/img/annimation/piece.png" alt="">
+            <img class="piece piece12" src="/img/annimation/piece1.png" alt="">
+            <img class="piece piece13" src="/img/annimation/piece.png" alt="">
 
-            <img class="piece03" src="/img/annimation/piece.png" alt="">
-            <img class="piece8" src="/img/annimation/piece2.png" alt="">
-            <img class="piece9" src="/img/annimation/piece1.png" alt="">
+            <img class="piece piece03" src="/img/annimation/piece.png" alt="">
+            <img class="piece piece8" src="/img/annimation/piece2.png" alt="">
+            <img class="piece piece9" src="/img/annimation/piece1.png" alt="">
             <div>
                 <img class="piecetat" src="/img/annimation/piecetat.png" alt="">
             </div>

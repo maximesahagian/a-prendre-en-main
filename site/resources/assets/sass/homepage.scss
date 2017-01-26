@@ -10,6 +10,12 @@ body,html{
   }
 }
 .home-page {
+  p {
+    font-size: 1.3vw;
+  }
+  li{
+    font-size: 1.2vw;
+  }
   .phoneportrait{
     display: none;
     z-index: 4;
@@ -485,6 +491,7 @@ body,html{
         left: 10vw;
         top: 5vw;
         font-weight: 200;
+        font-size: 1.7vw;
       }
       div{
         opacity: 0;
@@ -493,12 +500,12 @@ body,html{
         color: white;
         padding: 1vw;
         border-left: 0.6vw solid white;
-        height: 9vw;
         position: relative;
         left: 5vw;
         top:4vw;
         font-family: Merriweather;
         p{
+          font-size: 1.7vw;
           font-weight: 200;
         }
       }
@@ -507,6 +514,9 @@ body,html{
     .piececontainer{
       width: 63vw;
       float: right;
+      .piece{
+        width: 2vw;
+      }
       .piece1{
         position: absolute;
         top: 1vw;
@@ -694,7 +704,8 @@ body,html{
 
   .logo-home {
     position: absolute;
-    top: 15%;
-    left: 9%;
+    top: 4vw;
+    left: 5vw;
+    width: 7vw;
   }
 }
