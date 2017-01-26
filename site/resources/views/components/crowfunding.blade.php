@@ -18,15 +18,15 @@
         <div class="content-footer">
             <h3>Notre campagne Ulule</h3>
             <!--TODO : API ULULE-->
-            <h4 class="amount-reach">25000$</h4>
+            <h4 class="amount-raised-two" id="amount-raised-two"></h4>
             <div class="goal-container">
-                <div class="goal-bar"></div>
+                <div class="goal-bar-two"></div>
                 <h5>800 personnes ont déjà participé</h5>
                 <a href="#">
                     <button class="goal-button">Contribuer</button>
                 </a>
             </div>
-            <h4 class="amount-goal">50000$</h4>
+            <h4 id="amount-goal-two" class="amount-goal-two"></h4>
         </div>
     </div>
 </section>
