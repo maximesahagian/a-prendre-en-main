@@ -111,7 +111,7 @@
                     Il est dans un premier temps nécéssaire de localiser la source puis de forer un conduit d’acces jusqu’a celle-ci, ainsi on pourra installer un puit mécanique et remonter l’au jusqu’a la surface.
 
                     Le probleme majeure étant le coup de financement des moyen de forage et pompages de l’eau et c’est précisement ici que nous intervenons avec votre aide pour financer l’ensemble de l’installation.</p>
-                <a href="#">En savoir plus</a>
+                <a href="#" class="financement-animation">En savoir plus</a>
             </div>
         </section>
 
