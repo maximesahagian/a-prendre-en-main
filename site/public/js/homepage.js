@@ -14,13 +14,32 @@ $(document).ready(function(){
       var goal = new CountUp("goal", 0, data.goal, 0, 2, options);
       goal.start();
 
-      $('.amount-raised').append('€');
-      $('.goal').append('€');
+       var options = {
+           useEasing : false,
+           useGrouping : false,
+           separator : ',',
+           decimal : '.',
+           prefix : '',
+           suffix : '€'
+       };
+
+       var amount_raised_2 = new CountUp("amount-raised-two", 0, data.amount_raised, 0, 2, options);
+
+       amount_raised_2.start();
+
+       var amount_goal_2 = new CountUp("amount-goal-two", 0, data.goal, 0, 2, options);
+
+       amount_goal_2.start();
 
       var pourcentage = (data.amount_raised/data.goal)*100;
       pourcentage = Math.round(pourcentage);
 
-      $('.goal-bar').animate({
+       $('.goal-bar').animate({
+           width: pourcentage+"%"
+       }, 2000 );
+
+
+      $('.goal-bar-two').animate({
          width: pourcentage+"%"
       }, 2000 );
    });
