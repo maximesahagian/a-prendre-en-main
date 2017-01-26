@@ -186,6 +186,9 @@ $(function() {
     var ten_anim = new TimelineLite();
     ten_anim.to('.entretien-title', 1, {left: "8vh"})
     ten_anim.to('.fifth-animation .left', 1, {opacity: "1"}, 1)
+    ten_anim.to('.fifth-animation .fix-it', 1, {top: "25vw"}, 1)
+
+
 
     var scene10 = new ScrollMagic.Scene({triggerElement: ".fifth-animation", duration: 400,tweenChanges: true, offset: 0})
         .setTween(ten_anim)
