@@ -318,3 +318,12 @@ $(function() {
         .addTo(controller)
 });
 
+$('.navbar li').click(function(){
+
+    console.log("."+$(this).attr('divto'));
+
+    $('html, body').animate({
+        scrollTop: $("."+$(this).attr('divto')).offset().top
+    }, 1000);
+
+});

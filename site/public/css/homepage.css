@@ -20,6 +20,7 @@ body, html {
 
 .home-page p {
   font-size: 1.3vw;
+  font-family: lato;
 }
 
 .home-page li {
@@ -684,6 +685,33 @@ body, html {
   width: 100%;
 }
 
+.home-page .video-conainer .navbar ul {
+  position: relative;
+  margin: 0 auto;
+  width: 80vw;
+  text-align: center;
+  bottom: 4vw;
+}
+
+.home-page .video-conainer .navbar ul li {
+  display: inline-block;
+  width: 10vw;
+  margin: 0 1vw;
+}
+
+.home-page .video-conainer .navbar ul li:hover {
+  border-bottom: 4px solid white;
+  padding-bottom: 2vw;
+}
+
+.home-page .video-conainer .navbar ul li a {
+  color: white;
+}
+
+.home-page .video-conainer .navbar ul li a:hover {
+  text-decoration: none;
+}
+
 @media (min-width: 1024px) {
   .home-page .video-conainer {
     background: none;
@@ -721,10 +749,19 @@ body, html {
 
 .home-page .video-conainer .text-video {
   position: absolute;
-  top: 30vw;
+  top: 25vw;
   padding: 0 8%;
   margin: 0 auto;
   color: white;
+}
+
+.home-page .video-conainer .text-video p {
+  font-size: 1.2vw;
+  font-weight: 200;
+}
+
+.home-page .video-conainer .text-video h4 {
+  font-size: 1.2vw;
 }
 
 @media (max-width: 767px) {
@@ -749,7 +786,9 @@ body, html {
 
 .home-page .video-conainer .text-video h2 {
   font-family: Helvetica;
-  font-size: 28px;
+  font-size: 2.3vw;
+  font-weight: 300;
+  margin: 3vw 0;
 }
 
 @media (max-width: 767px) {
@@ -782,6 +821,8 @@ body, html {
   font-family: Merriweather;
   font-weight: inherit;
   text-align: center;
+  font-family: lato;
+  font-weight: 200;
 }
 
 .home-page .video-conainer .text-video .right-text-video .goal-container {
@@ -840,8 +881,8 @@ body, html {
 .home-page .logo-home {
   position: absolute;
   top: 4vw;
-  left: 5vw;
-  width: 7vw;
+  left: 9vw;
+  width: 5vw;
 }
 
 /*# sourceMappingURL=homepage.css.map */

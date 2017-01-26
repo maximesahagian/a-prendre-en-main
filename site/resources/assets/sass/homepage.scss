@@ -13,6 +13,7 @@ body,html{
 .home-page {
   p {
     font-size: 1.3vw;
+    font-family: lato;
   }
   li{
     font-size: 1.2vw;
@@ -597,8 +598,32 @@ body,html{
   /*END MAIN ANIMATION SECTION*/
   font-family: lato;
   .video-conainer {
-
     width: 100%;
+    .navbar{
+    ul{
+      position: relative;
+      margin: 0 auto;
+      width: 80vw;
+      text-align: center;
+      bottom: 4vw;
+
+      li{
+        display: inline-block;
+        width: 10vw;
+        margin: 0 1vw;
+        &:hover{
+          border-bottom: 4px solid white;
+          padding-bottom: 2vw;
+        }
+        a {
+          color: white;
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    }
     @include desktop{
       background: none;
       video{display: block}
@@ -620,10 +645,17 @@ body,html{
     }
     .text-video {
       position: absolute;
-      top: 30vw;
+      top: 25vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
+      p{
+        font-size: 1.2vw;
+        font-weight: 200;
+      }
+      h4{
+        font-size: 1.2vw;
+      }
       @include phone(){
         p{
           font-size: 2vw;
@@ -643,7 +675,9 @@ body,html{
       }
       h2 {
         font-family: Helvetica;
-        font-size: 28px;
+        font-size: 2.3vw;
+        font-weight: 300;
+        margin: 3vw 0;
         @include phone{
           font-size: 4vw;
         }
@@ -666,6 +700,8 @@ body,html{
           font-family: Merriweather;
           font-weight: inherit;
           text-align: center;
+          font-family: lato;
+          font-weight: 200;
         }
 
         .goal-container {
@@ -720,7 +756,7 @@ body,html{
   .logo-home {
     position: absolute;
     top: 4vw;
-    left: 5vw;
-    width: 7vw;
+    left: 9vw;
+    width: 5vw;
   }
 }
