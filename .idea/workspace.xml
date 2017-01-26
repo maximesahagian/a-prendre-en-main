@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/contact.css" afterPath="$PROJECT_DIR$/site/public/css/contact.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/contact.css.map" afterPath="$PROJECT_DIR$/site/public/css/contact.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css" afterPath="$PROJECT_DIR$/site/public/css/homepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/homepage.css.map" afterPath="$PROJECT_DIR$/site/public/css/homepage.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/js/homepage.js" afterPath="$PROJECT_DIR$/site/public/js/homepage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/contact.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/contact.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
@@ -46,8 +42,8 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33279485">
-                  <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.3069467">
+                  <caret line="10" column="30" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
                   <folding>
                     <element signature="e#111#132#0#HTML" expanded="true" />
                     <element signature="e#10603#10667#0#HTML" expanded="true" />
@@ -71,10 +67,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="homepage.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="homepage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5888717">
+                <state vertical-scroll-proportion="-90.969696">
                   <caret line="317" column="26" selection-start-line="317" selection-start-column="26" selection-end-line="317" selection-end-column="26" />
                   <folding />
                 </state>
@@ -91,11 +87,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.5234375">
-                  <caret line="164" column="11" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="11" />
+                <state vertical-scroll-proportion="0.82051283">
+                  <caret line="615" column="34" selection-start-line="615" selection-start-column="34" selection-end-line="615" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -206,9 +202,9 @@
         <option value="$PROJECT_DIR$/site/resources/assets/sass/crowfunding.scss" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" />
         <option value="$PROJECT_DIR$/site/resources/views/pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/contact.scss" />
         <option value="$PROJECT_DIR$/site/public/js/homepage.js" />
+        <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
       </list>
     </option>
   </component>
@@ -707,26 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33279485">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#111#132#0#HTML" expanded="true" />
-            <element signature="e#10603#10667#0#HTML" expanded="true" />
-            <element signature="e#11081#11139#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5234375">
-          <caret line="164" column="11" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.6015625">
@@ -737,8 +713,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5888717">
+        <state vertical-scroll-proportion="-90.969696">
           <caret line="317" column="26" selection-start-line="317" selection-start-column="26" selection-end-line="317" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3069467">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#10603#10667#0#HTML" expanded="true" />
+            <element signature="e#11081#11139#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/homepage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82051283">
+          <caret line="615" column="34" selection-start-line="615" selection-start-column="34" selection-end-line="615" selection-end-column="34" />
           <folding />
         </state>
       </provider>
