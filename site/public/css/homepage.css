@@ -620,6 +620,37 @@
   width: 100%;
 }
 
+@media (min-width: 1024px) {
+  .home-page .video-conainer {
+    background: none;
+  }
+  .home-page .video-conainer video {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home-page .video-conainer {
+    background: url("/img/mobile-video.png") no-repeat;
+    background-size: cover;
+    height: 67vw;
+  }
+  .home-page .video-conainer video {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-page .video-conainer {
+    background: url("/img/mobile-video.png") no-repeat;
+    background-size: cover;
+    height: 67vw;
+  }
+  .home-page .video-conainer video {
+    display: none;
+  }
+}
+
 .home-page .video-conainer video {
   width: 100%;
 }

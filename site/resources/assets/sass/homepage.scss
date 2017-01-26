@@ -1,8 +1,12 @@
 @import "sizes";
+@import 'portrait';
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .home-page {
+  @include portrait{
+
+  }
   /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';
   .fixed-indicator {
@@ -36,6 +40,7 @@
           position: relative;
           left: 8vw;
           img {
+
             width: 60%;
           }
           .africa-map{
@@ -542,6 +547,22 @@
   .video-conainer {
 
     width: 100%;
+    @include desktop{
+      background: none;
+      video{display: block}
+    }
+    @include tablet-only{
+      background: url('/img/mobile-video.png') no-repeat;
+      background-size: cover;
+      height: 67vw;
+      video{display: none}
+    }
+    @include phone{
+      background: url('/img/mobile-video.png') no-repeat;
+      background-size: cover;
+      height: 67vw;
+      video{display: none}
+    }
     video {
       width: 100%;
     }
