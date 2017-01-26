@@ -35,6 +35,7 @@ body, html {
   .home-page .phoneportrait {
     background: url(/img/phone_portrait.png);
     background-size: cover;
+    background-position: center center;
     display: block;
     position: fixed;
     height: 100vh;
