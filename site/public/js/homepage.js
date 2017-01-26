@@ -103,7 +103,6 @@ $(function() {
        .addTo(controller)
 
 
-   scene2.addIndicators();
 
    var third_anim = new TimelineLite();
    third_anim.to('.rectangle-div img',1,{right: "0px"});
@@ -177,7 +176,6 @@ $(function() {
         .setTween(eight_anim)
         .addTo(controller)
 
-    scene8.addIndicators();
 
     var night_anim = new TimelineLite();
     night_anim.to('.fourth-animation .financement-img',1,{top: "7vw"})
