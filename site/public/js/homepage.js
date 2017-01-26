@@ -272,7 +272,7 @@ $(function() {
     var fifteen_anim = new TimelineLite();
 
     fifteen_anim.to('.after .left-first .background-red', 1, {top: '2vw'})
-        .to('.after .left-first .image-first', 1 ,{top : "0vw"}, 0)
+        .to('.after .left-first .image-first', 1 ,{top : "0vw", opacity: "1"}, 0)
         .to('.after .right-first .container-right', 1 ,{opacity: '1'}, 0)
 
     var scene15 = new ScrollMagic.Scene({triggerElement: ".to-take .before .title", duration: 300,tweenChanges: true, offset: 0})
@@ -282,14 +282,39 @@ $(function() {
 
     var sixteen_anim = new TimelineLite();
 
-    sixteen_anim.to('.right-second .image-second', 1, {top: '0vw'})
-        .to('.right-second .background-green', 1, {top: '4vw'}, 0)
+    sixteen_anim.to('.numbers-objectives .right-second .image-second', 1, {top: '0vw', opacity: '1'})
+        .to('.numbers-objectives .right-second .background-green', 1, {top: '4vw'}, 0)
         .to('.numbers-objectives .left-second .container-left', 1, {opacity: '1'}, 0)
 
     var scene16 = new ScrollMagic.Scene({triggerElement: ".to-take .after .right-first ul", duration: 300,tweenChanges: true, offset: 100})
         .setTween(sixteen_anim)
         .addTo(controller)
 
-    //TO 4
+    var image3 = new TimelineLite();
+
+    image3
+        .to('.after2 .left-first .background-red', 1, {top: '2vw'})
+        .to('.after2 .left-first .image-first', 1, {top: '0vw', opacity: '1'},0)
+        .to('.after2 .right-first .container-right', 1, {opacity: '1'}, 0)
+
+    var sceneimg3 = new ScrollMagic.Scene({triggerElement: ".after2 .right-first .title-right-first", duration: 300,tweenChanges: true, offset: -100})
+        .setTween(image3)
+        .addTo(controller)
+
+    var obj2 = new TimelineLite();
+    obj2.to('.numbers-objectives2 .right-second .image-second',1,{top:'0vw',opacity: '1'})
+        .to('.numbers-objectives2 .right-second .background-green', 1, {top:  '4vw'}, 0)
+        .to('.numbers-objectives2 .left-second .container-left', 1,{opacity: '1'}, 0)
+
+    var sceneobj2 = new ScrollMagic.Scene({triggerElement: ".animation-last-img", duration: 300,tweenChanges: true, offset: 0})
+        .setTween(obj2)
+        .addTo(controller)
+
+    var title_news = new TimelineLite();
+    title_news.to('.news h1', 1, {opacity: '1'})
+
+    var scene_title = new ScrollMagic.Scene({triggerElement: ".news", duration: 200,tweenChanges: true, offset: 0})
+        .setTween(title_news)
+        .addTo(controller)
 });
 

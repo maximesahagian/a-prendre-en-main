@@ -216,6 +216,7 @@
 }
 
 .explications-section .to-take .after .left-first .image-first {
+  opacity: 0;
   height: 29vw;
   position: absolute;
   top: 10vw;
@@ -278,14 +279,15 @@
   height: 30vw;
   background-color: #BFDAC4;
   position: absolute;
-  top: 2vw;
+  top: -5vw;
   left: 0px;
 }
 
 .explications-section .to-take .after2 .left-first .image-first {
+  opacity: 0;
   height: 29vw;
   position: absolute;
-  top: 0px;
+  top: 15vw;
   left: 2vw;
   background: url(/img/mamadou.png);
   background-size: cover;
@@ -300,6 +302,7 @@
 }
 
 .explications-section .to-take .after2 .right-first .container-right {
+  opacity: 0;
   width: 83%;
   margin-left: auto;
   position: relative;
@@ -360,6 +363,7 @@
 }
 
 .explications-section .to-take .numbers-objectives .right-second .image-second {
+  opacity: 0;
   position: absolute;
   right: 2vw;
   top: 20vw;
@@ -401,6 +405,7 @@
 }
 
 .explications-section .to-take .numbers-objectives2 .left-second .container-left {
+  opacity: 0;
   margin-top: 8vw;
 }
 
@@ -425,9 +430,10 @@
 }
 
 .explications-section .to-take .numbers-objectives2 .right-second .image-second {
+  opacity: 0;
   position: absolute;
   right: 2vw;
-  top: 0px;
+  top: 15vw;
   background: url(/img/pompe.png);
   background-size: cover;
   background-position: center;
@@ -441,7 +447,7 @@
   height: 27vw;
   background-color: #CC92FF;
   right: 0px;
-  top: 4vw;
+  top: -1vw;
   z-index: -1;
 }
 
