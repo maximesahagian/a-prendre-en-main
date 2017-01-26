@@ -316,6 +316,5 @@ $(function() {
     var scene_title = new ScrollMagic.Scene({triggerElement: ".news", duration: 200,tweenChanges: true, offset: 0})
         .setTween(title_news)
         .addTo(controller)
-    //TO 4
 });
 
