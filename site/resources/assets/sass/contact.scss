@@ -6,6 +6,7 @@
   input, textarea, button {
     outline: none;
   }
+  position: relative;
   height: 600px;
   margin: 100px 0;
   color: #5C5953;
@@ -19,15 +20,17 @@
     width: 119px;
     height: 159px;
     margin-left: 445px;
-    margin-top: -80px;
     z-index: -1;
+    position: absolute;
+    top: -18vw;
 
   }
   .goute-2 {
     width: 45px;
     height: 60px;
     margin-left: 375px;
-    margin-top: 40px;
+    top:-17vw;
+    position: absolute;
     z-index: -1;
   }
   .content-contact {

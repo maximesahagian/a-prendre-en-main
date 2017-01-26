@@ -14,7 +14,7 @@
         </video>
         <div class="row text-video">
             <div class="col-sm-6 col-xs-12">
-                <h4>Approvisionnement en Eau potable – Douala – PK11
+                <h4>Approvisionnement en Eau potable – Douala – PK11 <br>
                     (Cameroun)</h4>
                 <h2>Un projet à prendre en main
                 </h2>
@@ -34,8 +34,19 @@
                 </div>
             </div>
         </div>
+        <div class="navbar">
+            <ul>
+                <li><a class="" href="#intro">Intro</a></li>
+                <li divto="crowfunding-section"><a class="crowfunding-li" href="#crowfunding">Crowfunding</a></li>
+                <li divto="explications-section"><a href="#explications">Explication</a></li>
+                <li divto="team-section"><a href="#equipe">Equipe</a></li>
+                <li divto="news"><a href="#actus">Actus</a></li>
+                <li divto="footer-section"><a href="#partenaires">Partenaires</a></li>
+
+            </ul>
+        </div>
     </div>
-    <section class="main-annimation">
+    <section class="main-annimation" name="intro">
         <div class="cover-video"></div>
         <div class="first-animation">
             <div class="left">
