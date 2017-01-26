@@ -146,7 +146,8 @@ body,html{
             width: 30vw;
             position: relative;
             p {
-              font-size: 2vw;
+              font-size: 1.4vw;
+              font-family: Lato, sans-serif;
             }
             span {
               font-size: 7vw;
@@ -186,6 +187,7 @@ body,html{
       color: rgba(74, 74, 74, 0.11);
       margin-bottom: 6vw;
       margin-right: 4vw;
+      font-family: Merriweather;
     }
     .left{
       display: inline-block;
@@ -219,9 +221,11 @@ body,html{
         }
         p{
           font-size: 1.5vw;
+          margin: 0;
+          color: #4A4A4A;
         }
         span{
-          font-size: 7vw;
+          font-size: 8vw;
         }
       }
 
@@ -300,6 +304,7 @@ body,html{
       margin-right: 4vw;
       position: relative;
       bottom: -10vw;
+      font-family: Merriweather;
     }
     .left{
       position: relative;
@@ -380,6 +385,7 @@ body,html{
             text-align: right;
             width: 30%;
             font-weight: bold;
+            font-size: 1.2vw;
           }
           p{
             width: 70%;
@@ -422,10 +428,11 @@ body,html{
     .fix-it{
       position: absolute;
       right: 48vw;
-      top: 25vw;
+      top: 35vw;
       width: 2vw;
     }
     .left{
+      opacity: 0;
       width: 43vw;
       display: inline-block;
 
@@ -446,13 +453,13 @@ body,html{
     }
     .entretien-title{
       position: absolute;
-
       font-size: 8.8vw;
-      left:8vw;
+      left: -10vw;
       color: rgba(74, 74, 74, 0.11);
       margin-bottom: 6vw;
       margin-right: 4vw;
       top: 11vw;
+      font-family: Merriweather;
     }
     .finalpipe{
       top: -8vw;
@@ -476,6 +483,7 @@ body,html{
         color: rgba(74, 74, 74, 0.11);
         margin-bottom: 6vw;
         margin-right: 4vw;
+        font-family: Merriweather;
       }
       i{
         color: white;
@@ -486,6 +494,7 @@ body,html{
         font-size: 1.7vw;
       }
       div{
+        opacity: 0;
         width: 30vw;
         text-align: justify;
         color: white;
@@ -494,6 +503,7 @@ body,html{
         position: relative;
         left: 5vw;
         top:4vw;
+        font-family: Merriweather;
         p{
           font-size: 1.7vw;
           font-weight: 200;
@@ -575,9 +585,10 @@ body,html{
         right: 7.5vw;
         margin-left: 13vw;
       }
-      .piecetat{width: 45vw;
-      position: absolute;
-        right:17vw;
+      .piecetat{
+        width: 45vw;
+        position: absolute;
+        right:55vw;
 
       bottom: 0;}
     }
