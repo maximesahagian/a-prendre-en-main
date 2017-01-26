@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 .contact-section {
+  height: 380px;
   margin: 200px 0;
   color: #5C5953;
 }
@@ -19,7 +20,7 @@
 .contact-section .goute-1 {
   width: 119px;
   height: 159px;
-  margin-left: 386px;
+  margin-left: 445px;
   margin-top: -80px;
   z-index: -1;
 }
@@ -27,7 +28,7 @@
 .contact-section .goute-2 {
   width: 45px;
   height: 60px;
-  margin-left: 335px;
+  margin-left: 375px;
   margin-top: 40px;
   z-index: -1;
 }
@@ -62,6 +63,7 @@
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
+  width: 150%;
 }
 
 .contact-section .content-contact .top-contact .name-contact {
@@ -73,6 +75,7 @@
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
+  width: 150%;
 }
 
 .contact-section .content-contact .email {
@@ -84,6 +87,7 @@
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
+  width: 36%;
 }
 
 .contact-section .content-contact .message {
@@ -95,6 +99,7 @@
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
+  width: 100%;
 }
 
 .contact-section .content-contact .infos {
@@ -128,7 +133,6 @@
   width: 105px;
   color: white;
   font-family: Lato, sans-serif;
-  box-shadow: 1px 1px 5px grey;
 }
 
 .contact-section .content-contact .button #button span {
