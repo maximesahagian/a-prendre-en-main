@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Lato");
+@media only screen and (orientation: portrait) {
+  body {
+    overflow: hidden;
+  }
+}
+
 .home-page {
   /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';
