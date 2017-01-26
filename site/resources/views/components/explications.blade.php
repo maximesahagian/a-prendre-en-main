@@ -116,7 +116,7 @@
                         <li>Constitution d’un comité de gestion</li>
                         <li>Formation délivrée par le Prestataire ETS MBAKOP & FILS au comité de gestion</li>
                         <li>Déploiement d’une formation aux jeunes et femmes aux règles d’hygiène et de salubrité</li>
-                        <li>Dépliants pour sensibilisation des populations</li>
+                        <li class="animation-last-img">Dépliants pour sensibilisation des populations</li>
                     </ul>
                 </div>
             </div>
