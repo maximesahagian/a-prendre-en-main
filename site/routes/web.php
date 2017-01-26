@@ -20,6 +20,7 @@ Route::get('/', 'IndexController@getIndex');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/sendmail', 'IndexController@sendMail');
 
 Route::get('/logout', 'AdminController@authLogout');
 

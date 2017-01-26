@@ -9,6 +9,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class IndexController extends BaseController
 {
@@ -36,6 +37,26 @@ class IndexController extends BaseController
     }
 
     public function sendMail(){
-        dd($_GET);
+        $firstname = $_GET['firstname'];
+        $lastname = $_GET['lastname'];
+        $email = $_GET['email'];
+        $message = $_GET['message'];
+
+
+        $data = [
+          'firstname' => $firstname,
+            'lastname' => $lastname,
+            'email' => $email,
+            'text' => $message
+        ];
+
+        if(isset($firstname) && isset($lastname) && isset($email) && isset($message)){
+            Mail::send('components.email', $data, function($message)
+            {
+                $email_to_send = DB::table('settings')->where('key','=','email_contact')->first();
+                $message->from('contact@apem.fr', 'APEM');
+                $message->to($email_to_send->value, 'A Prendre En Main')->subject('Nouveau message à prendre en main !');
+            });
+        }
     }
 }
