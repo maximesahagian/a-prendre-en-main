@@ -107,7 +107,7 @@
                 <img class="background" src="/img/annimation/background-niga-water-pic.png" alt=""><img src="" alt="">
             </div>
             <div class="right">
-                <p><strong>Une denrée rare et profonde</strong></p>
+                <p><b>Une denrée rare et profonde</b></p>
                 <p>
 
                     Dans ce genre de régions aussi arides, il faut aller cherchée cette  eau si précieuse  beaucoup plus profonds sous terre, elle se situe au sein de napes fréatiques souterraine tres difficile d’acces.

@@ -162,7 +162,8 @@
 }
 
 .home-page .main-annimation .first-animation .right .annim .anim-text p {
-  font-size: 2vw;
+  font-size: 1.4vw;
+  font-family: Lato, sans-serif;
 }
 
 .home-page .main-annimation .first-animation .right .annim .anim-text span {
@@ -203,6 +204,7 @@
   color: rgba(74, 74, 74, 0.11);
   margin-bottom: 6vw;
   margin-right: 4vw;
+  font-family: Merriweather;
 }
 
 .home-page .second-animation .left {
@@ -246,10 +248,12 @@
 
 .home-page .second-animation .left .text-div p {
   font-size: 1.5vw;
+  margin: 0;
+  color: #4A4A4A;
 }
 
 .home-page .second-animation .left .text-div span {
-  font-size: 7vw;
+  font-size: 8vw;
 }
 
 .home-page .second-animation .right {
@@ -330,6 +334,7 @@
   margin-right: 4vw;
   position: relative;
   bottom: -10vw;
+  font-family: Merriweather;
 }
 
 .home-page .third-animation .left {
@@ -424,6 +429,7 @@
   text-align: right;
   width: 30%;
   font-weight: bold;
+  font-size: 1.2vw;
 }
 
 .home-page .fourth-animation .left .text .botom p {
@@ -506,6 +512,7 @@
   margin-bottom: 6vw;
   margin-right: 4vw;
   top: 11vw;
+  font-family: Merriweather;
 }
 
 .home-page .fifth-animation .finalpipe {
@@ -534,6 +541,7 @@
   color: rgba(74, 74, 74, 0.11);
   margin-bottom: 6vw;
   margin-right: 4vw;
+  font-family: Merriweather;
 }
 
 .home-page .last-animation .left i {
@@ -555,6 +563,7 @@
   position: relative;
   left: 5vw;
   top: 4vw;
+  font-family: Merriweather;
 }
 
 .home-page .last-animation .left div p {
