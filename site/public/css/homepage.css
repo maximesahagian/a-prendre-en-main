@@ -7,23 +7,6 @@
   }
 }
 
-.phoneportrait {
-  display: none;
-  z-index: 4;
-}
-
-@media only screen and (orientation: portrait) {
-  .phoneportrait {
-    background: url(/img/phone_portrait.png);
-    background-size: cover;
-    display: block;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    z-index: 7;
-  }
-}
-
 .home-page {
   /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';
@@ -31,9 +14,20 @@
   font-family: lato;
 }
 
+.home-page .phoneportrait {
+  display: none;
+  z-index: 4;
+}
+
 @media only screen and (orientation: portrait) {
-  .home-page {
-    display: none;
+  .home-page .phoneportrait {
+    background: url(/img/phone_portrait.png);
+    background-size: cover;
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 7;
   }
 }
 
