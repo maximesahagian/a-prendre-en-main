@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/explications.css" afterPath="$PROJECT_DIR$/site/public/css/explications.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/explications.css.map" afterPath="$PROJECT_DIR$/site/public/css/explications.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/js/homepage.js" afterPath="$PROJECT_DIR$/site/public/js/homepage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/explications.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/components/explications.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/components/explications.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +39,8 @@
           <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.0212767">
-                  <caret line="10" column="30" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
+                <state vertical-scroll-proportion="-2.1914895">
+                  <caret line="21" column="28" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="28" />
                   <folding>
                     <element signature="e#111#132#0#HTML" expanded="true" />
                     <element signature="e#10603#10667#0#HTML" expanded="true" />
@@ -68,8 +63,8 @@
           <file leaf-file-name="explications.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/explications.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.36581197">
-                  <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.6905983">
+                  <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -79,11 +74,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="homepage.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="homepage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33230293">
-                  <caret line="264" column="57" selection-start-line="264" selection-start-column="57" selection-end-line="264" selection-end-column="57" />
+                <state vertical-scroll-proportion="-3.2575758">
+                  <caret line="267" column="12" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -162,11 +157,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="explications.blade.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="explications.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/components/explications.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="22" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.39418417">
+                  <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
                   <folding />
                 </state>
               </provider>
@@ -658,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/components/crowfunding.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/crowfunding.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9296875">
@@ -673,26 +660,6 @@
           <folding>
             <marker date="1485449299000" expanded="true" signature="904:925" placeholder="{...}" />
             <marker date="1485449299000" expanded="true" signature="904:931" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/layouts/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0212767">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#111#132#0#HTML" expanded="true" />
-            <element signature="e#10603#10667#0#HTML" expanded="true" />
-            <element signature="e#11081#11139#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,26 +680,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/components/explications.blade.php">
+    <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="22" />
+        <state vertical-scroll-proportion="-3.2575758">
+          <caret line="267" column="12" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/public/js/homepage.js">
+    <entry file="file://$PROJECT_DIR$/site/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33230293">
-          <caret line="264" column="57" selection-start-line="264" selection-start-column="57" selection-end-line="264" selection-end-column="57" />
+        <state vertical-scroll-proportion="-2.1914895">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#111#132#0#HTML" expanded="true" />
+            <element signature="e#10603#10667#0#HTML" expanded="true" />
+            <element signature="e#11081#11139#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/layouts/page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/components/crowfunding.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/components/explications.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39418417">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/explications.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36581197">
-          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.6905983">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding />
         </state>
       </provider>
