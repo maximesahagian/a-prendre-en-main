@@ -218,7 +218,7 @@ $(function() {
 
     var twelve_anim = new TimelineLite();
 
-    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-930px'})
+    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-804px'})
         .to('.crowfunding-section .image-fong', 1,{marginTop:"200px"}, 0)
 
     var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 500,tweenChanges: true, offset: 0})
@@ -262,8 +262,8 @@ $(function() {
 
     var fourteen_anim = new TimelineLite();
 
-    fourteen_anim.to('.our-view .second', 1, {bottom: '-4vw'})
-        .to('.our-view .third', 1, {bottom: '-9vw'},0)
+    fourteen_anim.to('.our-view .second', 1, {bottom: '-7vw'})
+        .to('.our-view .third', 1, {bottom: '-10vw'},0);
 
     var scene14 = new ScrollMagic.Scene({triggerElement: ".sign", duration: 300,tweenChanges: true, offset: 0})
         .setTween(fourteen_anim)
@@ -322,6 +322,15 @@ $(function() {
         goutte_1.to('.contact-section .goute-2',1,{top: '7vw'},0)
 
     var scene_goutte_1 = new ScrollMagic.Scene({triggerElement: ".color-8", duration: 200,tweenChanges: true, offset: 150})
+        .setTween(goutte_1)
+        .addTo(controller)
+
+    var goutte_small = new TimelineLite();
+    goutte_1.to('.goute-small',1,{bottom: '-10vw'},0)
+    goutte_1.to('.goute-medium',1,{bottom: '6vw'},0)
+    goutte_1.to('.goute-large',1,{bottom: '-7vw'},0)
+
+    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 200,tweenChanges: true, offset:0 })
         .setTween(goutte_1)
         .addTo(controller)
 });

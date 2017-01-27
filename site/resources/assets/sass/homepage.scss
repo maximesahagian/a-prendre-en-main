@@ -653,7 +653,7 @@ body, html {
     }
     .text-video {
       position: absolute;
-      top: 30vw;
+      top: 25vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
@@ -696,8 +696,8 @@ body, html {
         }
 
         h4 {
-          font-family: Merriweather;
-          font-weight: inherit;
+          font-family: lato;
+          font-weight: 200 ;
           text-align: center;
         }
 
@@ -715,8 +715,12 @@ body, html {
             border-radius: 15px;
           }
           .goal-button {
-            border: 1px solid white;
-            background: transparent;
+            font-size: 1.2vw;
+            border: 0px solid white;
+            background: #F95459;
+            border-radius: 2vw;
+            width: 9vw;
+            height: 2.5vw;
             color: white;
             float: right;
             margin-top: 20px;
@@ -728,7 +732,7 @@ body, html {
             }
 
             &:hover {
-              background: rgba(173, 173, 173, 0.60);
+              background: #E53238;
             }
           }
         }
@@ -753,7 +757,7 @@ body, html {
   .logo-home {
     position: absolute;
     top: 4vw;
-    left: 5vw;
-    width: 7vw;
+    left: 10vw;
+    width: 5vw;
   }
 }

@@ -29,7 +29,7 @@
                 <div class="goal-container">
                     <div class="goal-bar"></div>
                     <a href="#">
-                        <button class="goal-button">Contribuer</button>
+                        <button class="goal-button">Contribuez</button>
                     </a>
                 </div>
             </div>
