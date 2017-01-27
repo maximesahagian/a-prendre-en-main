@@ -88,17 +88,19 @@
 
 .explications-section .our-view i {
   position: absolute;
-  right: 7vw;
-  top: 3vw;
-  font-size: 1.4vw;
+  font-family: merriweather;
+  right: 3vw;
+  top: 8vw;
+  font-size: 1.2vw;
   color: #5C5953;
+  font-style: italic;
 }
 
 .explications-section .our-view .title {
   color: #5C5953;
   margin-left: 5vw;
   font-family: 'Merriweather';
-  font-size: 2.1vw;
+  font-size: 2.9vw;
   position: absolute;
   top: -35px;
 }
@@ -233,7 +235,7 @@
 .explications-section .to-take .after .left-first .background-red {
   width: 30vw;
   height: 30vw;
-  background-color: #F3374E;
+  background-color: #FFF0D5;
   position: absolute;
   top: -5vw;
   left: 0px;
@@ -402,7 +404,7 @@
   position: absolute;
   width: 28vw;
   height: 35vw;
-  background-color: #B0E0C1;
+  background-color: #CDD4C0;
   right: 0px;
   top: -2vw;
   z-index: -1;
@@ -442,7 +444,6 @@
   font-family: 'Merriweather';
   font-size: 2vw;
   width: 90%;
-  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -469,7 +470,7 @@
   position: absolute;
   width: 32vw;
   height: 27vw;
-  background-color: #CC92FF;
+  background-color: #B5E0DA;
   right: 0px;
   top: -1vw;
   z-index: -1;

@@ -2,11 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 .home-page .news {
   background-color: #F9F9F9;
-  padding: 50px 50px;
+  padding: 100px 50px;
 }
 
 .home-page .news h1 {
-  margin-left: 170px;
   margin-bottom: 50px;
   font-family: Merriweather;
   opacity: 0;
@@ -24,6 +23,7 @@
 .home-page .news .main-new .left-new {
   width: 50%;
   height: 100%;
+  padding: 2vw;
   display: table-cell;
 }
 
@@ -37,6 +37,7 @@
   margin-left: initial;
   margin-bottom: initial;
   font-family: 'Merriweather';
+  font-size: 1.5vw;
 }
 
 .home-page .news .main-new .left-new h6 {
@@ -46,6 +47,7 @@
 .home-page .news .main-new .left-new p {
   margin: 20px 30px;
   width: 75%;
+  font-size: 1.1vw;
 }
 
 .home-page .news .main-new .left-new .title-date {
@@ -77,6 +79,16 @@
   margin-top: 25px;
   display: table;
   border-spacing: 40px 20px;
+}
+
+.home-page .wrapper-news .second-news1 {
+  position: relative;
+  right: 2.6vw;
+}
+
+.home-page .wrapper-news .second-news3 {
+  left: 2.6vw;
+  position: relative;
 }
 
 .home-page .wrapper-news .wrapper-news:first-child, .home-page .wrapper-news .wrapper-news:last-child {

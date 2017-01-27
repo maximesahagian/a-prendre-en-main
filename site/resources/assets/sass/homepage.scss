@@ -11,6 +11,12 @@ body, html {
 }
 
 .home-page {
+  .fat-landscape{
+    width: 100%;
+    position: relative;
+    z-index: -2;
+    top: 0vw;
+  }
   p {
     font-size: 1.3vw;
   }
@@ -476,7 +482,7 @@ body, html {
       font-family: Merriweather;
     }
     .finalpipe {
-      top: -8vw;
+      top: -10vw;
       width: 42vw;
       z-index: -2;
       position: relative;
@@ -519,7 +525,7 @@ body, html {
         top: 4vw;
         font-family: Merriweather;
         p {
-          font-size: 1.7vw;
+          font-size: 1.1vw;
           font-weight: 200;
         }
       }

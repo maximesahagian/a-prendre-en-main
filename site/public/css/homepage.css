@@ -14,6 +14,13 @@
   font-family: lato;
 }
 
+.home-page .fat-landscape {
+  width: 100%;
+  position: relative;
+  z-index: -2;
+  top: 0vw;
+}
+
 .home-page p {
   font-size: 1.3vw;
 }
@@ -539,7 +546,7 @@
 }
 
 .home-page .fifth-animation .finalpipe {
-  top: -8vw;
+  top: -10vw;
   width: 42vw;
   z-index: -2;
   position: relative;
@@ -590,7 +597,7 @@
 }
 
 .home-page .last-animation .left div p {
-  font-size: 1.7vw;
+  font-size: 1.1vw;
   font-weight: 200;
 }
 

@@ -173,7 +173,7 @@
                 Caisse <br>Commune
             </h2>
             <div>
-                <p>Chaque famille rejoignant la caisse commune permet de contribuer a cette derniere de part l’abonnement mis en place pour l’entretient et l’expension de ce projet.</p>
+                <p>Chaque nouvelle famille inscrite au programme bénéficiera alors d’un acces illimité a la pompe en échange de 24c de participation mensuelle à la caisse commune. Cette derniere permet d’entretenir l’installation en cas de probleme technique et de rémunérer l’agent en charge de celle ci.</p>
             </div>
             <i>”Les petits ruissaux font les grandes rivieres”</i>
         </div>
@@ -202,7 +202,7 @@
     @include('components.crowfunding')
 
     @include('components.explications')
-
+    <img class="fat-landscape" src="/img/landscape.png" alt="">
     <section class="news">
         <h1>Les actualités</h1>
         <div class="main-new">
@@ -221,12 +221,17 @@
             </div>
         </div>
         <div class="wrapper-news">
+            <?php $i=0; ?>
             @foreach($news as $new)
+
                 <?php
+                    $i++;
+
                     $dateFirstNew = strtotime($new->date);
                     $dateNew = date('d/m/Y', $dateFirstNew)
+
                 ?>
-                <div class="second-new">
+                <div class="second-new second-news<?= $i ?>">
                     <div class="left-second-new">
                         <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
                     </div>
@@ -234,6 +239,7 @@
                     <h6>{{$dateNew}}</h6>
                     <p>{{$new->message}}</p>
                 </div>
+                <?php if($i == 3){$i=0;} ?>
             @endforeach
         </div>
     </section>
