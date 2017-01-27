@@ -49,18 +49,19 @@
     <section class="main-annimation" name="intro">
         <div class="cover-video"></div>
         <div class="first-animation">
+            <h2>Introduction</h2>
             <div class="left">
                 <div class="maps-container">
                     <img class="africa-map" src="/img/annimation/africa-map.png" alt="africa-map">
-                    <img class="africa-shadow" src="/img/annimation/africa-shadow.png" alt="africa-map">
+                    <div class="africa-shadow"></div>
                 </div>
                 <div class="right ">
                     <div class="annim">
-                        <div class='barrescontainer'>
+                      {{--  <div class='barrescontainer'>
                             <img class="barre barre1" src="img/annimation/anim-1-barres.png" alt="">
                             <img class="barre barre2" src="img/annimation/anim-1-barres.png" alt="">
                             <img class="barre barre3" src="img/annimation/anim-1-barres.png" alt="">
-                        </div>
+                        </div>--}}
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
                             <span><span id="pourcentage-population"></span><sup>%</sup></span>
@@ -76,10 +77,12 @@
     </section>
     <section class="second-animation">
         <img class="goute-large" src="/img/annimation/goute-large.png" alt="">
+{{--
         <img class="goute-medium" src="/img/annimation/goute-medium.png" alt="">
+--}}
         <img class="goute-small" src="/img/annimation/goute-small.png" alt="">
         
-        <h2 class="informations">INFORMATIONS</h2>
+        <h2 class="informations">Informations</h2>
 
             <div class="left">
                 <div class="rectangle-div">
@@ -112,7 +115,7 @@
         </section>
         <section class="third-animation">
             <img class="first-pipe" src="/img/annimation/first-pipe.png" alt="">
-            <h2 class="processus-title">PROCESSUS</h2>
+            <h2 class="processus-title">Processus</h2>
             <div class="left">
                 <img class="picture" src="/img/annimation/niga-water-pic.png" alt=""><img src="" alt="">
                 <img class="background" src="/img/annimation/background-niga-water-pic.png" alt=""><img src="" alt="">
@@ -132,7 +135,7 @@
 
         <section class="fourth-animation">
             <img class="pipe-2" src="/img/annimation/pipe-2.png" alt="">
-            <h2 class="financement-title">FINANCEMENT</h2>
+            <h2 class="financement-title">Financement</h2>
             <div class="left">
                 <div class="text">
                     <p>Le cout total des travaux s’éleve à :</p>
@@ -157,7 +160,7 @@
         </section>
         <section class="fifth-animation">
             <img class="fix-it" src="/img/annimation/fix_it.png" alt="">
-            <h2 class="entretien-title">ENTRETIEN</h2>
+            <h2 class="entretien-title">Entretien</h2>
             <div class="left">
                 <p>En cas de casse ou problemes, un technicien est chargé des réparations sur place </p>
                 <img src="/img/annimation/entretien-picto.png" alt="">
@@ -167,10 +170,10 @@
     <section class="last-animation">
         <div class="left">
             <h2>
-                CAISSE <br>COMMUNE
+                Caisse <br>Commune
             </h2>
             <div>
-                <p>Chaque famille rejoignant la caisse commune permet de contribuer a cette derniere de part l’abonnement mis en place pour l’entretient et l’expension de ce projet.</p>
+                <p>Chaque nouvelle famille inscrite au programme bénéficiera alors d’un acces illimité a la pompe en échange de 24c de participation mensuelle à la caisse commune. Cette derniere permet d’entretenir l’installation en cas de probleme technique et de rémunérer l’agent en charge de celle ci.</p>
             </div>
             <i>”Les petits ruissaux font les grandes rivieres”</i>
         </div>
@@ -199,7 +202,7 @@
     @include('components.crowfunding')
 
     @include('components.explications')
-
+    <img class="fat-landscape" src="/img/landscape.png" alt="">
     <section class="news">
         <h1>Les actualités</h1>
         <div class="main-new">
@@ -218,12 +221,17 @@
             </div>
         </div>
         <div class="wrapper-news">
+            <?php $i=0; ?>
             @foreach($news as $new)
+
                 <?php
+                    $i++;
+
                     $dateFirstNew = strtotime($new->date);
                     $dateNew = date('d/m/Y', $dateFirstNew)
+
                 ?>
-                <div class="second-new">
+                <div class="second-new second-news<?= $i ?>">
                     <div class="left-second-new">
                         <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
                     </div>
@@ -231,6 +239,7 @@
                     <h6>{{$dateNew}}</h6>
                     <p>{{$new->message}}</p>
                 </div>
+                <?php if($i == 3){$i=0;} ?>
             @endforeach
         </div>
     </section>

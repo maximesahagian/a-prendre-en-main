@@ -5,9 +5,8 @@
 .home-page {
   .news {
     background-color: #F9F9F9;
-    padding: 50px 50px;
+    padding: 100px 50px;
     h1 {
-      margin-left: 170px;
       margin-bottom: 50px;
       font-family: Merriweather;
       opacity: 0;
@@ -22,6 +21,7 @@
       .left-new {
         width: 50%;
         height: 100%;
+        padding: 2vw;
         display: table-cell;
 
         @include phone() {
@@ -31,6 +31,7 @@
           margin-left: initial;
           margin-bottom: initial;
           font-family: 'Merriweather';
+          font-size: 1.5vw;
         }
         h6 {
           margin: 0 0;
@@ -38,6 +39,7 @@
         p {
           margin: 20px 30px;
           width: 75%;
+          font-size: 1.1vw;
         }
         .title-date {
           padding: 10px 30px;
@@ -63,12 +65,21 @@
     }
   }
   .wrapper-news {
+    .second-news1{
+      position: relative;
+      right: 2.6vw;
+    }
+    .second-news3{
+      left: 2.6vw;
+      position: relative;
+    }
     margin-top: 25px;
     display: table;
     border-spacing: 40px 20px;
     .wrapper-news:first-child, .wrapper-news:last-child {
       border-spacing: 0 20px;
     }
+
     .second-new {
       background-color: white;
       font-family: lato;

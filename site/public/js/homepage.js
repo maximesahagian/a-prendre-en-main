@@ -57,10 +57,8 @@ $(function() {
    var first_anim = new TimelineLite();
    first_anim.to(".africa-map", 1, {top: "0px"})
        .to(".anim-text", 1, {color: "black"}, 0)
-       .to(".africa-shadow", 1, {opacity: "1"}, 0)
-       .to('.barre1',1,{right: "0"},1)
-       .to('.barre2',1,{right: "0"},2)
-       .to('.barre3',1,{right: "0"},3)
+       .to(".africa-shadow", 1, {top: "5vw"}, 0)
+
 
    // build scene
    var scene1 = new ScrollMagic.Scene({triggerElement: ".first-animation", duration: 300,tweenChanges: true, offset: 0})
@@ -184,7 +182,7 @@ $(function() {
     var ten_anim = new TimelineLite();
     ten_anim.to('.entretien-title', 1, {left: "8vh"})
     ten_anim.to('.fifth-animation .left', 1, {opacity: "1"}, 1)
-    ten_anim.to('.fifth-animation .fix-it', 1, {top: "25vw"}, 1)
+    ten_anim.to('.fifth-animation .fix-it', 1, {top: "23vw"}, 1)
 
 
 
@@ -262,8 +260,8 @@ $(function() {
 
     var fourteen_anim = new TimelineLite();
 
-    fourteen_anim.to('.our-view .second', 1, {bottom: '-7vw'})
-        .to('.our-view .third', 1, {bottom: '-10vw'},0);
+    fourteen_anim.to('.our-view .second', 1, {bottom: '-9vw'})
+        .to('.our-view .third', 1, {bottom: '-13vw'},0);
 
     var scene14 = new ScrollMagic.Scene({triggerElement: ".sign", duration: 300,tweenChanges: true, offset: 0})
         .setTween(fourteen_anim)
@@ -289,6 +287,20 @@ $(function() {
     var scene16 = new ScrollMagic.Scene({triggerElement: ".to-take .after .right-first ul", duration: 300,tweenChanges: true, offset: 100})
         .setTween(sixteen_anim)
         .addTo(controller)
+
+
+
+
+    var landscape = new TimelineLite();
+    landscape
+            .to('.fat-landscape', 1, {top: '19vw'});
+
+
+    var landscape_fat = new ScrollMagic.Scene({triggerElement: " .news", duration: 500,tweenChanges: true, offset: -100})
+        .setTween(landscape)
+        .addTo(controller)
+
+
 
     var image3 = new TimelineLite();
 
@@ -328,9 +340,9 @@ $(function() {
     var goutte_small = new TimelineLite();
     goutte_1.to('.goute-small',1,{bottom: '-10vw'},0)
     goutte_1.to('.goute-medium',1,{bottom: '6vw'},0)
-    goutte_1.to('.goute-large',1,{bottom: '-7vw'},0)
+    goutte_1.to('.goute-large',1,{bottom: '-4vw'},0)
 
-    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 200,tweenChanges: true, offset:0 })
+    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 300,tweenChanges: true, offset:0 })
         .setTween(goutte_1)
         .addTo(controller)
 });
