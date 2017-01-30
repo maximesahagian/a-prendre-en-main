@@ -28,7 +28,7 @@
                     objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>
                 <div class="goal-container">
                     <div class="goal-bar"></div>
-                    <a href="https://fr.ulule.com/{{$ulule->value}}/">
+                    <a href="#{{--https://fr.ulule.com/{{$ulule->value}}/--}}">
                         <button class="goal-button">Contribuez</button>
                     </a>
                 </div>
