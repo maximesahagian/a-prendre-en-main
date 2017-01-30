@@ -17,6 +17,32 @@
   margin: 5vw 3vw;
 }
 
+.team-section .equipe-line .equipe-image-container .image-profile .team-description {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background: #F9F9F9;
+  color: #605B52;
+  opacity: 0;
+  padding: 2vw;
+  overflow: scroll;
+}
+
+.team-section .equipe-line .equipe-image-container .image-profile .team-description:hover {
+  opacity: 0.8;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.team-section .equipe-line .equipe-image-container .image-profile .team-description h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.team-section .equipe-line .equipe-image-container .image-profile .team-description h4 {
+  font-style: italic;
+}
+
 .team-section .equipe-line .equipe-image-container .image-profile span {
   position: absolute;
   bottom: -5.8vw;

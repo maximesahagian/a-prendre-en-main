@@ -628,11 +628,12 @@ body, html {
           width: 10vw;
           text-align: center;
           display: inline-block;
+          padding-bottom: 1.9vw;
 
 
           &:hover{
             border-bottom: 6px solid white;
-            padding-bottom: 1.9vw;
+
 
           }
           a{
