@@ -7,14 +7,14 @@
             <div class="image-profile" style="background: url('img/members/{{$member->image}}'); background-size: cover; background-position: center;">
                 <div class="team-description">
                     <h3>
-                        Estefania
+                        {{$member->name}}
                     </h3>
                     <h4>
                         Secrétaire Adjointe de l’association
 
                     </h4>
                     <p>
-                        Cette espagnole travaille comme Kinésithérapeute à Paris depuis plusieurs années. Sa principale motivation, c’est de donner les moyens aux autres de se remettre debout et d’avancer seul.
+                        {{ $member->description }}
                     </p>
 
                     </div>

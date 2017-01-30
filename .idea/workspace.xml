@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8232f886-48a3-4dfc-9a2e-a80fa40ec8a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/team.css" afterPath="$PROJECT_DIR$/site/public/css/team.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/public/css/team.css.map" afterPath="$PROJECT_DIR$/site/public/css/team.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/assets/sass/team.scss" afterPath="$PROJECT_DIR$/site/resources/assets/sass/team.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resources/views/components/team.blade.php" afterPath="$PROJECT_DIR$/site/resources/views/components/team.blade.php" />
     </list>
     <ignored path="a-prendre-en-main.iws" />
@@ -189,8 +185,8 @@
           <file leaf-file-name="team.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/site/resources/views/components/team.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.665">
-                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6333333">
+                  <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
                   <folding />
                 </state>
               </provider>
@@ -234,8 +230,8 @@
         <option value="$PROJECT_DIR$/site/resources/assets/sass/homepage.scss" />
         <option value="$PROJECT_DIR$/site/public/js/homepage.js" />
         <option value="$PROJECT_DIR$/site/resources/views/layouts/page.blade.php" />
-        <option value="$PROJECT_DIR$/site/resources/views/components/team.blade.php" />
         <option value="$PROJECT_DIR$/site/resources/assets/sass/team.scss" />
+        <option value="$PROJECT_DIR$/site/resources/views/components/team.blade.php" />
       </list>
     </option>
   </component>
@@ -898,18 +894,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/resources/views/components/team.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.665">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/resources/assets/sass/team.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7247191">
           <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/resources/views/components/team.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6333333">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding />
         </state>
       </provider>
