@@ -78,7 +78,7 @@ class TeamController extends BaseController
         $id = intval($input['id-input']);
         $name = $input['name-input'];
         $description = $input['description-input'];
-        $rank = $input['rank'];
+        $rank = $input['rank-input'];
 
         if(isset($_FILES['image-input']) && $_FILES['image-input']['name'] != "" && $_FILES['image-input']['type'] != ""){
             $image = $_FILES["image-input"];
@@ -91,7 +91,7 @@ class TeamController extends BaseController
             DB::table('members')->where('id','=',$id)->update([
                     'name' => $name,
                     'description' => $description,
-                    'rank' => $rank
+                    'rank' => $rank,
                     'image' => $image_name
                 ]
             );
