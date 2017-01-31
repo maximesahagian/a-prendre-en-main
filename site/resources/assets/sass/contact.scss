@@ -8,7 +8,9 @@
   }
   position: relative;
   height: 600px;
-  margin: 100px 0;
+  width: 100%;
+  padding: 0 13vw;
+  margin: 100px auto;
   color: #5C5953;
   .goute-1, .goute-2 {
     background-image: url("/img/annimation/goute-large.png");
@@ -36,7 +38,7 @@
   }
   .content-contact {
     height: 425px;
-    width: 620px;
+    width: 100%;
     margin: 0 auto;
   }
   h1 {
@@ -47,44 +49,51 @@
   p {
     margin: 0 auto;
     margin-bottom: 40px;
+    text-align: center;
   }
   .content-contact {
     .top-contact {
-      width: 100%;
+      width: 51vw;
       margin: 0 auto;
       .surname-contact {
         display: inline-block;
+        width: 25vw;
         #prenom {
           display: block;
           border: none;
           border-bottom: 1px solid lightgrey;
-          width: 150%;
+          width: 100%;
         }
       }
       .name-contact {
         display: inline-block;
-        margin-left: 218px;
+        margin-left: 10vw;
+        width: 30%;
         #nom {
           display: block;
           border: none;
           border-bottom: 1px solid lightgrey;
-          width: 150%;
+          width: 100%;
         }
       }
     }
     .email {
       display: block;
-      margin-top: 50px;
+      margin: 50px auto;
+      width: 51vw;
       #courriel {
         display: block;
         border: none;
         border-bottom: 1px solid lightgrey;
-        width: 36%;
+        width: 30%;
       }
     }
     .message {
       display: block;
       margin-top: 30px;
+      width: 51vw;
+      margin: 0 auto;
+
       #message {
         display: block;
         border: none;
@@ -117,6 +126,8 @@
     .button {
       margin-top: 80px;
       float: right;
+      position: relative;
+      right: 11vw;
       #button {
         border-radius: 25px;
         background-color: #53BCC6;
@@ -133,6 +144,7 @@
     .captcha {
       float: left;
       margin-top: 50px;
+      margin-left: 10vw;
     }
   }
 }

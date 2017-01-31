@@ -506,9 +506,27 @@
 
 .home-page .fifth-animation .fix-it {
   position: absolute;
-  right: 48vw;
+  right: 47.9vw;
   top: 35vw;
-  width: 2vw;
+  width: 2.1vw;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .home-page .fifth-animation .fix-it {
+    right: 47.9vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-page .fifth-animation .fix-it {
+    right: 47.8vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-page .fifth-animation .fix-it {
+    right: 47.6vw;
+  }
 }
 
 .home-page .fifth-animation .left {

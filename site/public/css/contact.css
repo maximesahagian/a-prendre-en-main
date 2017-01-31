@@ -3,7 +3,9 @@
 .contact-section {
   position: relative;
   height: 600px;
-  margin: 100px 0;
+  width: 100%;
+  padding: 0 13vw;
+  margin: 100px auto;
   color: #5C5953;
 }
 
@@ -38,7 +40,7 @@
 
 .contact-section .content-contact {
   height: 425px;
-  width: 620px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -51,51 +53,57 @@
 .contact-section p {
   margin: 0 auto;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .contact-section .content-contact .top-contact {
-  width: 100%;
+  width: 51vw;
   margin: 0 auto;
 }
 
 .contact-section .content-contact .top-contact .surname-contact {
   display: inline-block;
+  width: 25vw;
 }
 
 .contact-section .content-contact .top-contact .surname-contact #prenom {
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
-  width: 150%;
+  width: 100%;
 }
 
 .contact-section .content-contact .top-contact .name-contact {
   display: inline-block;
-  margin-left: 218px;
+  margin-left: 10vw;
+  width: 30%;
 }
 
 .contact-section .content-contact .top-contact .name-contact #nom {
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
-  width: 150%;
+  width: 100%;
 }
 
 .contact-section .content-contact .email {
   display: block;
-  margin-top: 50px;
+  margin: 50px auto;
+  width: 51vw;
 }
 
 .contact-section .content-contact .email #courriel {
   display: block;
   border: none;
   border-bottom: 1px solid lightgrey;
-  width: 36%;
+  width: 30%;
 }
 
 .contact-section .content-contact .message {
   display: block;
   margin-top: 30px;
+  width: 51vw;
+  margin: 0 auto;
 }
 
 .contact-section .content-contact .message #message {
@@ -133,6 +141,8 @@
 .contact-section .content-contact .button {
   margin-top: 80px;
   float: right;
+  position: relative;
+  right: 11vw;
 }
 
 .contact-section .content-contact .button #button {
@@ -152,6 +162,7 @@
 .contact-section .content-contact .captcha {
   float: left;
   margin-top: 50px;
+  margin-left: 10vw;
 }
 
 /*# sourceMappingURL=contact.css.map */

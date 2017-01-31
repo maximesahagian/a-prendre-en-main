@@ -447,9 +447,20 @@ body, html {
     height: 58vw;
     .fix-it {
       position: absolute;
-      right: 48vw;
+      right: 47.9vw;
       top: 35vw;
-      width: 2vw;
+      width: 2.1vw;
+      @include sm-desktop-only{
+          right: 47.9vw;
+        }
+
+      @include tablet {
+        right: 47.8vw;
+      }
+      @include phone {
+        right: 47.6vw;
+      }
+
     }
     .left {
       opacity: 0;
