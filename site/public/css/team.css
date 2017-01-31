@@ -29,6 +29,7 @@
 }
 
 .team-section .equipe-line .equipe-image-container .image-profile .team-description:hover {
+  width: 101%;
   opacity: 0.8;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;

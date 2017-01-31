@@ -10,7 +10,7 @@
                         {{$member->name}}
                     </h3>
                     <h4>
-                        Secrétaire Adjointe de l’association
+                        {{$member->rank}}
 
                     </h4>
                     <p>

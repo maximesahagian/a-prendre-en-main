@@ -22,6 +22,11 @@
                             </div>
 
                             <div class="form-group col-md-12">
+                                <label for="text-input">Rang du membre</label>
+                                <input type="text" name="rank-input" class="rank-input" value="{{$member->rank}}" placeholder="Rang du membre">
+                            </div>
+
+                            <div class="form-group col-md-12">
                                 <label for="author-input">Image du membre (optionnel)</label><br>
                                 <input type="file" name="image-input" class="image-input">
                             </div>

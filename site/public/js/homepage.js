@@ -151,7 +151,7 @@ $(function() {
         .addTo(controller)
 
     var eight_anim = new TimelineLite();
-    eight_anim.to('.financement-title',1,{right: "0vw"})
+    eight_anim.to('.financement-title',1,{right: "5vw"})
 
     var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-animation", duration: 300,tweenChanges: true, offset: 200})
         .setTween(eight_anim)

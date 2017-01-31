@@ -26,6 +26,7 @@
         padding: 2vw;
         overflow: scroll;
         &:hover{
+          width: 101%;
           opacity: 0.8;
           animation-duration: 2s;
         }
