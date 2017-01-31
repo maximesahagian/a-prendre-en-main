@@ -81,16 +81,6 @@
   border-spacing: 40px 20px;
 }
 
-.home-page .wrapper-news .second-news1 {
-  position: relative;
-  right: 2.6vw;
-}
-
-.home-page .wrapper-news .second-news3 {
-  left: 2.6vw;
-  position: relative;
-}
-
 .home-page .wrapper-news .wrapper-news:first-child, .home-page .wrapper-news .wrapper-news:last-child {
   border-spacing: 0 20px;
 }
@@ -102,6 +92,7 @@
   width: 32%;
   margin-top: 10px;
   display: table-cell;
+  margin-left: 1%;
 }
 
 @media (max-width: 767px) {

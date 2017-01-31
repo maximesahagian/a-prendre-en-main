@@ -66,12 +66,8 @@
   }
   .wrapper-news {
     .second-news1{
-      position: relative;
-      right: 2.6vw;
     }
     .second-news3{
-      left: 2.6vw;
-      position: relative;
     }
     margin-top: 25px;
     display: table;
@@ -87,6 +83,7 @@
       width: 32%;
       margin-top: 10px;
       display: table-cell;
+      margin-left:1%;
 
       @include phone(){
         display: block;
