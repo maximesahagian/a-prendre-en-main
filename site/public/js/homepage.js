@@ -12,10 +12,10 @@ $(document).ready(function(){
         var amount_raised = new CountUp("amount-raised", 0, data.funding, 0, 2, options);
         amount_raised.start();
 
-        var goal = new CountUp("goal", 0, 20000, 0, 2, options);
+        var goal = new CountUp("goal", 0, 6000, 0, 2, options);
         goal.start();
 
-        var pourcentage = (data.funding/20000)*100;
+        var pourcentage = (data.funding/6000)*100;
         pourcentage = Math.round(pourcentage);
 
         $('.goal-bar').animate({
@@ -25,7 +25,7 @@ $(document).ready(function(){
         var amount_raised_2 = new CountUp("amount-raised-two", 0, data.funding, 0, 2, options);
         amount_raised_2.start();
 
-        var amount_goal_2 = new CountUp("amount-goal-two", 0, 20000, 0, 2, options);
+        var amount_goal_2 = new CountUp("amount-goal-two", 0, 6000, 0, 2, options);
         amount_goal_2.start();
 
         var options = {
@@ -236,7 +236,7 @@ $(function() {
                 var contributors = new CountUp("contributors", 0, data.supporters, 0, 2, options);
                 contributors.start();
 
-                var pourcentage = (data.funding/20000)*100;
+                var pourcentage = (data.funding/6000)*100;
                 pourcentage = Math.round(pourcentage);
 
                 $('.goal-bar').animate({
