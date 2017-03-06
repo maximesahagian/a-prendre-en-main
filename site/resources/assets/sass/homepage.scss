@@ -451,8 +451,8 @@ body, html {
       top: 35vw;
       width: 2.1vw;
       @include sm-desktop-only{
-          right: 47.9vw;
-        }
+        right: 47.9vw;
+      }
 
       @include tablet {
         right: 47.8vw;
