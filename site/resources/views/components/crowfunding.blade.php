@@ -26,7 +26,7 @@
             </p>
         </div>
         <div class="content-footer">
-            <h3>Notre campagne Ulule</h3>
+            <h3>Participez à notre campagne de collecte de fonds</h3>
             <!--TODO : API ULULE-->
             <h4 class="amount-raised-two" id="amount-raised-two"></h4>
             <div class="goal-container-two">

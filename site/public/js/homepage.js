@@ -1,41 +1,42 @@
 $(document).ready(function(){
-   $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), function(data){
-      var options = {
-         useEasing : false,
-         useGrouping : false,
-         separator : ',',
-         decimal : '.',
-         prefix : '',
-         suffix : ''
-      };
-      var amount_raised = new CountUp("amount-raised", 0, data.amount_raised, 0, 2, options);
-      amount_raised.start();
 
-      var goal = new CountUp("goal", 0, data.goal, 0, 2, options);
-      goal.start();
+    $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
+        var options = {
+            useEasing : false,
+            useGrouping : false,
+            separator : ',',
+            decimal : '.',
+            prefix : '',
+            suffix : ''
+        };
+        var amount_raised = new CountUp("amount-raised", 0, data.funding, 0, 2, options);
+        amount_raised.start();
 
-       var pourcentage = (data.amount_raised/data.goal)*100;
-       pourcentage = Math.round(pourcentage);
+        var goal = new CountUp("goal", 0, 20000, 0, 2, options);
+        goal.start();
 
-       $('.goal-bar').animate({
-           width: pourcentage+"%"
-       }, 2000 );
+        var pourcentage = (data.funding/20000)*100;
+        pourcentage = Math.round(pourcentage);
 
-       var amount_raised_2 = new CountUp("amount-raised-two", 0, data.amount_raised, 0, 2, options);
-       amount_raised_2.start();
+        $('.goal-bar').animate({
+            width: pourcentage+"%"
+        }, 2000 );
 
-       var amount_goal_2 = new CountUp("amount-goal-two", 0, data.goal, 0, 2, options);
-       amount_goal_2.start();
+        var amount_raised_2 = new CountUp("amount-raised-two", 0, data.funding, 0, 2, options);
+        amount_raised_2.start();
 
-       var options = {
-           useEasing : false,
-           useGrouping : false,
-           separator : ',',
-           decimal : '.',
-           prefix : '',
-           suffix : ''
-       };
-   });
+        var amount_goal_2 = new CountUp("amount-goal-two", 0, 20000, 0, 2, options);
+        amount_goal_2.start();
+
+        var options = {
+            useEasing : false,
+            useGrouping : false,
+            separator : ',',
+            decimal : '.',
+            prefix : '',
+            suffix : ''
+        };
+    });
 
 
 });
@@ -73,7 +74,7 @@ $(function() {
              prefix : '',
              suffix : ''
           };
-          var pourcentage_population = new CountUp("pourcentage-population", 0, 60, 0, 2, options);
+          var pourcentage_population = new CountUp("pourcentage-population", 0, 32, 0, 2, options);
           pourcentage_population.start();
        });
    var second_anim = new TimelineLite();
@@ -175,7 +176,7 @@ $(function() {
                 prefix : '',
                 suffix : ''
             };
-            var euroNumber = new CountUp("euro-number", 0, 23628, 0, 2, options);
+            var euroNumber = new CountUp("euro-number", 0, 23638, 0, 2, options);
             euroNumber.start();
         });
 
@@ -223,7 +224,7 @@ $(function() {
             .setTween(twelve_anim)
             .addTo(controller)
         .on('start', function(){
-            $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), function(data){
+            $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
                 var options = {
                     useEasing : false,
                     useGrouping : false,
@@ -232,10 +233,10 @@ $(function() {
                     prefix : '',
                     suffix : ''
                 };
-                var contributors = new CountUp("contributors", 0, data.supporters_count, 0, 2, options);
+                var contributors = new CountUp("contributors", 0, data.supporters, 0, 2, options);
                 contributors.start();
 
-                var pourcentage = (data.amount_raised/data.goal)*100;
+                var pourcentage = (data.funding/20000)*100;
                 pourcentage = Math.round(pourcentage);
 
                 $('.goal-bar').animate({

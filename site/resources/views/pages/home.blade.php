@@ -18,10 +18,7 @@
                     (Cameroun)</h4>
                 <h2>Un projet à prendre en main
                 </h2>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit
-                    amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non
-                    metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus
-                    mollis interdum.</p>
+                <p>Le droit à une eau potable propre et de qualité et à des installations sanitaires est un droit de l'homme, indispensable à la pleine jouissance du droit à la vie" - Déclarations du 28 Juillet 2010 de  l’ONU.<br>Dans le quartier de PK11, plus de 4000 personnes n’ont pas accès à l’eau potable. </p>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-2 right-text-video">
                 <h4><strong class="amount-raised" id="amount-raised"></strong><strong>€</strong> colléctés sur un
@@ -90,13 +87,13 @@
                 </div>
                 <div class="text-div">
                     <div class="">
-                        <p class="maps-animation">La ville se compose de </p>
+                        <p class="maps-animation">Le quartier de PK 11 se compose de </p>
                         <span id="number_city"> </span>
-                        <p class="small-circle-animation"><strong>habitants</strong> et s’impose paradoxalement comme le plus grand port du pays, et l’un des plus importants d’Afrique centrale. La ville s’étend sur les deux rives du fleuve et il n’existe qu’un seul pont pour passer d’une rive à l’autre.</p>
+                        <p class="small-circle-animation"><strong>habitants</strong> et e situe dans le Nord Est de Douala.
+                            <br>C’est également dans cette ville que se situe le plus grand port du pays et l’un des plus importants d’Afrique Centrale.
+                            <br>L’agglomération s’étend sur deux rives du fleuve Wouri.
+                        </p>
                     </div>
-                    <hr>
-                    <p class="little-text">     des habitants ne sont pas
-                        connectés au réseau de distribution d’eau potable.</p>
             </div>
 
 
@@ -121,15 +118,11 @@
                 <img class="background" src="/img/annimation/background-niga-water-pic.png" alt=""><img src="" alt="">
             </div>
             <div class="right">
-                <p><b>Une denrée rare et profonde</b></p>
+                <p><b>Etudier ou boire?</b></p>
                 <p>
-
-                    Dans ce genre de régions aussi arides, il faut aller cherchée cette  eau si précieuse  beaucoup plus profonds sous terre, elle se situe au sein de napes fréatiques souterraine tres difficile d’acces.
-
-                    Il est dans un premier temps nécéssaire de localiser la source puis de forer un conduit d’acces jusqu’a celle-ci, ainsi on pourra installer un puit mécanique et remonter l’au jusqu’a la surface.
-
-                    Le probleme majeure étant le coup de financement des moyen de forage et pompages de l’eau et c’est précisement ici que nous intervenons avec votre aide pour financer l’ensemble de l’installation.</p>
-                <a href="#" class="financement-animation">En savoir plus</a>
+                    Au Cameroun, c’est aux plus jeunes qu’incombe la tâche de ramener l’eau au sein du foyer. Le temps nécessaire à l’acheminement de l’eau étant estimé à 2 heures environ il va sans dire que leur scolarité est mise en péril.
+</p>
+                    <a target="_blank" href="https://www.unicef.fr/sites/default/files/userfiles/05_ENFANTS_ET_EAU(1).pdf" class="financement-animation">En savoir plus</a>
             </div>
         </section>
 
@@ -162,7 +155,7 @@
             <img class="fix-it" src="/img/annimation/fix_it.png" alt="">
             <h2 class="entretien-title">Entretien</h2>
             <div class="left">
-                <p>En cas de casse ou problemes, un technicien est chargé des réparations sur place </p>
+                <p>En cas de casse ou problèmes, un technicien est chargé des réparations sur place.</p>
                 <img src="/img/annimation/entretien-picto.png" alt="">
             </div>
             <img class='finalpipe' src="/img/annimation/final-pipe.png" alt="final pipe">
@@ -173,7 +166,7 @@
                 Caisse <br>Commune
             </h2>
             <div>
-                <p>Chaque nouvelle famille inscrite au programme bénéficiera alors d’un acces illimité a la pompe en échange de 24c de participation mensuelle à la caisse commune. Cette derniere permet d’entretenir l’installation en cas de probleme technique et de rémunérer l’agent en charge de celle ci.</p>
+                <p>Chaque famille inscrite au programme bénéficiera alors d’un accès illimité à la pompe en échange de 24 centimes de participation mensuelle à la caisse commune. Cette dernière sert à l'entretien de l’installation et à la rémunération de l’agent en charge de celle-ci.</p>
             </div>
             <i>”Les petits ruissaux font les grandes rivieres”</i>
         </div>
