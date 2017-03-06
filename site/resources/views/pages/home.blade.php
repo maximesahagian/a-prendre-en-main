@@ -94,6 +94,9 @@
                             <br>L’agglomération s’étend sur deux rives du fleuve Wouri.
                         </p>
                     </div>
+                    <hr>
+                    <p class="little-text">     des habitants ne sont pas
+                        connectés au réseau de distribution d’eau potable.</p>
             </div>
 
 
