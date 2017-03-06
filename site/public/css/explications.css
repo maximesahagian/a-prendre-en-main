@@ -1,5 +1,11 @@
 .explications-section {
-  margin-top: 12vw;
+  margin-top: 5vw;
+}
+
+@media (max-width: 767px) {
+  .explications-section {
+    margin-top: 370px;
+  }
 }
 
 .explications-section .in-some-word {
@@ -80,31 +86,48 @@
   position: relative;
 }
 
-.explications-section .our-view .title {
-  margin-left: 7vw;
-  font-family: 'Merriweather';
-  font-size: 2.1vw;
+.explications-section .our-view i {
   position: absolute;
-  top: -9vw;
+  font-family: merriweather;
+  right: 3vw;
+  top: 8vw;
+  font-size: 1.2vw;
+  color: #5C5953;
+  font-style: italic;
+}
+
+.explications-section .our-view .title {
+  color: #5C5953;
+  margin-left: 5vw;
+  font-family: 'Merriweather';
+  font-size: 2.9vw;
+  position: absolute;
+  top: -35px;
 }
 
 .explications-section .our-view .block-view {
-  padding: 25px;
+  padding: 3vw;
   text-align: center;
 }
 
 .explications-section .our-view .block-view .title-div {
+  font-style: italic;
   font-family: 'Merriweather';
   font-size: 2vw;
+  text-align: left;
+  padding-left: 2vw;
+  width: 30vw;
 }
 
 .explications-section .our-view .block-view .description {
+  font-style: italic;
   text-align: left;
   margin-top: 15px;
   font-size: 1.2vw;
   font-family: 'Lato';
   padding-right: 3vw;
   padding-left: 2vw;
+  color: #5C5953;
 }
 
 .explications-section .our-view .first {
@@ -126,8 +149,9 @@
 
 .explications-section .our-view .second {
   margin-left: 27vw;
-  bottom: 0vw;
-  width: 32vw;
+  height: 30vw;
+  bottom: -1vw;
+  width: 36vw;
   background-color: #E0F2F7;
   position: absolute;
 }
@@ -138,13 +162,14 @@
 
 .explications-section .our-view .second .description {
   color: #718285;
+  width: 25vw;
 }
 
 .explications-section .our-view .third {
-  bottom: 0vw;
   width: 28vw;
+  bottom: -1vw;
   background-color: #FFF0D5;
-  margin-left: 56vw;
+  margin-left: 60vw;
   position: absolute;
 }
 
@@ -158,13 +183,14 @@
 }
 
 .explications-section .bottom-our-view {
-  height: 8.5vw;
+  height: 17.5vw;
   width: 100%;
-  background-image: url("/img/bottom_our_view.jpg");
+  background-image: url(/img/bottom_our_view.jpg);
+  background-size: cover;
 }
 
 .explications-section .to-take {
-  margin-top: 30px;
+  margin-top: 6vw;
   padding-left: 7vw;
   padding-right: 7vw;
 }
@@ -209,7 +235,7 @@
 .explications-section .to-take .after .left-first .background-red {
   width: 30vw;
   height: 30vw;
-  background-color: #F3374E;
+  background-color: #FFF0D5;
   position: absolute;
   top: -5vw;
   left: 0px;
@@ -378,7 +404,7 @@
   position: absolute;
   width: 28vw;
   height: 35vw;
-  background-color: #B0E0C1;
+  background-color: #CDD4C0;
   right: 0px;
   top: -2vw;
   z-index: -1;
@@ -418,7 +444,6 @@
   font-family: 'Merriweather';
   font-size: 2vw;
   width: 90%;
-  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -445,7 +470,7 @@
   position: absolute;
   width: 32vw;
   height: 27vw;
-  background-color: #CC92FF;
+  background-color: #B5E0DA;
   right: 0px;
   top: -1vw;
   z-index: -1;

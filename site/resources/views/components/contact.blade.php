@@ -28,7 +28,9 @@
         <div class="infos en-cours">
             Envoi en cours...
         </div>
-        <div class="g-recaptcha" data-sitekey="6Lc5TBMUAAAAAJApsozvNbQXChMedvVJopeGMdaQ"></div>
+        <div class="captcha">
+            <div class="g-recaptcha" data-sitekey="6Lc5TBMUAAAAAJApsozvNbQXChMedvVJopeGMdaQ"></div>
+        </div>
         <div class="button">
             <button id="button">Envoyer<span class="glyphicon glyphicon-send" aria-hidden="true"></span></button>
         </div>

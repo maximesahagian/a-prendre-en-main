@@ -14,42 +14,51 @@
         </video>
         <div class="row text-video">
             <div class="col-sm-6 col-xs-12">
-                <h4>Approvisionnement en Eau potable – Douala – PK11
+                <h4>Approvisionnement en Eau potable – Douala – PK11 <br>
                     (Cameroun)</h4>
                 <h2>Un projet à prendre en main
                 </h2>
-                <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit
-                    amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non
-                    metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus
-                    mollis interdum.</p>
+                <p>Le droit à une eau potable propre et de qualité et à des installations sanitaires est un droit de l'homme, indispensable à la pleine jouissance du droit à la vie" - Déclarations du 28 Juillet 2010 de  l’ONU.<br>Dans le quartier de PK11, plus de 4000 personnes n’ont pas accès à l’eau potable. </p>
             </div>
             <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-2 right-text-video">
                 <h4><strong class="amount-raised" id="amount-raised"></strong><strong>€</strong> colléctés sur un
                     objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>
                 <div class="goal-container">
                     <div class="goal-bar"></div>
-                    <a href="#">
-                        <button class="goal-button">Contribuer</button>
+                    <a href="#{{--https://fr.ulule.com/{{$ulule->value}}/--}}">
+                        <button class="goal-button">Contribuez</button>
                     </a>
                 </div>
             </div>
         </div>
+        <div class="navbar">
+            <ul>
+                <li><a class="" href="#intro">Intro</a></li>
+                <li divto="crowfunding-section"><a class="crowfunding-li" href="#crowfunding">Crowfunding</a></li>
+                <li divto="explications-section"><a href="#explications">Explication</a></li>
+                <li divto="team-section"><a href="#equipe">Equipe</a></li>
+                <li divto="news"><a href="#actus">Actus</a></li>
+                <li divto="footer-section"><a href="#partenaires">Partenaires</a></li>
+
+            </ul>
+        </div>
     </div>
-    <section class="main-annimation">
+    <section class="main-annimation" name="intro">
         <div class="cover-video"></div>
         <div class="first-animation">
+            <h2>Introduction</h2>
             <div class="left">
                 <div class="maps-container">
                     <img class="africa-map" src="/img/annimation/africa-map.png" alt="africa-map">
-                    <img class="africa-shadow" src="/img/annimation/africa-shadow.png" alt="africa-map">
+                    <div class="africa-shadow"></div>
                 </div>
                 <div class="right ">
                     <div class="annim">
-                        <div class='barrescontainer'>
+                      {{--  <div class='barrescontainer'>
                             <img class="barre barre1" src="img/annimation/anim-1-barres.png" alt="">
                             <img class="barre barre2" src="img/annimation/anim-1-barres.png" alt="">
                             <img class="barre barre3" src="img/annimation/anim-1-barres.png" alt="">
-                        </div>
+                        </div>--}}
                         <div class="anim-text">
                             <p>Selon l’Organisation Mondiale de la Santé…</p>
                             <span><span id="pourcentage-population"></span><sup>%</sup></span>
@@ -65,10 +74,12 @@
     </section>
     <section class="second-animation">
         <img class="goute-large" src="/img/annimation/goute-large.png" alt="">
+{{--
         <img class="goute-medium" src="/img/annimation/goute-medium.png" alt="">
+--}}
         <img class="goute-small" src="/img/annimation/goute-small.png" alt="">
         
-        <h2 class="informations">INFORMATIONS</h2>
+        <h2 class="informations">Informations</h2>
 
             <div class="left">
                 <div class="rectangle-div">
@@ -76,13 +87,13 @@
                 </div>
                 <div class="text-div">
                     <div class="">
-                        <p class="maps-animation">La ville se compose de </p>
+                        <p class="maps-animation">Le quartier de PK 11 se compose de </p>
                         <span id="number_city"> </span>
-                        <p class="small-circle-animation"><strong>habitants</strong> et s’impose paradoxalement comme le plus grand port du pays, et l’un des plus importants d’Afrique centrale. La ville s’étend sur les deux rives du fleuve et il n’existe qu’un seul pont pour passer d’une rive à l’autre.</p>
+                        <p class="small-circle-animation"><strong>habitants</strong> et e situe dans le Nord Est de Douala.
+                            <br>C’est également dans cette ville que se situe le plus grand port du pays et l’un des plus importants d’Afrique Centrale.
+                            <br>L’agglomération s’étend sur deux rives du fleuve Wouri.
+                        </p>
                     </div>
-                    <hr>
-                    <p class="little-text">     des habitants ne sont pas
-                        connectés au réseau de distribution d’eau potable.</p>
             </div>
 
 
@@ -101,27 +112,23 @@
         </section>
         <section class="third-animation">
             <img class="first-pipe" src="/img/annimation/first-pipe.png" alt="">
-            <h2 class="processus-title">PROCESSUS</h2>
+            <h2 class="processus-title">Processus</h2>
             <div class="left">
                 <img class="picture" src="/img/annimation/niga-water-pic.png" alt=""><img src="" alt="">
                 <img class="background" src="/img/annimation/background-niga-water-pic.png" alt=""><img src="" alt="">
             </div>
             <div class="right">
-                <p><b>Une denrée rare et profonde</b></p>
+                <p><b>Etudier ou boire?</b></p>
                 <p>
-
-                    Dans ce genre de régions aussi arides, il faut aller cherchée cette  eau si précieuse  beaucoup plus profonds sous terre, elle se situe au sein de napes fréatiques souterraine tres difficile d’acces.
-
-                    Il est dans un premier temps nécéssaire de localiser la source puis de forer un conduit d’acces jusqu’a celle-ci, ainsi on pourra installer un puit mécanique et remonter l’au jusqu’a la surface.
-
-                    Le probleme majeure étant le coup de financement des moyen de forage et pompages de l’eau et c’est précisement ici que nous intervenons avec votre aide pour financer l’ensemble de l’installation.</p>
-                <a href="#" class="financement-animation">En savoir plus</a>
+                    Au Cameroun, c’est aux plus jeunes qu’incombe la tâche de ramener l’eau au sein du foyer. Le temps nécessaire à l’acheminement de l’eau étant estimé à 2 heures environ il va sans dire que leur scolarité est mise en péril.
+</p>
+                    <a target="_blank" href="https://www.unicef.fr/sites/default/files/userfiles/05_ENFANTS_ET_EAU(1).pdf" class="financement-animation">En savoir plus</a>
             </div>
         </section>
 
         <section class="fourth-animation">
             <img class="pipe-2" src="/img/annimation/pipe-2.png" alt="">
-            <h2 class="financement-title">FINANCEMENT</h2>
+            <h2 class="financement-title">Financement</h2>
             <div class="left">
                 <div class="text">
                     <p>Le cout total des travaux s’éleve à :</p>
@@ -146,9 +153,9 @@
         </section>
         <section class="fifth-animation">
             <img class="fix-it" src="/img/annimation/fix_it.png" alt="">
-            <h2 class="entretien-title">ENTRETIEN</h2>
+            <h2 class="entretien-title">Entretien</h2>
             <div class="left">
-                <p>En cas de casse ou problemes, un technicien est chargé des réparations sur place </p>
+                <p>En cas de casse ou problèmes, un technicien est chargé des réparations sur place.</p>
                 <img src="/img/annimation/entretien-picto.png" alt="">
             </div>
             <img class='finalpipe' src="/img/annimation/final-pipe.png" alt="final pipe">
@@ -156,10 +163,10 @@
     <section class="last-animation">
         <div class="left">
             <h2>
-                CAISSE <br>COMMUNE
+                Caisse <br>Commune
             </h2>
             <div>
-                <p>Chaque famille rejoignant la caisse commune permet de contribuer a cette derniere de part l’abonnement mis en place pour l’entretient et l’expension de ce projet.</p>
+                <p>Chaque famille inscrite au programme bénéficiera alors d’un accès illimité à la pompe en échange de 24 centimes de participation mensuelle à la caisse commune. Cette dernière sert à l'entretien de l’installation et à la rémunération de l’agent en charge de celle-ci.</p>
             </div>
             <i>”Les petits ruissaux font les grandes rivieres”</i>
         </div>
@@ -188,7 +195,7 @@
     @include('components.crowfunding')
 
     @include('components.explications')
-
+    <img class="fat-landscape" src="/img/landscape.png" alt="">
     <section class="news">
         <h1>Les actualités</h1>
         <div class="main-new">
@@ -207,12 +214,17 @@
             </div>
         </div>
         <div class="wrapper-news">
+            <?php $i=0; ?>
             @foreach($news as $new)
+
                 <?php
+                    $i++;
+
                     $dateFirstNew = strtotime($new->date);
                     $dateNew = date('d/m/Y', $dateFirstNew)
+
                 ?>
-                <div class="second-new">
+                <div class="second-new second-news<?= $i ?>">
                     <div class="left-second-new">
                         <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
                     </div>
@@ -220,6 +232,7 @@
                     <h6>{{$dateNew}}</h6>
                     <p>{{$new->message}}</p>
                 </div>
+                <?php if($i == 3){$i=0;} ?>
             @endforeach
         </div>
     </section>

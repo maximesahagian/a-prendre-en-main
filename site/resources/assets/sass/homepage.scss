@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body, html {
-  overflow-x: hidden;
   @include portrait {
     overflow: hidden;
     position: fixed;
@@ -12,18 +11,26 @@ body, html {
 }
 
 .home-page {
+  .fat-landscape{
+    width: 100%;
+    position: relative;
+    z-index: -2;
+    top: 0vw;
+  }
   p {
     font-size: 1.3vw;
   }
   li {
     font-size: 1.2vw;
   }
+
   .phoneportrait {
     display: none;
     z-index: 4;
     @include portrait {
       background: url(/img/phone_portrait.png);
       background-size: cover;
+      background-position: center center;
 
       display: block;
       position: fixed;
@@ -58,6 +65,16 @@ body, html {
     width: 100%;
     .first-animation {
       margin-top: 30px;
+      h2{
+        font-size: 8vw;
+        position: absolute;
+        top: 4vw;
+        right: 1vw;
+        color: rgba(74, 74, 74, 0.11);
+        margin-bottom: 6vw;
+        margin-right: 4vw;
+        font-family: Merriweather;
+      }
       .left {
         display: table-cell;
         width: 50vw;
@@ -76,10 +93,12 @@ body, html {
           }
           .africa-shadow {
             z-index: 3;
-            opacity: 0;
             position: absolute;
-            top: 30px;
+            width: 20vw;
+            height: 31vw;
+            top: -2vw;
             left: 30px;
+            background: #FFF351;
             z-index: 3;
           }
 
@@ -131,6 +150,7 @@ body, html {
             bottom: 0px;
           }
           .anim-text {
+
             #pourcentage-population {
               font-family: 'Merriweather';
             }
@@ -140,8 +160,8 @@ body, html {
             color: white;
             z-index: 3;
             background: white;
-            top: 5vw;
-            right: 8vw;
+            top: 17vw;
+            right: 12vw;
             height: 25vw;
             display: block;
             width: 30vw;
@@ -166,7 +186,7 @@ body, html {
       bottom: 8vw;
       left: 22vw;
       z-index: -2;
-      width: 9vw;
+      width: 5vw;
     }
 
     .goute-medium {
@@ -291,9 +311,9 @@ body, html {
     position: relative;
     .first-pipe {
       position: absolute;
-      top: 2vw;
-      width: 16vw;
-      left: 7vw;
+      top: 2.8vw;
+      width: 14.1vw;
+      left: 9vw;
     }
     .processus-title {
       font-size: 10vw;
@@ -330,7 +350,7 @@ body, html {
       margin-right: 8vw;
       float: right;
       a {
-        top: 7vw;
+        top: 1vw;
         float: right;
         position: relative;
         text-decoration: none;
@@ -346,7 +366,7 @@ body, html {
       position: absolute;
       left: 34vw;
       top: -9vw;
-      width: 43vw;
+      width: 34vw;
       z-index: -4;
 
     }
@@ -367,6 +387,7 @@ body, html {
       height: 19vw;
       width: 26vw;
       left: 14vw;
+      top: 37vw;
       .text {
         position: absolute;
         width: 17vw;
@@ -426,9 +447,20 @@ body, html {
     height: 58vw;
     .fix-it {
       position: absolute;
-      right: 48vw;
+      right: 47.9vw;
       top: 35vw;
-      width: 2vw;
+      width: 2.1vw;
+      @include sm-desktop-only{
+          right: 47.9vw;
+        }
+
+      @include tablet {
+        right: 47.8vw;
+      }
+      @include phone {
+        right: 47.6vw;
+      }
+
     }
     .left {
       opacity: 0;
@@ -461,7 +493,7 @@ body, html {
       font-family: Merriweather;
     }
     .finalpipe {
-      top: -8vw;
+      top: -10vw;
       width: 42vw;
       z-index: -2;
       position: relative;
@@ -504,7 +536,7 @@ body, html {
         top: 4vw;
         font-family: Merriweather;
         p {
-          font-size: 1.7vw;
+          font-size: 1.1vw;
           font-weight: 200;
         }
       }
@@ -514,7 +546,7 @@ body, html {
       width: 63vw;
       float: right;
       .piece {
-        width: 2vw;
+        width: 1.1vw;
       }
       .piece1 {
         position: absolute;
@@ -597,7 +629,33 @@ body, html {
   /*END MAIN ANIMATION SECTION*/
   font-family: lato;
   .video-conainer {
+    .navbar{
+      bottom: 4vw;
+      ul{
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
+        li{
+          width: 10vw;
+          text-align: center;
+          display: inline-block;
+          padding-bottom: 1.9vw;
 
+
+          &:hover{
+            border-bottom: 6px solid white;
+
+
+          }
+          a{
+            color: white;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
     width: 100%;
     @include desktop {
       background: none;
@@ -626,7 +684,7 @@ body, html {
     }
     .text-video {
       position: absolute;
-      top: 30vw;
+      top: 25vw;
       padding: 0 8%;
       margin: 0 auto;
       color: white;
@@ -669,8 +727,8 @@ body, html {
         }
 
         h4 {
-          font-family: Merriweather;
-          font-weight: inherit;
+          font-family: lato;
+          font-weight: 200 ;
           text-align: center;
         }
 
@@ -688,8 +746,12 @@ body, html {
             border-radius: 15px;
           }
           .goal-button {
-            border: 1px solid white;
-            background: transparent;
+            font-size: 1.2vw;
+            border: 0px solid white;
+            background: #F95459;
+            border-radius: 2vw;
+            width: 9vw;
+            height: 2.5vw;
             color: white;
             float: right;
             margin-top: 20px;
@@ -701,7 +763,7 @@ body, html {
             }
 
             &:hover {
-              background: rgba(173, 173, 173, 0.60);
+              background: #E53238;
             }
           }
         }
@@ -726,7 +788,7 @@ body, html {
   .logo-home {
     position: absolute;
     top: 4vw;
-    left: 5vw;
-    width: 7vw;
+    left: 10vw;
+    width: 5vw;
   }
 }

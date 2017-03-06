@@ -30,7 +30,7 @@
 
 <img class="logo-img" src="/img/logo-white.png" alt="">
 
-<div id="login-container" class="animation-fadeIn">
+<div id="login-container">
     <!-- Login Title -->
 
     <div class="login-title text-center">
@@ -90,8 +90,6 @@
 <!-- END Login Container -->
 
 <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file (Remove 'http:' if you have SSL) -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.1.min.js"%3E%3C/script%3E'));</script>
 
 <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
 

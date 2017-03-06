@@ -1,5 +1,5 @@
 .footer-section {
-  height: 424px;
+  height: 8vw;
   background-color: #EFEDE8;
   width: 100%;
   text-align: center;
@@ -7,7 +7,16 @@
 
 .footer-section .partenaires {
   display: inline-block;
-  margin-top: 200px;
+  margin-top: 2vw;
+}
+
+.footer-section .partenaires li img {
+  width: 11vw;
+  margin: 0 7vw;
+}
+
+.footer-section .partenaires li .digital_village {
+  width: 11vw;
 }
 
 @media (max-width: 767px) {

@@ -8,8 +8,7 @@
             <p class="first-paragraph">A-Prendre en main est une association de loi 1901 dont l’objet est de promouvoir et soutenir l’aide au développement économique et social des populations défavorisées en prônant leur —autonomie—.  Les projets menés auront pour ambition de favoriser l’éducation des jeunes et/ou de participer à l’essor socio-économique des populations.
                 Elle a été créée en Janvier 2016 à l’initiative de Loïc Basseeck, Cédric Tchamen et Fabien Buchet.</p>
             <p class="second-paragraph">
-                « Tout est parti d’un projet de voyage en 2014 à Douala (Cameroun) : Fabien et moi avions 46 kg de bagages non utilisés. Cela nous a donné l’idée de collecter des fournitures scolaires à Paris afin de les distribuer à des jeunes de Douala. Nous ne pensions pas avoir un tel impact. Les sourires des jeunes rencontrés nous ont donné la volonté d’en faire plus.
-                Après plus d’une année d’hésitation et discussion, nous décidons avec Cédric de créer une association .Celle-ci a pour vocation de donner à des jeunes, issus de milieux défavorisés, les moyens de disposer de leur destin. »
+                « Tout est parti d’un projet de voyage en 2014 à Douala (Cameroun) : Fabien et moi avions 46 kg de bagages non utilisés. Cela nous a donné l’idée de collecter des fournitures scolaires à Paris afin de les distribuer à des jeunes de Douala. Nous ne pensions pas avoir un tel impact. Les sourires des jeunes rencontrés nous ont donné la volonté d’en faire plus. Après plus d’une année d’hésitation et de discussion, nous décidons avec Cédric de créer une association. Celle-ci a pour vocation de donner à des jeunes, issus de milieux défavorisés, les moyens de disposer de leur destin »
                 <br>
                 <span class="sign">– Loïc</span>
             </p>
@@ -19,18 +18,19 @@
         </div>
     </div>
     <div class="our-view">
+        <i>"Diversité, Respect, Volonté d'aider, Partage."</i>
         <h3 class="title">Notre approche</h3>
         <div class="first block-view">
             <h4 class="title-div">Implication locale</h4>
-            <p class="description">Nous voulons encourager une dynamique locale dans laquelle les populations disposent d’un environnement favorable pour développer une activité économique, sociale et éducative. Chaque personne pourra ainsi avoir la possibilité de se prendre en main.</p>
+            <p class="description">Nous avons à coeur de favoriser une dynamique locale grâce à laquelle les populations pourront aisément développer une activité économique, sociale et éducative. Chaque personne pourra ainsi avoir la possibilité de se prendre en main.</p>
         </div>
         <div class="second block-view">
             <h4 class="title-div">Autonomie des populations</h4>
-            <p class="description">En plus du financement de la mise en place des projets, les populations bénéficiaires seront formées et accompagnées pour établir une organisation autour du projet au-delà de notre intervention : pour qu’elles se l’approprient pleinement et qu’elles disposent de moyens pour en assurer la pérennité.</p>
+            <p class="description">En plus du financement alloué à la mise en place des projets, les populations bénéficiaires seront formées et accompagnées afin d'inscrire cette initiative durablement.</p>
         </div>
         <div class="third block-view">
             <h4 class="title-div">Développement</h4>
-            <p class="description">Nous avons à cœur d’impliquer dès le début de nos projets les populations bénéficiaires en leur qualité d’usagers : Leur mobilisation et leur participation permet de les responsabiliser face à la prise en charge de leur besoin et participe à la réussite du projet.</p>
+            <p class="description">Nous tenons particulièrement à impliquer dès le début de nos projets les populations bénéficiaires en leur qualité d’usagers : leur mobilisation et leur participation permettra de les responsabiliser face à la prise en charge de leur besoin.</p>
         </div>
     </div>
 
@@ -59,15 +59,20 @@
             <div class="right-first">
                     <div class="container-right">
                         <h4 class="title-right-first">Contexte</h4>
-                        <p>Selon l’Organisation Mondiale de la Santé plus de 60% de la population africaine n’a pas accès à l’eau potable.<br>
-                            Pour notre premier projet, nous voulons implanter deux pompes à eau dans une localité au Cameroun, où le besoin est particulièrement préoccupant.<br>
-                            En effet, dans la commune de Douala – PK11, quartier de Douala, composé environ de de 5000 habitants, 80% des habitants ne sont pas connectés au réseau de distribution d’eau potable.<br>
-                            Pour couvrir leur besoin en eau, certains habitants n’ont pas d’autre choix que de se ravitailler auprès de sources d’eau impropres à la consommation. C’est la source de plusieurs maladies hydriques rencontrées localement telles que la dysenterie amibienne, le choléra, la typhoïde etc.<br>
-                            Le projet d’approvisionnement en eau potable permettra :</p>
+                        <p>En Afrique Subsaharienne plus d’une personne sur trois la population n’a pas accès à l’eau potable.
+<br><br>
+                            Pour notre premier projet, nous voulons implanter deux pompes à eau dans une localité au Cameroun, où le besoin est particulièrement préoccupant.
+<br><br>
+                            En effet, dans un quartier de Douala – PK11, composé environ de de 5000 habitants, 80% des habitants ne sont pas connectés au réseau de distribution d’eau potable.
+                            Pour couvrir leur besoin en eau, certains habitants n’ont d’autre choix que de se ravitailler auprès de sources d’eau impropres à la consommation étant la cause de plusieurs maladies hydriques rencontrées localement : dysenterie amibienne, choléra, typhoïde etc.
+
+                        <br><br>
+                            Le projet d’approvisionnement en eau potable permettra :
+                        </p>
                         <ul>
-                            <li>aux habitants de vivre dans de meilleures conditions en réduisant les risques d’apparition et de propagation de maladies d’origine hydrique.</li>
-                            <li>aux jeunes enfants, sur qui repose la tâche de la collecte de l’eau, de consacrer plus de temps à leurs études.</li>
-                            <li>aux femmes de pouvoir mener une activité économique (vente de denrées alimentaires).</li>
+                            <li>aux habitants, dans leur généralité, de vivre dans de meilleures conditions en réduisant les risques d’apparition et de propagation de maladies d’origine hydrique</li>
+                            <li>aux jeunes enfants, sur qui repose la tâche de la collecte de l’eau, de consacrer plus de temps à leur scolarité</li>
+                            <li>aux femmes de pouvoir mener une activité économique</li>
                         </ul>
                     </div>
             </div>
@@ -78,8 +83,8 @@
                     <h4 class="title-left-second">Objectifs chiffrés</h4>
                     <ul>
                         <li>Augmenter de 40% le taux de couverture en eau potable de la commune : 1600 personnes bénéficieront directement de la mise en place de l’approvisionnement en eau potable.</li>
-                        <li>Fournir 10L d’eau potable par jour et par personne</li>
-                        <li>Garantir l’entretien de la pompe à eau en faisant participer  chaque famille bénéficiaire à hauteur de 0,24€ par mois (150 fcfa).</li>
+                        <li>Fournir au minimum 10L d’eau potable par jour et par personne</li>
+                        <li>Garantir l’entretien de la pompe à eau en faisant participer chaque famille bénéficiaire à hauteur de 0,24€ par mois (150 Franc CFA).</li>
                         <li>Créer 1 emploi rémunéré – une personne chargée de l’entretien et de la maintenance des pompes à eau</li>
                     </ul>
                 </div>
@@ -128,8 +133,8 @@
                 <div class="container-left">
                     <h4 class="title-left-second">Date de réalisation</h4>
                     <p>La mise en oeuvre du projet est prévue au 31/10/2017.
-                        Un voyage est prévu en Avril 2017 pour prendre contact avec les populations locales en présentiel et présenter en détail le projet.
-                        Par la suite, 2 membres de l’association se rendront sur place le 16 octobre 2017 (2 semaines avant l’ouverture des pompes à eau) pour suivre les travaux (durée de 10 jours) et dispenser les formations.</p>
+                        Un voyage est prévu en Mai 2017 pour prendre contact avec les populations locales en présentiel et présenter en détail le projet.
+                        Par la suite, 2 membres de l’association se rendront sur place en Octobre 2017 (2 semaines avant l’ouverture des pompes à eau) pour suivre les travaux (durée de 10 jours) et dispenser les formations.</p>
                 </div>
             </div>
             <div class="right-second">

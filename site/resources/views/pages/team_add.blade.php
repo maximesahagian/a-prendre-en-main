@@ -21,6 +21,8 @@
                                 <textarea name="description-input" class="description-input col-md-12" placeholder="Description du membre" id="" cols="30" rows="10"></textarea>
                             </div>
 
+                            <input type="text" name="rank-input" class="rank-input" placeholder="Rang du membre">
+
                             <div class="form-group col-md-12">
                                 <label for="author-input">Image du membre</label><br>
                                 <input type="file" name="image-input" class="image-input">

@@ -5,9 +5,8 @@
 .home-page {
   .news {
     background-color: #F9F9F9;
-    padding: 50px 50px;
+    padding: 100px 50px;
     h1 {
-      margin-left: 170px;
       margin-bottom: 50px;
       font-family: Merriweather;
       opacity: 0;
@@ -22,6 +21,7 @@
       .left-new {
         width: 50%;
         height: 100%;
+        padding: 2vw;
         display: table-cell;
 
         @include phone() {
@@ -30,16 +30,19 @@
         h2 {
           margin-left: initial;
           margin-bottom: initial;
-          text-align: center;
           font-family: 'Merriweather';
+          font-size: 1.5vw;
         }
         h6 {
-          margin: 10px 23px;
+          margin: 0 0;
         }
         p {
           margin: 20px 30px;
+          width: 75%;
+          font-size: 1.1vw;
         }
         .title-date {
+          padding: 10px 30px;
           margin: 0 auto;
         }
       }
@@ -62,30 +65,41 @@
     }
   }
   .wrapper-news {
+    .second-news1{
+    }
+    .second-news3{
+    }
     margin-top: 25px;
     display: table;
+    border-spacing: 40px 20px;
+    .wrapper-news:first-child, .wrapper-news:last-child {
+      border-spacing: 0 20px;
+    }
+
     .second-new {
       background-color: white;
       font-family: lato;
       box-shadow: 0 2px 2px lightgrey;
       width: 32%;
       margin-top: 10px;
-      padding: 0.5vw;
       display: table-cell;
+      margin-left:1%;
 
       @include phone(){
         display: block;
         width: 100%;
       }
       h2 {
-        text-align: center;
         font-family: 'Merriweather';
+        margin-left: 30px;
       }
       h6 {
-        margin-left: 39px;
+        margin-left: 30px;
+        margin-top: -10px;
       }
       p {
-        margin: 10px 15px;
+        margin: 10px 30px;
+        font-size: 1.1vw;
       }
       .second-image {
         width: 100%;

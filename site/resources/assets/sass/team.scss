@@ -16,6 +16,29 @@
       width: 20vw;
       height: 20vw;
       margin: 5vw 3vw;
+      .team-description{
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background: #F9F9F9;
+        color:#605B52;
+        opacity: 0;
+        padding: 2vw;
+        overflow: scroll;
+        &:hover{
+          width: 101%;
+          opacity: 0.8;
+          animation-duration: 2s;
+        }
+        h3{
+          margin-top: 0;
+          font-weight: bold;
+        }
+        h4{
+          font-style: italic;
+        }
+
+      }
       span{
         position: absolute;
         bottom: -5.8vw;
@@ -33,23 +56,25 @@
         background: #82B09D;
         top: -2vw;
         left: -2vw;
+        width: 16vw;
+        height: 16vw;
       }
       .color-2{
-        background: #EAA93D;
+        background: #FEF1D5;
         bottom: -1.5vw;
         left: -1.5vw;
         width: 7vw;
         height: 7vw;
       }
       .color-3{
-        background: #CF70E3;
+        background: #B5E0DA;
         top: -1.5vw;
         right: -1.5vw;
         width: 12vw;
         height: 12vw;
       }
       .color-4{
-        background: #53BCC6;
+        background: #E0F2F6;
         bottom: -1.5vw;
         right: -1.5vw;
         width: 10vw;
@@ -63,19 +88,19 @@
         height: 15vw;
       }
       .color-6{
-        background: #B1D9A5;
+        background: #E4EBD8;
         top: 2vw;
         right: -2vw;
         width: 6vw;
       }
       .color-7{
-        background: #F95459;
+        background: #E4EBD8;
         top: 2vw;
         left: -2vw;
         width: 7vw;
       }
       .color-8{
-        background: #53BCC6;
+        background: #E0F2F6;
         top: -2vw;
         right: -2vw;
         width: 17vw;

@@ -5,6 +5,19 @@
         <?php $i = 1; ?>
         @foreach($team as $member)
             <div class="image-profile" style="background: url('img/members/{{$member->image}}'); background-size: cover; background-position: center;">
+                <div class="team-description">
+                    <h3>
+                        {{$member->name}}
+                    </h3>
+                    <h4>
+                        {{$member->rank}}
+
+                    </h4>
+                    <p>
+                        {{ $member->description }}
+                    </p>
+
+                    </div>
                 <div class="color color-{{$i}}">
 
                 </div>

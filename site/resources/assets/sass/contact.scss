@@ -6,8 +6,11 @@
   input, textarea, button {
     outline: none;
   }
-  height: 380px;
-  margin: 200px 0;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  padding: 0 13vw;
+  margin: 100px auto;
   color: #5C5953;
   .goute-1, .goute-2 {
     background-image: url("/img/annimation/goute-large.png");
@@ -19,20 +22,23 @@
     width: 119px;
     height: 159px;
     margin-left: 445px;
-    margin-top: -80px;
     z-index: -1;
+    position: absolute;
+    top: -18vw;
 
   }
+
   .goute-2 {
     width: 45px;
     height: 60px;
     margin-left: 375px;
-    margin-top: 40px;
+    top:-17vw;
+    position: absolute;
     z-index: -1;
   }
   .content-contact {
     height: 425px;
-    width: 620px;
+    width: 100%;
     margin: 0 auto;
   }
   h1 {
@@ -43,44 +49,51 @@
   p {
     margin: 0 auto;
     margin-bottom: 40px;
+    text-align: center;
   }
   .content-contact {
     .top-contact {
-      width: 100%;
+      width: 51vw;
       margin: 0 auto;
       .surname-contact {
         display: inline-block;
+        width: 25vw;
         #prenom {
           display: block;
           border: none;
           border-bottom: 1px solid lightgrey;
-          width: 150%;
+          width: 100%;
         }
       }
       .name-contact {
         display: inline-block;
-        margin-left: 218px;
+        margin-left: 10vw;
+        width: 30%;
         #nom {
           display: block;
           border: none;
           border-bottom: 1px solid lightgrey;
-          width: 150%;
+          width: 100%;
         }
       }
     }
     .email {
       display: block;
-      margin-top: 50px;
+      margin: 50px auto;
+      width: 51vw;
       #courriel {
         display: block;
         border: none;
         border-bottom: 1px solid lightgrey;
-        width: 36%;
+        width: 30%;
       }
     }
     .message {
       display: block;
       margin-top: 30px;
+      width: 51vw;
+      margin: 0 auto;
+
       #message {
         display: block;
         border: none;
@@ -88,26 +101,33 @@
         width: 100%;
       }
     }
-    .infos{
+    .infos {
 
       border-radius: 2px;
       padding: 20px;
       margin-top: 25px;
       display: none;
     }
-    .en-cours{
+    .en-cours {
       background-color: #E0F2F7;
       border: 1px solid #7E949A;
       color: #718285;
     }
-    .sent{
+    .sent {
       background-color: #E0FBF3;
       border: 1px solid #84908C;
       color: #84908C;
     }
+    .error-captcha{
+      background-color: #333;
+      border: 1px solid #333;
+      color: #333;
+    }
     .button {
-      margin-top: 30px;
+      margin-top: 80px;
       float: right;
+      position: relative;
+      right: 11vw;
       #button {
         border-radius: 25px;
         background-color: #53BCC6;
@@ -120,6 +140,11 @@
           color: white;
         }
       }
+    }
+    .captcha {
+      float: left;
+      margin-top: 50px;
+      margin-left: 10vw;
     }
   }
 }

@@ -1,13 +1,25 @@
 @import "sizes";
 
 .footer-section{
-  height: 424px;
+  height: 8vw;
   background-color: #EFEDE8;
   width: 100%;
   text-align: center;
   .partenaires{
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 2vw;
+    li{
+      img{
+        width: 11vw;
+        margin: 0 7vw;
+
+      }
+    .digital_village{
+      width: 11vw;
+
+      }
+
+    }
     @include phone() {
       margin-top: 60px;
     }

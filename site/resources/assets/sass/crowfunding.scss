@@ -8,26 +8,26 @@
     font-family: Merriweather;
   }
   .image-fong {
-    background-image: url("/img/water-hands.jpg");
+    background-image: url("/img/amazonie.png");
     margin-top: 100px;
     width: 100%;
-    height: 799px;
+    height: 804px;
     background-position: center center;
     background-size: cover;
   }
   .wrapper-crowfunding {
-    @include phone{
-      width: 100%;
-    }
-    width: 70%;
-
+    width: 40%;
     z-index: 5;
-    margin:0 auto;
     position: absolute;
+    height: 800px;
 
     @include phone() {
       position: inherit;
       margin: 0 auto;
+      width: 100%;
+      h2 {
+        font-size: 20px;
+      }
     }
     .content-body {
       padding: 30px 50px;
@@ -37,11 +37,9 @@
       p {
         margin-top: 40px;
         color: lightgray;
-        @include phone{
-          font-size: 3vw;
-        }
-        @include tablet{
-          font-size: 2vw;
+        font-size: 1vw;
+        @include phone {
+          font-size: 2.5vw;
         }
       }
     }
@@ -52,11 +50,13 @@
       color: #FFFFFF;
       background-color: #1D2622;
       opacity: 0.9;
+      text-align: center;
       h3 {
         margin-top: 0;
       }
       h3 {
         opacity: 1;
+        font-size: 17px;
       }
 
       .amount-raised-two {

@@ -1,41 +1,42 @@
 $(document).ready(function(){
-   $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), function(data){
-      var options = {
-         useEasing : false,
-         useGrouping : false,
-         separator : ',',
-         decimal : '.',
-         prefix : '',
-         suffix : ''
-      };
-      var amount_raised = new CountUp("amount-raised", 0, data.amount_raised, 0, 2, options);
-      amount_raised.start();
 
-      var goal = new CountUp("goal", 0, data.goal, 0, 2, options);
-      goal.start();
+    $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
+        var options = {
+            useEasing : false,
+            useGrouping : false,
+            separator : ',',
+            decimal : '.',
+            prefix : '',
+            suffix : ''
+        };
+        var amount_raised = new CountUp("amount-raised", 0, data.funding, 0, 2, options);
+        amount_raised.start();
 
-       var pourcentage = (data.amount_raised/data.goal)*100;
-       pourcentage = Math.round(pourcentage);
+        var goal = new CountUp("goal", 0, 20000, 0, 2, options);
+        goal.start();
 
-       $('.goal-bar').animate({
-           width: pourcentage+"%"
-       }, 2000 );
+        var pourcentage = (data.funding/20000)*100;
+        pourcentage = Math.round(pourcentage);
 
-       var amount_raised_2 = new CountUp("amount-raised-two", 0, data.amount_raised, 0, 2, options);
-       amount_raised_2.start();
+        $('.goal-bar').animate({
+            width: pourcentage+"%"
+        }, 2000 );
 
-       var amount_goal_2 = new CountUp("amount-goal-two", 0, data.goal, 0, 2, options);
-       amount_goal_2.start();
+        var amount_raised_2 = new CountUp("amount-raised-two", 0, data.funding, 0, 2, options);
+        amount_raised_2.start();
 
-       var options = {
-           useEasing : false,
-           useGrouping : false,
-           separator : ',',
-           decimal : '.',
-           prefix : '',
-           suffix : ''
-       };
-   });
+        var amount_goal_2 = new CountUp("amount-goal-two", 0, 20000, 0, 2, options);
+        amount_goal_2.start();
+
+        var options = {
+            useEasing : false,
+            useGrouping : false,
+            separator : ',',
+            decimal : '.',
+            prefix : '',
+            suffix : ''
+        };
+    });
 
 
 });
@@ -57,10 +58,8 @@ $(function() {
    var first_anim = new TimelineLite();
    first_anim.to(".africa-map", 1, {top: "0px"})
        .to(".anim-text", 1, {color: "black"}, 0)
-       .to(".africa-shadow", 1, {opacity: "1"}, 0)
-       .to('.barre1',1,{right: "0"},1)
-       .to('.barre2',1,{right: "0"},2)
-       .to('.barre3',1,{right: "0"},3)
+       .to(".africa-shadow", 1, {top: "5vw"}, 0)
+
 
    // build scene
    var scene1 = new ScrollMagic.Scene({triggerElement: ".first-animation", duration: 300,tweenChanges: true, offset: 0})
@@ -75,7 +74,7 @@ $(function() {
              prefix : '',
              suffix : ''
           };
-          var pourcentage_population = new CountUp("pourcentage-population", 0, 60, 0, 2, options);
+          var pourcentage_population = new CountUp("pourcentage-population", 0, 32, 0, 2, options);
           pourcentage_population.start();
        });
    var second_anim = new TimelineLite();
@@ -153,7 +152,7 @@ $(function() {
         .addTo(controller)
 
     var eight_anim = new TimelineLite();
-    eight_anim.to('.financement-title',1,{right: "0vw"})
+    eight_anim.to('.financement-title',1,{right: "5vw"})
 
     var scene8 = new ScrollMagic.Scene({triggerElement: ".financement-animation", duration: 300,tweenChanges: true, offset: 200})
         .setTween(eight_anim)
@@ -177,14 +176,14 @@ $(function() {
                 prefix : '',
                 suffix : ''
             };
-            var euroNumber = new CountUp("euro-number", 0, 23628, 0, 2, options);
+            var euroNumber = new CountUp("euro-number", 0, 23638, 0, 2, options);
             euroNumber.start();
         });
 
     var ten_anim = new TimelineLite();
     ten_anim.to('.entretien-title', 1, {left: "8vh"})
     ten_anim.to('.fifth-animation .left', 1, {opacity: "1"}, 1)
-    ten_anim.to('.fifth-animation .fix-it', 1, {top: "25vw"}, 1)
+    ten_anim.to('.fifth-animation .fix-it', 1, {top: "23vw"}, 1)
 
 
 
@@ -218,14 +217,14 @@ $(function() {
 
     var twelve_anim = new TimelineLite();
 
-    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-930px'})
+    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-804px'})
         .to('.crowfunding-section .image-fong', 1,{marginTop:"200px"}, 0)
 
     var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 500,tweenChanges: true, offset: 0})
             .setTween(twelve_anim)
             .addTo(controller)
         .on('start', function(){
-            $.get('https://api.ulule.com/v1/projects/'+$('.ulule_value').attr('ulule'), function(data){
+            $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
                 var options = {
                     useEasing : false,
                     useGrouping : false,
@@ -234,10 +233,10 @@ $(function() {
                     prefix : '',
                     suffix : ''
                 };
-                var contributors = new CountUp("contributors", 0, data.supporters_count, 0, 2, options);
+                var contributors = new CountUp("contributors", 0, data.supporters, 0, 2, options);
                 contributors.start();
 
-                var pourcentage = (data.amount_raised/data.goal)*100;
+                var pourcentage = (data.funding/20000)*100;
                 pourcentage = Math.round(pourcentage);
 
                 $('.goal-bar').animate({
@@ -262,8 +261,8 @@ $(function() {
 
     var fourteen_anim = new TimelineLite();
 
-    fourteen_anim.to('.our-view .second', 1, {bottom: '-4vw'})
-        .to('.our-view .third', 1, {bottom: '-9vw'},0)
+    fourteen_anim.to('.our-view .second', 1, {bottom: '-9vw'})
+        .to('.our-view .third', 1, {bottom: '-13vw'},0);
 
     var scene14 = new ScrollMagic.Scene({triggerElement: ".sign", duration: 300,tweenChanges: true, offset: 0})
         .setTween(fourteen_anim)
@@ -289,6 +288,20 @@ $(function() {
     var scene16 = new ScrollMagic.Scene({triggerElement: ".to-take .after .right-first ul", duration: 300,tweenChanges: true, offset: 100})
         .setTween(sixteen_anim)
         .addTo(controller)
+
+
+
+
+    var landscape = new TimelineLite();
+    landscape
+            .to('.fat-landscape', 1, {top: '19vw'});
+
+
+    var landscape_fat = new ScrollMagic.Scene({triggerElement: " .news", duration: 500,tweenChanges: true, offset: -100})
+        .setTween(landscape)
+        .addTo(controller)
+
+
 
     var image3 = new TimelineLite();
 
@@ -316,5 +329,31 @@ $(function() {
     var scene_title = new ScrollMagic.Scene({triggerElement: ".news", duration: 200,tweenChanges: true, offset: 0})
         .setTween(title_news)
         .addTo(controller)
+
+    var goutte_1 = new TimelineLite();
+        goutte_1.to('.contact-section .goute-1',1,{top: '-5vw'})
+        goutte_1.to('.contact-section .goute-2',1,{top: '7vw'},0)
+
+    var scene_goutte_1 = new ScrollMagic.Scene({triggerElement: ".color-8", duration: 200,tweenChanges: true, offset: 150})
+        .setTween(goutte_1)
+        .addTo(controller)
+
+    var goutte_small = new TimelineLite();
+    goutte_1.to('.goute-small',1,{bottom: '-10vw'},0)
+    goutte_1.to('.goute-medium',1,{bottom: '6vw'},0)
+    goutte_1.to('.goute-large',1,{bottom: '-4vw'},0)
+
+    var scene_goute_small = new ScrollMagic.Scene({triggerElement: ".small-circle-animation", duration: 300,tweenChanges: true, offset:0 })
+        .setTween(goutte_1)
+        .addTo(controller)
 });
 
+$('.navbar li').click(function(){
+
+    console.log("."+$(this).attr('divto'));
+
+    $('html, body').animate({
+        scrollTop: $("."+$(this).attr('divto')).offset().top
+    }, 1000);
+
+});
