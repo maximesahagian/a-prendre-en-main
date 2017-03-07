@@ -59,7 +59,7 @@
             <div class="right-first">
                     <div class="container-right">
                         <h4 class="title-right-first">Contexte</h4>
-                        <p>En Afrique Subsaharienne plus d’une personne sur trois la population n’a pas accès à l’eau potable.
+                        <p>En Afrique Subsaharienne plus d’une personne sur trois n’a pas accès à l’eau potable.
 <br><br>
                             Pour notre premier projet, nous voulons implanter deux pompes à eau dans une localité au Cameroun, où le besoin est particulièrement préoccupant.
 <br><br>

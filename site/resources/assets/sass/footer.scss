@@ -1,15 +1,15 @@
 @import "sizes";
 
 .footer-section{
-  height: 13vw;
+  height: 18vw;
   background-color: #EFEDE8;
   width: 100%;
   text-align: center;
   .partenaires{
     display: inline-block;
-    margin-top: 2vw;
+    margin-top: 3vw;
 
-    .saintjacques, .accessrepro, .coworkshop{
+    .digital_village, .supdeco, .attineos, .hetic, .saintjacques, .accessrepro, .coworkshop{
       width: 20vw;
 
       @include phone() {
@@ -24,14 +24,19 @@
 
     }
     @include phone() {
-      margin-top: 0;
+      margin: 10px 80px;
     }
     li{
       display: inline-block;
 
       @include phone() {
         margin-top: 10px;
+
       }
+    }
+    
+    a {
+      color: #b3b3b3;
     }
   }
   .liens {
@@ -52,5 +57,9 @@
         width: 14px;
       }
     }
+  }
+
+  @include phone {
+    height: 21vw;
   }
 }

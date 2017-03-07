@@ -1,5 +1,5 @@
 .footer-section {
-  height: 13vw;
+  height: 18vw;
   background-color: #EFEDE8;
   width: 100%;
   text-align: center;
@@ -7,15 +7,15 @@
 
 .footer-section .partenaires {
   display: inline-block;
-  margin-top: 2vw;
+  margin-top: 3vw;
 }
 
-.footer-section .partenaires .saintjacques, .footer-section .partenaires .accessrepro, .footer-section .partenaires .coworkshop {
+.footer-section .partenaires .digital_village, .footer-section .partenaires .supdeco, .footer-section .partenaires .attineos, .footer-section .partenaires .hetic, .footer-section .partenaires .saintjacques, .footer-section .partenaires .accessrepro, .footer-section .partenaires .coworkshop {
   width: 20vw;
 }
 
 @media (max-width: 767px) {
-  .footer-section .partenaires .saintjacques, .footer-section .partenaires .accessrepro, .footer-section .partenaires .coworkshop {
+  .footer-section .partenaires .digital_village, .footer-section .partenaires .supdeco, .footer-section .partenaires .attineos, .footer-section .partenaires .hetic, .footer-section .partenaires .saintjacques, .footer-section .partenaires .accessrepro, .footer-section .partenaires .coworkshop {
     width: 15vw;
   }
 }
@@ -26,7 +26,7 @@
 
 @media (max-width: 767px) {
   .footer-section .partenaires {
-    margin-top: 0;
+    margin: 10px 80px;
   }
 }
 
@@ -38,6 +38,10 @@
   .footer-section .partenaires li {
     margin-top: 10px;
   }
+}
+
+.footer-section .partenaires a {
+  color: #b3b3b3;
 }
 
 .footer-section .liens .facebook, .footer-section .liens .twitter {
@@ -62,6 +66,12 @@
 @media (max-width: 767px) {
   .footer-section .liens .twitter img {
     width: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-section {
+    height: 21vw;
   }
 }
 
