@@ -246,6 +246,10 @@
 
     @include('components.footer')
 
+    <div class="scroll-top">
+        <button class="btn btn-success"><i class="fa fa-angle-up fa-3x"></i></button>
+    </div>
+
 </div>
 
 @stop

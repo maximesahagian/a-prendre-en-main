@@ -7,6 +7,21 @@
   }
 }
 
+body .scroll-top, html .scroll-top {
+  outline: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+body .scroll-top i, html .scroll-top i {
+  outline: none;
+}
+
+body .scroll-top button, html .scroll-top button {
+  outline: none;
+}
+
 .home-page {
   /*MAIN ANIMATION SECTION*/
   font-family: 'Lato';

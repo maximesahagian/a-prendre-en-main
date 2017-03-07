@@ -8,6 +8,19 @@ body, html {
     overflow: hidden;
     position: fixed;
   }
+
+  .scroll-top{
+    outline: none;
+    i{
+      outline: none;
+    }
+    button{
+      outline: none;
+    }
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
 }
 
 .home-page {
