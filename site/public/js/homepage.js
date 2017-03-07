@@ -1,4 +1,16 @@
-$(document).ready(function(){
+$(document).ready(function(e){
+
+    'use strict';
+    var clean = setInterval(function () { if ($("body").scrollTop() > 1000) {
+        $(".scroll-top").fadeIn(500);   // disply scrollTop div inline
+    }
+    else {
+        $(".scroll-top").fadeOut(500);    // disply scrollTop div none
+    }
+    });
+    $(".scroll-top").click(function (e) {
+        $("body").animate({'scrollTop' : '0'}, 1000);   // make body scrolltop
+    });
 
     $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
         var options = {
