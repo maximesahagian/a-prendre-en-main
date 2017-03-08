@@ -9,7 +9,7 @@
         <li class="hetic"><a href="http://hetic.net/"><img src="/img/hetic.png" alt=""></a></li>
     </ul>
     <ul class="liens">
-        <li class="facebook"><a href="https://www.facebook.com/Aprendreenmain/"><img src="/img/facebook.png" alt=""></a></li>
-        <li class="twitter"><a href="https://twitter.com/A_PEM"><img src="/img/twitter.png" alt=""></a></li>
+        <li class="facebook"><a target="_blank" href="https://www.facebook.com/Aprendreenmain/"><img src="/img/facebook.png" alt=""></a></li>
+        <li class="twitter"><a target="_blank" href="https://twitter.com/A_PEM"><img src="/img/twitter.png" alt=""></a></li>
     </ul>
 </footer>

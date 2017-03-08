@@ -9,7 +9,23 @@ body, html {
     position: fixed;
   }
 
+
+
   .scroll-top{
+    .btn-success{
+      background-color: #F95459;
+      border: 0px;
+      &:hover{
+        background-color: #F95459;
+        border: 0px;
+        outline: none;
+      }
+      &:active{
+        outline: none;
+        background-color: #F95459;
+        border: 0px;
+      }
+    }
     outline: none;
     i{
       outline: none;

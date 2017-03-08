@@ -12,9 +12,9 @@
             <div class="goal-container-two">
                 <div class="goal-bar-two"></div>
                 <h5><span id="contributors" class="contributors"></span> personnes ont déjà participé</h5>
-                <a href="#">
-                    <button class="goal-button-two">Contribuer</button>
-                </a>
+                {{--<a href="#">
+                    <button class="goal-button-two">Contribuez</button>
+                </a>--}}
             </div>
             <h4 id="amount-goal-two" class="amount-goal-two"></h4>
         </div>
