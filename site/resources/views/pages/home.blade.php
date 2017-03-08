@@ -25,7 +25,7 @@
                         objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>
                     <div class="goal-container">
                         <div class="goal-bar"></div>
-                        <a href="#{{--https://fr.ulule.com/{{$ulule->value}}/--}}">
+                        <a href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/de-l-eau-potable-pour-les-enfants-de-douala-pk11">
                             <button class="goal-button">Contribuez</button>
                         </a>
                     </div>
