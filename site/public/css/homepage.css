@@ -14,6 +14,23 @@ body .scroll-top, html .scroll-top {
   right: 50px;
 }
 
+body .scroll-top .btn-success, html .scroll-top .btn-success {
+  background-color: #F95459;
+  border: 0px;
+}
+
+body .scroll-top .btn-success:hover, html .scroll-top .btn-success:hover {
+  background-color: #F95459;
+  border: 0px;
+  outline: none;
+}
+
+body .scroll-top .btn-success:active, html .scroll-top .btn-success:active {
+  outline: none;
+  background-color: #F95459;
+  border: 0px;
+}
+
 body .scroll-top i, html .scroll-top i {
   outline: none;
 }
