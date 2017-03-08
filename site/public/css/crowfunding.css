@@ -36,7 +36,7 @@
 }
 
 .crowfunding-section .wrapper-crowfunding .content-body {
-  padding: 30px 50px;
+  padding: 80px 30px;
   color: #FFFFFF;
   background-color: #1D2622;
   opacity: 0.7;
@@ -52,6 +52,18 @@
   .crowfunding-section .wrapper-crowfunding .content-body p {
     font-size: 2.5vw;
   }
+}
+
+.crowfunding-section .wrapper-crowfunding .content-body h2 {
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.crowfunding-section .wrapper-crowfunding .content-body h2:last-of-type {
+  position: relative;
+  float: right;
+  margin-top: 20px;
 }
 
 .crowfunding-section .wrapper-crowfunding .content-footer {
@@ -70,7 +82,7 @@
 
 .crowfunding-section .wrapper-crowfunding .content-footer h3 {
   opacity: 1;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .crowfunding-section .wrapper-crowfunding .content-footer .amount-raised-two {

@@ -229,8 +229,8 @@ $(function() {
 
     var twelve_anim = new TimelineLite();
 
-    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-804px'})
-        .to('.crowfunding-section .image-fong', 1,{marginTop:"200px"}, 0)
+    twelve_anim.to('.wrapper-crowfunding',1,{marginTop: '-704px'})
+        .to('.crowfunding-section .image-fong', 1,{marginTop:"100px"}, 0)
 
     var scene12 = new ScrollMagic.Scene({triggerElement: ".last-animation i", duration: 500,tweenChanges: true, offset: 0})
         .setTween(twelve_anim)
