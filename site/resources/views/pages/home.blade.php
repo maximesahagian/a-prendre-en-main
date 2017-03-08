@@ -25,9 +25,9 @@
                         objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>
                     <div class="goal-container">
                         <div class="goal-bar"></div>
-                        <a href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/de-l-eau-potable-pour-les-enfants-de-douala-pk11">
+                        {{--<a href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/de-l-eau-potable-pour-les-enfants-de-douala-pk11">
                             <button class="goal-button">Contribuez</button>
-                        </a>
+                        </a>--}}
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
             <h2 class="financement-title">Financement</h2>
             <div class="left">
                 <div class="text">
-                    <p>Le cout des travaux s’éleve à :</p>
+                    <p>Le coût des travaux s’éleve à :</p>
                     <span class="total" id="euro-number"></span>
                     <hr>
                     <div class="botom">
