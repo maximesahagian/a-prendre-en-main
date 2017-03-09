@@ -3,9 +3,8 @@
     <div class="goute-2"></div>
     <div class="content-contact">
         <h1>Restons en contact</h1>
-        <p>De jour comme de nuit nous prenons plaisir à lire vos messages et nous nous efforçons de répondre
-            favorablement à vos requêtes. </br>
-            Une idée, un problème ? Allez y, c’est fait pour ça.</p>
+        <p>De jour comme de nuit nous prenons plaisir à lire vos messages et nous nous efforçons de vous répondre rapidement. </br>
+            Allez y, c’est fait pour ça.</p>
         <div class="top-contact">
             <div class="surname-contact">
                 <label for="prenom">Prenom</label>

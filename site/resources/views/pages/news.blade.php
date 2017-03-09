@@ -11,6 +11,7 @@
                     <a href="/admin/news/add"><button class="btn btn-success add-new-btn">Ajouter</button></a>
                     <div class="row">
                     @foreach($news as $new)
+
                         <div class="col-sm-4">
                             <div class="metric">
                                     <a class="title-new" href="/admin/news/edit/{{$new->id}}">

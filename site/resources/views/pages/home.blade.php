@@ -21,14 +21,14 @@
                     <p>Le droit à une eau potable propre et de qualité et à des installations sanitaires est un droit de l'homme, indispensable à la pleine jouissance du droit à la vie" - Déclarations du 28 Juillet 2010 de  l’ONU.<br>Dans le quartier de PK11, plus de 4000 personnes n’ont pas accès à l’eau potable. </p>
                 </div>
                 <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-2 right-text-video">
-                    <h4><strong class="amount-raised" id="amount-raised"></strong><strong>€</strong> colléctés sur un
-                        objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>
-                    <div class="goal-container">
+                    {{--<h4><strong class="amount-raised" id="amount-raised"></strong><strong>€</strong> colléctés sur un
+                        objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>--}}
+                   {{-- <div class="goal-container">
                         <div class="goal-bar"></div>
-                        {{--<a href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/de-l-eau-potable-pour-les-enfants-de-douala-pk11">
+                        --}}{{--<a href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/de-l-eau-potable-pour-les-enfants-de-douala-pk11">
                             <button class="goal-button">Contribuez</button>
-                        </a>--}}
-                    </div>
+                        </a>--}}{{--
+                    </div>--}}
                 </div>
             </div>
             <div class="navbar">
@@ -227,6 +227,7 @@
                     $dateNew = date('d/m/Y', $dateFirstNew)
 
                     ?>
+                    @if($first_new->title != $new->title)
                     <div class="second-new second-news<?= $i ?>">
                         <div class="left-second-new">
                             <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
@@ -235,6 +236,7 @@
                         <h6>{{$dateNew}}</h6>
                         <p>{{$new->message}}</p>
                     </div>
+                    @endif
                     <?php if($i == 3){$i=0;} ?>
                 @endforeach
             </div>

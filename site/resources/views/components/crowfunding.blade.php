@@ -8,15 +8,15 @@
         <div class="content-footer">
             <h3>Participez à notre campagne de collecte de fonds</h3>
             <!--TODO : API ULULE-->
-            <h4 class="amount-raised-two" id="amount-raised-two"></h4>
+            {{--<h4 class="amount-raised-two" id="amount-raised-two"></h4>
             <div class="goal-container-two">
                 <div class="goal-bar-two"></div>
                 <h5><span id="contributors" class="contributors"></span> personnes ont déjà participé</h5>
-                {{--<a href="#">
+                --}}{{--<a href="#">
                     <button class="goal-button-two">Contribuez</button>
-                </a>--}}
+                </a>--}}{{--
             </div>
-            <h4 id="amount-goal-two" class="amount-goal-two"></h4>
+            <h4 id="amount-goal-two" class="amount-goal-two"></h4>--}}
         </div>
     </div>
 </section>

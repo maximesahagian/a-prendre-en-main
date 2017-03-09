@@ -22,7 +22,7 @@
         <h3 class="title">Notre approche</h3>
         <div class="first block-view">
             <h4 class="title-div">Implication locale</h4>
-            <p class="description">Nous avons à coeur de favoriser une dynamique locale grâce à laquelle les populations pourront aisément développer une activité économique, sociale et éducative. Chaque personne pourra ainsi avoir la possibilité de se prendre en main.</p>
+            <p class="description">Nous tenons particulièrement à impliquer dès le début de nos projets les populations bénéficiaires en leur qualité d’usagers : leur mobilisation et leur participation permettra de les responsabiliser face à la prise en charge de leur besoin.</p>
         </div>
         <div class="second block-view">
             <h4 class="title-div">Autonomie des populations</h4>
@@ -30,7 +30,7 @@
         </div>
         <div class="third block-view">
             <h4 class="title-div">Développement</h4>
-            <p class="description">Nous tenons particulièrement à impliquer dès le début de nos projets les populations bénéficiaires en leur qualité d’usagers : leur mobilisation et leur participation permettra de les responsabiliser face à la prise en charge de leur besoin.</p>
+            <p class="description">Nous avons à coeur de favoriser une dynamique locale grâce à laquelle les populations pourront aisément développer une activité économique, sociale et éducative. Chaque personne pourra ainsi avoir la possibilité de se prendre en main</p>
         </div>
     </div>
 
