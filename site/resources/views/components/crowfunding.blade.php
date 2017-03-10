@@ -6,7 +6,10 @@
             <h2>«&nbsp;Une goutte d’eau suffit pour créer un monde&nbsp;»</h2>
         </div>
         <div class="content-footer">
-            <h3>Participez à notre campagne de collecte de fonds</h3>
+            <h3>Lancement de la campagne de collecte de fonds prévu dans les prochains jours.
+                <br>Merci par avance pour votre soutien !
+            </h3>
+            {{--<h3>Participez à notre campagne de collecte de fonds</h3>--}}
             <!--TODO : API ULULE-->
             {{--<h4 class="amount-raised-two" id="amount-raised-two"></h4>
             <div class="goal-container-two">

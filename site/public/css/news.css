@@ -12,6 +12,7 @@
 }
 
 .home-page .news .main-new {
+  margin-top: 20px;
   background-color: white;
   font-family: lato;
   height: 300px;
@@ -48,6 +49,8 @@
   margin: 20px 30px;
   width: 75%;
   font-size: 1.1vw;
+  height: 22vh;
+  overflow: auto;
 }
 
 .home-page .news .main-new .left-new .title-date {

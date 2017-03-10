@@ -201,45 +201,25 @@
         <img class="fat-landscape" src="/img/landscape.png" alt="">
         <section class="news">
             <h1>Les actualités</h1>
-            <div class="main-new">
-                <div class="left-new">
-                    <div class="title-date">
-                        <h2>{{$first_new->title}}</h2>
-                        <?php
-                        $dateFirstNew = strtotime($first_new->date);
-                        ?>
-                        <h6><?= date('d/m/Y', $dateFirstNew) ?></h6>
-                    </div>
-                    <p>{{$first_new->message}}</p>
-                </div>
-                <div class="right-new">
-                    <div class="main-image" style="background-image: url('/img/actu/{{$first_new->image}}')"></div>
-                </div>
-            </div>
-            <div class="wrapper-news">
-                <?php $i=0; ?>
-                @foreach($news as $new)
+            <?php $i = 0; ?>
+            @foreach($news as $new)
+                <?php $i++; ?>
+            @if($i <= 4)
+                <div class="main-new">
+                    <div class="left-new">
+                        <div class="title-date">
+                            <h2>{{$new->title}}</h2>
 
-                    <?php
-                    $i++;
-
-                    $dateFirstNew = strtotime($new->date);
-                    $dateNew = date('d/m/Y', $dateFirstNew)
-
-                    ?>
-                    @if($first_new->title != $new->title)
-                    <div class="second-new second-news<?= $i ?>">
-                        <div class="left-second-new">
-                            <div class="second-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
+                            <h6>{{$new->author}}</h6>
                         </div>
-                        <h2>{{$new->title}}</h2>
-                        <h6>{{$dateNew}}</h6>
                         <p>{{$new->message}}</p>
                     </div>
+                    <div class="right-new">
+                        <div class="main-image" style="background-image: url('/img/actu/{{$new->image}}')"></div>
+                    </div>
+                </div>
                     @endif
-                    <?php if($i == 3){$i=0;} ?>
-                @endforeach
-            </div>
+            @endforeach
         </section>
 
         @include('components.team')
