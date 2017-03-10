@@ -4,6 +4,11 @@
 
         <?php $i = 1; ?>
         @foreach($team as $member)
+            <?php
+                    if($i === 10){
+                        $i = 1;
+                    }
+                    ?>
             <div class="image-profile" style="background: url('img/members/{{$member->image}}'); background-size: cover; background-position: center;">
                 <div class="team-description">
                     <h3>

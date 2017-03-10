@@ -59,12 +59,13 @@
             <div class="right-first">
                     <div class="container-right">
                         <h4 class="title-right-first">Contexte</h4>
-                        <p>En Afrique Subsaharienne plus d’une personne sur trois n’a pas accès à l’eau potable.
+                        <p>En Afrique Subsaharienne une personne sur trois n’a pas accès à l’eau potable.
 <br><br>
                             Pour notre premier projet, nous voulons implanter deux pompes à eau dans une localité au Cameroun, où le besoin est particulièrement préoccupant.
 <br><br>
-                            En effet, dans un quartier de Douala – PK11, composé environ de de 5000 habitants, 80% des habitants ne sont pas connectés au réseau de distribution d’eau potable.
-                            Pour couvrir leur besoin en eau, certains habitants n’ont d’autre choix que de se ravitailler auprès de sources d’eau impropres à la consommation étant la cause de plusieurs maladies hydriques rencontrées localement : dysenterie amibienne, choléra, typhoïde etc.
+                            En effet, dans un quartier de Douala – PK11, composé environ de 5000 habitants, 80% des habitants ne sont pas connectés au réseau de distribution d’eau potable.
+                            Pour couvrir leur besoin en eau, certains habitants n’ont d’autre choix que de se ravitailler auprès de sources d’eau impropres à la consommation.
+                            Cela est la source de plusieurs maladies hydriques rencontrées localement : diarrhée, dysenterie amibienne, choléra, typhoïde etc.
 
                         <br><br>
                             Le projet d’approvisionnement en eau potable permettra :
