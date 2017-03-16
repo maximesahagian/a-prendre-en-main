@@ -12,7 +12,7 @@ $(document).ready(function(e){
         $("body").animate({'scrollTop' : '0'}, 1000);   // make body scrolltop
     });
 
-    $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
+    $.get('https://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
         var options = {
             useEasing : false,
             useGrouping : false,
@@ -236,7 +236,7 @@ $(function() {
         .setTween(twelve_anim)
         .addTo(controller)
         .on('start', function(){
-            $.get('http://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
+            $.get('https://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
                 var options = {
                     useEasing : false,
                     useGrouping : false,
