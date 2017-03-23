@@ -885,7 +885,7 @@ body .scroll-top button, html .scroll-top button {
   width: 90%;
   height: 15px;
   border-radius: 15px;
-  border: solid 1px white;
+  /*border: solid 1px white;*/
   margin: 0 auto;
 }
 

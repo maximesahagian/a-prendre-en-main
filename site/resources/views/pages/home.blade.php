@@ -23,12 +23,12 @@
                 <div class="col-xs-12 col-xs-offset-0 col-sm-5 col-sm-offset-2 right-text-video">
                     {{--<h4><strong class="amount-raised" id="amount-raised"></strong><strong>€</strong> colléctés sur un
                         objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>--}}
-                   {{-- <div class="goal-container">
-                        <div class="goal-bar"></div>
-                        --}}{{--<a href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/de-l-eau-potable-pour-les-enfants-de-douala-pk11">
-                            <button class="goal-button">Contribuez</button>
-                        </a>--}}{{--
-                    </div>--}}
+                    <div class="goal-container">
+                        {{--<div class="goal-bar"></div>--}}
+                        <a target="_blank" href="https://www.donnerenligne.fr/a-prendre-en-main/faire-un-don/5">
+                            <button class="goal-button">Faites un don</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="navbar">
