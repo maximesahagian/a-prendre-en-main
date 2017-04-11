@@ -12,7 +12,7 @@ $(document).ready(function(e){
         $("body").animate({'scrollTop' : '0'}, 1000);   // make body scrolltop
     });
 
-    $.get('https://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
+/*    $.get('https://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
         var options = {
             useEasing : false,
             useGrouping : false,
@@ -48,7 +48,7 @@ $(document).ready(function(e){
             prefix : '',
             suffix : ''
         };
-    });
+    });*/
 
 
 });
@@ -236,7 +236,7 @@ $(function() {
         .setTween(twelve_anim)
         .addTo(controller)
         .on('start', function(){
-            $.get('https://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
+/*            $.get('https://api.helloasso.com/'+$('.ulule_value').attr('ulule'), function(data){
                 var options = {
                     useEasing : false,
                     useGrouping : false,
@@ -259,7 +259,7 @@ $(function() {
                 $('.goal-bar-two').animate({
                     width: pourcentage+"%"
                 }, 2000 );
-            });
+            });*/
         })
 
     var thirteen_anim = new TimelineLite();

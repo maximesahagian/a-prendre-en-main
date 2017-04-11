@@ -55,7 +55,7 @@ class IndexController extends BaseController
             {
                 $email_to_send = DB::table('settings')->where('key','=','email_contact')->first();
                 $message->from('contact@apem.fr', 'APEM');
-                $message->to($email_to_send->value, 'A Prendre En Main')->subject('Nouveau message à prendre en main !');
+                $message->to("maxime.sahagian@gmail.com", 'A Prendre En Main')->subject('Nouveau message à prendre en main !');
             });
         }
     }
