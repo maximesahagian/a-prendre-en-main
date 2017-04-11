@@ -44,19 +44,17 @@ class IndexController extends BaseController
 
 
         $data = [
-          'firstname' => $firstname,
+          	'firstname' => $firstname,
             'lastname' => $lastname,
             'email' => $email,
             'text' => $message
         ];
 
-        if(isset($firstname) && isset($lastname) && isset($email) && isset($message)){
             Mail::send('components.email', $data, function($message)
             {
                 $email_to_send = DB::table('settings')->where('key','=','email_contact')->first();
                 $message->from('contact@apem.fr', 'APEM');
                 $message->to("maxime.sahagian@gmail.com", 'A Prendre En Main')->subject('Nouveau message à prendre en main !');
             });
-        }
     }
 }
