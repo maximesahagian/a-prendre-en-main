@@ -57,7 +57,6 @@ class IndexController extends BaseController
                 $message->from('contact@apem.fr', 'APEM');
                 $message->to($email_to_send->value, 'A Prendre En Main')->subject('Nouveau message à prendre en main !');
             });
-			dd(Mail::failures());
         }
     }
 }
