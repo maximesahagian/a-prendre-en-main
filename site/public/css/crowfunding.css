@@ -131,4 +131,12 @@
   background: rgba(173, 173, 173, 0.6);
 }
 
+.crowfunding-section .wrapper-crowfunding .content-footer .goal-container-two .fiscal {
+  display: block;
+  color: #fff;
+  position: relative;
+  top: 0.3vw;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=crowfunding.css.map */

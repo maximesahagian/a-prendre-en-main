@@ -17,6 +17,7 @@
                 <h5><span id="contributors" class="contributors"></span> personnes ont déjà participé</h5>--}}
                 <a target="_blank" href="https://www.donnerenligne.fr/a-prendre-en-main/faire-un-don/5">
                     <button class="goal-button-two">Contribuez</button>
+                    <span class="fiscal">Nous délivrons des reçus fiscaux.</span>
                 </a>
             </div>
             <h4 id="amount-goal-two" class="amount-goal-two"></h4>

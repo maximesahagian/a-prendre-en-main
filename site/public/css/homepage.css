@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @media only screen and (orientation: portrait) {
@@ -907,6 +908,7 @@ body .scroll-top button, html .scroll-top button {
   color: white;
   float: right;
   margin-top: 20px;
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -920,6 +922,17 @@ body .scroll-top button, html .scroll-top button {
 
 .home-page .video-conainer .text-video .right-text-video .goal-container .goal-button:hover {
   background: #E53238;
+}
+
+.home-page .video-conainer .text-video .right-text-video .goal-container .goal-button:after {
+  position: absolute;
+  content: "Nous sommes habilités à délivrer des reçus fiscaux.";
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  bottom: -50px;
+  left: 0;
+  font-size: 0.6em;
 }
 
 .home-page .para {
