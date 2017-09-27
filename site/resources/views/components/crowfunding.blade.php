@@ -15,7 +15,7 @@
             <div class="goal-container-two">
                 {{--<div class="goal-bar-two"></div>
                 <h5><span id="contributors" class="contributors"></span> personnes ont déjà participé</h5>--}}
-                <a target="_blank" href="https://www.donnerenligne.fr/a-prendre-en-main/faire-un-don/5">
+                <a target="_blank" href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/30-jours-pour-ameliorer-l-acces-a-l-eau-potable-pour-1600-personnes-a-douala-1">
                     <button class="goal-button-two">Contribuez</button>
                     <span class="fiscal">Nous délivrons des reçus fiscaux.</span>
                 </a>

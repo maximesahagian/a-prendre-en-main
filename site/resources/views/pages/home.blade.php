@@ -25,7 +25,7 @@
                         objectif de <strong class="goal" id="goal"></strong><strong>€</strong></h4>--}}
                     <div class="goal-container">
                         {{--<div class="goal-bar"></div>--}}
-                        <a target="_blank" href="https://www.donnerenligne.fr/a-prendre-en-main/faire-un-don/5">
+                        <a target="_blank" href="https://www.helloasso.com/associations/a-prendre-en-main/collectes/30-jours-pour-ameliorer-l-acces-a-l-eau-potable-pour-1600-personnes-a-douala-1">
                             <button class="goal-button">Faites un don</button>
                         </a>
                     </div>
